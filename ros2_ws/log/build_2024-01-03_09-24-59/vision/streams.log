@@ -1,0 +1,35 @@
+[0.434s] Invoking command in '/home/tazio/psd_startup/ros2_ws/src/vision': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/vision/prefix_override:/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/tazio/psd_startup/ros2_ws/build/vision/build install --record /home/tazio/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed
+[0.536s] running egg_info
+[0.536s] creating ../../build/vision/vision.egg-info
+[0.537s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[0.537s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[0.537s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[0.537s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[0.537s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.538s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.538s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.538s] running build_py
+[0.538s] creating /home/tazio/psd_startup/ros2_ws/build/vision/build
+[0.538s] creating /home/tazio/psd_startup/ros2_ws/build/vision/build/lib
+[0.538s] creating /home/tazio/psd_startup/ros2_ws/build/vision/build/lib/vision
+[0.538s] copying vision/__init__.py -> /home/tazio/psd_startup/ros2_ws/build/vision/build/lib/vision
+[0.538s] running install
+[0.540s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.540s]   warnings.warn(
+[0.540s] running install_lib
+[0.540s] creating /home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[0.540s] copying /home/tazio/psd_startup/ros2_ws/build/vision/build/lib/vision/__init__.py -> /home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[0.540s] byte-compiling /home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision/__init__.py to __init__.cpython-310.pyc
+[0.540s] running install_data
+[0.541s] creating /home/tazio/psd_startup/ros2_ws/install/vision/share/ament_index
+[0.541s] creating /home/tazio/psd_startup/ros2_ws/install/vision/share/ament_index/resource_index
+[0.541s] creating /home/tazio/psd_startup/ros2_ws/install/vision/share/ament_index/resource_index/packages
+[0.541s] copying resource/vision -> /home/tazio/psd_startup/ros2_ws/install/vision/share/ament_index/resource_index/packages
+[0.541s] copying package.xml -> /home/tazio/psd_startup/ros2_ws/install/vision/share/vision
+[0.541s] running install_egg_info
+[0.542s] Copying ../../build/vision/vision.egg-info to /home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info
+[0.542s] running install_scripts
+[0.553s] writing list of installed files to '/home/tazio/psd_startup/ros2_ws/build/vision/install.log'
+[0.564s] Invoked command in '/home/tazio/psd_startup/ros2_ws/src/vision' returned '0': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/vision/prefix_override:/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/tazio/psd_startup/ros2_ws/build/vision/build install --record /home/tazio/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed

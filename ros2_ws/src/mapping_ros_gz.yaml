@@ -1,0 +1,65 @@
+#  # Set just topic name, applies to both
+# - topic_name: "/model/vehicle_blue/cmd_vel"
+#   ros_type_name: "geometry_msgs/msg/Twist"
+#   gz_type_name: "ignition.msgs.Twist"
+
+# # Set just ROS topic name, applies to both
+# - ros_topic_name: "chatter_ros"
+#   ros_type_name: "std_msgs/msg/String"
+#   gz_type_name: "ignition.msgs.StringMsg"
+
+# # Set just GZ topic name, applies to both
+# - gz_topic_name: "chatter_ign"
+#   ros_type_name: "std_msgs/msg/String"
+#   gz_type_name: "ignition.msgs.StringMsg"
+
+# # Set each topic name explicitly
+# - ros_topic_name: "chatter_both_ros"
+#   gz_topic_name: "chatter_both_ign"
+#   ros_type_name: "std_msgs/msg/String"
+#   gz_type_name: "ignition.msgs.StringMsg"
+
+# Full set of configurations
+- ros_topic_name: "/vehicle_blue_twist"
+  gz_topic_name: "/model/vehicle_blue/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "ignition.msgs.Twist"
+  subscriber_queue: 10      # Default 10
+  publisher_queue: 10       # Default 10
+  lazy: true                # Default "false"
+  direction: BIDIRECTIONAL  # Default "BIDIRECTIONAL" - Bridge both directions
+                            # "GZ_TO_ROS" - Bridge Ignition topic to ROS
+                            # "ROS_TO_GZ" - Bridge ROS topic to Ignition
+                            
+- ros_topic_name: "/camera_IMAGE"
+  gz_topic_name: "/world/ackermann_steering/model/vehicle_blue/link/camera_depth_frame/sensor/depth_camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image"
+  subscriber_queue: 10      # Default 10
+  publisher_queue: 10       # Default 10
+  lazy: true                # Default "false"
+  direction: BIDIRECTIONAL  # Default "BIDIRECTIONAL" - Bridge both directions
+                            # "GZ_TO_ROS" - Bridge Ignition topic to ROS
+                            # "ROS_TO_GZ" - Bridge ROS topic to Ignition
+                            
+- ros_topic_name: "/laser_scan"
+  gz_topic_name: "/lidarScan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
+  subscriber_queue: 10      # Default 10
+  publisher_queue: 10       # Default 10
+  lazy: true                # Default "false"
+  direction: BIDIRECTIONAL  # Default "BIDIRECTIONAL" - Bridge both directions
+                            # "GZ_TO_ROS" - Bridge Ignition topic to ROS
+                            # "ROS_TO_GZ" - Bridge ROS topic to Ignition
+                            
+- ros_topic_name: "/vehicle_blue_pose"
+  gz_topic_name: "/model/vehicle_blue/tf"
+  ros_type_name: "geometry_msgs/msg/PoseArray"
+  gz_type_name: "ignition.msgs.Pose_V"
+  subscriber_queue: 10      # Default 10
+  publisher_queue: 10       # Default 10
+  lazy: true                # Default "false"
+  direction: BIDIRECTIONAL  # Default "BIDIRECTIONAL" - Bridge both directions
+                            # "GZ_TO_ROS" - Bridge Ignition topic to ROS
+                            # "ROS_TO_GZ" - Bridge ROS topic to Ignition

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/gui_control/gui_control.egg-info
+writing ../../build/gui_control/gui_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/gui_control/gui_control.egg-info/dependency_links.txt
+writing entry points to ../../build/gui_control/gui_control.egg-info/entry_points.txt
+writing requirements to ../../build/gui_control/gui_control.egg-info/requires.txt
+writing top-level names to ../../build/gui_control/gui_control.egg-info/top_level.txt
+writing manifest file '../../build/gui_control/gui_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/gui_control/gui_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/gui_control/gui_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tazio/psd_startup/ros2_ws/build/gui_control/build
+creating /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib
+creating /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control
+copying gui_control/gui_control.py -> /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control
+copying gui_control/__init__.py -> /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control
+running install
+running install_lib
+creating /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control
+copying /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control/gui_control.py -> /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control
+copying /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control/__init__.py -> /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control
+byte-compiling /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control/gui_control.py to gui_control.cpython-310.pyc
+byte-compiling /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index
+creating /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index/resource_index
+creating /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index/resource_index/packages
+copying resource/gui_control -> /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/tazio/psd_startup/ros2_ws/install/gui_control/share/gui_control
+running install_egg_info
+Copying ../../build/gui_control/gui_control.egg-info to /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui_control script to /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/gui_control
+writing list of installed files to '/home/tazio/psd_startup/ros2_ws/build/gui_control/install.log'

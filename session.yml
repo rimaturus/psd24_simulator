@@ -1,0 +1,13 @@
+name: PSD_Ackermann_steering
+startup_window: PSD_Ackermann_steering
+pre_window: |
+  cd ~/psd_startup/ros2_ws
+  source install/setup.bash; 
+windows:
+  - ETeam_dvina:     #tmux list-windows
+      # layout: b3d5,212x48,0,0[212x23,0,0{105x23,0,0,0,106x23,106,0,1},212x24,0,24{105x24,0,24,2,106x24,106,24,3}]
+      panes:
+        - cd /usr/share/ignition/ignition-gazebo6/worlds/ && ign gazebo veicolo_psd.sdf #ackermann_steering.sdf
+        - sleep 5 && ros2 run ros_gz_bridge parameter_bridge --ros-args -p config_file:=src/mapping_ros_gz.yaml
+        - sleep 10 && ign topic -l
+        - sleep 10 && ros2 run vision vision

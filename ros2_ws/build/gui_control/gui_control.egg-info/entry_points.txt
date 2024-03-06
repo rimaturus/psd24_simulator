@@ -1,0 +1,3 @@
+[console_scripts]
+gui_control = gui_control.gui_control:main
+

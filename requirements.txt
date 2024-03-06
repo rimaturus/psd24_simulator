@@ -1,0 +1,3 @@
+geometry_msgs==4.2.3
+rclpy==3.3.11
+std_msgs==4.2.3

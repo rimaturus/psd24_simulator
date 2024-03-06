@@ -1,0 +1,23 @@
+[0.466s] Invoking command in '/home/edo/psd_startup/ros2_ws/src/vision': PYTHONPATH=/home/edo/psd_startup/ros2_ws/build/vision/prefix_override:/home/edo/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/edo/psd_startup/ros2_ws/build/vision/build install --record /home/edo/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed
+[0.581s] running egg_info
+[0.581s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[0.581s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[0.581s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[0.581s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[0.581s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[0.582s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.583s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.583s] running build
+[0.583s] running build_py
+[0.583s] running install
+[0.583s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.583s]   warnings.warn(
+[0.583s] running install_lib
+[0.583s] running install_data
+[0.584s] running install_egg_info
+[0.585s] removing '/home/edo/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info' (and everything under it)
+[0.585s] Copying ../../build/vision/vision.egg-info to /home/edo/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info
+[0.585s] running install_scripts
+[0.597s] Installing vision script to /home/edo/psd_startup/ros2_ws/install/vision/lib/vision
+[0.598s] writing list of installed files to '/home/edo/psd_startup/ros2_ws/build/vision/install.log'
+[0.612s] Invoked command in '/home/edo/psd_startup/ros2_ws/src/vision' returned '0': PYTHONPATH=/home/edo/psd_startup/ros2_ws/build/vision/prefix_override:/home/edo/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/edo/psd_startup/ros2_ws/build/vision/build install --record /home/edo/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed

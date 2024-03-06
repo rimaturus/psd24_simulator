@@ -1,0 +1,23 @@
+[0.423s] Invoking command in '/home/tazio/psd_startup/ros2_ws/src/vision': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/vision/prefix_override:/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/tazio/psd_startup/ros2_ws/build/vision/build install --record /home/tazio/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed
+[0.519s] running egg_info
+[0.520s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[0.520s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[0.520s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[0.521s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.521s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.521s] running build
+[0.521s] running build_py
+[0.521s] running install
+[0.521s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.521s]   warnings.warn(
+[0.521s] running install_lib
+[0.522s] running install_data
+[0.522s] running install_egg_info
+[0.523s] removing '/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info' (and everything under it)
+[0.523s] Copying ../../build/vision/vision.egg-info to /home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info
+[0.523s] running install_scripts
+[0.533s] Installing vision script to /home/tazio/psd_startup/ros2_ws/install/vision/lib/vision
+[0.533s] writing list of installed files to '/home/tazio/psd_startup/ros2_ws/build/vision/install.log'
+[0.544s] Invoked command in '/home/tazio/psd_startup/ros2_ws/src/vision' returned '0': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/vision/prefix_override:/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/tazio/psd_startup/ros2_ws/build/vision/build install --record /home/tazio/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed

@@ -1,0 +1,22 @@
+[0.369s] Invoking command in '/home/tazio/psd_startup/ros2_ws/src/vision': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/vision/prefix_override:/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/tazio/psd_startup/ros2_ws/build/vision/build install --record /home/tazio/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed
+[0.460s] running egg_info
+[0.460s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[0.460s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[0.460s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[0.460s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[0.460s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[0.461s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.461s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[0.461s] running build
+[0.461s] running build_py
+[0.461s] running install
+[0.461s] running install_lib
+[0.462s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.462s]   warnings.warn(
+[0.462s] running install_data
+[0.462s] running install_egg_info
+[0.462s] removing '/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info' (and everything under it)
+[0.462s] Copying ../../build/vision/vision.egg-info to /home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info
+[0.463s] running install_scripts
+[0.472s] writing list of installed files to '/home/tazio/psd_startup/ros2_ws/build/vision/install.log'
+[0.482s] Invoked command in '/home/tazio/psd_startup/ros2_ws/src/vision' returned '0': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/vision/prefix_override:/home/tazio/psd_startup/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/tazio/psd_startup/ros2_ws/build/vision/build install --record /home/tazio/psd_startup/ros2_ws/build/vision/install.log --single-version-externally-managed

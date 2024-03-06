@@ -1,0 +1,39 @@
+[0.260s] Invoking command in '/home/tazio/psd_startup/ros2_ws/src/gui_control': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/gui_control/prefix_override:/home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gui_control build --build-base /home/tazio/psd_startup/ros2_ws/build/gui_control/build install --record /home/tazio/psd_startup/ros2_ws/build/gui_control/install.log --single-version-externally-managed
+[0.350s] running egg_info
+[0.350s] creating ../../build/gui_control/gui_control.egg-info
+[0.350s] writing ../../build/gui_control/gui_control.egg-info/PKG-INFO
+[0.350s] writing dependency_links to ../../build/gui_control/gui_control.egg-info/dependency_links.txt
+[0.350s] writing entry points to ../../build/gui_control/gui_control.egg-info/entry_points.txt
+[0.350s] writing requirements to ../../build/gui_control/gui_control.egg-info/requires.txt
+[0.350s] writing top-level names to ../../build/gui_control/gui_control.egg-info/top_level.txt
+[0.350s] writing manifest file '../../build/gui_control/gui_control.egg-info/SOURCES.txt'
+[0.351s] reading manifest file '../../build/gui_control/gui_control.egg-info/SOURCES.txt'
+[0.351s] writing manifest file '../../build/gui_control/gui_control.egg-info/SOURCES.txt'
+[0.351s] running build
+[0.351s] running build_py
+[0.351s] creating /home/tazio/psd_startup/ros2_ws/build/gui_control/build
+[0.351s] creating /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib
+[0.351s] creating /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control
+[0.351s] copying gui_control/gui_control.py -> /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control
+[0.351s] copying gui_control/__init__.py -> /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control
+[0.351s] running install
+[0.351s] running install_lib
+[0.351s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.351s]   warnings.warn(
+[0.351s] creating /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control
+[0.351s] copying /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control/gui_control.py -> /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control
+[0.351s] copying /home/tazio/psd_startup/ros2_ws/build/gui_control/build/lib/gui_control/__init__.py -> /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control
+[0.352s] byte-compiling /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control/gui_control.py to gui_control.cpython-310.pyc
+[0.352s] byte-compiling /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control/__init__.py to __init__.cpython-310.pyc
+[0.352s] running install_data
+[0.352s] creating /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index
+[0.352s] creating /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index/resource_index
+[0.352s] creating /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index/resource_index/packages
+[0.352s] copying resource/gui_control -> /home/tazio/psd_startup/ros2_ws/install/gui_control/share/ament_index/resource_index/packages
+[0.352s] copying package.xml -> /home/tazio/psd_startup/ros2_ws/install/gui_control/share/gui_control
+[0.352s] running install_egg_info
+[0.353s] Copying ../../build/gui_control/gui_control.egg-info to /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages/gui_control-0.0.0-py3.10.egg-info
+[0.353s] running install_scripts
+[0.362s] Installing gui_control script to /home/tazio/psd_startup/ros2_ws/install/gui_control/lib/gui_control
+[0.362s] writing list of installed files to '/home/tazio/psd_startup/ros2_ws/build/gui_control/install.log'
+[0.371s] Invoked command in '/home/tazio/psd_startup/ros2_ws/src/gui_control' returned '0': PYTHONPATH=/home/tazio/psd_startup/ros2_ws/build/gui_control/prefix_override:/home/tazio/psd_startup/ros2_ws/install/gui_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gui_control build --build-base /home/tazio/psd_startup/ros2_ws/build/gui_control/build install --record /home/tazio/psd_startup/ros2_ws/build/gui_control/install.log --single-version-externally-managed
