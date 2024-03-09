@@ -9,7 +9,7 @@ RUN apt-get update \
 
 COPY config/ /site_config/
 
-ARG USERNAME=ros
+ARG USERNAME=psd
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
@@ -38,11 +38,12 @@ RUN apt-get update \
     evtest \
     jstest-gtk \
     python3-serial \
+    && rosdep update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN usermod -aG dialout ${USERNAME}
 
-WORKDIR /psd_ws
+WORKDIR home/$USERNAME/psd_ws
 
 
 # USER ros
