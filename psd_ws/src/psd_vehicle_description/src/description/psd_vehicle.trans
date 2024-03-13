@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="psd_vehicle" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="Rivoluzione 14_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rivoluzione 14">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rivoluzione 14_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Rivoluzione 15_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rivoluzione 15">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rivoluzione 15_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Rivoluzione 16_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rivoluzione 16">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rivoluzione 16_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Rivoluzione 17_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rivoluzione 17">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rivoluzione 17_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Rivoluzione 20_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rivoluzione 20">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rivoluzione 20_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Rivoluzione 23_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rivoluzione 23">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rivoluzione 23_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
