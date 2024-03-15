@@ -1,0 +1,622 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (core) JobQueued: {'identifier': 'core', 'dependencies': OrderedDict()}
+[0.000489] (ign_ros2_control) JobQueued: {'identifier': 'ign_ros2_control', 'dependencies': OrderedDict()}
+[0.000503] (psd_gazebo_worlds) JobQueued: {'identifier': 'psd_gazebo_worlds', 'dependencies': OrderedDict()}
+[0.000514] (psd_vehicle_gazebo) JobQueued: {'identifier': 'psd_vehicle_gazebo', 'dependencies': OrderedDict()}
+[0.000525] (psd_vehicle_hardware_interfaces) JobQueued: {'identifier': 'psd_vehicle_hardware_interfaces', 'dependencies': OrderedDict()}
+[0.000540] (psd_vehicle_interfaces) JobQueued: {'identifier': 'psd_vehicle_interfaces', 'dependencies': OrderedDict()}
+[0.000551] (ros_components_description) JobQueued: {'identifier': 'ros_components_description', 'dependencies': OrderedDict()}
+[0.000561] (ign_ros2_control_demos) JobQueued: {'identifier': 'ign_ros2_control_demos', 'dependencies': OrderedDict([('ign_ros2_control', '/home/psd/psd_ws/install/ign_ros2_control')])}
+[0.000590] (psd_vehicle_description) JobQueued: {'identifier': 'psd_vehicle_description', 'dependencies': OrderedDict([('ros_components_description', '/home/psd/psd_ws/install/ros_components_description')])}
+[0.000621] (psd_vehicle_controller) JobQueued: {'identifier': 'psd_vehicle_controller', 'dependencies': OrderedDict([('ros_components_description', '/home/psd/psd_ws/install/ros_components_description'), ('psd_vehicle_description', '/home/psd/psd_ws/install/psd_vehicle_description')])}
+[0.000654] (psd_vehicle_bringup) JobQueued: {'identifier': 'psd_vehicle_bringup', 'dependencies': OrderedDict([('ros_components_description', '/home/psd/psd_ws/install/ros_components_description'), ('psd_vehicle_description', '/home/psd/psd_ws/install/psd_vehicle_description'), ('psd_vehicle_controller', '/home/psd/psd_ws/install/psd_vehicle_controller')])}
+[0.000699] (ros_components_description) JobStarted: {'identifier': 'ros_components_description'}
+[0.024893] (ign_ros2_control) JobStarted: {'identifier': 'ign_ros2_control'}
+[0.048451] (core) JobStarted: {'identifier': 'core'}
+[0.079539] (psd_gazebo_worlds) JobStarted: {'identifier': 'psd_gazebo_worlds'}
+[0.098926] (-) TimerEvent: {}
+[0.104732] (psd_vehicle_gazebo) JobStarted: {'identifier': 'psd_vehicle_gazebo'}
+[0.128974] (psd_vehicle_hardware_interfaces) JobStarted: {'identifier': 'psd_vehicle_hardware_interfaces'}
+[0.152032] (psd_vehicle_interfaces) JobStarted: {'identifier': 'psd_vehicle_interfaces'}
+[0.176650] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'cmake'}
+[0.177474] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'build'}
+[0.177514] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/ros_components_description', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/ros_components_description', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/ros_components_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.179531] (ign_ros2_control) JobProgress: {'identifier': 'ign_ros2_control', 'progress': 'cmake'}
+[0.181521] (ign_ros2_control) JobProgress: {'identifier': 'ign_ros2_control', 'progress': 'build'}
+[0.181582] (ign_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/ign_ros2_control', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/ign_ros2_control', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/ign_ros2_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.183414] (core) JobProgress: {'identifier': 'core', 'progress': 'cmake'}
+[0.183455] (core) JobProgress: {'identifier': 'core', 'progress': 'build'}
+[0.183470] (core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/core', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/core', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/core'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.184686] (psd_gazebo_worlds) JobProgress: {'identifier': 'psd_gazebo_worlds', 'progress': 'cmake'}
+[0.186139] (psd_gazebo_worlds) JobProgress: {'identifier': 'psd_gazebo_worlds', 'progress': 'build'}
+[0.186189] (psd_gazebo_worlds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/psd_gazebo_worlds', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/psd_gazebo_worlds', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/psd_gazebo_worlds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.187100] (psd_vehicle_gazebo) JobProgress: {'identifier': 'psd_vehicle_gazebo', 'progress': 'cmake'}
+[0.187621] (psd_vehicle_gazebo) JobProgress: {'identifier': 'psd_vehicle_gazebo', 'progress': 'build'}
+[0.188474] (psd_vehicle_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/psd_vehicle_gazebo', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/psd_vehicle_gazebo', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/psd_vehicle_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.189714] (psd_vehicle_hardware_interfaces) JobProgress: {'identifier': 'psd_vehicle_hardware_interfaces', 'progress': 'cmake'}
+[0.189917] (psd_vehicle_hardware_interfaces) JobProgress: {'identifier': 'psd_vehicle_hardware_interfaces', 'progress': 'build'}
+[0.190453] (psd_vehicle_hardware_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.195786] (ros_components_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199058] (core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199942] (-) TimerEvent: {}
+[0.200063] (psd_vehicle_interfaces) JobProgress: {'identifier': 'psd_vehicle_interfaces', 'progress': 'cmake'}
+[0.200527] (psd_vehicle_interfaces) JobProgress: {'identifier': 'psd_vehicle_interfaces', 'progress': 'build'}
+[0.201837] (psd_vehicle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/psd_vehicle_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/psd_vehicle_interfaces', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/psd_vehicle_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.203150] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.203513] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.207655] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.217331] (ign_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.221747] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.293441] (core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.300228] (-) TimerEvent: {}
+[0.305266] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.308961] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found controller_interface: 2.40.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.310492] (ign_ros2_control) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.310963] (ign_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.311262] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.326772] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.327784] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.328213] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.329373] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.330264] (ign_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.331809] (ign_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.332142] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.333160] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.335615] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.335847] (ign_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.338208] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.339497] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.339719] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.340279] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.342163] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.342915] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/psd_vehicle_gazebo\n'}
+[0.343625] (ign_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.344109] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.347571] (core) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.347836] (core) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.348125] (core) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.348588] (core) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.349081] (core) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.349622] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.350337] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.350726] (core) StdoutLine: {'line': b'-- Generating done\n'}
+[0.351181] (core) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/core\n'}
+[0.351608] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.354029] (ign_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.354454] (ros_components_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.356813] (ros_components_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.357652] (ros_components_description) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/ros_components_description\n'}
+[0.358795] (psd_vehicle_gazebo) CommandEnded: {'returncode': 0}
+[0.362393] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.367565] (core) CommandEnded: {'returncode': 0}
+[0.372802] (ros_components_description) CommandEnded: {'returncode': 0}
+[0.374982] (psd_vehicle_gazebo) JobProgress: {'identifier': 'psd_vehicle_gazebo', 'progress': 'install'}
+[0.380276] (psd_vehicle_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/psd/psd_ws/build/psd_vehicle_gazebo'], 'cwd': '/home/psd/psd_ws/build/psd_vehicle_gazebo', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/psd_vehicle_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.383532] (core) JobProgress: {'identifier': 'core', 'progress': 'install'}
+[0.383987] (core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/psd/psd_ws/build/core'], 'cwd': '/home/psd/psd_ws/build/core', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/core'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.385961] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.386215] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch\n'}
+[0.386852] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch/simulation.launch.py\n'}
+[0.386976] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_gazebo\n'}
+[0.387057] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_gazebo\n'}
+[0.387132] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/ament_prefix_path.sh\n'}
+[0.387573] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.387802] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/path.sh\n'}
+[0.388084] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/path.dsv\n'}
+[0.388198] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.bash\n'}
+[0.388534] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.sh\n'}
+[0.388743] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.zsh\n'}
+[0.389735] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.dsv\n'}
+[0.390719] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.dsv\n'}
+[0.390985] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/packages/psd_vehicle_gazebo\n'}
+[0.391093] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/cmake/psd_vehicle_gazeboConfig.cmake\n'}
+[0.391195] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/cmake/psd_vehicle_gazeboConfig-version.cmake\n'}
+[0.391298] (psd_vehicle_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.xml\n'}
+[0.391399] (core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.391556] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.391663] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core\n'}
+[0.391767] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core\n'}
+[0.391868] (core) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/core/share/core/environment/ament_prefix_path.sh\n'}
+[0.391970] (core) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/core/share/core/environment/ament_prefix_path.dsv\n'}
+[0.392072] (core) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/core/share/core/environment/path.sh\n'}
+[0.392173] (core) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/core/share/core/environment/path.dsv\n'}
+[0.392274] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/core/local_setup.bash\n'}
+[0.392375] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/core/local_setup.sh\n'}
+[0.392510] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/core/local_setup.zsh\n'}
+[0.392658] (core) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/core/share/core/local_setup.dsv\n'}
+[0.392924] (core) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/core/share/core/package.dsv\n'}
+[0.393033] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/ament_index/resource_index/packages/core\n'}
+[0.393136] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/core/cmake/coreConfig.cmake\n'}
+[0.393238] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/core/cmake/coreConfig-version.cmake\n'}
+[0.393340] (core) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/core/share/core/package.xml\n'}
+[0.393442] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.394330] (psd_vehicle_gazebo) CommandEnded: {'returncode': 0}
+[0.400803] (-) TimerEvent: {}
+[0.431750] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'install'}
+[0.432111] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/psd/psd_ws/build/ros_components_description'], 'cwd': '/home/psd/psd_ws/build/ros_components_description', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/ros_components_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.434112] (core) CommandEnded: {'returncode': 0}
+[0.434567] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.467750] (ros_components_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.468033] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes\n'}
+[0.469421] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedxm.stl\n'}
+[0.469514] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedm.stl\n'}
+[0.469583] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_ax.dae\n'}
+[0.469648] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed.stl\n'}
+[0.469722] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s1.dae\n'}
+[0.469823] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedx.stl\n'}
+[0.469919] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/velodyne_puck.dae\n'}
+[0.469995] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae\n'}
+[0.470059] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed2i.stl\n'}
+[0.470263] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed2.stl\n'}
+[0.470378] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s2.dae\n'}
+[0.470485] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os1_32.dae\n'}
+[0.470592] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s3.dae\n'}
+[0.470698] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae\n'}
+[0.470803] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_a2m8.dae\n'}
+[0.470909] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf\n'}
+[0.471016] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro\n'}
+[0.471099] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/velodyne_puck.urdf.xacro\n'}
+[0.471146] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a3.urdf.xacro\n'}
+[0.471186] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s2.urdf.xacro\n'}
+[0.471291] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ouster_os1_32.urdf.xacro\n'}
+[0.471398] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a2.urdf.xacro\n'}
+[0.471479] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro\n'}
+[0.471526] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s1.urdf.xacro\n'}
+[0.471804] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s3.urdf.xacro\n'}
+[0.471887] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/urdf/stereolabs_zed.urdf.xacro\n'}
+[0.471991] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/environment/ros_components_description.sh\n'}
+[0.472058] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ament_index/resource_index/package_run_dependencies/ros_components_description\n'}
+[0.472168] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ament_index/resource_index/parent_prefix_path/ros_components_description\n'}
+[0.472237] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.sh\n'}
+[0.472349] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.dsv\n'}
+[0.472415] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/environment/path.sh\n'}
+[0.472527] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/environment/path.dsv\n'}
+[0.472646] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.bash\n'}
+[0.472755] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.sh\n'}
+[0.472862] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.zsh\n'}
+[0.472929] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.dsv\n'}
+[0.473210] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.dsv\n'}
+[0.473294] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ament_index/resource_index/packages/ros_components_description\n'}
+[0.473379] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig.cmake\n'}
+[0.473428] (ros_components_description) StdoutLine: {'line': b'-- Up-to-date: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig-version.cmake\n'}
+[0.473511] (ros_components_description) StdoutLine: {'line': b'-- Installing: /home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.xml\n'}
+[0.481674] (psd_gazebo_worlds) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.501384] (-) TimerEvent: {}
+[0.509670] (psd_vehicle_gazebo) JobEnded: {'identifier': 'psd_vehicle_gazebo', 'rc': 0}
+[0.510709] (ros_components_description) CommandEnded: {'returncode': 0}
+[0.574803] (core) JobEnded: {'identifier': 'core', 'rc': 0}
+[0.601737] (-) TimerEvent: {}
+[0.612291] (ros_components_description) JobEnded: {'identifier': 'ros_components_description', 'rc': 0}
+[0.613370] (psd_vehicle_description) JobStarted: {'identifier': 'psd_vehicle_description'}
+[0.630509] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.638739] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.640164] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Generating done\n'}
+[0.640665] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/psd_gazebo_worlds\n'}
+[0.643580] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'cmake'}
+[0.644620] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'build'}
+[0.644695] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psd/psd_ws/build/psd_vehicle_description', '--', '-j20', '-l20'], 'cwd': '/home/psd/psd_ws/build/psd_vehicle_description', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('GZ_SIM_RESOURCE_PATH', '/home/psd/psd_ws/install/ros_components_description/share'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/psd/psd_ws/install/ros_components_description/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/psd/psd_ws/install/ros_components_description:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/psd/psd_ws/install/ros_components_description/share'), ('PWD', '/home/psd/psd_ws/build/psd_vehicle_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/psd/psd_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[0.655049] (psd_gazebo_worlds) CommandEnded: {'returncode': 0}
+[0.657397] (psd_vehicle_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.668666] (psd_gazebo_worlds) JobProgress: {'identifier': 'psd_gazebo_worlds', 'progress': 'install'}
+[0.669692] (psd_gazebo_worlds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/psd/psd_ws/build/psd_gazebo_worlds'], 'cwd': '/home/psd/psd_ws/build/psd_gazebo_worlds', 'env': OrderedDict([('PSD_ROS_BUILD_TYPE', 'simulation'), ('HOSTNAME', 'edo-Thinkpad'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SIMULATION_ENGINE', 'ignition-gazebo'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/psd/psd_ws/build/psd_gazebo_worlds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.673641] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.673829] (psd_gazebo_worlds) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[0.673896] (psd_gazebo_worlds) StderrLine: {'line': b'  file INSTALL cannot find "/home/psd/psd_ws/src/psd_gazebo_worlds/launch":\n'}
+[0.673941] (psd_gazebo_worlds) StderrLine: {'line': b'  No such file or directory.\n'}
+[0.673979] (psd_gazebo_worlds) StderrLine: {'line': b'\n'}
+[0.674089] (psd_gazebo_worlds) StderrLine: {'line': b'\x1b[0m\n'}
+[0.674999] (psd_gazebo_worlds) CommandEnded: {'returncode': 1}
+[0.701983] (-) TimerEvent: {}
+[0.724070] (psd_gazebo_worlds) JobEnded: {'identifier': 'psd_gazebo_worlds', 'rc': 1}
+[0.791067] (psd_vehicle_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.792441] (psd_vehicle_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.792955] (psd_vehicle_description) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/psd_vehicle_description\n'}
+[0.802126] (-) TimerEvent: {}
+[0.804578] (psd_vehicle_description) JobEnded: {'identifier': 'psd_vehicle_description', 'rc': 'SIGINT'}
+[0.829744] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.830033] (ign_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.830749] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.830923] (ign_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.851952] (ign_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.853345] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.857878] (ign_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.858918] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.872046] (ign_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.872369] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.877573] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.877685] (ign_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.883490] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.883591] (ign_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902396] (-) TimerEvent: {}
+[0.902832] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002689] (-) TimerEvent: {}
+[1.004325] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.020114] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.035112] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.035250] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.035296] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.055107] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.057411] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.059706] (psd_vehicle_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.060288] (psd_vehicle_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.061360] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.081757] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.083401] (psd_vehicle_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/psd_vehicle_interfaces\n'}
+[1.102410] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.102825] (-) TimerEvent: {}
+[1.105576] (psd_vehicle_interfaces) StdoutLine: {'line': b'[  3%] Built target psd_vehicle_interfaces__cpp\n'}
+[1.109351] (psd_vehicle_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/psd_vehicle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/psd_vehicle_interfaces/msg/detail/obstacle_info__functions.c.o\x1b[0m\n'}
+[1.111536] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.112038] (psd_vehicle_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_psd_vehicle_interfaces\n'}
+[1.113592] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.113943] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.120203] (psd_vehicle_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/psd_vehicle_interfaces/msg/obstacle_info__type_support.cpp.o\x1b[0m\n'}
+[1.122523] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/psd_vehicle_interfaces/msg/detail/obstacle_info__type_support.cpp.o\x1b[0m\n'}
+[1.123466] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/psd_vehicle_interfaces/msg/detail/dds_fastrtps/obstacle_info__type_support.cpp.o\x1b[0m\n'}
+[1.146156] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libpsd_vehicle_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.182432] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 22%] Built target psd_vehicle_interfaces__rosidl_generator_c\n'}
+[1.193187] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.193408] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.193656] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.203011] (-) TimerEvent: {}
+[1.203648] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/psd_vehicle_interfaces/msg/obstacle_info__type_support.cpp.o\x1b[0m\n'}
+[1.203940] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/psd_vehicle_interfaces/msg/detail/obstacle_info__type_support.c.o\x1b[0m\n'}
+[1.205160] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/psd_vehicle_interfaces/msg/detail/obstacle_info__type_support_c.cpp.o\x1b[0m\n'}
+[1.228006] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libpsd_vehicle_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.232565] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libpsd_vehicle_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.264999] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 41%] Built target psd_vehicle_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.270122] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 45%] Built target psd_vehicle_interfaces__rosidl_typesupport_c\n'}
+[1.288725] (psd_vehicle_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.289278] (psd_vehicle_interfaces) StdoutLine: {'line': b'writing psd_vehicle_interfaces.egg-info/PKG-INFO\n'}
+[1.289472] (psd_vehicle_interfaces) StdoutLine: {'line': b'writing dependency_links to psd_vehicle_interfaces.egg-info/dependency_links.txt\n'}
+[1.289731] (psd_vehicle_interfaces) StdoutLine: {'line': b'writing top-level names to psd_vehicle_interfaces.egg-info/top_level.txt\n'}
+[1.291649] (psd_vehicle_interfaces) StdoutLine: {'line': b"reading manifest file 'psd_vehicle_interfaces.egg-info/SOURCES.txt'\n"}
+[1.292030] (psd_vehicle_interfaces) StdoutLine: {'line': b"writing manifest file 'psd_vehicle_interfaces.egg-info/SOURCES.txt'\n"}
+[1.303138] (-) TimerEvent: {}
+[1.311737] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 45%] Built target ament_cmake_python_build_psd_vehicle_interfaces_egg\n'}
+[1.315137] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.316091] (ign_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[1.319470] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.16.0\n'}
+[1.328963] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libpsd_vehicle_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.329634] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[1.330767] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.7.2\n'}
+[1.331062] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[1.336713] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.337199] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.340723] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.340955] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[1.343830] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.344129] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.345311] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[1.346287] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[1.346618] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[1.347448] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[1.348170] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[1.348530] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[1.349980] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.350237] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[1.355083] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 51%] Built target psd_vehicle_interfaces__rosidl_typesupport_cpp\n'}
+[1.363233] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.364542] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/psd_vehicle_hardware_interfaces\n'}
+[1.385442] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_hardware_interfaces\x1b[0m\n'}
+[1.388643] (ign_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.391978] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.401277] (ign_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.403225] (-) TimerEvent: {}
+[1.411624] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libpsd_vehicle_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.416853] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libpsd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.420620] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_hardware_interfaces.dir/src/psd_vehicle_system.cpp.o\x1b[0m\n'}
+[1.421418] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/psd_vehicle_hardware_interfaces.dir/src/psd_vehicle_imu_sensor.cpp.o\x1b[0m\n'}
+[1.429715] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.440882] (ign_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.446677] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libpsd_vehicle_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.454529] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 64%] Built target psd_vehicle_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.465266] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.465565] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[1.465652] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[1.466516] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[1.466701] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[1.468200] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.468448] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 67%] Built target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.468629] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[1.485382] (ign_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.485997] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.492864] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[1.493829] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[1.494271] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[1.495426] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[1.496467] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[1.496723] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[1.498222] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.498303] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 70%] Built target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.498948] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.499277] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.499618] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.499695] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.503341] (-) TimerEvent: {}
+[1.507087] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[1.508054] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[1.508349] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[1.509130] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.509767] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[1.510006] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 70%] Built target psd_vehicle_interfaces\n'}
+[1.510242] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[1.510490] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.511618] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[1.512290] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[1.512740] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[1.516226] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.521828] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 74%] Built target psd_vehicle_interfaces__py\n'}
+[1.523710] (ign_ros2_control) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.527816] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.535212] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/psd_vehicle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/psd_vehicle_interfaces/msg/_obstacle_info_s.c.o\x1b[0m\n'}
+[1.545656] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.555677] (ign_ros2_control) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.579727] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.586723] (ign_ros2_control) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.602287] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/psd_vehicle_interfaces/libpsd_vehicle_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[1.603439] (-) TimerEvent: {}
+[1.608999] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.616006] (ign_ros2_control) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.628064] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 80%] Built target psd_vehicle_interfaces__rosidl_generator_py\n'}
+[1.634366] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.635858] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.636139] (psd_vehicle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.640767] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.643421] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/psd_vehicle_interfaces/_psd_vehicle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.643562] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/psd_vehicle_interfaces/_psd_vehicle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.644007] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/psd_vehicle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/psd_vehicle_interfaces/_psd_vehicle_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.649641] (ign_ros2_control) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.673653] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.0\n'}
+[1.673992] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[1.703656] (-) TimerEvent: {}
+[1.704199] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.710629] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.710787] (psd_vehicle_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.711296] (psd_vehicle_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.713471] (ign_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.734965] (psd_vehicle_interfaces) StdoutLine: {'line': b'[100%] Built target psd_vehicle_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.735171] (psd_vehicle_interfaces) StdoutLine: {'line': b'[100%] Built target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.735475] (psd_vehicle_interfaces) StdoutLine: {'line': b'[100%] Built target psd_vehicle_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.742037] (psd_vehicle_interfaces) JobEnded: {'identifier': 'psd_vehicle_interfaces', 'rc': 'SIGINT'}
+[1.742946] (ign_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.750722] (ign_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.768122] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.768314] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.768623] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.770611] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[1.770923] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[1.790658] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.790964] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.791112] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.791502] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.792438] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.792859] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[1.793176] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.793513] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.793569] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[1.794414] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[1.795006] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[1.796984] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.797233] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.797393] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.797449] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.803650] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[1.803801] (-) TimerEvent: {}
+[1.804719] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[1.805089] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[1.805373] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.805761] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.806569] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.807318] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.807890] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.808111] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[1.808808] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[1.809162] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.811939] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.840480] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[1.840774] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[1.841018] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.841257] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.841492] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.842685] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[1.843731] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[1.844086] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[1.844338] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.844755] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[1.845573] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[1.845917] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[1.846065] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.846755] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[1.847379] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[1.847597] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[1.847865] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.7.2\n'}
+[1.849350] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.849752] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[1.863523] (ign_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.864164] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.864392] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.864649] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.865019] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.865324] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.865635] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.7.2\n'}
+[1.866625] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[1.867576] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.0\n'}
+[1.867831] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[1.868747] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[1.869729] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.0\n'}
+[1.869992] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[1.870837] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[1.871775] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.0\n'}
+[1.872032] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[1.872927] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[1.873901] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.0\n'}
+[1.874131] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[1.875080] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[1.876035] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.0\n'}
+[1.876671] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[1.877575] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[1.878514] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.0\n'}
+[1.878776] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[1.879586] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[1.880583] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.0\n'}
+[1.880833] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[1.881736] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[1.882770] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.0\n'}
+[1.883163] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[1.884174] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[1.884827] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.0\n'}
+[1.885114] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[1.885345] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.886389] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[1.887409] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0\n'}
+[1.887639] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[1.887909] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.888767] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[1.889551] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.0\n'}
+[1.889983] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[1.890195] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.890888] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[1.891653] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0\n'}
+[1.891936] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[1.892805] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[1.893628] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0\n'}
+[1.893844] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[1.894705] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[1.895419] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.0\n'}
+[1.895775] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[1.895992] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.896740] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[1.897592] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0\n'}
+[1.897851] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[1.898109] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.898924] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[1.899804] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0\n'}
+[1.900044] (ign_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[1.900293] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.901589] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.901753] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.902539] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.904038] (-) TimerEvent: {}
+[1.918225] (ign_ros2_control) StdoutLine: {'line': b'-- Compiling against Ignition Fortress\n'}
+[1.918531] (ign_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.004216] (-) TimerEvent: {}
+[2.104646] (-) TimerEvent: {}
+[2.205087] (-) TimerEvent: {}
+[2.239317] (ign_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.298868] (ign_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.299701] (ign_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.299780] (ign_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control/include\n'}
+[2.299822] (ign_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.300660] (ign_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.300738] (ign_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.301092] (ign_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.301734] (ign_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.301846] (ign_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.302084] (ign_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.302809] (ign_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.305287] (-) TimerEvent: {}
+[2.341371] (ign_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.343096] (ign_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/psd/psd_ws/build/ign_ros2_control\n'}
+[2.364587] (ign_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ign_ros2_control-system\x1b[0m\n'}
+[2.366077] (ign_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ign_hardware_plugins\x1b[0m\n'}
+[2.389298] (ign_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o\x1b[0m\n'}
+[2.391188] (ign_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/ign_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[2.405541] (-) TimerEvent: {}
+[2.505976] (-) TimerEvent: {}
+[2.606426] (-) TimerEvent: {}
+[2.707015] (-) TimerEvent: {}
+[2.807509] (-) TimerEvent: {}
+[2.907975] (-) TimerEvent: {}
+[3.008452] (-) TimerEvent: {}
+[3.108901] (-) TimerEvent: {}
+[3.209359] (-) TimerEvent: {}
+[3.309829] (-) TimerEvent: {}
+[3.410436] (-) TimerEvent: {}
+[3.510919] (-) TimerEvent: {}
+[3.611388] (-) TimerEvent: {}
+[3.711816] (-) TimerEvent: {}
+[3.812331] (-) TimerEvent: {}
+[3.912742] (-) TimerEvent: {}
+[4.013276] (-) TimerEvent: {}
+[4.113735] (-) TimerEvent: {}
+[4.214097] (-) TimerEvent: {}
+[4.314597] (-) TimerEvent: {}
+[4.415048] (-) TimerEvent: {}
+[4.515495] (-) TimerEvent: {}
+[4.615957] (-) TimerEvent: {}
+[4.716412] (-) TimerEvent: {}
+[4.816907] (-) TimerEvent: {}
+[4.917364] (-) TimerEvent: {}
+[5.017816] (-) TimerEvent: {}
+[5.118424] (-) TimerEvent: {}
+[5.218940] (-) TimerEvent: {}
+[5.319422] (-) TimerEvent: {}
+[5.420029] (-) TimerEvent: {}
+[5.520499] (-) TimerEvent: {}
+[5.620945] (-) TimerEvent: {}
+[5.721380] (-) TimerEvent: {}
+[5.821876] (-) TimerEvent: {}
+[5.922328] (-) TimerEvent: {}
+[6.022730] (-) TimerEvent: {}
+[6.123159] (-) TimerEvent: {}
+[6.223615] (-) TimerEvent: {}
+[6.324049] (-) TimerEvent: {}
+[6.424435] (-) TimerEvent: {}
+[6.524890] (-) TimerEvent: {}
+[6.625498] (-) TimerEvent: {}
+[6.725939] (-) TimerEvent: {}
+[6.826479] (-) TimerEvent: {}
+[6.926976] (-) TimerEvent: {}
+[7.027429] (-) TimerEvent: {}
+[7.127872] (-) TimerEvent: {}
+[7.228206] (-) TimerEvent: {}
+[7.328648] (-) TimerEvent: {}
+[7.429086] (-) TimerEvent: {}
+[7.529541] (-) TimerEvent: {}
+[7.629966] (-) TimerEvent: {}
+[7.730425] (-) TimerEvent: {}
+[7.830875] (-) TimerEvent: {}
+[7.931334] (-) TimerEvent: {}
+[7.963790] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpsd_vehicle_hardware_interfaces.so\x1b[0m\n'}
+[8.031708] (-) TimerEvent: {}
+[8.132182] (-) TimerEvent: {}
+[8.232607] (-) TimerEvent: {}
+[8.332961] (-) TimerEvent: {}
+[8.433417] (-) TimerEvent: {}
+[8.533755] (-) TimerEvent: {}
+[8.542922] (psd_vehicle_hardware_interfaces) StdoutLine: {'line': b'[100%] Built target psd_vehicle_hardware_interfaces\n'}
+[8.549768] (psd_vehicle_hardware_interfaces) JobEnded: {'identifier': 'psd_vehicle_hardware_interfaces', 'rc': 'SIGINT'}
+[8.634127] (-) TimerEvent: {}
+[8.734557] (-) TimerEvent: {}
+[8.835009] (-) TimerEvent: {}
+[8.935637] (-) TimerEvent: {}
+[9.036102] (-) TimerEvent: {}
+[9.136647] (-) TimerEvent: {}
+[9.237217] (-) TimerEvent: {}
+[9.337620] (-) TimerEvent: {}
+[9.438016] (-) TimerEvent: {}
+[9.538523] (-) TimerEvent: {}
+[9.638929] (-) TimerEvent: {}
+[9.739389] (-) TimerEvent: {}
+[9.839794] (-) TimerEvent: {}
+[9.940203] (-) TimerEvent: {}
+[10.040617] (-) TimerEvent: {}
+[10.141054] (-) TimerEvent: {}
+[10.237339] (ign_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libign_hardware_plugins.so\x1b[0m\n'}
+[10.241253] (-) TimerEvent: {}
+[10.341625] (-) TimerEvent: {}
+[10.441930] (-) TimerEvent: {}
+[10.542387] (-) TimerEvent: {}
+[10.585045] (ign_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libign_ros2_control-system.so\x1b[0m\n'}
+[10.586723] (ign_ros2_control) StdoutLine: {'line': b'[100%] Built target ign_hardware_plugins\n'}
+[10.642633] (-) TimerEvent: {}
+[10.742986] (-) TimerEvent: {}
+[10.843504] (-) TimerEvent: {}
+[10.943913] (-) TimerEvent: {}
+[10.982285] (ign_ros2_control) StdoutLine: {'line': b'[100%] Built target ign_ros2_control-system\n'}
+[10.992861] (ign_ros2_control) JobEnded: {'identifier': 'ign_ros2_control', 'rc': 'SIGINT'}
+[11.003446] (ign_ros2_control_demos) JobSkipped: {'identifier': 'ign_ros2_control_demos'}
+[11.003519] (psd_vehicle_controller) JobSkipped: {'identifier': 'psd_vehicle_controller'}
+[11.003536] (psd_vehicle_bringup) JobSkipped: {'identifier': 'psd_vehicle_bringup'}
+[11.003549] (-) EventReactorShutdown: {}
