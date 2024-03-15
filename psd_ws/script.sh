@@ -1,9 +1,7 @@
-export PSD_ROS_BUILD_TYPE=simulation
+sudo apt update
+sudo apt upgrade -y
 
-# to specify which simulation engine will be used
-# for gazebo classic
-export SIMULATION_ENGINE=gazebo-classic
-# for ignition gazebo
+export PSD_ROS_BUILD_TYPE=simulation
 export SIMULATION_ENGINE=ignition-gazebo
 
 rosdep update --rosdistro $ROS_DISTRO

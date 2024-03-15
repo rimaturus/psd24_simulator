@@ -1,8 +1,8 @@
-# Install script for directory: /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
+# Install script for directory: /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/psd_ws/install/ign_ros2_control_demos")
+  set(CMAKE_INSTALL_PREFIX "/home/psd/psd_ws/install/ign_ros2_control_demos")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,9 +44,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos/" TYPE DIRECTORY FILES
-    "/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/launch"
-    "/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/config"
-    "/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/urdf"
+    "/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/launch"
+    "/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/config"
+    "/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/urdf"
     )
 endif()
 
@@ -57,7 +57,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_position"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/psd_ws/build/ign_ros2_control_demos/example_position")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/example_position")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_position" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_position")
     file(RPATH_CHANGE
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_velocity"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/psd_ws/build/ign_ros2_control_demos/example_velocity")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/example_velocity")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_velocity" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_velocity")
     file(RPATH_CHANGE
@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_effort"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/psd_ws/build/ign_ros2_control_demos/example_effort")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/example_effort")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_effort" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_effort")
     file(RPATH_CHANGE
@@ -117,7 +117,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_diff_drive"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/psd_ws/build/ign_ros2_control_demos/example_diff_drive")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/example_diff_drive")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_diff_drive" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_diff_drive")
     file(RPATH_CHANGE
@@ -137,7 +137,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_tricycle_drive"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/psd_ws/build/ign_ros2_control_demos/example_tricycle_drive")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/example_tricycle_drive")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_tricycle_drive" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_tricycle_drive")
     file(RPATH_CHANGE
@@ -157,7 +157,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_gripper"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/psd_ws/build/ign_ros2_control_demos/example_gripper")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos" TYPE EXECUTABLE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/example_gripper")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_gripper" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ign_ros2_control_demos/example_gripper")
     file(RPATH_CHANGE
@@ -171,11 +171,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -183,7 +183,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos/environment" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos/environment" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -191,42 +191,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos/environment" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos/environment" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/psd_ws/build/ign_ros2_control_demos/ament_cmake_index/share/ament_index/resource_index/packages/ign_ros2_control_demos")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_index/share/ament_index/resource_index/packages/ign_ros2_control_demos")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos/cmake" TYPE FILE FILES
-    "/psd_ws/build/ign_ros2_control_demos/ament_cmake_core/ign_ros2_control_demosConfig.cmake"
-    "/psd_ws/build/ign_ros2_control_demos/ament_cmake_core/ign_ros2_control_demosConfig-version.cmake"
+    "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_core/ign_ros2_control_demosConfig.cmake"
+    "/home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_core/ign_ros2_control_demosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ign_ros2_control_demos" TYPE FILE FILES "/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -237,5 +237,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/psd_ws/build/ign_ros2_control_demos/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/psd/psd_ws/build/ign_ros2_control_demos/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

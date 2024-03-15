@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/core
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /psd_ws/build/core
+CMAKE_BINARY_DIR = /home/psd/psd_ws/build/core
 
 # Utility rule file for core_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/core_uninstall.dir/compiler_depend.make
 include CMakeFiles/core_uninstall.dir/progress.make
 
 CMakeFiles/core_uninstall:
-	/usr/bin/cmake -P /psd_ws/build/core/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/psd/psd_ws/build/core/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 core_uninstall: CMakeFiles/core_uninstall
 core_uninstall: CMakeFiles/core_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/core_uninstall.dir/clean:
 .PHONY : CMakeFiles/core_uninstall.dir/clean
 
 CMakeFiles/core_uninstall.dir/depend:
-	cd /psd_ws/build/core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/core /psd_ws/src/core /psd_ws/build/core /psd_ws/build/core /psd_ws/build/core/CMakeFiles/core_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/core /home/psd/psd_ws/src/core /home/psd/psd_ws/build/core /home/psd/psd_ws/build/core /home/psd/psd_ws/build/core/CMakeFiles/core_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/core_uninstall.dir/depend
 

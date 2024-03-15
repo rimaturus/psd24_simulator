@@ -1,8 +1,8 @@
-# Install script for directory: /psd_ws/build/psd_vehicle_interfaces/psd_vehicle_interfaces__py
+# Install script for directory: /home/psd/psd_ws/build/psd_vehicle_interfaces/psd_vehicle_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/psd_ws/install/psd_vehicle_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/psd/psd_ws/install/psd_vehicle_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

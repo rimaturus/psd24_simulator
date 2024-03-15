@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /psd_ws/build/ign_ros2_control_demos
+CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ign_ros2_control_demos
 
 # Utility rule file for ign_ros2_control_demos_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ign_ros2_control_demos_uninstall.dir/compiler_depend.make
 include CMakeFiles/ign_ros2_control_demos_uninstall.dir/progress.make
 
 CMakeFiles/ign_ros2_control_demos_uninstall:
-	/usr/bin/cmake -P /psd_ws/build/ign_ros2_control_demos/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/psd/psd_ws/build/ign_ros2_control_demos/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ign_ros2_control_demos_uninstall: CMakeFiles/ign_ros2_control_demos_uninstall
 ign_ros2_control_demos_uninstall: CMakeFiles/ign_ros2_control_demos_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ign_ros2_control_demos_uninstall.dir/clean:
 .PHONY : CMakeFiles/ign_ros2_control_demos_uninstall.dir/clean
 
 CMakeFiles/ign_ros2_control_demos_uninstall.dir/depend:
-	cd /psd_ws/build/ign_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /psd_ws/build/ign_ros2_control_demos /psd_ws/build/ign_ros2_control_demos /psd_ws/build/ign_ros2_control_demos/CMakeFiles/ign_ros2_control_demos_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ign_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos/CMakeFiles/ign_ros2_control_demos_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ign_ros2_control_demos_uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /psd_ws/build/ign_ros2_control
+CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ign_ros2_control
 
 # Utility rule file for ign_ros2_control_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ign_ros2_control_uninstall.dir/compiler_depend.make
 include CMakeFiles/ign_ros2_control_uninstall.dir/progress.make
 
 CMakeFiles/ign_ros2_control_uninstall:
-	/usr/bin/cmake -P /psd_ws/build/ign_ros2_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/psd/psd_ws/build/ign_ros2_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ign_ros2_control_uninstall: CMakeFiles/ign_ros2_control_uninstall
 ign_ros2_control_uninstall: CMakeFiles/ign_ros2_control_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ign_ros2_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/ign_ros2_control_uninstall.dir/clean
 
 CMakeFiles/ign_ros2_control_uninstall.dir/depend:
-	cd /psd_ws/build/ign_ros2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control /psd_ws/build/ign_ros2_control /psd_ws/build/ign_ros2_control /psd_ws/build/ign_ros2_control/CMakeFiles/ign_ros2_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ign_ros2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control /home/psd/psd_ws/build/ign_ros2_control /home/psd/psd_ws/build/ign_ros2_control /home/psd/psd_ws/build/ign_ros2_control/CMakeFiles/ign_ros2_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ign_ros2_control_uninstall.dir/depend
 

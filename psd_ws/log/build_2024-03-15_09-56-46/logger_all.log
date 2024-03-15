@@ -1,0 +1,844 @@
+[0.495s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.496s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f2b15c08940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2b15ec3550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2b15ec3550>>, mixin_verb=('build',))
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/psd/psd_ws'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/core' with type 'ros.ament_cmake' and name 'core'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/Dockerfile) by extension 'python_setup_py'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebosim/gz_ros2_control/ign_ros2_control' with type 'ros.ament_cmake' and name 'ign_ros2_control'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebosim/gz_ros2_control/ign_ros2_control_demos) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebosim/gz_ros2_control/ign_ros2_control_demos' with type 'ros.ament_cmake' and name 'ign_ros2_control_demos'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_gazebo_worlds) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_gazebo_worlds' with type 'ros.ament_cmake' and name 'psd_gazebo_worlds'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_hardware_interfaces) by extension 'ros'
+[0.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_vehicle_hardware_interfaces' with type 'ros.ament_cmake' and name 'psd_vehicle_hardware_interfaces'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_interfaces) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_vehicle_interfaces' with type 'ros.ament_cmake' and name 'psd_vehicle_interfaces'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_bringup) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_vehicle_ros/psd_vehicle_bringup' with type 'ros.ament_cmake' and name 'psd_vehicle_bringup'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_controller) by extension 'ros'
+[0.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_vehicle_ros/psd_vehicle_controller' with type 'ros.ament_cmake' and name 'psd_vehicle_controller'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_description) by extension 'ros'
+[0.537s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_vehicle_ros/psd_vehicle_description' with type 'ros.ament_cmake' and name 'psd_vehicle_description'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/psd_vehicle_ros/psd_vehicle_gazebo) by extension 'ros'
+[0.537s] DEBUG:colcon.colcon_core.package_identification:Package 'src/psd_vehicle_ros/psd_vehicle_gazebo' with type 'ros.ament_cmake' and name 'psd_vehicle_gazebo'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_components_description' with type 'ros.ament_cmake' and name 'ros_components_description'
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/core', 'merge_install': False, 'path': '/home/psd/psd_ws/src/core', 'symlink_install': False, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/ign_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/ign_ros2_control', 'merge_install': False, 'path': '/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'psd_gazebo_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'psd_gazebo_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_gazebo_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_gazebo_worlds', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_gazebo_worlds', 'symlink_install': False, 'test_result_base': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'psd_vehicle_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_vehicle_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_vehicle_gazebo', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_hardware_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'psd_vehicle_hardware_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_vehicle_hardware_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'psd_vehicle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_vehicle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_vehicle_interfaces', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_vehicle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'ros_components_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/ros_components_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/ros_components_description', 'merge_install': False, 'path': '/home/psd/psd_ws/src/ros_components_description', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/ign_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/ign_ros2_control_demos', 'merge_install': False, 'path': '/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'cmake_target' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.631s] DEBUG:colcon.colcon_core.verb:Building package 'psd_vehicle_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_vehicle_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_vehicle_description', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_description', 'symlink_install': False, 'test_result_base': None}
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'cmake_target' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] DEBUG:colcon.colcon_core.verb:Building package 'psd_vehicle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_vehicle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_vehicle_controller', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_controller', 'symlink_install': False, 'test_result_base': None}
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'psd_vehicle_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'psd_vehicle_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psd/psd_ws/build/psd_vehicle_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psd/psd_ws/install/psd_vehicle_bringup', 'merge_install': False, 'path': '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.648s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.655s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/ros_components_description' with build type 'ament_cmake'
+[0.655s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/ros_components_description'
+[0.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control' with build type 'ament_cmake'
+[0.682s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control'
+[0.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/core' with build type 'ament_cmake'
+[0.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/core'
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.743s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_gazebo_worlds' with build type 'ament_cmake'
+[0.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_gazebo_worlds'
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.769s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo' with build type 'ament_cmake'
+[0.769s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo'
+[0.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_vehicle_hardware_interfaces' with build type 'ament_cmake'
+[0.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_vehicle_hardware_interfaces'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_vehicle_interfaces' with build type 'ament_cmake'
+[0.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_vehicle_interfaces'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/ros_components_description -- -j20 -l20
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/ign_ros2_control -- -j20 -l20
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/core -- -j20 -l20
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+[0.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
+[0.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_hardware_interfaces -- -j20 -l20
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_interfaces -- -j20 -l20
+[0.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/ros_components_description -- -j20 -l20
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/core -- -j20 -l20
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/ros_components_description
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_gazebo_worlds
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/core
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_gazebo
+[0.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_components_description)
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_hardware_interfaces -- -j20 -l20
+[0.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/ros_components_description
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description' for CMake module files
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description' for CMake config files
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_components_description', 'cmake_prefix_path')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/hook/cmake_prefix_path.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/hook/cmake_prefix_path.sh'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/bin'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/lib/pkgconfig/ros_components_description.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/bin'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.sh'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.bash'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.zsh'
+[0.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/ros_components_description/share/colcon-core/packages/ros_components_description)
+[0.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/ign_ros2_control -- -j20 -l20
+[0.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_gazebo_worlds)
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_gazebo_worlds
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds' for CMake module files
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds' for CMake config files
+[0.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_gazebo_worlds', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/hook/cmake_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/hook/cmake_prefix_path.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/hook/cmake_prefix_path.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/lib/pkgconfig/psd_gazebo_worlds.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/lib/python3.10/site-packages'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/bin'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.bash'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.zsh'
+[0.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_gazebo_worlds/share/colcon-core/packages/psd_gazebo_worlds)
+[0.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/core
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core' for CMake module files
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core' for CMake config files
+[0.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/bin'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/lib/pkgconfig/core.pc'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/lib/python3.10/site-packages'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/bin'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/core/share/core/package.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.sh'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.bash'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.zsh'
+[1.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/core/share/colcon-core/packages/core)
+[1.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_gazebo)
+[1.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_gazebo
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo' for CMake module files
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo' for CMake config files
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_gazebo', 'cmake_prefix_path')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/hook/cmake_prefix_path.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/hook/cmake_prefix_path.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/hook/cmake_prefix_path.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/lib/pkgconfig/psd_vehicle_gazebo.pc'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/lib/python3.10/site-packages'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/bin'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.sh'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.bash'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.zsh'
+[1.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_gazebo/share/colcon-core/packages/psd_vehicle_gazebo)
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_hardware_interfaces
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_components_description)
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description' for CMake module files
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description' for CMake config files
+[1.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_components_description', 'cmake_prefix_path')
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/hook/cmake_prefix_path.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/hook/cmake_prefix_path.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/hook/cmake_prefix_path.sh'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/bin'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/lib/pkgconfig/ros_components_description.pc'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ros_components_description/bin'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.sh'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.bash'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ros_components_description/share/ros_components_description/package.zsh'
+[1.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/ros_components_description/share/colcon-core/packages/ros_components_description)
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/ign_ros2_control
+[1.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_gazebo_worlds)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds' for CMake config files
+[1.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_gazebo_worlds', 'cmake_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/hook/cmake_prefix_path.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/bin'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/lib/pkgconfig/psd_gazebo_worlds.pc'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/lib/python3.10/site-packages'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_gazebo_worlds/bin'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.sh'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.bash'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.zsh'
+[1.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_gazebo_worlds/share/colcon-core/packages/psd_gazebo_worlds)
+[1.097s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_description' with build type 'ament_cmake'
+[1.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_description'
+[1.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core' for CMake module files
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core' for CMake config files
+[1.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/core/share/core/hook/cmake_prefix_path.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/core/share/core/hook/cmake_prefix_path.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/core/share/core/hook/cmake_prefix_path.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/lib/pkgconfig/core.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/lib/python3.10/site-packages'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/core/bin'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/core/share/core/package.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.sh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.bash'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/core/share/core/package.zsh'
+[1.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/core/share/colcon-core/packages/core)
+[1.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_gazebo)
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_gazebo', 'cmake_prefix_path')
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/hook/cmake_prefix_path.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/bin'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/lib/pkgconfig/psd_vehicle_gazebo.pc'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/lib/python3.10/site-packages'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_gazebo/bin'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.sh'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.zsh'
+[1.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_gazebo/share/colcon-core/packages/psd_vehicle_gazebo)
+[1.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_hardware_interfaces)
+[1.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_hardware_interfaces
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces' for CMake module files
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces' for CMake config files
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_hardware_interfaces', 'cmake_prefix_path')
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/cmake_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/cmake_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/cmake_prefix_path.sh'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib'
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_hardware_interfaces', 'ld_library_path_lib')
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/ld_library_path_lib.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/ld_library_path_lib.dsv'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/ld_library_path_lib.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib/pkgconfig/psd_vehicle_hardware_interfaces.pc'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib/python3.10/site-packages'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/bin'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.bash'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.zsh'
+[1.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/colcon-core/packages/psd_vehicle_hardware_interfaces)
+[1.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/ign_ros2_control
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control' for CMake module files
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control' for CMake config files
+[1.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/lib'
+[1.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'ld_library_path_lib')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.sh'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/bin'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/lib/python3.10/site-packages'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/bin'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_interfaces -- -j20 -l20
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_description -- -j20 -l20
+[1.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_hardware_interfaces)
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces' for CMake module files
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces' for CMake config files
+[1.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_hardware_interfaces', 'cmake_prefix_path')
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/cmake_prefix_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/cmake_prefix_path.sh'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib'
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_hardware_interfaces', 'ld_library_path_lib')
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/ld_library_path_lib.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/ld_library_path_lib.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/hook/ld_library_path_lib.sh'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/bin'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib/pkgconfig/psd_vehicle_hardware_interfaces.pc'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib/python3.10/site-packages'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/bin'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.sh'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/psd_vehicle_hardware_interfaces/package.zsh'
+[1.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/share/colcon-core/packages/psd_vehicle_hardware_interfaces)
+[1.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control' for CMake module files
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control' for CMake config files
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/lib'
+[1.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'ld_library_path_lib')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.sh'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/bin'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/lib/python3.10/site-packages'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control/bin'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[1.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[1.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos' with build type 'ament_cmake'
+[1.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos'
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_interfaces
+[1.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_description -- -j20 -l20
+[1.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_interfaces)
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/core:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/ign_ros2_control/lib:/home/psd/psd_ws/install/psd_vehicle_interfaces/lib:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/psd/psd_ws/build/ign_ros2_control_demos -- -j20 -l20
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_interfaces
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces' for CMake module files
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces' for CMake config files
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_interfaces', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/cmake_prefix_path.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/cmake_prefix_path.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/cmake_prefix_path.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/lib'
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_interfaces', 'ld_library_path_lib')
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/ld_library_path_lib.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/ld_library_path_lib.dsv'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/ld_library_path_lib.sh'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/bin'
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/pkgconfig/psd_vehicle_interfaces.pc'
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/python3.10/site-packages'
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/bin'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.sh'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.bash'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.zsh'
+[1.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_interfaces/share/colcon-core/packages/psd_vehicle_interfaces)
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_description
+[1.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_description)
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/core:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/ign_ros2_control/lib:/home/psd/psd_ws/install/psd_vehicle_interfaces/lib:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/psd/psd_ws/build/ign_ros2_control_demos -- -j20 -l20
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_description
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description' for CMake module files
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description' for CMake config files
+[1.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_description', 'cmake_prefix_path')
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/hook/cmake_prefix_path.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/hook/cmake_prefix_path.dsv'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/hook/cmake_prefix_path.sh'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/bin'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/lib/pkgconfig/psd_vehicle_description.pc'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/lib/python3.10/site-packages'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/bin'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.bash'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.zsh'
+[1.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_description/share/colcon-core/packages/psd_vehicle_description)
+[1.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_interfaces)
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces' for CMake module files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces' for CMake config files
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_interfaces', 'cmake_prefix_path')
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/cmake_prefix_path.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/cmake_prefix_path.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/cmake_prefix_path.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/lib'
+[1.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_interfaces', 'ld_library_path_lib')
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/ld_library_path_lib.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/ld_library_path_lib.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/hook/ld_library_path_lib.sh'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/bin'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/pkgconfig/psd_vehicle_interfaces.pc'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/python3.10/site-packages'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_interfaces/bin'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.ps1'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.dsv'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.sh'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.bash'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_interfaces/share/colcon-core/packages/psd_vehicle_interfaces)
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/core:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/ign_ros2_control/lib:/home/psd/psd_ws/install/psd_vehicle_interfaces/lib:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/psd/psd_ws/build/ign_ros2_control_demos
+[1.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_description)
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description' for CMake module files
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description' for CMake config files
+[1.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_description', 'cmake_prefix_path')
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/hook/cmake_prefix_path.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/hook/cmake_prefix_path.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/hook/cmake_prefix_path.sh'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/bin'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/lib/pkgconfig/psd_vehicle_description.pc'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/lib/python3.10/site-packages'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_description/bin'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.sh'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.bash'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.zsh'
+[1.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_description/share/colcon-core/packages/psd_vehicle_description)
+[1.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_controller' with build type 'ament_cmake'
+[1.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_controller'
+[1.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[1.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/core:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/ign_ros2_control/lib:/home/psd/psd_ws/install/psd_vehicle_interfaces/lib:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/psd/psd_ws/build/ign_ros2_control_demos
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos' for CMake module files
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos' for CMake config files
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/lib'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/bin'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/bin'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[1.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_controller': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_controller -- -j20 -l20
+[1.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos' for CMake module files
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos' for CMake config files
+[1.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/lib'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/bin'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/ign_ros2_control_demos/bin'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[1.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_controller' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_controller -- -j20 -l20
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_controller': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_controller
+[1.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_controller)
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_controller' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_controller
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller' for CMake module files
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller' for CMake config files
+[1.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_controller', 'cmake_prefix_path')
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/hook/cmake_prefix_path.ps1'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/hook/cmake_prefix_path.dsv'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/hook/cmake_prefix_path.sh'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/bin'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/lib/pkgconfig/psd_vehicle_controller.pc'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/lib/python3.10/site-packages'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/bin'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.ps1'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.sh'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.bash'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.zsh'
+[1.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_controller/share/colcon-core/packages/psd_vehicle_controller)
+[1.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_controller)
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller' for CMake module files
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller' for CMake config files
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_controller', 'cmake_prefix_path')
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/hook/cmake_prefix_path.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/hook/cmake_prefix_path.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/hook/cmake_prefix_path.sh'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/bin'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/lib/pkgconfig/psd_vehicle_controller.pc'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/lib/python3.10/site-packages'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_controller/bin'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.ps1'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.dsv'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.sh'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_controller/share/colcon-core/packages/psd_vehicle_controller)
+[1.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_bringup' with build type 'ament_cmake'
+[1.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_bringup'
+[1.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_bringup': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_bringup -- -j20 -l20
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_bringup' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_bringup -- -j20 -l20
+[1.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psd/psd_ws/build/psd_vehicle_bringup': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_bringup
+[1.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_bringup)
+[1.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psd/psd_ws/build/psd_vehicle_bringup' returned '0': CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/psd_vehicle_controller:/home/psd/psd_ws/install/psd_vehicle_description:/home/psd/psd_ws/install/ros_components_description:/home/psd/psd_ws/install/psd_vehicle_bringup:/home/psd/psd_ws/install/psd_vehicle_interfaces:/home/psd/psd_ws/install/psd_vehicle_hardware_interfaces:/home/psd/psd_ws/install/psd_vehicle_gazebo:/home/psd/psd_ws/install/psd_gazebo_worlds:/home/psd/psd_ws/install/ign_ros2_control_demos:/home/psd/psd_ws/install/ign_ros2_control:/home/psd/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_bringup
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup' for CMake module files
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup' for CMake config files
+[1.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_bringup', 'cmake_prefix_path')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/hook/cmake_prefix_path.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/hook/cmake_prefix_path.dsv'
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/hook/cmake_prefix_path.sh'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/bin'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/lib/pkgconfig/psd_vehicle_bringup.pc'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/lib/python3.10/site-packages'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/bin'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.dsv'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.bash'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.zsh'
+[1.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_bringup/share/colcon-core/packages/psd_vehicle_bringup)
+[1.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(psd_vehicle_bringup)
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup' for CMake module files
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup' for CMake config files
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('psd_vehicle_bringup', 'cmake_prefix_path')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/hook/cmake_prefix_path.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/hook/cmake_prefix_path.dsv'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/hook/cmake_prefix_path.sh'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/bin'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/lib/pkgconfig/psd_vehicle_bringup.pc'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/lib/python3.10/site-packages'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/psd/psd_ws/install/psd_vehicle_bringup/bin'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.sh'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.bash'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.zsh'
+[1.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psd/psd_ws/install/psd_vehicle_bringup/share/colcon-core/packages/psd_vehicle_bringup)
+[1.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.795s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.809s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.811s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.811s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psd/psd_ws/install/local_setup.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/psd/psd_ws/install/_local_setup_util_ps1.py'
+[1.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psd/psd_ws/install/setup.ps1'
+[1.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psd/psd_ws/install/local_setup.sh'
+[1.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/psd/psd_ws/install/_local_setup_util_sh.py'
+[1.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psd/psd_ws/install/setup.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psd/psd_ws/install/local_setup.bash'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psd/psd_ws/install/setup.bash'
+[1.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psd/psd_ws/install/local_setup.zsh'
+[1.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psd/psd_ws/install/setup.zsh'

@@ -1,6 +1,0 @@
-Invoking command in '/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo -DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_gazebo
-Invoked command in '/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo -DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_gazebo
-Invoking command in '/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
-Invoked command in '/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
-Invoking command in '/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle_gazebo
-Invoked command in '/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle_gazebo

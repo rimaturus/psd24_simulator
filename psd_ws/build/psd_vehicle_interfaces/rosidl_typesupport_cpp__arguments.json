@@ -1,9 +1,9 @@
 {
   "package_name": "psd_vehicle_interfaces",
-  "output_dir": "/psd_ws/build/psd_vehicle_interfaces/rosidl_typesupport_cpp/psd_vehicle_interfaces",
+  "output_dir": "/home/psd/psd_ws/build/psd_vehicle_interfaces/rosidl_typesupport_cpp/psd_vehicle_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/psd_ws/build/psd_vehicle_interfaces/rosidl_adapter/psd_vehicle_interfaces:msg/ObstacleInfo.idl"
+    "/home/psd/psd_ws/build/psd_vehicle_interfaces/rosidl_adapter/psd_vehicle_interfaces:msg/ObstacleInfo.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -73,7 +73,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/psd_ws/build/psd_vehicle_interfaces/rosidl_adapter/psd_vehicle_interfaces/msg/ObstacleInfo.idl",
+    "/home/psd/psd_ws/build/psd_vehicle_interfaces/rosidl_adapter/psd_vehicle_interfaces/msg/ObstacleInfo.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

@@ -85,7 +85,7 @@ def generate_sdf(inner, outer):
         <collision name='cone_{}_collision'>
           <geometry>
             <mesh>
-              <uri>/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
+              <uri>/home/psd/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -93,7 +93,7 @@ def generate_sdf(inner, outer):
         <visual name='cone_{}_visual'>
           <geometry>
             <mesh>
-              <uri>/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
+              <uri>/home/psd/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>

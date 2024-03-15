@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/psd_vehicle_ros/psd_vehicle_controller
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /psd_ws/build/psd_vehicle_controller
+CMAKE_BINARY_DIR = /home/psd/psd_ws/build/psd_vehicle_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /psd_ws/build/psd_vehicle_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/psd_vehicle_ros/psd_vehicle_controller /psd_ws/src/psd_vehicle_ros/psd_vehicle_controller /psd_ws/build/psd_vehicle_controller /psd_ws/build/psd_vehicle_controller /psd_ws/build/psd_vehicle_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/psd_vehicle_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_controller /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_controller /home/psd/psd_ws/build/psd_vehicle_controller /home/psd/psd_ws/build/psd_vehicle_controller /home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

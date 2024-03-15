@@ -80,9 +80,11 @@ def generate_launch_description():
             "-x",
             "0.0",
             "-y",
-            "-0.0",
+            "-2",
             "-z",
-            "1.0",
+            "0.5",
+            "-Y",
+            "1.20",
         ],
         output="screen",
     )

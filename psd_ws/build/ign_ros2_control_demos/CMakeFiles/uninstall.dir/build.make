@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /psd_ws/build/ign_ros2_control_demos
+CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ign_ros2_control_demos
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /psd_ws/build/ign_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /psd_ws/build/ign_ros2_control_demos /psd_ws/build/ign_ros2_control_demos /psd_ws/build/ign_ros2_control_demos/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ign_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

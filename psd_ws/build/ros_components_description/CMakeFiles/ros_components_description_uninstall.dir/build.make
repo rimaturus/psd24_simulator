@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/ros_components_description
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros_components_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /psd_ws/build/ros_components_description
+CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ros_components_description
 
 # Utility rule file for ros_components_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ros_components_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/ros_components_description_uninstall.dir/progress.make
 
 CMakeFiles/ros_components_description_uninstall:
-	/usr/bin/cmake -P /psd_ws/build/ros_components_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/psd/psd_ws/build/ros_components_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros_components_description_uninstall: CMakeFiles/ros_components_description_uninstall
 ros_components_description_uninstall: CMakeFiles/ros_components_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ros_components_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros_components_description_uninstall.dir/clean
 
 CMakeFiles/ros_components_description_uninstall.dir/depend:
-	cd /psd_ws/build/ros_components_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/ros_components_description /psd_ws/src/ros_components_description /psd_ws/build/ros_components_description /psd_ws/build/ros_components_description /psd_ws/build/ros_components_description/CMakeFiles/ros_components_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ros_components_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros_components_description /home/psd/psd_ws/src/ros_components_description /home/psd/psd_ws/build/ros_components_description /home/psd/psd_ws/build/ros_components_description /home/psd/psd_ws/build/ros_components_description/CMakeFiles/ros_components_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros_components_description_uninstall.dir/depend
 
