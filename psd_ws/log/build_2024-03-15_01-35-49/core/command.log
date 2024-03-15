@@ -1,0 +1,6 @@
+Invoking command in '/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/core -DCMAKE_INSTALL_PREFIX=/psd_ws/install/core
+Invoked command in '/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/core -DCMAKE_INSTALL_PREFIX=/psd_ws/install/core
+Invoking command in '/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/core -- -j20 -l20
+Invoked command in '/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/core -- -j20 -l20
+Invoking command in '/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/core
+Invoked command in '/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/core

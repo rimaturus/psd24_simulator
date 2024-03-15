@@ -1,0 +1,44 @@
+[0.140s] Invoking command in '/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/core -DCMAKE_INSTALL_PREFIX=/psd_ws/install/core
+[0.200s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.247s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.594s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.662s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.663s] -- Added test 'lint_cmake' to check CMake code style
+[0.663s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.665s] -- Added test 'xmllint' to check XML markup files
+[0.666s] -- Configuring done
+[0.668s] -- Generating done
+[0.669s] -- Build files have been written to: /psd_ws/build/core
+[0.672s] Invoked command in '/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/core -DCMAKE_INSTALL_PREFIX=/psd_ws/install/core
+[0.674s] Invoking command in '/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/core -- -j20 -l20
+[0.708s] Invoked command in '/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/core -- -j20 -l20
+[0.760s] Invoking command in '/psd_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/core
+[0.766s] -- Install configuration: ""
+[0.767s] -- Installing: /psd_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core
+[0.767s] -- Installing: /psd_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core
+[0.767s] -- Installing: /psd_ws/install/core/share/core/environment/ament_prefix_path.sh
+[0.768s] -- Installing: /psd_ws/install/core/share/core/environment/ament_prefix_path.dsv
+[0.768s] -- Installing: /psd_ws/install/core/share/core/environment/path.sh
+[0.768s] -- Installing: /psd_ws/install/core/share/core/environment/path.dsv
+[0.768s] -- Installing: /psd_ws/install/core/share/core/local_setup.bash
+[0.768s] -- Installing: /psd_ws/install/core/share/core/local_setup.sh
+[0.768s] -- Installing: /psd_ws/install/core/share/core/local_setup.zsh
+[0.769s] -- Installing: /psd_ws/install/core/share/core/local_setup.dsv
+[0.769s] -- Installing: /psd_ws/install/core/share/core/package.dsv
+[0.769s] -- Installing: /psd_ws/install/core/share/ament_index/resource_index/packages/core
+[0.769s] -- Installing: /psd_ws/install/core/share/core/cmake/coreConfig.cmake
+[0.770s] -- Installing: /psd_ws/install/core/share/core/cmake/coreConfig-version.cmake
+[0.770s] -- Installing: /psd_ws/install/core/share/core/package.xml
+[0.831s] Invoked command in '/psd_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/core

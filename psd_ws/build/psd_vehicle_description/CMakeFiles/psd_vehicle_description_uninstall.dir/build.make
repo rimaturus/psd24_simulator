@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /psd_ws/src/psd_vehicle_description
+CMAKE_SOURCE_DIR = /psd_ws/src/psd_vehicle_ros/psd_vehicle_description
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /psd_ws/build/psd_vehicle_description
@@ -82,6 +82,6 @@ CMakeFiles/psd_vehicle_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/psd_vehicle_description_uninstall.dir/clean
 
 CMakeFiles/psd_vehicle_description_uninstall.dir/depend:
-	cd /psd_ws/build/psd_vehicle_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/psd_vehicle_description /psd_ws/src/psd_vehicle_description /psd_ws/build/psd_vehicle_description /psd_ws/build/psd_vehicle_description /psd_ws/build/psd_vehicle_description/CMakeFiles/psd_vehicle_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /psd_ws/build/psd_vehicle_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /psd_ws/src/psd_vehicle_ros/psd_vehicle_description /psd_ws/src/psd_vehicle_ros/psd_vehicle_description /psd_ws/build/psd_vehicle_description /psd_ws/build/psd_vehicle_description /psd_ws/build/psd_vehicle_description/CMakeFiles/psd_vehicle_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/psd_vehicle_description_uninstall.dir/depend
 

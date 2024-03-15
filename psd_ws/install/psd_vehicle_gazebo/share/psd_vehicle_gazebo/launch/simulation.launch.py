@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+
+from launch import LaunchDescription
+from launch.actions import (
+    IncludeLaunchDescription,
+    DeclareLaunchArgument,
+)
+from launch.substitutions import (
+    PathJoinSubstitution,
+    LaunchConfiguration,
+)
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+
+from launch_ros.actions import Node, SetParameter
+
+from ament_index_python.packages import get_package_share_directory
+
+
+def generate_launch_description():
+    diff_drive = LaunchConfiguration("diff_drive")
+    declare_diff_drive_arg = DeclareLaunchArgument(
+        "diff_drive",
+        default_value="True",
+        description="Diff drive controller is used",
+    )
+
+    lidar_model = LaunchConfiguration("lidar_model")
+    declare_lidar_model_arg = DeclareLaunchArgument(
+        "lidar_model",
+        default_value="slamtec_rplidar_s1",
+        description="Lidar model added to the URDF",
+    )
+
+    camera_model = LaunchConfiguration("camera_model")
+    declare_camera_model_arg = DeclareLaunchArgument(
+        "camera_model",
+        default_value="intel_realsense_d435",
+        description="Camera model added to the URDF",
+    )
+
+    include_camera_mount = LaunchConfiguration("include_camera_mount")
+    declare_include_camera_mount_arg = DeclareLaunchArgument(
+        "include_camera_mount",
+        default_value="True",
+        description="Whether to include camera mount to the robot URDF",
+    )
+
+    map_package = get_package_share_directory("psd_gazebo_worlds")
+    #world_file = PathJoinSubstitution([map_package, "worlds", "office.sdf"])
+    world_file = PathJoinSubstitution([map_package, "worlds", "track.sdf"])
+    world_cfg = LaunchConfiguration("world")
+    declare_world_arg = DeclareLaunchArgument(
+        "world", default_value=["-r ", world_file], description="SDF world file"
+    )
+
+    gz_sim = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution(
+                [
+                    get_package_share_directory("ros_gz_sim"),
+                    "launch",
+                    "gz_sim.launch.py",
+                ]
+            )
+        ),
+        launch_arguments={"gz_args": world_cfg}.items(),
+    )
+
+    # set the name and spawn position of the robot on the gazebo world
+    gz_spawn_entity = Node(
+        package="ros_gz_sim",
+        executable="create",
+        arguments=[
+            "-name",
+            "psd_vehicle",
+            "-allow_renaming",
+            "true",
+            "-topic",
+            "robot_description",
+            "-x",
+            "0.0",
+            "-y",
+            "-0.0",
+            "-z",
+            "1.0",
+        ],
+        output="screen",
+    )
+    ign_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        name="ign_bridge",
+        arguments=[
+            "/clock" + "@rosgraph_msgs/msg/Clock" + "[ignition.msgs.Clock",
+            "/scan" + "@sensor_msgs/msg/LaserScan" + "[ignition.msgs.LaserScan",
+            "/velodyne_points/points"
+            + "@sensor_msgs/msg/PointCloud2"
+            + "[ignition.msgs.PointCloudPacked",
+            "/camera/color/camera_info"
+            + "@sensor_msgs/msg/CameraInfo"
+            + "[ignition.msgs.CameraInfo",
+            "/camera/color/image_raw"
+            + "@sensor_msgs/msg/Image"
+            + "[ignition.msgs.Image",
+            "/camera/camera_info"
+            + "@sensor_msgs/msg/CameraInfo"
+            + "[ignition.msgs.CameraInfo",
+            "/camera/depth" + "@sensor_msgs/msg/Image" + "[ignition.msgs.Image",
+            "/camera/depth/points"
+            + "@sensor_msgs/msg/PointCloud2"
+            + "[ignition.msgs.PointCloudPacked",
+        ],
+        remappings=[
+            ("/velodyne_points/points", "/velodyne_points"),
+            ("/camera/camera_info", "/camera/depth/camera_info"),
+            ("/camera/depth", "/camera/depth/image_raw"),
+        ],
+        output="screen",
+    )
+
+    bringup_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution(
+                [
+                    get_package_share_directory("psd_vehicle_bringup"),
+                    "launch",
+                    "bringup.launch.py",
+                ]
+            )
+        ),
+        launch_arguments={
+            "diff_drive": diff_drive,
+            "lidar_model": lidar_model,
+            "camera_model": camera_model,
+            "include_camera_mount": include_camera_mount,
+            "use_sim": "True",
+            "simulation_engine": "ignition-gazebo",
+        }.items(),
+    )
+
+    return LaunchDescription(
+        [
+            declare_diff_drive_arg,
+            declare_lidar_model_arg,
+            declare_camera_model_arg,
+            declare_include_camera_mount_arg,
+            declare_world_arg,
+            # Sets use_sim_time for all nodes started below (doesn't work for nodes started from ignition gazebo)
+            SetParameter(name="use_sim_time", value=True),
+            gz_sim,
+            ign_bridge,
+            gz_spawn_entity,
+            bringup_launch,
+        ]
+    )

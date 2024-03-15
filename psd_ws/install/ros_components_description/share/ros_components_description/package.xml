@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros_components_description</name>
+  <version>0.0.1</version>
+
+  <description>URDF descriptions of components offered with Husarion robots</description>
+  <license>Apache License 2.0</license>
+
+  <author email="krzysztof.wojciechowski@husarion.com">Krzysztof Wojciechowski</author>
+  <author email="pawel.kowalski@husarion.com">Pawel Kowalski</author>
+  <maintainer email="support@husarion.com">Husarion</maintainer>
+
+  <url type="website">https://husarion.com</url>
+  <url type="repository">https://github.com/husarion/ros_components_description/</url>
+  <url type="bugtracker">https://github.com/husarion/ros_components_description/issues</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>robot_state_publisher</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+
+  <depend condition="($HUSARION_ROS_BUILD_TYPE == simulation) and ($SIMULATION_ENGINE == gazebo-classic)">
+    gazebo_plugins
+  </depend>
+
+  <depend condition="($HUSARION_ROS_BUILD_TYPE == simulation) and ($SIMULATION_ENGINE == ignition-gazebo)">
+    ros_gz_sim
+  </depend>
+
+  <depend condition="($HUSARION_ROS_BUILD_TYPE == simulation) and ($SIMULATION_ENGINE == ignition-gazebo)">
+    ros_gz_bridge
+  </depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

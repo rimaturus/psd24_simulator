@@ -1,0 +1,4 @@
+source;share/ign_ros2_control/local_setup.bash
+source;share/ign_ros2_control/local_setup.dsv
+source;share/ign_ros2_control/local_setup.sh
+source;share/ign_ros2_control/local_setup.zsh

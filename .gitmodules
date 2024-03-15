@@ -1,0 +1,3 @@
+[submodule "psd_ws/src/ros_components_description"]
+	path = psd_ws/src/ros_components_description
+	url = https://github.com/husarion/ros_components_description.git

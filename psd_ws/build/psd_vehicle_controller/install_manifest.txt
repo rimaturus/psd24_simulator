@@ -1,0 +1,17 @@
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/launch/controller.launch.py
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/config/diff_drive_controller.yaml
+/psd_ws/install/psd_vehicle_controller/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_controller
+/psd_ws/install/psd_vehicle_controller/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_controller
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/environment/ament_prefix_path.sh
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/environment/ament_prefix_path.dsv
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/environment/path.sh
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/environment/path.dsv
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/local_setup.bash
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/local_setup.sh
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/local_setup.zsh
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/local_setup.dsv
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.dsv
+/psd_ws/install/psd_vehicle_controller/share/ament_index/resource_index/packages/psd_vehicle_controller
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/cmake/psd_vehicle_controllerConfig.cmake
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/cmake/psd_vehicle_controllerConfig-version.cmake
+/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/package.xml

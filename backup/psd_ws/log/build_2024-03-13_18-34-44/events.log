@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000092] (psd_vehicle) JobQueued: {'identifier': 'psd_vehicle', 'dependencies': OrderedDict()}
+[0.000110] (psd_vehicle_description) JobQueued: {'identifier': 'psd_vehicle_description', 'dependencies': OrderedDict()}
+[0.000131] (psd_vehicle) JobStarted: {'identifier': 'psd_vehicle'}
+[0.019004] (psd_vehicle_description) JobStarted: {'identifier': 'psd_vehicle_description'}
+[0.036829] (psd_vehicle) JobProgress: {'identifier': 'psd_vehicle', 'progress': 'cmake'}
+[0.036972] (psd_vehicle) Command: {'cmd': ['/usr/bin/cmake', '/psd_ws/src/psd_vehicle', '-DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle'], 'cwd': '/psd_ws/build/psd_vehicle', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/psd_ws/build/psd_vehicle'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038953] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'cmake'}
+[0.039138] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '/psd_ws/src/psd_vehicle_description', '-DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_description'], 'cwd': '/psd_ws/build/psd_vehicle_description', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/psd_ws/build/psd_vehicle_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069350] (psd_vehicle_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.069489] (psd_vehicle) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099415] (-) TimerEvent: {}
+[0.100088] (psd_vehicle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.100304] (psd_vehicle_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.104363] (psd_vehicle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.104551] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.142422] (psd_vehicle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.142718] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.146817] (psd_vehicle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.146939] (psd_vehicle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147098] (psd_vehicle_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.147213] (psd_vehicle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.147385] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147610] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.149168] (psd_vehicle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.149391] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193341] (psd_vehicle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.193774] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.197707] (psd_vehicle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.197858] (psd_vehicle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.197951] (psd_vehicle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.198207] (psd_vehicle_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.198293] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.198740] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199472] (-) TimerEvent: {}
+[0.199585] (psd_vehicle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200031] (psd_vehicle_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.284148] (psd_vehicle) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.284291] (psd_vehicle_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299612] (-) TimerEvent: {}
+[0.336372] (psd_vehicle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.336602] (psd_vehicle_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.380942] (psd_vehicle_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.381202] (psd_vehicle_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.381377] (psd_vehicle_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.381564] (psd_vehicle) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.382483] (psd_vehicle_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.382960] (psd_vehicle_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.383062] (psd_vehicle) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.383540] (psd_vehicle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.383715] (psd_vehicle) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.384459] (psd_vehicle_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.384544] (psd_vehicle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.384684] (psd_vehicle_description) StdoutLine: {'line': b'-- Build files have been written to: /psd_ws/build/psd_vehicle_description\n'}
+[0.385108] (psd_vehicle) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.386487] (psd_vehicle) StdoutLine: {'line': b'-- Generating done\n'}
+[0.386897] (psd_vehicle) StdoutLine: {'line': b'-- Build files have been written to: /psd_ws/build/psd_vehicle\n'}
+[0.388286] (psd_vehicle_description) CommandEnded: {'returncode': 0}
+[0.388485] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'build'}
+[0.388509] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/psd_ws/build/psd_vehicle_description', '--', '-j20', '-l20'], 'cwd': '/psd_ws/build/psd_vehicle_description', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/psd_ws/build/psd_vehicle_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.389861] (psd_vehicle) CommandEnded: {'returncode': 0}
+[0.390103] (psd_vehicle) JobProgress: {'identifier': 'psd_vehicle', 'progress': 'build'}
+[0.390281] (psd_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/psd_ws/build/psd_vehicle', '--', '-j20', '-l20'], 'cwd': '/psd_ws/build/psd_vehicle', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/psd_ws/build/psd_vehicle'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.399712] (-) TimerEvent: {}
+[0.408494] (psd_vehicle_description) CommandEnded: {'returncode': 0}
+[0.409873] (psd_vehicle) CommandEnded: {'returncode': 0}
+[0.419021] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'install'}
+[0.423228] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/psd_ws/build/psd_vehicle_description'], 'cwd': '/psd_ws/build/psd_vehicle_description', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/psd_ws/build/psd_vehicle_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.424186] (psd_vehicle) JobProgress: {'identifier': 'psd_vehicle', 'progress': 'install'}
+[0.424741] (psd_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/psd_ws/build/psd_vehicle'], 'cwd': '/psd_ws/build/psd_vehicle', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/psd'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/psd_ws/build/psd_vehicle'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.427650] (psd_vehicle_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.427919] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src\n'}
+[0.427965] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description\n'}
+[0.427998] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/psd_vehicle.trans\n'}
+[0.428027] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes\n'}
+[0.428056] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/link_RR_1.stl\n'}
+[0.428083] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/link_FR_1.stl\n'}
+[0.428267] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/tyre_RL_1.stl\n'}
+[0.428341] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/perno_FR_1.stl\n'}
+[0.428378] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/tyre_RR_1.stl\n'}
+[0.428411] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/link_RL_1.stl\n'}
+[0.428442] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/base_link.stl\n'}
+[0.428473] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/link_FL_1.stl\n'}
+[0.428501] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/tyre_FR_1.stl\n'}
+[0.428531] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/tyre_FL_1.stl\n'}
+[0.428652] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/meshes/perno_FL_1.stl\n'}
+[0.428685] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/materials.xacro\n'}
+[0.428713] (psd_vehicle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.428768] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/psd_vehicle.xacro\n'}
+[0.428797] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/src/description/psd_vehicle.gazebo\n'}
+[0.428835] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/launch\n'}
+[0.428863] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/launch/rsp.launch.py\n'}
+[0.428891] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/launch/gazebo.launch.py\n'}
+[0.428918] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/launch/display.launch.py\n'}
+[0.428963] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz\n'}
+[0.429002] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz/urdf.rviz\n'}
+[0.429030] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz/urdf_config.rviz\n'}
+[0.429058] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/config\n'}
+[0.429086] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/config/empty.yaml\n'}
+[0.429111] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description\n'}
+[0.429137] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/camera.xacro\n'}
+[0.429164] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/robot_core.xacro\n'}
+[0.429189] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/inertial_macros.xacro\n'}
+[0.429215] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/config\n'}
+[0.429240] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/config/empty.yaml\n'}
+[0.429308] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description\n'}
+[0.429335] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/gazebo_control.xacro\n'}
+[0.429361] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/robot.urdf.xacro\n'}
+[0.429387] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description\n'}
+[0.429413] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh\n'}
+[0.429439] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.dsv\n'}
+[0.429464] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.sh\n'}
+[0.429490] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.dsv\n'}
+[0.429515] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.bash\n'}
+[0.429541] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.sh\n'}
+[0.429566] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.zsh\n'}
+[0.429590] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.dsv\n'}
+[0.429615] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv\n'}
+[0.429640] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/depth_camera.xacro\n'}
+[0.429753] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/lidar.xacro\n'}
+[0.429785] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/ackermann.urdf.xacro\n'}
+[0.429814] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/description/ros2_control.xacro\n'}
+[0.429841] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch\n'}
+[0.429866] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/online_async_launch.py\n'}
+[0.429892] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/localization_launch.py\n'}
+[0.429918] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/rsp.launch.py\n'}
+[0.429944] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/joystick.launch.py\n'}
+[0.429971] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/launch_robot.launch.py\n'}
+[0.429997] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/rplidar.launch.py\n'}
+[0.430022] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/navigation_launch.py\n'}
+[0.430061] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/packages/psd_vehicle_description\n'}
+[0.430090] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig.cmake\n'}
+[0.430119] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig-version.cmake\n'}
+[0.430146] (psd_vehicle_description) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.xml\n'}
+[0.430173] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/camera.launch.py\n'}
+[0.430200] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/launch/launch_sim.launch.py\n'}
+[0.430227] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/worlds\n'}
+[0.430254] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/worlds/track.world\n'}
+[0.430281] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/worlds/empty.world\n'}
+[0.430307] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/worlds/obstacles.world\n'}
+[0.430333] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/ament_index/resource_index/package_run_dependencies/psd_vehicle\n'}
+[0.430360] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/ament_index/resource_index/parent_prefix_path/psd_vehicle\n'}
+[0.430442] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/environment/ament_prefix_path.sh\n'}
+[0.430851] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/environment/ament_prefix_path.dsv\n'}
+[0.430882] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/environment/path.sh\n'}
+[0.430912] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/environment/path.dsv\n'}
+[0.430941] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/local_setup.bash\n'}
+[0.430970] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/local_setup.sh\n'}
+[0.431058] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/local_setup.zsh\n'}
+[0.431317] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/local_setup.dsv\n'}
+[0.431528] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/package.dsv\n'}
+[0.431650] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/ament_index/resource_index/packages/psd_vehicle\n'}
+[0.431921] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/cmake/psd_vehicleConfig.cmake\n'}
+[0.431957] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/cmake/psd_vehicleConfig-version.cmake\n'}
+[0.431990] (psd_vehicle) StdoutLine: {'line': b'-- Installing: /psd_ws/install/psd_vehicle/share/psd_vehicle/package.xml\n'}
+[0.432318] (psd_vehicle_description) CommandEnded: {'returncode': 0}
+[0.454154] (psd_vehicle) CommandEnded: {'returncode': 0}
+[0.496550] (psd_vehicle_description) JobEnded: {'identifier': 'psd_vehicle_description', 'rc': 0}
+[0.499821] (-) TimerEvent: {}
+[0.520704] (psd_vehicle) JobEnded: {'identifier': 'psd_vehicle', 'rc': 0}
+[0.521141] (-) EventReactorShutdown: {}

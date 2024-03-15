@@ -1,4 +1,4 @@
-# Install script for directory: /psd_ws/src/psd_vehicle_description
+# Install script for directory: /psd_ws/src/psd_vehicle_ros/psd_vehicle_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_vehicle_description" TYPE DIRECTORY FILES
-    "/psd_ws/src/psd_vehicle_description/src"
-    "/psd_ws/src/psd_vehicle_description/launch"
-    "/psd_ws/src/psd_vehicle_description/rviz"
-    "/psd_ws/src/psd_vehicle_description/config"
+    "/psd_ws/src/psd_vehicle_ros/psd_vehicle_description/meshes"
+    "/psd_ws/src/psd_vehicle_ros/psd_vehicle_description/urdf"
     )
 endif()
 
@@ -107,7 +105,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_vehicle_description" TYPE FILE FILES "/psd_ws/src/psd_vehicle_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_vehicle_description" TYPE FILE FILES "/psd_ws/src/psd_vehicle_ros/psd_vehicle_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

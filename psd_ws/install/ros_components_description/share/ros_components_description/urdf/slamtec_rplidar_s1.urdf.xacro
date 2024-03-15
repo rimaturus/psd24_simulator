@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="slamtec_rplidar_s1"
+               params="parent_link xyz rpy
+                       use_gpu:=false
+                       tf_prefix:=None
+                       topic:=scan
+                       frame_id:=laser
+                       namespace=None
+                       simulation_engine:=gazebo-classic">
+
+
+    <xacro:if value="${namespace == 'None'}">
+      <xacro:property name="ns" value="" />
+    </xacro:if>
+    <xacro:unless value="${namespace == 'None'}">
+      <xacro:property name="ns" value="${namespace}/" />
+    </xacro:unless>
+
+    <xacro:if value="${use_gpu}">
+      <xacro:if value="${simulation_engine == 'gazebo-classic'}">
+        <xacro:property name="ray_type" value="gpu_ray" />
+      </xacro:if>
+      <xacro:if value="${simulation_engine == 'ignition-gazebo'}">
+        <xacro:property name="ray_type" value="gpu_lidar" />
+      </xacro:if>
+    </xacro:if>
+    <xacro:unless value="${use_gpu}">
+      <xacro:if value="${simulation_engine == 'gazebo-classic'}">
+        <xacro:property name="ray_type" value="ray" />
+      </xacro:if>
+      <xacro:if value="${simulation_engine == 'ignition-gazebo'}">
+        <!-- use_gpu has to be set to true, CPU lidar doesn't work in ignition -
+          https://github.com/gazebosim/gz-sensors/issues/26 -->
+        <xacro:property name="ray_type" value="lidar" />
+      </xacro:if>
+    </xacro:unless>
+
+    <xacro:if value="${tf_prefix == 'None'}">
+      <xacro:property name="prefix" value="" />
+    </xacro:if>
+    <xacro:unless value="${tf_prefix == 'None'}">
+      <xacro:property name="prefix" value="${tf_prefix}_" />
+    </xacro:unless>
+
+    <joint name="${parent_link.rstrip('_link')}_to_${prefix}slamtec_rplidar_s1_joint" type="fixed">
+      <origin xyz="${xyz}" rpy="${rpy}" />
+      <parent link="${parent_link}" />
+      <child link="${prefix}slamtec_rplidar_s1_link" />
+    </joint>
+
+    <link name="${prefix}slamtec_rplidar_s1_link">
+      <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+        <geometry>
+          <mesh filename="package://ros_components_description/meshes/slamtec_rplidar_s1.dae" />
+        </geometry>
+      </visual>
+
+      <!-- spinning head collision -->
+      <collision>
+        <origin xyz="0.0 0.0 ${0.051/2.0}" rpy="0.0 0.0 0.0" />
+        <geometry>
+          <cylinder radius="${0.0555/2.0}" length="0.051" />
+        </geometry>
+      </collision>
+
+      <!-- base collision -->
+      <collision>
+        <origin xyz="0.0 0.0 ${0.0195/2.0}" rpy="0.0 0.0 0.0" />
+        <geometry>
+          <box size="0.0555 0.0555 0.0195" />
+        </geometry>
+      </collision>
+
+      <inertial>
+        <origin xyz="0.0 0.0 ${0.0555/2.0}" rpy="0.0 0.0 0.0" />
+        <mass value="0.105" />
+        <inertia ixx="0.000049654" ixy="0.0"         ixz="0.0"
+                                   iyy="0.000049654" iyz="0.0"
+                                                     izz="0.000053884" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}slamtec_rplidar_s1_to_${prefix}${frame_id.rstrip('_link')}_joint" type="fixed">
+      <origin xyz="0.0 0.0 0.04" rpy="0.0 0.0 ${pi}" />
+      <parent link="${prefix}slamtec_rplidar_s1_link" />
+      <child link="${prefix}${frame_id}" />
+    </joint>
+
+    <link name="${prefix}${frame_id}" />
+
+    <xacro:if value="${simulation_engine == 'ignition-gazebo'}">
+      <gazebo reference="${prefix}${frame_id}">
+        <sensor type="${ray_type}" name="${ns}${prefix}rplidar_s1_sensor">
+
+          <topic>${ns}${topic}</topic>
+          <frame_id>${prefix}${frame_id}</frame_id>
+          <ignition_frame_id>${prefix}${frame_id}</ignition_frame_id>
+
+          <update_rate>10.0</update_rate>
+          <ray>
+            <scan>
+              <horizontal>
+                <samples>920</samples>
+                <resolution>1</resolution>
+                <min_angle>-${pi}</min_angle>
+                <max_angle>${pi}</max_angle>
+              </horizontal>
+            </scan>
+            <range>
+              <min>0.04</min>
+              <max>40.0</max>
+              <resolution>0.03</resolution>
+            </range>
+            <noise>
+              <type>gaussian</type>
+              <mean>0.0</mean>
+              <stddev>0.001</stddev>
+            </noise>
+          </ray>
+          <always_on>1</always_on>
+          <visualize>false</visualize>
+          <ros>
+            <namespace>${ns}</namespace>
+          </ros>
+        </sensor>
+      </gazebo>
+    </xacro:if>
+
+    <xacro:if value="${simulation_engine == 'gazebo-classic'}">
+      <gazebo reference="${prefix}${frame_id}">
+        <sensor type="${ray_type}" name="${prefix}slamtec_rplidar_s1_sensor">
+          <visualize>false</visualize>
+          <ray>
+            <scan>
+              <horizontal>
+                <samples>920</samples>
+                <resolution>1</resolution>
+                <min_angle>-${pi}</min_angle>
+                <max_angle>${pi}</max_angle>
+              </horizontal>
+            </scan>
+            <range>
+              <min>0.04</min>
+              <max>40.0</max>
+              <resolution>0.03</resolution>
+            </range>
+            <noise>
+              <type>gaussian</type>
+              <mean>0.0</mean>
+              <stddev>0.03</stddev>
+            </noise>
+          </ray>
+
+          <update_rate>10.0</update_rate>
+
+          <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+            <ros>
+              <namespace></namespace>
+              <remapping>~/out:=${topic}</remapping>
+            </ros>
+            <output_type>sensor_msgs/LaserScan</output_type>
+            <frame_name>${prefix}${frame_id}</frame_name>
+          </plugin>
+        </sensor>
+      </gazebo>
+    </xacro:if>
+  </xacro:macro>
+</robot>

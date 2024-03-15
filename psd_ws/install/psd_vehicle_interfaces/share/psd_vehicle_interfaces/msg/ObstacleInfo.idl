@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from psd_vehicle_interfaces/msg/ObstacleInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module psd_vehicle_interfaces {
+  module msg {
+    struct ObstacleInfo {
+      string name;
+
+      string shape;
+
+      geometry_msgs::msg::Pose2D position;
+
+      float area;
+
+      string frame_id;
+    };
+  };
+};

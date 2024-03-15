@@ -1,1 +1,1 @@
-/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle:/opt/ros/humble
+/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble

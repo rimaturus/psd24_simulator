@@ -1,0 +1,8 @@
+source;share/psd_gazebo_worlds/hook/cmake_prefix_path.ps1
+source;share/psd_gazebo_worlds/hook/cmake_prefix_path.dsv
+source;share/psd_gazebo_worlds/hook/cmake_prefix_path.sh
+source;share/psd_gazebo_worlds/local_setup.bash
+source;share/psd_gazebo_worlds/local_setup.dsv
+source;share/psd_gazebo_worlds/local_setup.ps1
+source;share/psd_gazebo_worlds/local_setup.sh
+source;share/psd_gazebo_worlds/local_setup.zsh

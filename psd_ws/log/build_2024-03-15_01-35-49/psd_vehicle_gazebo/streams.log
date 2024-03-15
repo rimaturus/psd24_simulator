@@ -1,0 +1,41 @@
+[0.088s] Invoking command in '/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo -DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_gazebo
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.585s] -- Configuring done
+[0.588s] -- Generating done
+[0.589s] -- Build files have been written to: /psd_ws/build/psd_vehicle_gazebo
+[0.593s] Invoked command in '/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo -DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_gazebo
+[0.595s] Invoking command in '/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
+[0.624s] Invoked command in '/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
+[0.650s] Invoking command in '/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle_gazebo
+[0.655s] -- Install configuration: ""
+[0.655s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch
+[0.655s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch/simulation.launch.py
+[0.655s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_gazebo
+[0.655s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_gazebo
+[0.655s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/ament_prefix_path.sh
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/ament_prefix_path.dsv
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/path.sh
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/path.dsv
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.bash
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.sh
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.zsh
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.dsv
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.dsv
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/packages/psd_vehicle_gazebo
+[0.656s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/cmake/psd_vehicle_gazeboConfig.cmake
+[0.657s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/cmake/psd_vehicle_gazeboConfig-version.cmake
+[0.657s] -- Installing: /psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.xml
+[0.658s] Invoked command in '/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle_gazebo

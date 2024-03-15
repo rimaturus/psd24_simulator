@@ -1,0 +1,4 @@
+Invoking command in '/psd_ws/build/psd_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle -- -j20 -l20
+Invoked command in '/psd_ws/build/psd_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle -- -j20 -l20
+Invoking command in '/psd_ws/build/psd_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle
+Invoked command in '/psd_ws/build/psd_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle

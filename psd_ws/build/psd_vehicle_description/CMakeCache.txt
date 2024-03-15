@@ -236,16 +236,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=edo-Thinkpad
+SITE:STRING=edo-ThinkPad-P1-Gen-5
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_cppcheck.
-ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/share/ament_cmake_cppcheck/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
@@ -268,9 +265,6 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_targets/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_flake8.
-ament_cmake_flake8_DIR:PATH=/opt/ros/humble/share/ament_cmake_flake8/cmake
-
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/share/ament_cmake_gen_version_h/cmake
 
@@ -279,12 +273,6 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_inclu
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_libraries/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
-ament_cmake_lint_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake_lint_cmake/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_pep257.
-ament_cmake_pep257_DIR:PATH=/opt/ros/humble/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
 ament_cmake_python_DIR:PATH=/opt/ros/humble/share/ament_cmake_python/cmake
@@ -295,32 +283,8 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_targe
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_uncrustify.
-ament_cmake_uncrustify_DIR:PATH=/opt/ros/humble/share/ament_cmake_uncrustify/cmake
-
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_xmllint.
-ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
-
-//Path to a program.
-ament_flake8_BIN:FILEPATH=/opt/ros/humble/bin/ament_flake8
-
-//The directory containing a CMake configuration file for ament_lint_auto.
-ament_lint_auto_DIR:PATH=/opt/ros/humble/share/ament_lint_auto/cmake
-
-//Path to a program.
-ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/bin/ament_lint_cmake
-
-//The directory containing a CMake configuration file for ament_lint_common.
-ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
-
-//Path to a program.
-ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
-
-//Path to a program.
-ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //Value Computed by CMake
 psd_vehicle_description_BINARY_DIR:STATIC=/psd_ws/build/psd_vehicle_description
@@ -329,10 +293,7 @@ psd_vehicle_description_BINARY_DIR:STATIC=/psd_ws/build/psd_vehicle_description
 psd_vehicle_description_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-psd_vehicle_description_SOURCE_DIR:STATIC=/psd_ws/src/psd_vehicle_description
-
-//Path to a program.
-xmllint_BIN:FILEPATH=/usr/bin/xmllint
+psd_vehicle_description_SOURCE_DIR:STATIC=/psd_ws/src/psd_vehicle_ros/psd_vehicle_description
 
 
 ########################
@@ -419,7 +380,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/psd_ws/src/psd_vehicle_description
+CMAKE_HOME_DIRECTORY:INTERNAL=/psd_ws/src/psd_vehicle_ros/psd_vehicle_description
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

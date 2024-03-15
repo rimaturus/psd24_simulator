@@ -1,0 +1,87 @@
+[0.073s] Invoking command in '/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake /psd_ws/src/psd_vehicle_ros/psd_vehicle_description -DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_description
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.396s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Configuring done
+[0.519s] -- Generating done
+[0.519s] -- Build files have been written to: /psd_ws/build/psd_vehicle_description
+[0.523s] Invoked command in '/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake /psd_ws/src/psd_vehicle_ros/psd_vehicle_description -DCMAKE_INSTALL_PREFIX=/psd_ws/install/psd_vehicle_description
+[0.523s] Invoking command in '/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle_description -- -j20 -l20
+[0.550s] Invoked command in '/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --build /psd_ws/build/psd_vehicle_description -- -j20 -l20
+[0.566s] Invoking command in '/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle_description
+[0.571s] -- Install configuration: ""
+[0.571s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes
+[0.571s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision
+[0.571s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RR_1.stl
+[0.571s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FR_1.stl
+[0.571s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RL_1.stl
+[0.572s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FR_1.stl
+[0.572s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RR_1.stl
+[0.572s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RL_1.stl
+[0.572s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/base_link.stl
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FL_1.stl
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FR_1.stl
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FL_1.stl
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FL_1.stl
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_bot.dae
+[0.573s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_mid.dae
+[0.574s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_top.dae
+[0.574s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual
+[0.574s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RR_1.stl
+[0.574s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fr_1.dae
+[0.575s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rr_1.dae
+[0.575s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rr_1.dae
+[0.575s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FR_1.stl
+[0.575s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rl_1.dae
+[0.575s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RL_1.stl
+[0.575s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FR_1.stl
+[0.576s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fr_1.dae
+[0.576s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fl_1.dae
+[0.576s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RR_1.stl
+[0.577s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RL_1.stl
+[0.577s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.stl
+[0.577s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fl_1.dae
+[0.577s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rl_1.dae
+[0.577s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FL_1.stl
+[0.578s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fr_1.dae
+[0.578s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FR_1.stl
+[0.578s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FL_1.stl
+[0.578s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fl_1.dae
+[0.578s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FL_1.stl
+[0.578s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.dae
+[0.579s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf
+[0.579s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro
+[0.579s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.trans
+[0.579s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/materials.xacro
+[0.579s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components
+[0.579s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components/camera_mount.urdf.xacro
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.urdf.xacro
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.gazebo
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.dsv
+[0.580s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.sh
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.dsv
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.bash
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.sh
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.zsh
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.dsv
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/packages/psd_vehicle_description
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig.cmake
+[0.581s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig-version.cmake
+[0.582s] -- Installing: /psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.xml
+[0.583s] Invoked command in '/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/psd_ws/install/ros_components_description:/psd_ws/install/psd_vehicle_hardware_interfaces:/psd_ws/install/psd_vehicle_bringup:/psd_ws/install/psd_vehicle_controller:/psd_ws/install/psd_vehicle_description:/psd_ws/install/psd_vehicle_interfaces:/psd_ws/install/psd_vehicle_gazebo:/psd_ws/install/psd_gazebo_worlds:/psd_ws/install/ign_ros2_control_demos:/psd_ws/install/ign_ros2_control:/psd_ws/install/core:/opt/ros/humble /usr/bin/cmake --install /psd_ws/build/psd_vehicle_description
