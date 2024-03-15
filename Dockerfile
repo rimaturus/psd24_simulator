@@ -38,12 +38,21 @@ RUN apt-get update \
     evtest \
     jstest-gtk \
     python3-serial \
-    && rosdep update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN usermod -aG dialout ${USERNAME}
 
 WORKDIR home/$USERNAME/psd_ws
+
+# USER $USERNAME
+
+# RUN export HUSARION_ROS_BUILD_TYPE=simulation \
+#     && export PSD_VEHICLE_ROS_BUILD_TYPE=simulation \
+#     && export SIMULATION_ENGINE=ignition-gazebo \
+#     && rosdep update --rosdistro $ROS_DISTRO \
+#     && rosdep install -i --from-path src --rosdistro $ROS_DISTRO -y \
+#     && colcon build \
+#     && rm -rf /var/lib/apt/lists/*
 
 
 # USER ros
