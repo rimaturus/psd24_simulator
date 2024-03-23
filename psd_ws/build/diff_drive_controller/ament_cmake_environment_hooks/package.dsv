@@ -1,0 +1,4 @@
+source;share/diff_drive_controller/local_setup.bash
+source;share/diff_drive_controller/local_setup.dsv
+source;share/diff_drive_controller/local_setup.sh
+source;share/diff_drive_controller/local_setup.zsh

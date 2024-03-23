@@ -1,5 +1,7 @@
 sudo apt update
 sudo apt upgrade -y
+sudo apt install ros-humble-xacro
+sudo apt install ros-humble-joint-state-publisher-gui
 
 export PSD_ROS_BUILD_TYPE=simulation
 export SIMULATION_ENGINE=ignition-gazebo

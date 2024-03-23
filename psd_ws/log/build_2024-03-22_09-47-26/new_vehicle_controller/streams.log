@@ -1,0 +1,49 @@
+[0.212s] Invoking command in '/home/psd/psd_ws/build/new_vehicle_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/new_controller/new_vehicle_controller -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/new_vehicle_controller
+[0.299s] -- The C compiler identification is GNU 11.4.0
+[0.374s] -- The CXX compiler identification is GNU 11.4.0
+[0.383s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.443s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.443s] -- Detecting C compile features
+[0.444s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.514s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.623s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.695s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.758s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.758s] -- Configured cppcheck include dirs: 
+[0.758s] -- Configured cppcheck exclude dirs and/or files: 
+[0.758s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.758s] -- Added test 'lint_cmake' to check CMake code style
+[0.758s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.758s] -- Added test 'uncrustify' to check C / C++ code style
+[0.758s] -- Configured uncrustify additional arguments: 
+[0.759s] -- Added test 'xmllint' to check XML markup files
+[0.760s] -- Configuring done
+[0.761s] -- Generating done
+[0.762s] -- Build files have been written to: /home/psd/psd_ws/build/new_vehicle_controller
+[0.905s] Invoked command in '/home/psd/psd_ws/build/new_vehicle_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/new_controller/new_vehicle_controller -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/new_vehicle_controller
+[0.906s] Invoking command in '/home/psd/psd_ws/build/new_vehicle_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/new_vehicle_controller -- -j20 -l20
+[1.047s] Invoked command in '/home/psd/psd_ws/build/new_vehicle_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/new_vehicle_controller -- -j20 -l20
+[1.061s] Invoking command in '/home/psd/psd_ws/build/new_vehicle_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/new_vehicle_controller
+[1.065s] -- Install configuration: ""
+[1.065s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/ament_index/resource_index/package_run_dependencies/new_vehicle_controller
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/ament_index/resource_index/parent_prefix_path/new_vehicle_controller
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/ament_prefix_path.sh
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/ament_prefix_path.dsv
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/path.sh
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/path.dsv
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.bash
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.sh
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.zsh
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.dsv
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/package.dsv
+[1.066s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/ament_index/resource_index/packages/new_vehicle_controller
+[1.067s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/cmake/new_vehicle_controllerConfig.cmake
+[1.067s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/cmake/new_vehicle_controllerConfig-version.cmake
+[1.067s] -- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/package.xml
+[1.068s] Invoked command in '/home/psd/psd_ws/build/new_vehicle_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/new_vehicle_controller

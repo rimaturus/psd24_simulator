@@ -1,0 +1,3 @@
+source;share/joint_state_broadcaster/environment/ament_prefix_path.sh
+source;share/joint_state_broadcaster/environment/library_path.sh
+source;share/joint_state_broadcaster/environment/path.sh

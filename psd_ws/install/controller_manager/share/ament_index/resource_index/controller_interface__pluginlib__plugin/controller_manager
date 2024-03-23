@@ -1,0 +1,4 @@
+share/controller_manager/test/test_controller/test_controller.xml
+share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml

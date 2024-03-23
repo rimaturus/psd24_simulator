@@ -1,0 +1,5 @@
+[console_scripts]
+hardware_spawner = controller_manager.hardware_spawner:main
+spawner = controller_manager.spawner:main
+unspawner = controller_manager.unspawner:main
+

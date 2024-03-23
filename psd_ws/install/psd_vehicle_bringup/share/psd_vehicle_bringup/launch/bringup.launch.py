@@ -14,13 +14,6 @@ from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
-    diff_drive = LaunchConfiguration("diff_drive")
-    declare_diff_drive_arg = DeclareLaunchArgument(
-        "diff_drive",
-        default_value="True",
-        description="Diff drive controller is used",
-    )
-
     lidar_model = LaunchConfiguration("lidar_model")
     declare_lidar_model_arg = DeclareLaunchArgument(
         "lidar_model",
@@ -31,21 +24,21 @@ def generate_launch_description():
     camera_model = LaunchConfiguration("camera_model")
     declare_camera_model_arg = DeclareLaunchArgument(
         "camera_model",
-        default_value="None",
+        default_value="intel_realsense_d435",
         description="Camera model added to the URDF",
     )
 
     include_camera_mount = LaunchConfiguration("include_camera_mount")
     declare_include_camera_mount_arg = DeclareLaunchArgument(
         "include_camera_mount",
-        default_value="False",
+        default_value="True",
         description="Whether to include camera mount to the robot URDF",
     )
 
     use_sim = LaunchConfiguration("use_sim")
     declare_use_sim_arg = DeclareLaunchArgument(
         "use_sim",
-        default_value="False",
+        default_value="True",
         description="Whether simulation is used",
     )
 
@@ -67,7 +60,6 @@ def generate_launch_description():
             )
         ),
         launch_arguments={
-            "diff_drive": diff_drive,
             "lidar_model": lidar_model,
             "camera_model": camera_model,
             "include_camera_mount": include_camera_mount,
@@ -103,7 +95,6 @@ def generate_launch_description():
     )
 
     actions = [
-        declare_diff_drive_arg,
         declare_lidar_model_arg,
         declare_camera_model_arg,
         declare_include_camera_mount_arg,

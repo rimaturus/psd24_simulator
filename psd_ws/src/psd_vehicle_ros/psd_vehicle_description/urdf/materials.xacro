@@ -42,15 +42,15 @@
     <transparency>0.0</transparency> <!-- Transparency (0.0 for opaque) -->
     <friction>
       <ode>
-        <mu>2.0</mu> <!-- Friction coefficient -->
-        <mu2>2.0</mu2> <!-- Friction coefficient -->
+        <mu>0.8</mu> <!-- Friction coefficient -->
+        <mu2>0.8</mu2> <!-- Friction coefficient -->
       </ode>
     </friction>
     <elasticity>
       <ode>
         <epsilon>0.8</epsilon> <!-- Coefficient of restitution (elasticity) -->
-        <kp>1000000.0</kp> <!-- Contact stiffness -->
-        <kd>100.0</kd> <!-- Contact damping -->
+        <kp>100000000.0</kp> <!-- Contact stiffness -->
+        <kd>10.0</kd> <!-- Contact damping -->
       </ode>
     </elasticity>
   </material>

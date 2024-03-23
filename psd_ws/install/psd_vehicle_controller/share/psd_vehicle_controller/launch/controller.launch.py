@@ -84,13 +84,7 @@ def generate_launch_description():
         ]
     )
 
-    controller_manager_name = PythonExpression(
-        [
-            "'/simulation_controller_manager' if ",
-            use_sim,
-            " else '/controller_manager'",
-        ]
-    )
+    controller_manager_name = '/simulation_controller_manager'
 
     # Get URDF via xacro
     robot_description_content = Command(
@@ -204,7 +198,7 @@ def generate_launch_description():
         declare_include_camera_mount_arg,
         declare_use_sim_arg,
         declare_simulation_engine_arg,
-        SetParameter(name="use_sim_time", value=use_sim),
+        SetParameter(name="use_sim_time", value=True),
         control_node,
         robot_state_pub_node,
         joint_state_broadcaster_spawner,

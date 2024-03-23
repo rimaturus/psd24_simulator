@@ -1,0 +1,4 @@
+source;share/forward_command_controller/local_setup.bash
+source;share/forward_command_controller/local_setup.dsv
+source;share/forward_command_controller/local_setup.sh
+source;share/forward_command_controller/local_setup.zsh

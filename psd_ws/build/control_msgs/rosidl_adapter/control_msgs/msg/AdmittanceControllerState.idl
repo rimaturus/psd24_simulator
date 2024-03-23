@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/AdmittanceControllerState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/TransformStamped.idl"
+#include "geometry_msgs/msg/TwistStamped.idl"
+#include "geometry_msgs/msg/WrenchStamped.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "std_msgs/msg/Float64MultiArray.idl"
+#include "std_msgs/msg/Int8MultiArray.idl"
+#include "std_msgs/msg/String.idl"
+
+module control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Admittance parameters")
+    struct AdmittanceControllerState {
+      @verbatim (language="comment", text=
+        "6-vector of mass terms used in the admittance calculation")
+      std_msgs::msg::Float64MultiArray mass;
+
+      @verbatim (language="comment", text=
+        "6-vector of damping terms used in the admittance calculation")
+      std_msgs::msg::Float64MultiArray damping;
+
+      @verbatim (language="comment", text=
+        "6-vector of stiffness terms used in the admittance calculation")
+      std_msgs::msg::Float64MultiArray stiffness;
+
+      @verbatim (language="comment", text=
+        "Frame information" "\n"
+        "quaternion describing the orientation of the control frame")
+      geometry_msgs::msg::Quaternion rot_base_control;
+
+      @verbatim (language="comment", text=
+        "force torque sensor transform at the reference joint configuration")
+      geometry_msgs::msg::TransformStamped ref_trans_base_ft;
+
+      @verbatim (language="comment", text=
+        "6-vector of 0/1 describing if admittance is enable in the corresponding control frame axis")
+      std_msgs::msg::Int8MultiArray selected_axes;
+
+      @verbatim (language="comment", text=
+        "name of the force torque frame")
+      std_msgs::msg::String ft_sensor_frame;
+
+      @verbatim (language="comment", text=
+        "State information" "\n"
+        "calculated admittance position in cartesian space")
+      geometry_msgs::msg::TransformStamped admittance_position;
+
+      @verbatim (language="comment", text=
+        "calculated admittance acceleration in cartesian space")
+      geometry_msgs::msg::TwistStamped admittance_acceleration;
+
+      @verbatim (language="comment", text=
+        "calculated admittance velocity in cartesian space")
+      geometry_msgs::msg::TwistStamped admittance_velocity;
+
+      @verbatim (language="comment", text=
+        "wrench used in the admittance calculation")
+      geometry_msgs::msg::WrenchStamped wrench_base;
+
+      @verbatim (language="comment", text=
+        "calculated admittance offsets in joint space")
+      sensor_msgs::msg::JointState joint_state;
+    };
+  };
+};

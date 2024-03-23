@@ -1,0 +1,4 @@
+source;share/realtime_tools/local_setup.bash
+source;share/realtime_tools/local_setup.dsv
+source;share/realtime_tools/local_setup.sh
+source;share/realtime_tools/local_setup.zsh

@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/GripperCommand.action
+// generated code does not contain a copyright notice
+
+#include "control_msgs/msg/GripperCommand.idl"
+
+module control_msgs {
+  module action {
+    struct GripperCommand_Goal {
+      control_msgs::msg::GripperCommand command;
+    };
+    struct GripperCommand_Result {
+      @verbatim (language="comment", text=
+        "The current gripper gap size (in meters)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "The current effort exerted (in Newtons)")
+      double effort;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper is exerting max effort and not moving")
+      boolean stalled;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper position has reached the commanded setpoint")
+      boolean reached_goal;
+    };
+    struct GripperCommand_Feedback {
+      @verbatim (language="comment", text=
+        "The current gripper gap size (in meters)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "The current effort exerted (in Newtons)")
+      double effort;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper is exerting max effort and not moving")
+      boolean stalled;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper position has reached the commanded setpoint")
+      boolean reached_goal;
+    };
+  };
+};

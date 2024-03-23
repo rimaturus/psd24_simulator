@@ -33,7 +33,7 @@ imu_broadcaster:
     sensor_name: "imu"
     frame_id: "imu_link"
 
-psd_vehicle_base_controller:
+psd_vehicle_ctrl:
   ros__parameters:
     left_wheel_names: ["drive_fl", "drive_rl"]
     right_wheel_names: ["drive_fr", "drive_rr"]

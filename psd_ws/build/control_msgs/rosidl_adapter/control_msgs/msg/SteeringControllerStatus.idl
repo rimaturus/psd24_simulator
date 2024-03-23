@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/SteeringControllerStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module msg {
+    struct SteeringControllerStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "positions of traction wheels if the robot is controlled by position")
+      sequence<double> traction_wheels_position;
+
+      @verbatim (language="comment", text=
+        "velocities of traction wheels if the robot is controlled by velocity")
+      sequence<double> traction_wheels_velocity;
+
+      @verbatim (language="comment", text=
+        "positions of steering joints")
+      sequence<double> steer_positions;
+
+      @verbatim (language="comment", text=
+        "value commanded to tractions joint")
+      sequence<double> linear_velocity_command;
+
+      @verbatim (language="comment", text=
+        "values commanded to steering joints")
+      sequence<double> steering_angle_command;
+    };
+  };
+};

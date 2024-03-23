@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/JointTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module control_msgs {
+  module action {
+    struct JointTrajectory_Goal {
+      trajectory_msgs::msg::JointTrajectory trajectory;
+    };
+    struct JointTrajectory_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct JointTrajectory_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

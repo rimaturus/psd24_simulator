@@ -1,0 +1,74 @@
+[0.007s] Invoking command in '/home/psd/psd_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/hardware_interface -- -j20 -l20
+[0.040s] [  8%] Built target gmock_main
+[0.041s] [ 14%] Built target gmock
+[0.041s] [ 35%] Built target hardware_interface
+[0.056s] [ 41%] Built target test_macros
+[0.058s] [ 47%] Built target mock_components
+[0.060s] [ 55%] Built target fake_components
+[0.062s] [ 61%] Built target test_inst_hardwares
+[0.062s] [ 67%] Built target test_component_parser
+[0.063s] [ 73%] Built target test_joint_handle
+[0.063s] [ 79%] Built target test_generic_system
+[0.064s] [ 85%] Built target test_component_interfaces
+[0.067s] [100%] Built target test_hardware_components
+[0.140s] Invoked command in '/home/psd/psd_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/hardware_interface -- -j20 -l20
+[0.177s] Invoking command in '/home/psd/psd_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/hardware_interface
+[0.182s] -- Install configuration: ""
+[0.182s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/mock_components_plugin_description.xml
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/fake_components_plugin_description.xml
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/fake_components
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/mock_components
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/mock_components/visibility_control.h
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/mock_components/generic_system.hpp
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface
+[0.183s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/lexical_casts.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[0.184s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/lib/libfake_components.so
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/lib/libmock_components.so
+[0.185s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/lib/libhardware_interface.so
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[0.186s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[0.187s] -- Installing: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[0.187s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface/share/hardware_interface/package.xml
+[0.187s] Invoked command in '/home/psd/psd_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/hardware_interface

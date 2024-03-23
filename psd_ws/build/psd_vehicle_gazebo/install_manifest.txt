@@ -1,3 +1,7 @@
+/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/config/ekf.yaml
+/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/config/diff_drive_controller.yaml
+/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/config/laser_filter.yaml
+/home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/config/steering_drive_controller.yaml
 /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch/simulation.launch.py
 /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_gazebo
 /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_gazebo

@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/psd/psd_ws/build/ros2_control_test_assets
+-- Install configuration: ""
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/include
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+-- Installing: /home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml

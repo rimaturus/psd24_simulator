@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_vehicle_gazebo" TYPE DIRECTORY FILES "/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_vehicle_gazebo" TYPE DIRECTORY FILES
+    "/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo/config"
+    "/home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_gazebo/launch"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

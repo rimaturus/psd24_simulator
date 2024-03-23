@@ -1,0 +1,4 @@
+source;share/imu_sensor_broadcaster/local_setup.bash
+source;share/imu_sensor_broadcaster/local_setup.dsv
+source;share/imu_sensor_broadcaster/local_setup.sh
+source;share/imu_sensor_broadcaster/local_setup.zsh

@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+controller_manager/__init__.py
+controller_manager/controller_manager_services.py
+controller_manager/hardware_spawner.py
+controller_manager/launch_utils.py
+controller_manager/spawner.py
+controller_manager/unspawner.py
+controller_manager.egg-info/PKG-INFO
+controller_manager.egg-info/SOURCES.txt
+controller_manager.egg-info/dependency_links.txt
+controller_manager.egg-info/entry_points.txt
+controller_manager.egg-info/top_level.txt

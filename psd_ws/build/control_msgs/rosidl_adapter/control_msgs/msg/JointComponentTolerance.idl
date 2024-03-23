@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/JointComponentTolerance.msg
+// generated code does not contain a copyright notice
+
+
+module control_msgs {
+  module msg {
+    module JointComponentTolerance_Constants {
+      @verbatim (language="comment", text=
+        "Since each joint has multiple degrees of freedom," "\n"        "there can be multiple tolerances for each joint, each looking" "\n"        "at different components." "\n"        "If the component is X_AXIS, Y_AXIS, or Z_AXIS, then the tolerance" "\n"        "is only applied for the specific axis." "\n"        "However, if the component is TRANSLATION, then the tolerance is for" "\n"        "the overall Euclidean distance." "\n"        "For these components, the units are meters, meters/sec and meters/sec^2." "\n"        "Z_AXIS is only valid with a floating joint, not planar." "\n"        "If the component is ROTATION the tolerance is measured in" "\n"        "radians, radians/sec and radians/sec^2, computed" "\n"        "between the difference in quaternions.")
+      const uint16 X_AXIS = 1;
+      const uint16 Y_AXIS = 2;
+      const uint16 Z_AXIS = 3;
+      const uint16 TRANSLATION = 4;
+      const uint16 ROTATION = 5;
+    };
+    @verbatim (language="comment", text=
+      "Version of JointTolerance.msg with added component field for joints with multiple degrees of freedom" "\n"
+      "The difference between two MultiDOFJointTrajectoryPoint cannot be represented as a single number," "\n"
+      "hence we use the component field to represent how to calculate the difference in a way that can" "\n"
+      "be represented as a single number.")
+    struct JointComponentTolerance {
+      string joint_name;
+
+      uint16 component;
+
+      double position;
+
+      double velocity;
+
+      double acceleration;
+    };
+  };
+};

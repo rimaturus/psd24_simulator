@@ -1,0 +1,11 @@
+source;share/steering_controllers_library/hook/cmake_prefix_path.ps1
+source;share/steering_controllers_library/hook/cmake_prefix_path.dsv
+source;share/steering_controllers_library/hook/cmake_prefix_path.sh
+source;share/steering_controllers_library/hook/ld_library_path_lib.ps1
+source;share/steering_controllers_library/hook/ld_library_path_lib.dsv
+source;share/steering_controllers_library/hook/ld_library_path_lib.sh
+source;share/steering_controllers_library/local_setup.bash
+source;share/steering_controllers_library/local_setup.dsv
+source;share/steering_controllers_library/local_setup.ps1
+source;share/steering_controllers_library/local_setup.sh
+source;share/steering_controllers_library/local_setup.zsh

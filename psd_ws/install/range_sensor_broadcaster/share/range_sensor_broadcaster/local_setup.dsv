@@ -1,0 +1,3 @@
+source;share/range_sensor_broadcaster/environment/ament_prefix_path.sh
+source;share/range_sensor_broadcaster/environment/library_path.sh
+source;share/range_sensor_broadcaster/environment/path.sh

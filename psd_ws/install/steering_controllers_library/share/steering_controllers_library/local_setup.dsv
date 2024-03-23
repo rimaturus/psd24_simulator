@@ -1,0 +1,3 @@
+source;share/steering_controllers_library/environment/ament_prefix_path.sh
+source;share/steering_controllers_library/environment/library_path.sh
+source;share/steering_controllers_library/environment/path.sh

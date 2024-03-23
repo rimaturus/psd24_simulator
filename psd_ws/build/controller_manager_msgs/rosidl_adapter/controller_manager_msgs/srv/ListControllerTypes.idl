@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/ListControllerTypes.srv
+// generated code does not contain a copyright notice
+
+
+module controller_manager_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The ListControllers service returns a list of controller types that are known" "\n"
+      "to the controller manager plugin mechanism.")
+    struct ListControllerTypes_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListControllerTypes_Response {
+      sequence<string> types;
+
+      sequence<string> base_classes;
+    };
+  };
+};

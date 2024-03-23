@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/PointHead.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/PointStamped.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module control_msgs {
+  module action {
+    struct PointHead_Goal {
+      geometry_msgs::msg::PointStamped target;
+
+      geometry_msgs::msg::Vector3 pointing_axis;
+
+      string pointing_frame;
+
+      builtin_interfaces::msg::Duration min_duration;
+
+      double max_velocity;
+    };
+    struct PointHead_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct PointHead_Feedback {
+      double pointing_angle_error;
+    };
+  };
+};

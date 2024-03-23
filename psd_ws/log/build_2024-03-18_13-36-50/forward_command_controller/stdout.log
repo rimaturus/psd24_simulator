@@ -1,0 +1,119 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found controller_interface: 2.40.0 (/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found realtime_tools: 2.5.0 (/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake)
+-- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 2.40.0 (/home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/psd/psd_ws/build/forward_command_controller
+[  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/forward_command_controller/multi_interface_forward_command_controller_parameters/include//multi_interface_forward_command_controller_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/src/multi_interface_forward_command_controller_parameters.yaml `[0m
+[ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 26%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/forward_command_controller/forward_command_controller_parameters/include//forward_command_controller_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/src/forward_command_controller_parameters.yaml `[0m
+[ 26%] Built target multi_interface_forward_command_controller_parameters
+[ 26%] Built target forward_command_controller_parameters
+[ 31%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_controllers_base.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_command_controller.cpp.o[0m
+[ 47%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 47%] Built target gmock_main
+[ 52%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 52%] Built target gmock
+[ 57%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[ 57%] Built target forward_command_controller
+[ 63%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_load_multi_interface_forward_command_controller.dir/test/test_load_multi_interface_forward_command_controller.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/test_multi_interface_forward_command_controller.dir/test/test_multi_interface_forward_command_controller.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_load_multi_interface_forward_command_controller[0m
+[ 89%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[ 94%] [32m[1mLinking CXX executable test_multi_interface_forward_command_controller[0m
+[ 94%] Built target test_load_multi_interface_forward_command_controller
+[100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[100%] Built target test_load_forward_command_controller
+[100%] Built target test_multi_interface_forward_command_controller
+[100%] Built target test_forward_command_controller
+-- Install configuration: ""
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller_parameters
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller_parameters/forward_command_controller_parameters.hpp
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/multi_interface_forward_command_controller_parameters
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/multi_interface_forward_command_controller_parameters/multi_interface_forward_command_controller_parameters.hpp
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/forward_command_plugin.xml
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/forward_command_controller.hpp
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/multi_interface_forward_command_controller.hpp
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/visibility_control.h
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/forward_controllers_base.hpp
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/lib/libforward_command_controller.so
+-- Set runtime path of "/home/psd/psd_ws/install/forward_command_controller/lib/libforward_command_controller.so" to ""
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/package.dsv
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake/export_forward_command_controllerExport.cmake
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake/export_forward_command_controllerExport-noconfig.cmake
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+-- Installing: /home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/package.xml

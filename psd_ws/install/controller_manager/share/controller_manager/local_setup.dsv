@@ -1,0 +1,4 @@
+source;share/controller_manager/environment/ament_prefix_path.sh
+source;share/controller_manager/environment/library_path.sh
+source;share/controller_manager/environment/path.sh
+source;share/controller_manager/environment/pythonpath.sh

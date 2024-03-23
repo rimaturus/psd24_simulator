@@ -1,0 +1,4 @@
+source;share/effort_controllers/local_setup.bash
+source;share/effort_controllers/local_setup.dsv
+source;share/effort_controllers/local_setup.sh
+source;share/effort_controllers/local_setup.zsh

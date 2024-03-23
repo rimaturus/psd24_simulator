@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/ReloadControllerLibraries.srv
+// generated code does not contain a copyright notice
+
+
+module controller_manager_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The ReloadControllerLibraries service will reload all controllers that are available in" "\n"
+      "the system as plugins")
+    struct ReloadControllerLibraries_Request {
+      @verbatim (language="comment", text=
+        "Reloading libraries only works if there are no controllers loaded. If there" "\n"
+        "are still some controllers loaded, the reloading will fail." "\n"
+        "If this bool is set to true, all loaded controllers will get" "\n"
+        "killed automatically, and the reloading can succeed.")
+      boolean force_kill;
+    };
+    struct ReloadControllerLibraries_Response {
+      boolean ok;
+    };
+  };
+};

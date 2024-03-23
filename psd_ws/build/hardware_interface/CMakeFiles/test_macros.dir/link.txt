@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_macros.dir/test/test_macros.cpp.o -o test_macros  -Wl,-rpath,/opt/ros/humble/lib gmock/libgmock_main.a gmock/libgmock.a /opt/ros/humble/lib/librcpputils.so -pthread /opt/ros/humble/lib/librcutils.so -ldl 

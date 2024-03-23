@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_msgs/srv/QueryTrajectoryState.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module control_msgs {
+  module srv {
+    struct QueryTrajectoryState_Request {
+      builtin_interfaces::msg::Time time;
+    };
+    struct QueryTrajectoryState_Response {
+      @verbatim (language="comment", text=
+        "indicate successful run of triggered service")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "informational, e.g. for error messages")
+      string message;
+
+      sequence<string> name;
+
+      sequence<double> position;
+
+      sequence<double> velocity;
+
+      sequence<double> acceleration;
+    };
+  };
+};

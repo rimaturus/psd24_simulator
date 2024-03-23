@@ -1,0 +1,67 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/JointTrajectoryControllerState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "trajectory_msgs/msg/JointTrajectoryPoint.idl"
+#include "trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl"
+
+module control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message presents current controller state of JTC")
+    struct JointTrajectoryControllerState {
+      @verbatim (language="comment", text=
+        "Header timestamp should be update time of controller state")
+      std_msgs::msg::Header header;
+
+      sequence<string> joint_names;
+
+      @verbatim (language="comment", text=
+        "The set point, that is, desired state.")
+      trajectory_msgs::msg::JointTrajectoryPoint reference;
+
+      @verbatim (language="comment", text=
+        "Current value of the process (ie: latest sensor measurement on the controlled value).")
+      trajectory_msgs::msg::JointTrajectoryPoint feedback;
+
+      @verbatim (language="comment", text=
+        "The error of the controlled value, essentially reference - feedback (for a regular PID implementation).")
+      trajectory_msgs::msg::JointTrajectoryPoint error;
+
+      @verbatim (language="comment", text=
+        "Current output of the controller.")
+      trajectory_msgs::msg::JointTrajectoryPoint output;
+
+      @verbatim (language="comment", text=
+        "-- deprecated --")
+      trajectory_msgs::msg::JointTrajectoryPoint desired;
+
+      trajectory_msgs::msg::JointTrajectoryPoint actual;
+
+      sequence<string> multi_dof_joint_names;
+
+      @verbatim (language="comment", text=
+        "The set point, that is, desired state.")
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_reference;
+
+      @verbatim (language="comment", text=
+        "Current value of the process (ie: latest sensor measurement on the controlled value).")
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_feedback;
+
+      @verbatim (language="comment", text=
+        "The error of the controlled value, essentially reference - feedback (for a regular PID implementation).")
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_error;
+
+      @verbatim (language="comment", text=
+        "Current output of the controller.")
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_output;
+
+      @verbatim (language="comment", text=
+        "-- deprecated --")
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_desired;
+
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_actual;
+    };
+  };
+};

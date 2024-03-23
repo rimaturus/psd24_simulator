@@ -16,14 +16,23 @@ from launch_ros.actions import Node, SetParameter
 from ament_index_python.packages import get_package_share_directory
 
 
-def generate_launch_description():
-    diff_drive = LaunchConfiguration("diff_drive")
-    declare_diff_drive_arg = DeclareLaunchArgument(
-        "diff_drive",
-        default_value="True",
-        description="Diff drive controller is used",
-    )
+from launch import LaunchDescription
+from launch.actions import RegisterEventHandler, DeclareLaunchArgument
+from launch.conditions import UnlessCondition
+from launch.event_handlers import OnProcessExit
+from launch.substitutions import (
+    Command,
+    PythonExpression,
+    FindExecutable,
+    PathJoinSubstitution,
+    LaunchConfiguration,
+)
 
+from launch_ros.actions import Node, SetParameter
+from launch_ros.substitutions import FindPackageShare
+
+
+def generate_launch_description():
     lidar_model = LaunchConfiguration("lidar_model")
     declare_lidar_model_arg = DeclareLaunchArgument(
         "lidar_model",
@@ -46,7 +55,6 @@ def generate_launch_description():
     )
 
     map_package = get_package_share_directory("psd_gazebo_worlds")
-    #world_file = PathJoinSubstitution([map_package, "worlds", "office.sdf"])
     world_file = PathJoinSubstitution([map_package, "worlds", "track.sdf"])
     world_cfg = LaunchConfiguration("world")
     declare_world_arg = DeclareLaunchArgument(
@@ -120,38 +128,181 @@ def generate_launch_description():
         output="screen",
     )
 
-    bringup_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
+    use_sim = LaunchConfiguration("use_sim")
+    declare_use_sim_arg = DeclareLaunchArgument(
+        "use_sim",
+        default_value="True",
+        description="Whether simulation is used",
+    )
+
+    simulation_engine = LaunchConfiguration("simulation_engine")
+    declare_simulation_engine_arg = DeclareLaunchArgument(
+        "simulation_engine",
+        default_value="ignition-gazebo",
+        description="Which simulation engine will be used",
+    )
+
+
+    robot_localization_node = Node(
+        package="robot_localization",
+        executable="ekf_node",
+        name="ekf_filter_node",
+        output="screen",
+        parameters=[
             PathJoinSubstitution(
                 [
-                    get_package_share_directory("psd_vehicle_bringup"),
-                    "launch",
-                    "bringup.launch.py",
+                    get_package_share_directory("psd_vehicle_gazebo"), 
+                    "config", 
+                    "ekf.yaml"]
+            )
+        ],
+    )
+
+    laser_filter_node = Node(
+        package="laser_filters",
+        executable="scan_to_scan_filter_chain",
+        parameters=[
+            PathJoinSubstitution(
+                [
+                    get_package_share_directory("psd_vehicle_gazebo"),
+                    "config",
+                    "laser_filter.yaml",
                 ]
             )
-        ),
-        launch_arguments={
-            "diff_drive": diff_drive,
-            "lidar_model": lidar_model,
-            "camera_model": camera_model,
-            "include_camera_mount": include_camera_mount,
-            "use_sim": "True",
-            "simulation_engine": "ignition-gazebo",
-        }.items(),
+        ],
+    )
+
+    controller_config_name = 'diff_drive_controller.yaml'
+    robot_controllers = PathJoinSubstitution(
+        [
+            FindPackageShare("psd_vehicle_gazebo"),
+            "config",
+            controller_config_name,
+        ]
+    )
+
+    controller_manager_name = '/psd_vehicle_ctrl'
+    # Get URDF via xacro
+    robot_description_content = Command(
+        [
+            PathJoinSubstitution([FindExecutable(name="xacro")]),
+            " ",
+            PathJoinSubstitution(
+                [
+                    FindPackageShare("psd_vehicle_description"),
+                    "urdf",
+                    "psd_vehicle.urdf.xacro",
+                ]
+            ),
+            " lidar_model:=",
+            lidar_model,
+            " camera_model:=",
+            camera_model,
+            " include_camera_mount:=",
+            include_camera_mount,
+            " use_sim:=",
+            use_sim,
+            " simulation_engine:=",
+            simulation_engine,
+            " simulation_controllers_config_file:=",
+            robot_controllers,
+        ]
+    )
+    robot_description = {"robot_description": robot_description_content}
+
+    control_node = Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[robot_description, robot_controllers],
+        remappings=[
+            ("/imu_sensor_node/imu", "/_imu/data_raw"),
+            ("~/motors_cmd", "/_motors_cmd"),
+            ("~/motors_response", "/_motors_response"),
+            ("/psd_vehicle_ctrl/cmd_vel_unstamped", "/cmd_vel"),
+        ],
+    )
+
+    robot_state_pub_node = Node(
+        package="robot_state_publisher",
+        executable="robot_state_publisher",
+        output="both",
+        parameters=[robot_description],
+    )
+
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "joint_state_broadcaster",
+            "--controller-manager",
+            controller_manager_name,
+            # "--controller-manager-timeout",
+            # "120",
+        ],
+    )
+    
+    robot_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "psd_vehicle_ctrl",
+            "--controller-manager",
+            controller_manager_name,
+            # "--controller-manager-timeout",
+            # "120",
+        ],
+    )
+
+    # Delay start of robot_controller after joint_state_broadcaster
+    delay_robot_controller_spawner_after_joint_state_broadcaster_spawner = (
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=joint_state_broadcaster_spawner,
+                on_exit=[robot_controller_spawner],
+            )
+        )
+    )
+
+    imu_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "imu_broadcaster",
+            "--controller-manager",
+            controller_manager_name,
+            # "--controller-manager-timeout",
+            # "120",
+        ],
+    )
+
+    # Delay start of imu_broadcaster after robot_controller
+    # when spawning without delay ros2_control_node sometimes crashed
+    delay_imu_broadcaster_spawner_after_robot_controller_spawner = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=robot_controller_spawner,
+            on_exit=[imu_broadcaster_spawner],
+        )
     )
 
     return LaunchDescription(
         [
-            declare_diff_drive_arg,
             declare_lidar_model_arg,
             declare_camera_model_arg,
             declare_include_camera_mount_arg,
             declare_world_arg,
             # Sets use_sim_time for all nodes started below (doesn't work for nodes started from ignition gazebo)
             SetParameter(name="use_sim_time", value=True),
+            declare_use_sim_arg,
+            declare_simulation_engine_arg,
             gz_sim,
             ign_bridge,
             gz_spawn_entity,
-            bringup_launch,
+            robot_localization_node,
+            laser_filter_node,
+            delay_robot_controller_spawner_after_joint_state_broadcaster_spawner,
+            delay_imu_broadcaster_spawner_after_robot_controller_spawner,
+            control_node,
+            robot_state_pub_node,
+            joint_state_broadcaster_spawner,
         ]
     )

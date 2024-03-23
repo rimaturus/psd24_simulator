@@ -389,7 +389,7 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
 
 //The directory containing a CMake configuration file for control_msgs.
-control_msgs_DIR:PATH=/opt/ros/humble/share/control_msgs/cmake
+control_msgs_DIR:PATH=/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr

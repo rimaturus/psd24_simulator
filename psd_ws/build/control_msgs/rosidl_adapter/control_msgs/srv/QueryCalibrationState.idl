@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_msgs/srv/QueryCalibrationState.srv
+// generated code does not contain a copyright notice
+
+
+module control_msgs {
+  module srv {
+    struct QueryCalibrationState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct QueryCalibrationState_Response {
+      boolean is_calibrated;
+    };
+  };
+};

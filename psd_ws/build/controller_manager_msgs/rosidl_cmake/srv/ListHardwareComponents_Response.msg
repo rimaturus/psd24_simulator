@@ -1,0 +1,2 @@
+
+HardwareComponentState[] component

@@ -1,5 +1,6 @@
 /home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/launch/controller.launch.py
 /home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/config/diff_drive_controller.yaml
+/home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/config/steering_drive_controller.yaml
 /home/psd/psd_ws/install/psd_vehicle_controller/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_controller
 /home/psd/psd_ws/install/psd_vehicle_controller/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_controller
 /home/psd/psd_ws/install/psd_vehicle_controller/share/psd_vehicle_controller/environment/ament_prefix_path.sh

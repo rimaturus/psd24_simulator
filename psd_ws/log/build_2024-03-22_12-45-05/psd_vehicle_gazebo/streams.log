@@ -1,0 +1,22 @@
+[0.205s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
+[0.265s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_gazebo -- -j20 -l20
+[0.324s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_gazebo
+[0.342s] -- Install configuration: ""
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/launch/simulation.launch.py
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_gazebo
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_gazebo
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/ament_prefix_path.sh
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/ament_prefix_path.dsv
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/path.sh
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/environment/path.dsv
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.bash
+[0.342s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.sh
+[0.343s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.zsh
+[0.343s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/local_setup.dsv
+[0.343s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.dsv
+[0.343s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/ament_index/resource_index/packages/psd_vehicle_gazebo
+[0.343s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/cmake/psd_vehicle_gazeboConfig.cmake
+[0.343s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/cmake/psd_vehicle_gazeboConfig-version.cmake
+[0.343s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_gazebo/share/psd_vehicle_gazebo/package.xml
+[0.365s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_gazebo

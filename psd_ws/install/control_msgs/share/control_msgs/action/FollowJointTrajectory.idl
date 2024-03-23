@@ -1,0 +1,97 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/FollowJointTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "control_msgs/msg/JointComponentTolerance.idl"
+#include "control_msgs/msg/JointTolerance.idl"
+#include "std_msgs/msg/Header.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+#include "trajectory_msgs/msg/JointTrajectoryPoint.idl"
+#include "trajectory_msgs/msg/MultiDOFJointTrajectory.idl"
+#include "trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl"
+
+module control_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "The trajectory for all revolute, continuous or prismatic joints")
+    struct FollowJointTrajectory_Goal {
+      trajectory_msgs::msg::JointTrajectory trajectory;
+
+      @verbatim (language="comment", text=
+        "The trajectory for all planar or floating joints (i.e. individual joints with more than one DOF)")
+      trajectory_msgs::msg::MultiDOFJointTrajectory multi_dof_trajectory;
+
+      @verbatim (language="comment", text=
+        "Tolerances for the trajectory.  If the measured joint values fall" "\n"
+        "outside the tolerances the trajectory goal is aborted.  Any" "\n"
+        "tolerances that are not specified (by being omitted or set to 0) are" "\n"
+        "set to the defaults for the action server (often taken from the" "\n"
+        "parameter server)." "\n"
+        "Tolerances applied to the joints as the trajectory is executed.  If" "\n"
+        "violated, the goal aborts with error_code set to" "\n"
+        "PATH_TOLERANCE_VIOLATED.")
+      sequence<control_msgs::msg::JointTolerance> path_tolerance;
+
+      sequence<control_msgs::msg::JointComponentTolerance> component_path_tolerance;
+
+      @verbatim (language="comment", text=
+        "To report success, the joints must be within goal_tolerance of the" "\n"
+        "final trajectory value.  The goal must be achieved by time the" "\n"
+        "trajectory ends plus goal_time_tolerance.  (goal_time_tolerance" "\n"
+        "allows some leeway in time, so that the trajectory goal can still" "\n"
+        "succeed even if the joints reach the goal some time after the" "\n"
+        "precise end time of the trajectory)." "\n"
+        "" "\n"
+        "If the joints are not within goal_tolerance after \"trajectory finish" "\n"
+        "time\" + goal_time_tolerance, the goal aborts with error_code set to" "\n"
+        "GOAL_TOLERANCE_VIOLATED")
+      sequence<control_msgs::msg::JointTolerance> goal_tolerance;
+
+      sequence<control_msgs::msg::JointComponentTolerance> component_goal_tolerance;
+
+      builtin_interfaces::msg::Duration goal_time_tolerance;
+    };
+    module FollowJointTrajectory_Result_Constants {
+      const int32 SUCCESSFUL = 0;
+      const int32 INVALID_GOAL = -1;
+      const int32 INVALID_JOINTS = -2;
+      const int32 OLD_HEADER_TIMESTAMP = -3;
+      const int32 PATH_TOLERANCE_VIOLATED = -4;
+      const int32 GOAL_TOLERANCE_VIOLATED = -5;
+    };
+    struct FollowJointTrajectory_Result {
+      int32 error_code;
+
+      @verbatim (language="comment", text=
+        "Human readable description of the error code. Contains complementary" "\n"
+        "information that is especially useful when execution fails, for instance:" "\n"
+        "- INVALID_GOAL: The reason for the invalid goal (e.g., the requested" "\n"
+        "  trajectory is in the past)." "\n"
+        "- INVALID_JOINTS: The mismatch between the expected controller joints" "\n"
+        "  and those provided in the goal." "\n"
+        "- PATH_TOLERANCE_VIOLATED and GOAL_TOLERANCE_VIOLATED: Which joint" "\n"
+        "  violated which tolerance, and by how much.")
+      string error_string;
+    };
+    struct FollowJointTrajectory_Feedback {
+      std_msgs::msg::Header header;
+
+      sequence<string> joint_names;
+
+      trajectory_msgs::msg::JointTrajectoryPoint desired;
+
+      trajectory_msgs::msg::JointTrajectoryPoint actual;
+
+      trajectory_msgs::msg::JointTrajectoryPoint error;
+
+      sequence<string> multi_dof_joint_names;
+
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_desired;
+
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_actual;
+
+      trajectory_msgs::msg::MultiDOFJointTrajectoryPoint multi_dof_error;
+    };
+  };
+};

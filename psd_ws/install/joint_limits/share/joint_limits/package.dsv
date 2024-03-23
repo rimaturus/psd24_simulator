@@ -1,0 +1,8 @@
+source;share/joint_limits/hook/cmake_prefix_path.ps1
+source;share/joint_limits/hook/cmake_prefix_path.dsv
+source;share/joint_limits/hook/cmake_prefix_path.sh
+source;share/joint_limits/local_setup.bash
+source;share/joint_limits/local_setup.dsv
+source;share/joint_limits/local_setup.ps1
+source;share/joint_limits/local_setup.sh
+source;share/joint_limits/local_setup.zsh

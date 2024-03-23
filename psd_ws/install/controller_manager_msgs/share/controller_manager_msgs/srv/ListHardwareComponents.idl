@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/ListHardwareComponents.srv
+// generated code does not contain a copyright notice
+
+#include "controller_manager_msgs/msg/HardwareComponentState.idl"
+
+module controller_manager_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The ListHardwareComponents service returns a list of hardware HardwareComponentsState." "\n"
+      "This will convey name, component_type, state and type of the components" "\n"
+      "that are loaded inside the resource_manager.")
+    struct ListHardwareComponents_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListHardwareComponents_Response {
+      sequence<controller_manager_msgs::msg::HardwareComponentState> component;
+    };
+  };
+};

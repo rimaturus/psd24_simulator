@@ -433,4 +433,128 @@
     <parent link="chassis"/>
     <child link="link_FR_1"/>
   </joint>
+
+  <gazebo>
+    <!-- <plugin
+      filename="ignition-gazebo-ackermann-steering-system"
+      name="gz::sim::systems::AckermannSteering">
+      <left_joint>drive_fl</left_joint>
+      <left_joint>drive_rl</left_joint>
+      <right_joint>drive_fr</right_joint>
+      <right_joint>drive_rr</right_joint>
+      <left_steering_joint>steering_fl</left_steering_joint>
+      <right_steering_joint>steering_fr</right_steering_joint>
+      <kingpin_width>1.0</kingpin_width>
+      <steering_limit>0.5</steering_limit>
+      <wheel_base>0.6</wheel_base>
+      <wheel_separation>0.24</wheel_separation>
+      <wheel_radius>0.095</wheel_radius>
+      <min_velocity>-10</min_velocity>
+      <max_velocity>10</max_velocity>
+      <min_acceleration>-3</min_acceleration>
+      <max_acceleration>3</max_acceleimuration>
+    </plugin>
+
+    <plugin
+      filename="libignition-gazebo-diff-drive-system.so"
+      name="ignition::gazebo::systems::DiffDrive">
+      <left_joint>drive_rl</left_joint>
+      <right_joint>drive_rr</right_joint>
+      <wheel_separation>0.24</wheel_separation>
+      <wheel_radius>0.095</wheel_radius>
+      <odom_publish_frequency>1</odom_publish_frequency>
+    </plugin> -->
+
+    <plugin
+      filename="libignition-gazebo-apply-joint-force-system.so"
+      name="ignition::gazebo::systems::ApplyJointForce">
+      <joint_name>drive_fl</joint_name>
+      <topic>throttle</topic>
+      <p_gain>1</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+      <joint_index>1</joint_index>
+    </plugin>
+
+    <plugin
+      filename="libignition-gazebo-apply-joint-force-system.so"
+      name="ignition::gazebo::systems::ApplyJointForce">
+      <joint_name>drive_fr</joint_name>
+      <topic>throttle</topic>
+      <p_gain>1</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+      <joint_index>1</joint_index>
+    </plugin>
+
+    <plugin
+      filename="libignition-gazebo-apply-joint-force-system.so"
+      name="ignition::gazebo::systems::ApplyJointForce">
+      <joint_name>drive_rl</joint_name>
+      <topic>throttle</topic>
+      <p_gain>1</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+      <joint_index>1</joint_index>
+    </plugin>
+
+    <plugin
+      filename="libignition-gazebo-apply-joint-force-system.so"
+      name="ignition::gazebo::systems::ApplyJointForce">
+      <joint_name>drive_rr</joint_name>
+      <topic>throttle</topic>
+      <p_gain>1</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+      <joint_index>1</joint_index>
+    </plugin>
+
+    <plugin
+      filename="libignition_joint_position_controller.so"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>steering_fl</joint_name>
+      <topic>steer</topic>
+      <p_gain>1</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+      <joint_index>3</joint_index>
+    </plugin>
+
+    <plugin
+      filename="libignition_joint_position_controller.so"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>steering_fr</joint_name>
+      <topic>steer</topic>
+      <p_gain>1</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+      <joint_index>3</joint_index>
+    </plugin>
+  </gazebo>
+
+
 </robot>

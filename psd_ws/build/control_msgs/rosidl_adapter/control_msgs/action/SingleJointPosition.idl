@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/SingleJointPosition.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module action {
+    struct SingleJointPosition_Goal {
+      double position;
+
+      builtin_interfaces::msg::Duration min_duration;
+
+      double max_velocity;
+    };
+    struct SingleJointPosition_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct SingleJointPosition_Feedback {
+      std_msgs::msg::Header header;
+
+      double position;
+
+      double velocity;
+
+      double error;
+    };
+  };
+};

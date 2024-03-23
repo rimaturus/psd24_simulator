@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/UnloadController.srv
+// generated code does not contain a copyright notice
+
+
+module controller_manager_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The UnloadController service allows you to unload a single controller" "\n"
+      "from controller_manager")
+    struct UnloadController_Request {
+      @verbatim (language="comment", text=
+        "To unload a controller, specify the \"name\" of the controller." "\n"
+        "The return value \"ok\" indicates if the controller was successfully" "\n"
+        "unloaded or not")
+      string name;
+    };
+    struct UnloadController_Response {
+      boolean ok;
+    };
+  };
+};

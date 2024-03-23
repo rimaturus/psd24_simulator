@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/ListControllers.srv
+// generated code does not contain a copyright notice
+
+#include "controller_manager_msgs/msg/ControllerState.idl"
+
+module controller_manager_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The ListControllers service returns a list of controller names/states/types of the" "\n"
+      "controllers that are loaded inside the controller_manager.")
+    struct ListControllers_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListControllers_Response {
+      sequence<controller_manager_msgs::msg::ControllerState> controller;
+    };
+  };
+};

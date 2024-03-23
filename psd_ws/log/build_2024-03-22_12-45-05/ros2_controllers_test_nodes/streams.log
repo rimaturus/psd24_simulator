@@ -1,0 +1,22 @@
+[0.487s] Invoking command in '/home/psd/psd_ws/src/examples/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/psd/psd_ws/build/ros2_controllers_test_nodes/prefix_override:/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/ros2_controllers_test_nodes build --build-base /home/psd/psd_ws/build/ros2_controllers_test_nodes/build install --record /home/psd/psd_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data
+[0.619s] running egg_info
+[0.619s] writing ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[0.619s] writing dependency_links to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[0.619s] writing entry points to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[0.619s] writing requirements to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[0.619s] writing top-level names to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[0.620s] reading manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.621s] writing manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.621s] running build
+[0.621s] running build_py
+[0.621s] running install
+[0.621s] running install_lib
+[0.623s] running install_data
+[0.623s] running install_egg_info
+[0.623s] removing '/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.33.0-py3.10.egg-info' (and everything under it)
+[0.623s] Copying ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.33.0-py3.10.egg-info
+[0.624s] running install_scripts
+[0.637s] Installing publisher_forward_position_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.637s] Installing publisher_joint_trajectory_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.637s] writing list of installed files to '/home/psd/psd_ws/build/ros2_controllers_test_nodes/install.log'
+[0.651s] Invoked command in '/home/psd/psd_ws/src/examples/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/psd/psd_ws/build/ros2_controllers_test_nodes/prefix_override:/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/ros2_controllers_test_nodes build --build-base /home/psd/psd_ws/build/ros2_controllers_test_nodes/build install --record /home/psd/psd_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data

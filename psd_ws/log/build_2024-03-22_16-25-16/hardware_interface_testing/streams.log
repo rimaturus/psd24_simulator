@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/psd/psd_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/hardware_interface_testing -- -j20 -l20
+[0.047s] [ 30%] Built target test_components
+[0.050s] [ 46%] Built target gmock_main
+[0.052s] [ 69%] Built target gmock
+[0.079s] [ 84%] Built target test_resource_manager_prepare_perform_switch
+[0.081s] [100%] Built target test_resource_manager
+[0.088s] Invoked command in '/home/psd/psd_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/hardware_interface_testing -- -j20 -l20
+[0.110s] Invoking command in '/home/psd/psd_ws/build/hardware_interface_testing': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/hardware_interface_testing
+[0.116s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/lib/libtest_components.so
+[0.116s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/test/test_components/test_components.xml
+[0.116s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/ament_index/resource_index/package_run_dependencies/hardware_interface_testing
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/ament_index/resource_index/parent_prefix_path/hardware_interface_testing
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.sh
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.dsv
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.sh
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.dsv
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.bash
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.sh
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.zsh
+[0.117s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.dsv
+[0.117s] -- Installing: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/package.dsv
+[0.118s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/ament_index/resource_index/packages/hardware_interface_testing
+[0.119s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface_testing
+[0.119s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.119s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig.cmake
+[0.119s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig-version.cmake
+[0.119s] -- Up-to-date: /home/psd/psd_ws/install/hardware_interface_testing/share/hardware_interface_testing/package.xml
+[0.119s] Invoked command in '/home/psd/psd_ws/build/hardware_interface_testing' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/hardware_interface_testing

@@ -1,0 +1,21 @@
+[0.329s] Invoking command in '/home/psd/psd_ws/src/examples/ros2_control/rqt_controller_manager': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/build/rqt_controller_manager/prefix_override:/home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/rqt_controller_manager build --build-base /home/psd/psd_ws/build/rqt_controller_manager/build install --record /home/psd/psd_ws/build/rqt_controller_manager/install.log --single-version-externally-managed install_data
+[0.471s] running egg_info
+[0.472s] writing ../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/PKG-INFO
+[0.472s] writing dependency_links to ../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/dependency_links.txt
+[0.473s] writing entry points to ../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/entry_points.txt
+[0.473s] writing requirements to ../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/requires.txt
+[0.473s] writing top-level names to ../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/top_level.txt
+[0.473s] reading manifest file '../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[0.474s] writing manifest file '../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[0.474s] running build
+[0.474s] running build_py
+[0.474s] running install
+[0.474s] running install_lib
+[0.475s] running install_data
+[0.476s] running install_egg_info
+[0.477s] removing '/home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager-2.40.0-py3.10.egg-info' (and everything under it)
+[0.477s] Copying ../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info to /home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager-2.40.0-py3.10.egg-info
+[0.477s] running install_scripts
+[0.494s] Installing rqt_controller_manager script to /home/psd/psd_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+[0.494s] writing list of installed files to '/home/psd/psd_ws/build/rqt_controller_manager/install.log'
+[0.520s] Invoked command in '/home/psd/psd_ws/src/examples/ros2_control/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/build/rqt_controller_manager/prefix_override:/home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/rqt_controller_manager build --build-base /home/psd/psd_ws/build/rqt_controller_manager/build install --record /home/psd/psd_ws/build/rqt_controller_manager/install.log --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+source;share/hardware_interface_testing/hook/cmake_prefix_path.ps1
+source;share/hardware_interface_testing/hook/cmake_prefix_path.dsv
+source;share/hardware_interface_testing/hook/cmake_prefix_path.sh
+source;share/hardware_interface_testing/hook/ld_library_path_lib.ps1
+source;share/hardware_interface_testing/hook/ld_library_path_lib.dsv
+source;share/hardware_interface_testing/hook/ld_library_path_lib.sh
+source;share/hardware_interface_testing/local_setup.bash
+source;share/hardware_interface_testing/local_setup.dsv
+source;share/hardware_interface_testing/local_setup.ps1
+source;share/hardware_interface_testing/local_setup.sh
+source;share/hardware_interface_testing/local_setup.zsh

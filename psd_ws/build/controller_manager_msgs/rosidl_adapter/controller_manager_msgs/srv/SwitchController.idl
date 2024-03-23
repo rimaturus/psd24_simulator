@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/SwitchController.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module controller_manager_msgs {
+  module srv {
+    module SwitchController_Request_Constants {
+      const int32 BEST_EFFORT = 1;
+      const int32 STRICT = 2;
+    };
+    @verbatim (language="comment", text=
+      "The SwitchController service allows you deactivate a number of controllers" "\n"
+      "and activate a number of controllers, all in one single timestep of the" "\n"
+      "controller manager's control loop.")
+    struct SwitchController_Request {
+      @verbatim (language="comment", text=
+        "To switch controllers, specify" "\n"
+        " * the list of controller names to activate," "\n"
+        " * the list of controller names to deactivate, and" "\n"
+        " * the strictness (BEST_EFFORT or STRICT)" "\n"
+        "   * STRICT means that switching will fail if anything goes wrong (an invalid" "\n"
+        "     controller name, a controller that failed to activate, etc. )" "\n"
+        "   * BEST_EFFORT means that even when something goes wrong with on controller," "\n"
+        "     the service will still try to activate/stop the remaining controllers" "\n"
+        " * activate the controllers as soon as their hardware dependencies are ready, will" "\n"
+        "   wait for all interfaces to be ready otherwise" "\n"
+        " * the timeout before aborting pending controllers. Zero for infinite" "\n"
+        "The return value \"ok\" indicates if the controllers were switched" "\n"
+        "successfully or not.  The meaning of success depends on the" "\n"
+        "specified strictness.")
+      sequence<string> activate_controllers;
+
+      sequence<string> deactivate_controllers;
+
+      @verbatim (language="comment", text=
+        "DEPRECATED: Use activate_controllers filed instead")
+      sequence<string> start_controllers;
+
+      @verbatim (language="comment", text=
+        "DEPRECATED: Use deactivate_controllers filed instead")
+      sequence<string> stop_controllers;
+
+      int32 strictness;
+
+      @verbatim (language="comment", text=
+        "DEPRECATED: Use activate_asap filed instead")
+      boolean start_asap;
+
+      boolean activate_asap;
+
+      builtin_interfaces::msg::Duration timeout;
+    };
+    struct SwitchController_Response {
+      boolean ok;
+    };
+  };
+};

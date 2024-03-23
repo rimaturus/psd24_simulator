@@ -1,0 +1,50 @@
+[ 16%] Built target example_velocity
+[ 33%] Built target example_tricycle_drive
+[ 50%] Built target example_position
+[ 66%] Built target example_effort
+[ 83%] Built target example_gripper
+[100%] Built target example_diff_drive
+-- Install configuration: ""
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+-- Installing: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+-- Up-to-date: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml

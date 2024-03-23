@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/ListHardwareInterfaces.srv
+// generated code does not contain a copyright notice
+
+#include "controller_manager_msgs/msg/HardwareInterface.idl"
+
+module controller_manager_msgs {
+  module srv {
+    struct ListHardwareInterfaces_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListHardwareInterfaces_Response {
+      sequence<controller_manager_msgs::msg::HardwareInterface> command_interfaces;
+
+      sequence<controller_manager_msgs::msg::HardwareInterface> state_interfaces;
+    };
+  };
+};

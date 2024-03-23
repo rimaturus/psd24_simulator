@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/JointTolerance.msg
+// generated code does not contain a copyright notice
+
+
+module control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The tolerances specify the amount the position, velocity, and" "\n"
+      "accelerations can vary from the setpoints.  For example, in the case" "\n"
+      "of trajectory control, when the actual position varies beyond" "\n"
+      "(desired position + position tolerance), the trajectory goal may" "\n"
+      "abort." "\n"
+      "" "\n"
+      "There are two special values for tolerances:" "\n"
+      " * 0 - The tolerance is unspecified and will remain at whatever the default is" "\n"
+      " * -1 - The tolerance is \"erased\".  If there was a default, the joint will be" "\n"
+      "        allowed to move without restriction.")
+    struct JointTolerance {
+      string name;
+
+      @verbatim (language="comment", text=
+        "in radians or meters (for a revolute or prismatic joint, respectively)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "in rad/sec or m/sec")
+      double velocity;
+
+      @verbatim (language="comment", text=
+        "in rad/sec^2 or m/sec^2")
+      double acceleration;
+    };
+  };
+};

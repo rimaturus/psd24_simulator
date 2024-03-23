@@ -35,11 +35,9 @@
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FL_1.stl
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.dae
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro
-/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.trans
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/materials.xacro
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components/camera_mount.urdf.xacro
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.urdf.xacro
-/home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.gazebo
 /home/psd/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description
 /home/psd/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description
 /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh

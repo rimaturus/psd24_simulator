@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/MecanumDriveControllerState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module msg {
+    struct MecanumDriveControllerState {
+      std_msgs::msg::Header header;
+
+      double front_left_wheel_velocity;
+
+      double back_left_wheel_velocity;
+
+      double back_right_wheel_velocity;
+
+      double front_right_wheel_velocity;
+
+      geometry_msgs::msg::Twist reference_velocity;
+    };
+  };
+};

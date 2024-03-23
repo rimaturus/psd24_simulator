@@ -1,0 +1,773 @@
+[0.033s] Invoking command in '/home/psd/psd_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/examples/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/control_msgs
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.262s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.415s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.707s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.718s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.776s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.835s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.158s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.822s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.825s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.856s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.856s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.856s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.856s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.880s] -- Found PythonExtra: .so  
+[2.053s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.058s] -- Added test 'lint_cmake' to check CMake code style
+[2.060s] -- Added test 'xmllint' to check XML markup files
+[2.067s] -- Configuring done
+[2.148s] -- Generating done
+[2.151s] -- Build files have been written to: /home/psd/psd_ws/build/control_msgs
+[2.163s] Invoked command in '/home/psd/psd_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/examples/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/control_msgs
+[2.164s] Invoking command in '/home/psd/psd_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/control_msgs -- -j20 -l20
+[2.224s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.240s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.248s] [  0%] Built target ament_cmake_python_copy_control_msgs
+[2.425s] running egg_info
+[2.426s] creating control_msgs.egg-info
+[2.426s] writing control_msgs.egg-info/PKG-INFO
+[2.426s] writing dependency_links to control_msgs.egg-info/dependency_links.txt
+[2.426s] writing top-level names to control_msgs.egg-info/top_level.txt
+[2.426s] writing manifest file 'control_msgs.egg-info/SOURCES.txt'
+[2.428s] reading manifest file 'control_msgs.egg-info/SOURCES.txt'
+[2.428s] writing manifest file 'control_msgs.egg-info/SOURCES.txt'
+[2.450s] [  0%] Built target ament_cmake_python_build_control_msgs_egg
+[5.748s] [  1%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/follow_joint_trajectory__functions.c.o[0m
+[5.768s] [  1%] Built target control_msgs__cpp
+[5.785s] [  2%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/joint_trajectory__functions.c.o[0m
+[5.787s] [  2%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/gripper_command__functions.c.o[0m
+[5.796s] [  3%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/point_head__functions.c.o[0m
+[5.817s] [  3%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/single_joint_position__functions.c.o[0m
+[5.825s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.834s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.852s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.877s] [  6%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/admittance_controller_state__functions.c.o[0m
+[5.880s] [  6%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/dynamic_joint_state__functions.c.o[0m
+[5.920s] [  7%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/gripper_command__functions.c.o[0m
+[5.936s] [  7%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/interface_value__functions.c.o[0m
+[5.982s] [  8%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_component_tolerance__functions.c.o[0m
+[6.016s] [  8%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_jog__functions.c.o[0m
+[6.028s] [  9%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_controller_state__functions.c.o[0m
+[6.031s] [ 10%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_tolerance__functions.c.o[0m
+[6.162s] [ 10%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c.o[0m
+[6.162s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/mecanum_drive_controller_state__functions.c.o[0m
+[6.164s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/pid_state__functions.c.o[0m
+[6.164s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_trajectory_state__functions.c.o[0m
+[6.165s] [ 12%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_calibration_state__functions.c.o[0m
+[6.186s] [ 13%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/steering_controller_status__functions.c.o[0m
+[6.329s] [ 14%] [32m[1mLinking C shared library libcontrol_msgs__rosidl_generator_c.so[0m
+[6.398s] [ 14%] Built target control_msgs__rosidl_generator_c
+[6.417s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.418s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.418s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.718s] [ 18%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/joint_trajectory__type_support.cpp.o[0m
+[7.718s] [ 18%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/gripper_command__type_support.cpp.o[0m
+[7.718s] [ 18%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/follow_joint_trajectory__type_support.cpp.o[0m
+[7.718s] [ 19%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/single_joint_position__type_support.cpp.o[0m
+[7.719s] [ 20%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/dynamic_joint_state__type_support.cpp.o[0m
+[7.721s] [ 21%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/interface_value__type_support.cpp.o[0m
+[7.721s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/point_head__type_support.cpp.o[0m
+[7.721s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[7.721s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/admittance_controller_state__type_support.cpp.o[0m
+[7.726s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_component_tolerance__type_support.cpp.o[0m
+[7.727s] [ 23%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[7.728s] [ 23%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[7.730s] [ 24%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_jog__type_support.cpp.o[0m
+[7.792s] [ 24%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/mecanum_drive_controller_state__type_support.cpp.o[0m
+[7.793s] [ 25%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/pid_state__type_support.cpp.o[0m
+[7.793s] [ 25%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/steering_controller_status__type_support.cpp.o[0m
+[7.796s] [ 26%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o[0m
+[7.800s] [ 27%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/srv/query_calibration_state__type_support.cpp.o[0m
+[7.805s] [ 28%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/srv/query_trajectory_state__type_support.cpp.o[0m
+[7.843s] [ 28%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_c.so[0m
+[7.869s] [ 29%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/follow_joint_trajectory__type_support.cpp.o[0m
+[7.870s] [ 30%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/gripper_command__type_support.cpp.o[0m
+[7.870s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/gripper_command__type_support.cpp.o[0m
+[7.870s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/point_head__type_support.cpp.o[0m
+[7.871s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/dynamic_joint_state__type_support.cpp.o[0m
+[7.873s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/single_joint_position__type_support.cpp.o[0m
+[7.873s] [ 33%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/admittance_controller_state__type_support.cpp.o[0m
+[7.873s] [ 33%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_component_tolerance__type_support.cpp.o[0m
+[7.874s] [ 34%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/joint_trajectory__type_support.cpp.o[0m
+[7.878s] [ 35%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.cpp.o[0m
+[7.878s] [ 35%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.cpp.o[0m
+[7.880s] [ 35%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/interface_value__type_support.cpp.o[0m
+[7.880s] [ 35%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_controller_state__type_support.cpp.o[0m
+[7.885s] [ 36%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_jog__type_support.cpp.o[0m
+[7.888s] [ 37%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_tolerance__type_support.cpp.o[0m
+[7.898s] [ 37%] Built target control_msgs__rosidl_typesupport_c
+[7.996s] [ 37%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/pid_state__type_support.cpp.o[0m
+[8.450s] [ 38%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/steering_controller_status__type_support.cpp.o[0m
+[8.457s] [ 38%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/srv/detail/query_calibration_state__type_support.cpp.o[0m
+[8.498s] [ 39%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/srv/detail/query_trajectory_state__type_support.cpp.o[0m
+[8.589s] [ 40%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/gripper_command__type_support.cpp.o[0m
+[8.592s] [ 40%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/follow_joint_trajectory__type_support.cpp.o[0m
+[8.604s] [ 41%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/joint_trajectory__type_support.cpp.o[0m
+[8.651s] [ 41%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/point_head__type_support.cpp.o[0m
+[8.670s] [ 42%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/single_joint_position__type_support.cpp.o[0m
+[8.690s] [ 42%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/admittance_controller_state__type_support.cpp.o[0m
+[8.707s] [ 43%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/dynamic_joint_state__type_support.cpp.o[0m
+[8.882s] [ 44%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/follow_joint_trajectory__type_support.cpp.o[0m
+[8.906s] [ 44%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[8.920s] [ 45%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[8.953s] [ 45%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[8.961s] [ 46%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/interface_value__type_support.cpp.o[0m
+[8.968s] [ 46%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/point_head__type_support.cpp.o[0m
+[8.996s] [ 47%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_component_tolerance__type_support.cpp.o[0m
+[9.038s] [ 48%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/single_joint_position__type_support.cpp.o[0m
+[9.041s] [ 48%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[9.073s] [ 48%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/admittance_controller_state__type_support.cpp.o[0m
+[9.102s] [ 49%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_jog__type_support.cpp.o[0m
+[9.114s] [ 50%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/follow_joint_trajectory__type_support.c.o[0m
+[9.185s] [ 50%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/gripper_command__type_support.c.o[0m
+[9.213s] [ 51%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.256s] [ 51%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[9.279s] [ 51%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/mecanum_drive_controller_state__type_support.cpp.o[0m
+[9.281s] [ 52%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o[0m
+[9.284s] [ 53%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/joint_trajectory__type_support.c.o[0m
+[9.325s] [ 53%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/point_head__type_support.c.o[0m
+[9.363s] [ 54%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/pid_state__type_support.cpp.o[0m
+[9.396s] [ 55%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/steering_controller_status__type_support.cpp.o[0m
+[9.403s] [ 56%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/dynamic_joint_state__type_support.cpp.o[0m
+[9.420s] [ 56%] Built target control_msgs__rosidl_typesupport_introspection_cpp
+[9.431s] [ 57%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/single_joint_position__type_support.c.o[0m
+[9.439s] [ 57%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/admittance_controller_state__type_support.c.o[0m
+[9.443s] [ 58%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/dynamic_joint_state__type_support.c.o[0m
+[9.459s] [ 59%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/srv/query_trajectory_state__type_support.cpp.o[0m
+[9.459s] [ 59%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/srv/query_calibration_state__type_support.cpp.o[0m
+[9.462s] [ 60%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/gripper_command__type_support.c.o[0m
+[9.498s] [ 60%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/interface_value__type_support.c.o[0m
+[9.538s] [ 61%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_component_tolerance__type_support.c.o[0m
+[9.540s] [ 61%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_controller_state__type_support.c.o[0m
+[9.566s] [ 62%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_jog__type_support.c.o[0m
+[9.590s] [ 62%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_tolerance__type_support.c.o[0m
+[9.612s] [ 63%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.c.o[0m
+[9.651s] [ 64%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.c.o[0m
+[9.655s] [ 64%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/pid_state__type_support.c.o[0m
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[9.695s] [ 66%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/steering_controller_status__type_support.c.o[0m
+[9.697s] [ 66%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/interface_value__type_support.cpp.o[0m
+[9.723s] [ 66%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/srv/detail/query_calibration_state__type_support.c.o[0m
+[9.728s] [ 67%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/srv/detail/query_trajectory_state__type_support.c.o[0m
+[9.740s] [ 68%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_component_tolerance__type_support.cpp.o[0m
+[9.745s] [ 69%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_jog__type_support.cpp.o[0m
+[9.748s] [ 68%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_controller_state__type_support.cpp.o[0m
+[9.756s] [ 68%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o[0m
+[9.815s] [ 69%] [32m[1mLinking C shared library libcontrol_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.817s] [ 70%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/mecanum_drive_controller_state__type_support.cpp.o[0m
+[9.819s] [ 71%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o[0m
+[9.842s] [ 71%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/pid_state__type_support.cpp.o[0m
+[9.866s] [ 72%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/steering_controller_status__type_support.cpp.o[0m
+[9.877s] [ 73%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/srv/detail/dds_fastrtps/query_trajectory_state__type_support.cpp.o[0m
+[9.880s] [ 73%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/srv/detail/dds_fastrtps/query_calibration_state__type_support.cpp.o[0m
+[9.885s] [ 73%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/follow_joint_trajectory__type_support_c.cpp.o[0m
+[9.912s] [ 74%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/joint_trajectory__type_support_c.cpp.o[0m
+[9.921s] [ 75%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/gripper_command__type_support_c.cpp.o[0m
+[9.959s] [ 75%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/point_head__type_support_c.cpp.o[0m
+[9.980s] [ 75%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_cpp.so[0m
+[10.003s] [ 75%] Built target control_msgs__rosidl_typesupport_introspection_c
+[10.074s] [ 76%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/single_joint_position__type_support_c.cpp.o[0m
+[10.125s] [ 76%] Built target control_msgs__rosidl_typesupport_cpp
+[10.145s] [ 76%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/admittance_controller_state__type_support_c.cpp.o[0m
+[10.173s] [ 77%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/dynamic_joint_state__type_support_c.cpp.o[0m
+[10.340s] [ 77%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/gripper_command__type_support_c.cpp.o[0m
+[10.343s] [ 78%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/interface_value__type_support_c.cpp.o[0m
+[10.350s] [ 79%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_component_tolerance__type_support_c.cpp.o[0m
+[10.422s] [ 79%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_controller_state__type_support_c.cpp.o[0m
+[10.499s] [ 79%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_tolerance__type_support_c.cpp.o[0m
+[10.501s] [ 80%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_jog__type_support_c.cpp.o[0m
+[10.520s] [ 81%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_trajectory_controller_state__type_support_c.cpp.o[0m
+[10.596s] [ 81%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/mecanum_drive_controller_state__type_support_c.cpp.o[0m
+[10.619s] [ 82%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/pid_state__type_support_c.cpp.o[0m
+[10.628s] [ 83%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/steering_controller_status__type_support_c.cpp.o[0m
+[10.666s] [ 84%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/srv/detail/query_trajectory_state__type_support_c.cpp.o[0m
+[10.672s] [ 84%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/srv/detail/query_calibration_state__type_support_c.cpp.o[0m
+[10.862s] [ 84%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.959s] [ 84%] Built target control_msgs__rosidl_typesupport_fastrtps_cpp
+[11.085s] [ 84%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.144s] [ 84%] Built target control_msgs__rosidl_typesupport_fastrtps_c
+[11.160s] [ 84%] Built target control_msgs
+[11.178s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.432s] [ 85%] Built target control_msgs__py
+[14.451s] [ 85%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_follow_joint_trajectory_s.c.o[0m
+[14.453s] [ 86%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_gripper_command_s.c.o[0m
+[14.454s] [ 86%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_joint_trajectory_s.c.o[0m
+[14.455s] [ 87%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_single_joint_position_s.c.o[0m
+[14.456s] [ 88%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_point_head_s.c.o[0m
+[14.456s] [ 88%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_admittance_controller_state_s.c.o[0m
+[14.460s] [ 89%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_mecanum_drive_controller_state_s.c.o[0m
+[14.460s] [ 89%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_steering_controller_status_s.c.o[0m
+[14.460s] [ 89%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_pid_state_s.c.o[0m
+[14.460s] [ 90%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/srv/_query_calibration_state_s.c.o[0m
+[14.461s] [ 90%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_component_tolerance_s.c.o[0m
+[14.462s] [ 91%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_dynamic_joint_state_s.c.o[0m
+[14.465s] [ 92%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/srv/_query_trajectory_state_s.c.o[0m
+[14.465s] [ 93%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_jog_s.c.o[0m
+[14.465s] [ 93%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_tolerance_s.c.o[0m
+[14.466s] [ 94%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_controller_state_s.c.o[0m
+[14.466s] [ 95%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_trajectory_controller_state_s.c.o[0m
+[14.467s] [ 95%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_gripper_command_s.c.o[0m
+[14.467s] [ 96%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_interface_value_s.c.o[0m
+[14.647s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/libcontrol_msgs__rosidl_generator_py.so[0m
+[14.679s] [ 96%] Built target control_msgs__rosidl_generator_py
+[14.695s] [ 99%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.695s] [ 99%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.695s] [ 99%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.856s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.856s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.856s] [100%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.891s] [100%] Built target control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.891s] [100%] Built target control_msgs__rosidl_typesupport_c__pyext
+[14.891s] [100%] Built target control_msgs__rosidl_typesupport_introspection_c__pyext
+[14.899s] Invoked command in '/home/psd/psd_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/control_msgs -- -j20 -l20
+[15.545s] Invoking command in '/home/psd/psd_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/control_msgs
+[15.552s] -- Install configuration: ""
+[15.552s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/ament_index/resource_index/rosidl_interfaces/control_msgs
+[15.552s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs
+[15.552s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/point_head.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__functions.c
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__functions.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__functions.c
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__functions.h
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__functions.c
+[15.553s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__functions.c
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__functions.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__functions.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__functions.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__functions.c
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__functions.c
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__functions.c
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__functions.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__functions.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.h
+[15.554s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__functions.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__functions.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__functions.c
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__functions.c
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__functions.c
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__functions.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__functions.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__functions.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__functions.c
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__functions.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.h
+[15.555s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__functions.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__functions.c
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__functions.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__functions.c
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__functions.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__functions.c
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__functions.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__functions.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__functions.c
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__functions.c
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.h
+[15.556s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__functions.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__functions.c
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__functions.c
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.h
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/library_path.sh
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/library_path.dsv
+[15.557s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so
+[15.558s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so" to ""
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_c.h
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.558s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[15.558s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_c.h
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
+[15.559s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.559s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs
+[15.559s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[15.559s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[15.559s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__traits.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__traits.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__traits.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__builder.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__traits.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__traits.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__builder.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__builder.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__builder.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__builder.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/point_head.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.hpp
+[15.560s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.hpp
+[15.560s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[15.561s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__builder.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__traits.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__builder.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__traits.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.hpp
+[15.561s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.hpp
+[15.561s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__traits.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__builder.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__builder.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__traits.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__builder.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__builder.hpp
+[15.561s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__traits.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__builder.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__builder.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__traits.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__traits.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__builder.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__builder.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__traits.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__traits.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__builder.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__traits.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__builder.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.hpp
+[15.562s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__traits.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__traits.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__traits.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__traits.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__builder.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__builder.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.hpp
+[15.563s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs
+[15.563s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[15.563s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[15.563s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/dds_fastrtps
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[15.564s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/dds_fastrtps
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[15.564s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dds_fastrtps
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.564s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.565s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.565s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs
+[15.565s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[15.565s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_c.h
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.c
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_c.h
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.c
+[15.565s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_c.h
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.c
+[15.566s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[15.566s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_c.h
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_c.h
+[15.566s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[15.566s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_c.h
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_c.h
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_c.h
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.c
+[15.566s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_c.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.c
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.567s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so
+[15.568s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so
+[15.568s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so" to ""
+[15.568s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs
+[15.568s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[15.568s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_cpp.hpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.cpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.cpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.cpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.cpp
+[15.568s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.cpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[15.569s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.cpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.cpp
+[15.569s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[15.569s] -- Up-to-date: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.cpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.cpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.cpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.cpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_cpp.hpp
+[15.569s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_cpp.hpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.cpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_cpp.hpp
+[15.570s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so
+[15.571s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
+[15.571s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so" to ""
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/pythonpath.sh
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/pythonpath.dsv
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/SOURCES.txt
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/dependency_links.txt
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/PKG-INFO
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/top_level.txt
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs
+[15.571s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position.py
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory.py
+[15.572s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/__init__.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state_s.c
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/__init__.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state.py
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.573s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/__init__.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/libcontrol_msgs__rosidl_generator_py.so
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state_s.c
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status_s.c
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state_s.c
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog_s.c
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog.py
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state_s.c
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value_s.c
+[15.574s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state.py
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state.py
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state_s.c
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state_s.c
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/__init__.py
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state_s.c
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance.py
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command_s.c
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state.py
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance_s.c
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance_s.c
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value.py
+[15.575s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state.py
+[15.626s] Listing '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/__init__.py'...
+[15.626s] Listing '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/__init__.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position.py'...
+[15.626s] Listing '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/__init__.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance.py'...
+[15.626s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status.py'...
+[15.627s] Listing '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/__init__.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state.py'...
+[15.627s] Compiling '/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state.py'...
+[15.629s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.629s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.629s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.630s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.630s] -- Installing: /home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.630s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.630s] -- Installing: /home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_py.so
+[15.630s] -- Set runtime path of "/home/psd/psd_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_py.so" to ""
+[15.630s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.idl
+[15.630s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/GripperCommand.idl
+[15.630s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/PointHead.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointJog.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/PidState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.idl
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.action
+[15.631s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/GripperCommand.action
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.action
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/PointHead.action
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.action
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointJog.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/PidState.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.msg
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.srv
+[15.632s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Request.msg
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Response.msg
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.srv
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Request.msg
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Response.msg
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/ament_index/resource_index/package_run_dependencies/control_msgs
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/ament_index/resource_index/parent_prefix_path/control_msgs
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.sh
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.dsv
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/path.sh
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/environment/path.dsv
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/local_setup.bash
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/local_setup.sh
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/local_setup.zsh
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/local_setup.dsv
+[15.633s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/package.dsv
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/ament_index/resource_index/packages/control_msgs
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cppExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.634s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig-version.cmake
+[15.635s] -- Installing: /home/psd/psd_ws/install/control_msgs/share/control_msgs/package.xml
+[15.637s] Invoked command in '/home/psd/psd_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/control_msgs

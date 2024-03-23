@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_manager_msgs/srv/LoadController.srv
+// generated code does not contain a copyright notice
+
+
+module controller_manager_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The LoadController service allows you to load a single controller" "\n"
+      "inside controller_manager")
+    struct LoadController_Request {
+      @verbatim (language="comment", text=
+        "To load a controller, specify the \"name\" of the controller." "\n"
+        "The return value \"ok\" indicates if the controller was successfully" "\n"
+        "constructed and initialized or not.")
+      string name;
+    };
+    struct LoadController_Response {
+      boolean ok;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/psd/psd_ws/build/new_vehicle_controller
+-- Install configuration: ""
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/launch
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/launch/control_gz.launch.py
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/ament_index/resource_index/package_run_dependencies/new_vehicle_controller
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/ament_index/resource_index/parent_prefix_path/new_vehicle_controller
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/ament_prefix_path.sh
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/path.sh
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/environment/path.dsv
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.bash
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.sh
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.zsh
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/local_setup.dsv
+-- Installing: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/package.dsv
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/ament_index/resource_index/packages/new_vehicle_controller
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/cmake/new_vehicle_controllerConfig.cmake
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/cmake/new_vehicle_controllerConfig-version.cmake
+-- Up-to-date: /home/psd/psd_ws/install/new_vehicle_controller/share/new_vehicle_controller/package.xml
