@@ -1,0 +1,167 @@
+[0.047s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_interfaces -- -j20 -l20
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_generator_c[0m
+[0.096s] [  9%] Built target psd_vehicle_interfaces__rosidl_generator_c
+[0.096s] [ 12%] Built target psd_vehicle_interfaces__cpp
+[0.097s] [ 12%] Built target ament_cmake_python_copy_psd_vehicle_interfaces
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_c[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_introspection_c[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_cpp[0m
+[0.102s] [ 22%] Built target psd_vehicle_interfaces__rosidl_typesupport_c
+[0.102s] [ 32%] Built target psd_vehicle_interfaces__rosidl_typesupport_introspection_c
+[0.102s] [ 41%] Built target psd_vehicle_interfaces__rosidl_typesupport_introspection_cpp
+[0.102s] [ 51%] Built target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c
+[0.102s] [ 61%] Built target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.104s] [ 70%] Built target psd_vehicle_interfaces__rosidl_typesupport_cpp
+[0.115s] [ 70%] Built target psd_vehicle_interfaces
+[0.127s] [ 74%] Built target psd_vehicle_interfaces__py
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_generator_py[0m
+[0.142s] [ 80%] Built target psd_vehicle_interfaces__rosidl_generator_py
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_c__pyext[0m
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.158s] [ 87%] Built target psd_vehicle_interfaces__rosidl_typesupport_c__pyext
+[0.159s] [ 93%] Built target psd_vehicle_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.160s] [100%] Built target psd_vehicle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.241s] running egg_info
+[0.242s] writing psd_vehicle_interfaces.egg-info/PKG-INFO
+[0.242s] writing dependency_links to psd_vehicle_interfaces.egg-info/dependency_links.txt
+[0.242s] writing top-level names to psd_vehicle_interfaces.egg-info/top_level.txt
+[0.243s] reading manifest file 'psd_vehicle_interfaces.egg-info/SOURCES.txt'
+[0.244s] writing manifest file 'psd_vehicle_interfaces.egg-info/SOURCES.txt'
+[0.262s] [100%] Built target ament_cmake_python_build_psd_vehicle_interfaces_egg
+[0.359s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_interfaces -- -j20 -l20
+[0.435s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_interfaces
+[0.485s] -- Install configuration: ""
+[0.485s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/ament_index/resource_index/rosidl_interfaces/psd_vehicle_interfaces
+[0.485s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces
+[0.485s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg
+[0.485s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail
+[0.486s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__functions.c
+[0.486s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__struct.h
+[0.486s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__functions.h
+[0.486s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__type_support.h
+[0.486s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/obstacle_info.h
+[0.486s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.486s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/library_path.sh
+[0.486s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/library_path.dsv
+[0.487s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_generator_c.so
+[0.487s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_generator_c.so" to ""
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__rosidl_typesupport_fastrtps_c.h
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.487s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.487s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg
+[0.487s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__builder.hpp
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__traits.hpp
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__struct.hpp
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/obstacle_info.hpp
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.488s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/dds_fastrtps
+[0.488s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.489s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.489s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[0.489s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces
+[0.489s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg
+[0.489s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail
+[0.489s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__rosidl_typesupport_introspection_c.h
+[0.489s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__type_support.c
+[0.489s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.489s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_introspection_c.so
+[0.489s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[0.490s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_c.so
+[0.490s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_c.so" to ""
+[0.490s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces
+[0.490s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg
+[0.490s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail
+[0.490s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__type_support.cpp
+[0.490s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/include/psd_vehicle_interfaces/psd_vehicle_interfaces/msg/detail/obstacle_info__rosidl_typesupport_introspection_cpp.hpp
+[0.490s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.490s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[0.490s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_cpp.so
+[0.491s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_typesupport_cpp.so" to ""
+[0.491s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/pythonpath.sh
+[0.491s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/pythonpath.dsv
+[0.491s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces-0.0.0-py3.10.egg-info
+[0.491s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.491s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.491s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.491s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.491s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces
+[0.491s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.492s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg/_obstacle_info.py
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg/_obstacle_info_s.c
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg/__init__.py
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/_psd_vehicle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.492s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/libpsd_vehicle_interfaces__rosidl_generator_py.so
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/_psd_vehicle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.492s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/_psd_vehicle_interfaces_s.ep.rosidl_typesupport_c.c
+[0.492s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.492s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/__init__.py
+[0.493s] Listing '/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces'...
+[0.493s] Compiling '/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/__init__.py'...
+[0.493s] Listing '/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg'...
+[0.493s] Compiling '/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg/__init__.py'...
+[0.493s] Compiling '/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/msg/_obstacle_info.py'...
+[0.493s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.493s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.493s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.493s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.493s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.493s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/local/lib/python3.10/dist-packages/psd_vehicle_interfaces/psd_vehicle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.494s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_generator_py.so
+[0.494s] -- Set runtime path of "/home/psd/psd_ws/install/psd_vehicle_interfaces/lib/libpsd_vehicle_interfaces__rosidl_generator_py.so" to ""
+[0.494s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/msg/ObstacleInfo.idl
+[0.494s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/msg/ObstacleInfo.msg
+[0.494s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_interfaces
+[0.494s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_interfaces
+[0.494s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/ament_prefix_path.sh
+[0.494s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/ament_prefix_path.dsv
+[0.494s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/path.sh
+[0.495s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/environment/path.dsv
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/local_setup.bash
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/local_setup.sh
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/local_setup.zsh
+[0.495s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/local_setup.dsv
+[0.495s] -- Installing: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.dsv
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/ament_index/resource_index/packages/psd_vehicle_interfaces
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_generator_cExport.cmake
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.495s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.496s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.496s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_generator_cppExport.cmake
+[0.496s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.496s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_cExport.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.497s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_cppExport.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_generator_pyExport.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/export_psd_vehicle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.498s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.499s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfacesConfig.cmake
+[0.499s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/cmake/psd_vehicle_interfacesConfig-version.cmake
+[0.499s] -- Up-to-date: /home/psd/psd_ws/install/psd_vehicle_interfaces/share/psd_vehicle_interfaces/package.xml
+[0.569s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_interfaces

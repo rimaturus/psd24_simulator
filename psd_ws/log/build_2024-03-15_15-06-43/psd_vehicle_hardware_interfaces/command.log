@@ -1,0 +1,1 @@
+Invoking command in '/home/psd/psd_ws/build/psd_vehicle_hardware_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_hardware_interfaces -- -j20 -l20

@@ -43,10 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_gazebo_worlds" TYPE DIRECTORY FILES "/home/psd/psd_ws/src/psd_gazebo_worlds/launch/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/psd_gazebo_worlds/worlds/" TYPE DIRECTORY FILES "/home/psd/psd_ws/src/psd_gazebo_worlds/world/")
 endif()
 

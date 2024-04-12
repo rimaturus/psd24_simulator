@@ -1,0 +1,31 @@
+[0.111s] Invoking command in '/home/psd/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+[0.139s] Invoked command in '/home/psd/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+[0.173s] Invoking command in '/home/psd/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_gazebo_worlds
+[0.216s] -- Install configuration: ""
+[0.216s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds/
+[0.217s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track.sdf
+[0.218s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models
+[0.218s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone
+[0.218s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.config
+[0.218s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.sdf
+[0.219s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes
+[0.219s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.dae
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.stl
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track_creator.py
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//random.sdf
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/psd_gazebo_worlds
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/psd_gazebo_worlds
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/ament_prefix_path.sh
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/ament_prefix_path.dsv
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/path.sh
+[0.220s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/path.dsv
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.bash
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.sh
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.zsh
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.dsv
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.dsv
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/packages/psd_gazebo_worlds
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/cmake/psd_gazebo_worldsConfig.cmake
+[0.221s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/cmake/psd_gazebo_worldsConfig-version.cmake
+[0.222s] -- Up-to-date: /home/psd/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.xml
+[0.284s] Invoked command in '/home/psd/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/psd_gazebo_worlds
