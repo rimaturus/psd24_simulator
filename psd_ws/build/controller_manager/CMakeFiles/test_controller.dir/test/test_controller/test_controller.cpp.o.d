@@ -1,7 +1,7 @@
 CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_manager/test/test_controller/test_controller.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/test/test_controller/test_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_manager/test/test_controller/test_controller.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/test/test_controller/test_controller.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -635,7 +635,7 @@ CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o: \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_manager/include/controller_manager/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/include/controller_manager/visibility_control.h \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \

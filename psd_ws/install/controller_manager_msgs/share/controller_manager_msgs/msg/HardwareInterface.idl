@@ -1,16 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from controller_manager_msgs/msg/HardwareInterface.msg
-// generated code does not contain a copyright notice
-
-
-module controller_manager_msgs {
-  module msg {
-    struct HardwareInterface {
-      string name;
-
-      boolean is_available;
-
-      boolean is_claimed;
-    };
-  };
-};
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs/msg/HardwareInterface.idl

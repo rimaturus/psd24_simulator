@@ -1,7 +1,7 @@
 CMakeFiles/test_resource_manager_prepare_perform_switch.dir/test/test_resource_manager_prepare_perform_switch.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface_testing/test/test_resource_manager_prepare_perform_switch.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager_prepare_perform_switch.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface_testing/test/test_resource_manager.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.hpp \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h \
  /usr/include/errno.h /usr/include/features.h \

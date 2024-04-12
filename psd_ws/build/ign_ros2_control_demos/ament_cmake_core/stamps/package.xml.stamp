@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>ign_ros2_control_demos</name>
-  <version>0.5.0</version>
+  <version>0.7.6</version>
   <description>ign_ros2_control_demos</description>
 
   <maintainer email="ahcorde@osrfoundation.org">Alejandro Hernandez</maintainer>
 
   <license>Apache License 2.0</license>
+
 
   <url type="website">https://github.com/ros-controls/gz_ros2_control/blob/master/README.md</url>
   <url type="bugtracker">https://github.com/ros-controls/gz_ros2_control/issues</url>
@@ -37,6 +38,7 @@
   <exec_depend>rclcpp</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>ros_ign_gazebo</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
   <exec_depend>ros2controlcli</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>velocity_controllers</exec_depend>

@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -425,7 +425,7 @@ hardware_interface_IS_TOP_LEVEL:STATIC=ON
 hardware_interface_LIB_DEPENDS:STATIC=general;control_msgs::control_msgs__rosidl_generator_c;general;control_msgs::control_msgs__rosidl_typesupport_fastrtps_c;general;control_msgs::control_msgs__rosidl_typesupport_fastrtps_cpp;general;control_msgs::control_msgs__rosidl_typesupport_introspection_c;general;control_msgs::control_msgs__rosidl_typesupport_c;general;control_msgs::control_msgs__rosidl_typesupport_introspection_cpp;general;control_msgs::control_msgs__rosidl_typesupport_cpp;general;control_msgs::control_msgs__rosidl_generator_py;general;lifecycle_msgs::lifecycle_msgs__rosidl_generator_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_fastrtps_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_introspection_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_fastrtps_cpp;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_introspection_cpp;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_cpp;general;lifecycle_msgs::lifecycle_msgs__rosidl_generator_py;general;rclcpp_lifecycle::rclcpp_lifecycle;general;rcpputils::rcpputils;general;rcutils::rcutils;general;tinyxml2::tinyxml2;
 
 //Value Computed by CMake
-hardware_interface_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/examples/ros2_control/hardware_interface
+hardware_interface_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
@@ -666,7 +666,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/examples/ros2_control/hardware_interface
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -802,6 +802,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=2
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

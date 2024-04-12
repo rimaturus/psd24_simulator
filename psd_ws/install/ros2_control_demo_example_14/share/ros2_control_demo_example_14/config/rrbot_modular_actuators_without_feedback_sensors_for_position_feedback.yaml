@@ -1,17 +1,1 @@
-controller_manager:
-  ros__parameters:
-    update_rate: 100  # Hz
-
-    joint_state_broadcaster:
-      type: joint_state_broadcaster/JointStateBroadcaster
-
-    forward_velocity_controller:
-      type: forward_command_controller/ForwardCommandController
-
-
-forward_velocity_controller:
-  ros__parameters:
-    joints:
-      - joint1
-      - joint2
-    interface_name: velocity
+/home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_14/bringup/config/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.yaml

@@ -1,5 +1,5 @@
 CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/joint_limits/test/joint_limits_rosparam_test.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits/test/joint_limits_rosparam_test.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -265,8 +265,8 @@ CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o:
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest-test-part.h \
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest-typed-test.h \
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h \
- /home/psd/psd_ws/src/examples/ros2_control/joint_limits/include/joint_limits/joint_limits_rosparam.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/joint_limits/include/joint_limits/joint_limits.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits/include/joint_limits/joint_limits_rosparam.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits/include/joint_limits/joint_limits.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \

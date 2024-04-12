@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_control/transmission_interface
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/transmission_interface
@@ -82,6 +82,6 @@ CMakeFiles/transmission_interface_uninstall.dir/clean:
 .PHONY : CMakeFiles/transmission_interface_uninstall.dir/clean
 
 CMakeFiles/transmission_interface_uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/transmission_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_control/transmission_interface /home/psd/psd_ws/src/examples/ros2_control/transmission_interface /home/psd/psd_ws/build/transmission_interface /home/psd/psd_ws/build/transmission_interface /home/psd/psd_ws/build/transmission_interface/CMakeFiles/transmission_interface_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/transmission_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface /home/psd/psd_ws/build/transmission_interface /home/psd/psd_ws/build/transmission_interface /home/psd/psd_ws/build/transmission_interface/CMakeFiles/transmission_interface_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/transmission_interface_uninstall.dir/depend
 

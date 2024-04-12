@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/effort_controllers
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/effort_controllers
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/effort_controllers
@@ -82,6 +82,6 @@ CMakeFiles/effort_controllers_uninstall.dir/clean:
 .PHONY : CMakeFiles/effort_controllers_uninstall.dir/clean
 
 CMakeFiles/effort_controllers_uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/effort_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/effort_controllers /home/psd/psd_ws/src/examples/ros2_controllers/effort_controllers /home/psd/psd_ws/build/effort_controllers /home/psd/psd_ws/build/effort_controllers /home/psd/psd_ws/build/effort_controllers/CMakeFiles/effort_controllers_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/effort_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/effort_controllers /home/psd/psd_ws/src/ros-controls/ros2_controllers/effort_controllers /home/psd/psd_ws/build/effort_controllers /home/psd/psd_ws/build/effort_controllers /home/psd/psd_ws/build/effort_controllers/CMakeFiles/effort_controllers_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/effort_controllers_uninstall.dir/depend
 

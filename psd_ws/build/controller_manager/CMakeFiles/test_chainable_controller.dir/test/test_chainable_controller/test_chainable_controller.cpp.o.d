@@ -1,7 +1,7 @@
 CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -635,8 +635,8 @@ CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_cha
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_manager/include/controller_manager/visibility_control.h \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/include/controller_manager/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \

@@ -1,5 +1,5 @@
 CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/test/simple_transmission_test.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/test/simple_transmission_test.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h \
@@ -316,10 +316,10 @@ CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o: \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/simple_transmission.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/exception.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/transmission.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/handle.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/simple_transmission.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/exception.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/transmission.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \

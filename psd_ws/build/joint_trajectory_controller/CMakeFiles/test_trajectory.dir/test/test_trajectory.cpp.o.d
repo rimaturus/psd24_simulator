@@ -1,5 +1,5 @@
 CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/test/test_trajectory.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -330,8 +330,8 @@ CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o: \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/trajectory.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/interpolation_methods.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/trajectory.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/interpolation_methods.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
@@ -665,7 +665,7 @@ CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/visibility_control.h \
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \

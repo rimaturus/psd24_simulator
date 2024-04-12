@@ -1,3 +1,1 @@
-# The ListControllers service returns a list of controller types that are known
-# to the controller manager plugin mechanism.
-
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_cmake/srv/ListControllerTypes_Request.msg

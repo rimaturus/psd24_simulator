@@ -1,3 +1,1 @@
-source;share/joint_state_broadcaster/environment/ament_prefix_path.sh
-source;share/joint_state_broadcaster/environment/library_path.sh
-source;share/joint_state_broadcaster/environment/path.sh
+/home/psd/psd_ws/build/joint_state_broadcaster/ament_cmake_environment_hooks/local_setup.dsv

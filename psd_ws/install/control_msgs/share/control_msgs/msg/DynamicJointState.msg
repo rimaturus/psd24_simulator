@@ -1,6 +1,1 @@
-std_msgs/Header header
-
-# List of resource names, e.g. ["arm_joint_1", "arm_joint_2", "gripper_joint"]
-string[] joint_names
-# Key-value pairs representing interfaces and their corresponding values for each joint listed in `joint_names`
-InterfaceValue[] interface_values
+/home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs/msg/DynamicJointState.msg

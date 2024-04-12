@@ -1,2 +1,1 @@
-
-bool ok
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_cmake/srv/LoadController_Response.msg

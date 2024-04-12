@@ -1,3 +1,1 @@
-source;share/joint_trajectory_controller/environment/ament_prefix_path.sh
-source;share/joint_trajectory_controller/environment/library_path.sh
-source;share/joint_trajectory_controller/environment/path.sh
+/home/psd/psd_ws/build/joint_trajectory_controller/ament_cmake_environment_hooks/local_setup.dsv

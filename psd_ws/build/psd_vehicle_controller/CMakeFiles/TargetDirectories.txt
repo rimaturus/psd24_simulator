@@ -1,9 +1,0 @@
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/uninstall.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/psd_vehicle_controller_uninstall.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/test.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/edit_cache.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/rebuild_cache.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/list_install_components.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/install.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/install/local.dir
-/home/psd/psd_ws/build/psd_vehicle_controller/CMakeFiles/install/strip.dir

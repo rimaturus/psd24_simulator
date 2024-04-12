@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_bringup
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/psd_vehicle_bringup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/psd_vehicle_bringup
@@ -82,6 +82,6 @@ CMakeFiles/psd_vehicle_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/psd_vehicle_bringup_uninstall.dir/clean
 
 CMakeFiles/psd_vehicle_bringup_uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/psd_vehicle_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_bringup /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_bringup /home/psd/psd_ws/build/psd_vehicle_bringup /home/psd/psd_ws/build/psd_vehicle_bringup /home/psd/psd_ws/build/psd_vehicle_bringup/CMakeFiles/psd_vehicle_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/psd_vehicle_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/psd_vehicle_bringup /home/psd/psd_ws/src/psd_vehicle_bringup /home/psd/psd_ws/build/psd_vehicle_bringup /home/psd/psd_ws/build/psd_vehicle_bringup /home/psd/psd_ws/build/psd_vehicle_bringup/CMakeFiles/psd_vehicle_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/psd_vehicle_bringup_uninstall.dir/depend
 

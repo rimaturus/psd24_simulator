@@ -1,0 +1,1 @@
+/home/psd/psd_ws/build/kinematics_interface/ament_cmake_environment_hooks/local_setup.sh

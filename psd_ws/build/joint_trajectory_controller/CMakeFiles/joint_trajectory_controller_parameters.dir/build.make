@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/joint_trajectory_controller
@@ -66,14 +66,14 @@ include CMakeFiles/joint_trajectory_controller_parameters.dir/compiler_depend.ma
 # Include the progress variables for this target.
 include CMakeFiles/joint_trajectory_controller_parameters.dir/progress.make
 
-joint_trajectory_controller_parameters/include/joint_trajectory_controller_parameters.hpp: /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml
+joint_trajectory_controller_parameters/include/joint_trajectory_controller_parameters.hpp: /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml
 joint_trajectory_controller_parameters/include/joint_trajectory_controller_parameters.hpp: joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/joint_trajectory_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp\`"
-	/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/joint_trajectory_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp\`"
+	/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp
 
-joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp: /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/joint_trajectory_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running \`/usr/bin/cmake -E copy /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp\`"
-	/usr/bin/cmake -E copy /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp
+joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp: /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/joint_trajectory_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running \`/usr/bin/cmake -E copy /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp\`"
+	/usr/bin/cmake -E copy /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp
 
 joint_trajectory_controller_parameters: joint_trajectory_controller_parameters/include/joint_trajectory_controller_parameters.hpp
 joint_trajectory_controller_parameters: joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp
@@ -89,6 +89,6 @@ CMakeFiles/joint_trajectory_controller_parameters.dir/clean:
 .PHONY : CMakeFiles/joint_trajectory_controller_parameters.dir/clean
 
 CMakeFiles/joint_trajectory_controller_parameters.dir/depend:
-	cd /home/psd/psd_ws/build/joint_trajectory_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller /home/psd/psd_ws/src/examples/ros2_controllers/joint_trajectory_controller /home/psd/psd_ws/build/joint_trajectory_controller /home/psd/psd_ws/build/joint_trajectory_controller /home/psd/psd_ws/build/joint_trajectory_controller/CMakeFiles/joint_trajectory_controller_parameters.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/joint_trajectory_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller /home/psd/psd_ws/build/joint_trajectory_controller /home/psd/psd_ws/build/joint_trajectory_controller /home/psd/psd_ws/build/joint_trajectory_controller/CMakeFiles/joint_trajectory_controller_parameters.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joint_trajectory_controller_parameters.dir/depend
 

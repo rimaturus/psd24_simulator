@@ -1,5 +1,5 @@
 CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/test/simple_transmission_loader_test.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/test/simple_transmission_loader_test.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h \
@@ -387,12 +387,12 @@ CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_t
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/simple_transmission.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/exception.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/transmission.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/handle.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/simple_transmission.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/exception.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/transmission.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/transmission_loader.hpp
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/transmission_loader.hpp

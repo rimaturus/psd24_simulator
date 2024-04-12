@@ -1,3 +1,1 @@
-
-string[] types
-string[] base_classes
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_cmake/srv/ListControllerTypes_Response.msg

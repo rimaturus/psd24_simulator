@@ -1,3 +1,1 @@
-trajectory_msgs/JointTrajectory trajectory
----
----
+/home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs/action/JointTrajectory.action

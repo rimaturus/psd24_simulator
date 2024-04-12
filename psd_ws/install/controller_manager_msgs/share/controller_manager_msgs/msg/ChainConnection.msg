@@ -1,2 +1,1 @@
-string name        # name of controller exporting reference_interfaces
-string[] reference_interfaces        # list of reference exported by controller
+/home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager_msgs/msg/ChainConnection.msg

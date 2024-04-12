@@ -1,2 +1,1 @@
-source;share/psd_gazebo_worlds/environment/ament_prefix_path.sh
-source;share/psd_gazebo_worlds/environment/path.sh
+/home/psd/psd_ws/build/psd_gazebo_worlds/ament_cmake_environment_hooks/local_setup.dsv

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control/hardware_interface/src/mock_components/fake_generic_system.cpp" "CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o" "gcc" "CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control/hardware_interface/src/mock_components/generic_system.cpp" "CMakeFiles/fake_components.dir/src/mock_components/generic_system.cpp.o" "gcc" "CMakeFiles/fake_components.dir/src/mock_components/generic_system.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/src/mock_components/fake_generic_system.cpp" "CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o" "gcc" "CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/src/mock_components/generic_system.cpp" "CMakeFiles/fake_components.dir/src/mock_components/generic_system.cpp.o" "gcc" "CMakeFiles/fake_components.dir/src/mock_components/generic_system.cpp.o.d"
   )
 
 # Targets to which this target links.

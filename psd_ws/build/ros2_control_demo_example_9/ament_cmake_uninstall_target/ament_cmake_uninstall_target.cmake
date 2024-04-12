@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/psd/psd_ws/build/ros2_control_demo_example_9/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

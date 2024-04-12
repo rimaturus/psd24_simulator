@@ -1,2 +1,1 @@
-float64 position
-float64 max_effort
+/home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs/msg/GripperCommand.msg

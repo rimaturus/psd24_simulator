@@ -1,2 +1,1 @@
-source;share/hardware_interface_testing/environment/ament_prefix_path.sh
-source;share/hardware_interface_testing/environment/path.sh
+/home/psd/psd_ws/build/hardware_interface_testing/ament_cmake_environment_hooks/local_setup.dsv

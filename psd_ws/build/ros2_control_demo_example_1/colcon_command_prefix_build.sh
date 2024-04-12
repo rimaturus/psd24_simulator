@@ -5,6 +5,7 @@
 . "/home/psd/psd_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh"
 . "/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh"
 . "/home/psd/psd_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.sh"
+. "/home/psd/psd_ws/install/control_toolbox/share/control_toolbox/package.sh"
 . "/home/psd/psd_ws/install/hardware_interface/share/hardware_interface/package.sh"
 . "/home/psd/psd_ws/install/controller_interface/share/controller_interface/package.sh"
 . "/home/psd/psd_ws/install/controller_manager/share/controller_manager/package.sh"

@@ -1,5 +1,5 @@
 CMakeFiles/test_multi_interface_forward_command_controller.dir/test/test_multi_interface_forward_command_controller.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/test/test_multi_interface_forward_command_controller.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/test/test_multi_interface_forward_command_controller.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -314,9 +314,9 @@ CMakeFiles/test_multi_interface_forward_command_controller.dir/test/test_multi_i
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/test/test_multi_interface_forward_command_controller.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/include/forward_command_controller/multi_interface_forward_command_controller.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_controllers_base.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/test/test_multi_interface_forward_command_controller.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/forward_command_controller/multi_interface_forward_command_controller.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_controllers_base.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/visibility_control.h \
@@ -701,8 +701,8 @@ CMakeFiles/test_multi_interface_forward_command_controller.dir/test/test_multi_i
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/include/forward_command_controller/visibility_control.h \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/forward_command_controller/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \

@@ -1,1 +1,1 @@
-builtin_interfaces/Time time
+/home/psd/psd_ws/build/control_msgs/rosidl_cmake/srv/QueryTrajectoryState_Request.msg

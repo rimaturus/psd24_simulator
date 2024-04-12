@@ -1,9 +1,1 @@
-<library path="admittance_controller">
-  <class name="admittance_controller/AdmittanceController"
-         type="admittance_controller::AdmittanceController"
-         base_class_type="controller_interface::ChainableControllerInterface">
-    <description>
-      AdmittanceController ros2_control controller.
-    </description>
-  </class>
-</library>
+/home/psd/psd_ws/src/ros-controls/ros2_controllers/admittance_controller/admittance_controller.xml

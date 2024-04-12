@@ -1,5 +1,5 @@
 CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_hardware_components/test_two_joint_system.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_two_joint_system.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/array \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -119,7 +119,7 @@ CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_j
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
@@ -152,20 +152,20 @@ CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_j
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/handle.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/macros.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/handle.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/macros.hpp \
  /usr/include/c++/11/stdexcept \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/hardware_info.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_info.hpp \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
@@ -317,7 +317,7 @@ CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_j
  /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cassert /usr/include/c++/11/cstddef \

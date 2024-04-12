@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/diff_drive_controller
@@ -66,9 +66,9 @@ include CMakeFiles/diff_drive_controller_parameters.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/diff_drive_controller_parameters.dir/progress.make
 
-diff_drive_controller_parameters/include/diff_drive_controller_parameters.hpp: /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/diff_drive_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml \`"
-	/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml
+diff_drive_controller_parameters/include/diff_drive_controller_parameters.hpp: /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/diff_drive_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml \`"
+	/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml
 
 diff_drive_controller_parameters: diff_drive_controller_parameters/include/diff_drive_controller_parameters.hpp
 diff_drive_controller_parameters: CMakeFiles/diff_drive_controller_parameters.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/diff_drive_controller_parameters.dir/clean:
 .PHONY : CMakeFiles/diff_drive_controller_parameters.dir/clean
 
 CMakeFiles/diff_drive_controller_parameters.dir/depend:
-	cd /home/psd/psd_ws/build/diff_drive_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller/CMakeFiles/diff_drive_controller_parameters.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/diff_drive_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller/CMakeFiles/diff_drive_controller_parameters.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diff_drive_controller_parameters.dir/depend
 

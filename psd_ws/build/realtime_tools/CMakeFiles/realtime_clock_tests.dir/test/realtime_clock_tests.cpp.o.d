@@ -1,5 +1,5 @@
 CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o: \
- /home/psd/psd_ws/src/examples/realtime_tools/test/realtime_clock_tests.cpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/test/realtime_clock_tests.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h \
@@ -403,7 +403,7 @@ CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
- /home/psd/psd_ws/src/examples/realtime_tools/include/realtime_tools/realtime_clock.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_clock.h \
  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \

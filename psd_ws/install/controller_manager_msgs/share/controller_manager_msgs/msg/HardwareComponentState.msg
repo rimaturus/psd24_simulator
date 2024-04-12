@@ -1,6 +1,1 @@
-string name
-string type
-string class_type
-lifecycle_msgs/State state
-HardwareInterface[] command_interfaces
-HardwareInterface[] state_interfaces
+/home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager_msgs/msg/HardwareComponentState.msg

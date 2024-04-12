@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control_demos/example_10/controllers/gpio_controller.cpp" "CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o" "gcc" "CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control_demos/example_10/hardware/rrbot.cpp" "CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o" "gcc" "CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_10/controllers/gpio_controller.cpp" "CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o" "gcc" "CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_10/hardware/rrbot.cpp" "CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o" "gcc" "CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o.d"
   )
 
 # Targets to which this target links.

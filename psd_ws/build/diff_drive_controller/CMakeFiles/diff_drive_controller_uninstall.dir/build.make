@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/diff_drive_controller
@@ -82,6 +82,6 @@ CMakeFiles/diff_drive_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/diff_drive_controller_uninstall.dir/clean
 
 CMakeFiles/diff_drive_controller_uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/diff_drive_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller/CMakeFiles/diff_drive_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/diff_drive_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller /home/psd/psd_ws/build/diff_drive_controller/CMakeFiles/diff_drive_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diff_drive_controller_uninstall.dir/depend
 

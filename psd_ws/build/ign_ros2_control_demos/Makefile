@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ign_ros2_control_demos

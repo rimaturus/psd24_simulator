@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_control/hardware_interface_testing
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface_testing
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/hardware_interface_testing

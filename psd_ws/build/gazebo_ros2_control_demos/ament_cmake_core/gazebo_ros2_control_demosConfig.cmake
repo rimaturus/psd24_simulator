@@ -16,7 +16,7 @@ set(_gazebo_ros2_control_demos_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT gazebo_ros2_control_demos_FIND_QUIETLY)
-  message(STATUS "Found gazebo_ros2_control_demos: 0.4.6 (${gazebo_ros2_control_demos_DIR})")
+  message(STATUS "Found gazebo_ros2_control_demos: 0.4.7 (${gazebo_ros2_control_demos_DIR})")
 endif()
 
 # warn when using a deprecated package

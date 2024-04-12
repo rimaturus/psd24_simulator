@@ -15,8 +15,8 @@
 /home/psd/psd_ws/build/controller_manager/CMakeFiles/test_release_interfaces.dir
 /home/psd/psd_ws/build/controller_manager/CMakeFiles/test_spawner_unspawner.dir
 /home/psd/psd_ws/build/controller_manager/CMakeFiles/test_hardware_management_srvs.dir
-/home/psd/psd_ws/build/controller_manager/CMakeFiles/ament_cmake_python_copy_controller_manager.dir
-/home/psd/psd_ws/build/controller_manager/CMakeFiles/ament_cmake_python_copy_controller_manager_setup.dir
+/home/psd/psd_ws/build/controller_manager/CMakeFiles/ament_cmake_python_symlink_controller_manager.dir
+/home/psd/psd_ws/build/controller_manager/CMakeFiles/ament_cmake_python_symlink_controller_manager_setup.dir
 /home/psd/psd_ws/build/controller_manager/CMakeFiles/ament_cmake_python_build_controller_manager_egg.dir
 /home/psd/psd_ws/build/controller_manager/CMakeFiles/ament_cmake_python_build_controller_manager_scripts.dir
 /home/psd/psd_ws/build/controller_manager/CMakeFiles/test.dir

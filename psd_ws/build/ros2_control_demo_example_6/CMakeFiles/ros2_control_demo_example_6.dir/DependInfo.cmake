@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control_demos/example_6/hardware/rrbot_actuator.cpp" "CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o" "gcc" "CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_6/hardware/rrbot_actuator.cpp" "CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o" "gcc" "CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o.d"
   )
 
 # Targets to which this target links.

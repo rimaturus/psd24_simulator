@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_hardware_components/test_force_torque_sensor.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_hardware_components/test_single_joint_actuator.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_hardware_components/test_system_with_command_modes.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_hardware_components/test_two_joint_system.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_force_torque_sensor.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_single_joint_actuator.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_system_with_command_modes.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_hardware_components/test_two_joint_system.cpp" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o" "gcc" "CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o.d"
   )
 
 # Targets to which this target links.

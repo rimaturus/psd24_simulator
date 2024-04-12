@@ -1,5 +1,5 @@
 CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o: \
- /home/psd/psd_ws/src/examples/realtime_tools/test/realtime_buffer_tests.cpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/test/realtime_buffer_tests.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h \
@@ -315,7 +315,7 @@ CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o: \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/realtime_tools/include/realtime_tools/realtime_buffer.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/bits/std_mutex.h \

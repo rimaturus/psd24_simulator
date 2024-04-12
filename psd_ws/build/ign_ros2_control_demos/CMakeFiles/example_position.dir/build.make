@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ign_ros2_control_demos
@@ -70,18 +70,18 @@ include CMakeFiles/example_position.dir/progress.make
 include CMakeFiles/example_position.dir/flags.make
 
 CMakeFiles/example_position.dir/examples/example_position.cpp.o: CMakeFiles/example_position.dir/flags.make
-CMakeFiles/example_position.dir/examples/example_position.cpp.o: /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp
+CMakeFiles/example_position.dir/examples/example_position.cpp.o: /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp
 CMakeFiles/example_position.dir/examples/example_position.cpp.o: CMakeFiles/example_position.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/psd/psd_ws/build/ign_ros2_control_demos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_position.dir/examples/example_position.cpp.o -MF CMakeFiles/example_position.dir/examples/example_position.cpp.o.d -o CMakeFiles/example_position.dir/examples/example_position.cpp.o -c /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_position.dir/examples/example_position.cpp.o -MF CMakeFiles/example_position.dir/examples/example_position.cpp.o.d -o CMakeFiles/example_position.dir/examples/example_position.cpp.o -c /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp
 
 CMakeFiles/example_position.dir/examples/example_position.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_position.dir/examples/example_position.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp > CMakeFiles/example_position.dir/examples/example_position.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp > CMakeFiles/example_position.dir/examples/example_position.cpp.i
 
 CMakeFiles/example_position.dir/examples/example_position.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_position.dir/examples/example_position.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp -o CMakeFiles/example_position.dir/examples/example_position.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos/examples/example_position.cpp -o CMakeFiles/example_position.dir/examples/example_position.cpp.s
 
 # Object files for target example_position
 example_position_OBJECTS = \
@@ -217,6 +217,6 @@ CMakeFiles/example_position.dir/clean:
 .PHONY : CMakeFiles/example_position.dir/clean
 
 CMakeFiles/example_position.dir/depend:
-	cd /home/psd/psd_ws/build/ign_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos/CMakeFiles/example_position.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ign_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos /home/psd/psd_ws/build/ign_ros2_control_demos/CMakeFiles/example_position.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example_position.dir/depend
 

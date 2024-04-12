@@ -1,7 +1,7 @@
 CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,7 +152,7 @@ CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o: 
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_controllers_base.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_controllers_base.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/visibility_control.h \
@@ -636,8 +636,8 @@ CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o: 
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller/include/forward_command_controller/visibility_control.h \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/forward_command_controller/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \

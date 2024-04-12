@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/psd_vehicle_ros/psd_vehicle_description
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/psd_vehicle_description
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/psd_vehicle_description

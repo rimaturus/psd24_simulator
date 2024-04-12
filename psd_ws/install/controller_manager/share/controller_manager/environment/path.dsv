@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/psd/psd_ws/build/controller_manager/ament_cmake_environment_hooks/path.dsv

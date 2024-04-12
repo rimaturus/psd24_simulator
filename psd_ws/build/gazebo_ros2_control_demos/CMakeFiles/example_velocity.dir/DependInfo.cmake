@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp" "CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o" "gcc" "CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp" "CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o" "gcc" "CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o.d"
   )
 
 # Targets to which this target links.

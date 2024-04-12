@@ -1,0 +1,1 @@
+ament_index_python;control_msgs;geometry_msgs;hardware_interface;ign_ros2_control;joint_state_broadcaster;joint_trajectory_controller;launch;launch_ros;launch_testing_ament_cmake;python3-psutil;python3-pytest;ros2launch;rclcpp;robot_state_publisher;ros_ign_gazebo;ros2controlcli;xacro;ament_cmake_gtest;ament_lint_auto;ament_lint_common

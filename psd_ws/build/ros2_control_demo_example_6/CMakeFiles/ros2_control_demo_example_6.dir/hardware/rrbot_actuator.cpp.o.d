@@ -1,7 +1,7 @@
 CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_6/hardware/rrbot_actuator.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_6/hardware/rrbot_actuator.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_6/hardware/include/ros2_control_demo_example_6/rrbot_actuator.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_6/hardware/include/ros2_control_demo_example_6/rrbot_actuator.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -320,7 +320,7 @@ CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o: \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_6/hardware/include/ros2_control_demo_example_6/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_6/hardware/include/ros2_control_demo_example_6/visibility_control.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

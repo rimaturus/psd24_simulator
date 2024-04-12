@@ -1,5 +1,5 @@
 CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o: \
- /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp \
+ /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

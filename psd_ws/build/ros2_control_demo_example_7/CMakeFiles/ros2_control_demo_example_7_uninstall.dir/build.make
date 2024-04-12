@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_control_demos/example_7
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ros2_control_demo_example_7
@@ -82,6 +82,6 @@ CMakeFiles/ros2_control_demo_example_7_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_control_demo_example_7_uninstall.dir/clean
 
 CMakeFiles/ros2_control_demo_example_7_uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/ros2_control_demo_example_7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_control_demos/example_7 /home/psd/psd_ws/src/examples/ros2_control_demos/example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7/CMakeFiles/ros2_control_demo_example_7_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ros2_control_demo_example_7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7 /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7/CMakeFiles/ros2_control_demo_example_7_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_control_demo_example_7_uninstall.dir/depend
 

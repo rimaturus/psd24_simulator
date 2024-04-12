@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "gazebo_ros2_control_demos")
-set(gazebo_ros2_control_demos_VERSION "0.4.6")
+set(gazebo_ros2_control_demos_VERSION "0.4.7")
 set(gazebo_ros2_control_demos_MAINTAINER "Alejandro Hernandez <alejandro@osrfoundation.org>, Bence Magyar <bence.magyar.robotics@gmail.com>")
 set(gazebo_ros2_control_demos_BUILD_DEPENDS "control_msgs" "geometry_msgs" "rclcpp" "rclcpp_action" "std_msgs")
 set(gazebo_ros2_control_demos_BUILDTOOL_DEPENDS "ament_cmake")

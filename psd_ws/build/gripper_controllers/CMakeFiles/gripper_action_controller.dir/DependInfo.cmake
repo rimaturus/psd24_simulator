@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/src/gripper_action_controller.cpp" "CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o" "gcc" "CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/src/gripper_action_controller.cpp" "CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o" "gcc" "CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o.d"
   )
 
 # Targets to which this target links.

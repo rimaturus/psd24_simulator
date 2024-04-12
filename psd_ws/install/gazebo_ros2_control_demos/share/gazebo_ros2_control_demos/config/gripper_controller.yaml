@@ -1,15 +1,1 @@
-controller_manager:
-  ros__parameters:
-    update_rate: 100  # Hz
-
-    gripper_controller:
-      type: forward_command_controller/ForwardCommandController
-
-    joint_state_broadcaster:
-      type: joint_state_broadcaster/JointStateBroadcaster
-
-gripper_controller:
-  ros__parameters:
-    joints:
-      - right_finger_joint
-    interface_name: position
+/home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/config/gripper_controller.yaml

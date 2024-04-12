@@ -1,9 +1,1 @@
-float64 position
-builtin_interfaces/Duration min_duration
-float64 max_velocity
----
----
-std_msgs/Header header
-float64 position
-float64 velocity
-float64 error
+/home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs/action/SingleJointPosition.action

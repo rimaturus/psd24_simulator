@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/admittance_controller
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/admittance_controller
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/admittance_controller
@@ -106,6 +106,6 @@ gmock/CMakeFiles/gmock_main.dir/clean:
 .PHONY : gmock/CMakeFiles/gmock_main.dir/clean
 
 gmock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/psd/psd_ws/build/admittance_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/admittance_controller /opt/ros/humble/src/gmock_vendor /home/psd/psd_ws/build/admittance_controller /home/psd/psd_ws/build/admittance_controller/gmock /home/psd/psd_ws/build/admittance_controller/gmock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/admittance_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/admittance_controller /opt/ros/humble/src/gmock_vendor /home/psd/psd_ws/build/admittance_controller /home/psd/psd_ws/build/admittance_controller/gmock /home/psd/psd_ws/build/admittance_controller/gmock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gmock/CMakeFiles/gmock_main.dir/depend
 

@@ -1,1 +1,1 @@
-laser_filters:launch:launch_ros:psd_vehicle_controller:robot_localization
+controller_manager:forward_command_controller:joint_state_broadcaster:joint_trajectory_controller:psd_vehicle_description:robot_state_publisher:ros2_controllers_test_nodes:rviz2:xacro

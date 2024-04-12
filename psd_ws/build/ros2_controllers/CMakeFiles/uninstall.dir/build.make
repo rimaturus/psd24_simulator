@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/ros2_controllers
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/ros2_controllers
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ros2_controllers
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/ros2_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/ros2_controllers /home/psd/psd_ws/src/examples/ros2_controllers/ros2_controllers /home/psd/psd_ws/build/ros2_controllers /home/psd/psd_ws/build/ros2_controllers /home/psd/psd_ws/build/ros2_controllers/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ros2_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/ros2_controllers /home/psd/psd_ws/src/ros-controls/ros2_controllers/ros2_controllers /home/psd/psd_ws/build/ros2_controllers /home/psd/psd_ws/build/ros2_controllers /home/psd/psd_ws/build/ros2_controllers/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/test/test_gripper_controllers.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/test/test_gripper_controllers.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -314,8 +314,8 @@ CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o: \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/test/test_gripper_controllers.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/test/test_gripper_controllers.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
@@ -664,9 +664,9 @@ CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.hpp \
- /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.hpp \
- /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.hpp \
+ /home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/action/gripper_command.hpp \
+ /home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/action/detail/gripper_command__struct.hpp \
+ /home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/detail/gripper_command__struct.hpp \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
@@ -683,9 +683,9 @@ CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o: \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
- /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__builder.hpp \
- /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__traits.hpp \
- /home/psd/psd_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__traits.hpp \
+ /home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/action/detail/gripper_command__builder.hpp \
+ /home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/action/detail/gripper_command__traits.hpp \
+ /home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/detail/gripper_command__traits.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
@@ -756,9 +756,9 @@ CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o: \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/include/gripper_controllers/visibility_control.hpp \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/include/gripper_controllers/visibility_control.hpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h \
  /home/psd/psd_ws/build/gripper_controllers/gripper_action_controller_parameters/include/gripper_action_controller_parameters.hpp \
  /usr/include/fmt/core.h /usr/include/fmt/format.h \
  /usr/include/fmt/core.h /usr/include/fmt/ranges.h \
@@ -770,12 +770,12 @@ CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o: \
  /opt/ros/humble/include/rsl/rsl/static_vector.hpp \
  /opt/ros/humble/include/tcb_span/span.hpp \
  /opt/ros/humble/include/rsl/rsl/parameter_validators.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/include/gripper_controllers/hardware_interface_adapter.hpp \
- /opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h \
- /opt/ros/humble/include/control_toolbox/control_toolbox/visibility_control.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/include/gripper_controllers/hardware_interface_adapter.hpp \
+ /home/psd/psd_ws/src/ros-controls/control_toolbox/include/control_toolbox/pid.hpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h \
+ /home/psd/psd_ws/src/ros-controls/control_toolbox/include/control_toolbox/visibility_control.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \

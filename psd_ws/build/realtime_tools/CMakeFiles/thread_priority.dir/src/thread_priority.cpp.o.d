@@ -1,7 +1,7 @@
 CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o: \
- /home/psd/psd_ws/src/examples/realtime_tools/src/thread_priority.cpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/src/thread_priority.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/realtime_tools/include/realtime_tools/thread_priority.hpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/thread_priority.hpp \
  /usr/include/sched.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

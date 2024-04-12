@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="psd_vehicle">
+
+  <!-- Use this if parameters are set from the launch file, otherwise delete -->
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="use_mock_hardware" default="false" />
+  <xacro:arg name="mock_sensor_commands" default="false" />
+  <xacro:arg name="sim_gazebo_teleop" default="false" />
+  <xacro:arg name="sim_gazebo" default="false" />
+  <xacro:arg name="simulation_controllers" default="" />
+
+  <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.urdf.xacro"/>
+  <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.ros2_control.xacro"/>
+
+  <!-- Load robot's macro with parameters -->
+  <link name="world" />
+  
+  <!-- set prefix if multiple robots are used -->
+  <xacro:psd_vehicle prefix="$(arg prefix)" parent="world" >
+    <origin xyz="0 0 0.19" rpy="0 0 0" />          <!-- position robot in the world -->
+  </xacro:psd_vehicle>
+
+  <xacro:psd_vehicle_ros2_control
+    name="psd_vehicle"
+    prefix="$(arg prefix)"
+    use_mock_hardware="$(arg use_mock_hardware)"
+    mock_sensor_commands="$(arg mock_sensor_commands)"
+    sim_gazebo="$(arg sim_gazebo)"/>
+
+  <xacro:if value="$(arg sim_gazebo)">
+    <!-- Gazebo plugins -->
+    <gazebo reference="world">
+    </gazebo>
+
+    <gazebo>
+      <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <parameters>$(arg simulation_controllers)</parameters>
+        <controller_manager_node_name>$(arg prefix)controller_manager</controller_manager_node_name>
+      </plugin>
+    </gazebo>
+  </xacro:if>
+
+  <xacro:if value="$(arg sim_gazebo_teleop)">
+    <!-- Gazebo plugins -->
+    <gazebo reference="world">
+    </gazebo>
+    
+    <gazebo>
+      <plugin
+        filename="ignition-gazebo-ackermann-steering-system"
+        name="gz::sim::systems::AckermannSteering">
+        <left_joint>drive_rl</left_joint>
+        <right_joint>drive_rr</right_joint>
+        <left_steering_joint>steering_fl</left_steering_joint>
+        <right_steering_joint>steering_fr</right_steering_joint>
+        <kingpin_width>0.001</kingpin_width>
+        <steering_limit>0.5</steering_limit>
+        <wheel_base>0.6</wheel_base>
+        <wheel_separation>0.351</wheel_separation>
+        <wheel_radius>0.19</wheel_radius>
+        <min_velocity>-10</min_velocity>
+        <max_velocity>10</max_velocity>
+        <min_acceleration>-3</min_acceleration>
+        <max_acceleration>3</max_acceleration>
+      </plugin>
+
+      <plugin
+        filename="libignition-gazebo-diff-drive-system.so"
+        name="ignition::gazebo::systems::DiffDrive">
+        <left_joint>drive_rl</left_joint>
+        <right_joint>drive_rr</right_joint>
+        <wheel_separation>0.351</wheel_separation>
+        <wheel_radius>0.19</wheel_radius>
+        <odom_publish_frequency>10</odom_publish_frequency>
+      </plugin>
+    </gazebo>
+  </xacro:if>
+
+</robot>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="psd_vehicle" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+  <material name="silver">
+    <color rgba="0.70 0.70 0.70 1.000"/>
+    <lighting>1</lighting> <!-- Enable lighting effects -->
+    <ambient>0.1 0.1 0.1 1.0</ambient> <!-- Ambient light color -->
+    <diffuse>0.6 0.6 0.6 1.0</diffuse> <!-- Diffuse reflection color -->
+    <specular>0.3 0.3 0.3 1.0</specular> <!-- Specular reflection color -->
+    <emissive>0.0 0.0 0.0 1.0</emissive> <!-- Emissive color -->
+    <transparency>0.0</transparency> <!-- Transparency (0.0 for opaque) -->
+  </material>
+
+  <material name="anodized_red">
+    <color rgba="1.0 0.0 0.0 1.000"/>
+    <lighting>1</lighting> <!-- Enable lighting effects -->
+    <ambient>0.1 0.1 0.1 1.0</ambient> <!-- Ambient light color -->
+    <diffuse>0.6 0.6 0.6 1.0</diffuse> <!-- Diffuse reflection color -->
+    <specular>0.3 0.3 0.3 1.0</specular> <!-- Specular reflection color -->
+    <emissive>0.0 0.0 0.0 1.0</emissive> <!-- Emissive color -->
+    <transparency>0.0</transparency> <!-- Transparency (0.0 for opaque) -->
+  </material>
+
+  <material name="anodized_blue">
+    <color rgba="0.0 0.5 1.0 1.0"/> <!-- Blue color with full opacity -->
+    <lighting>1</lighting> <!-- Enable lighting effects -->
+    <ambient>0.1 0.1 0.1 1.0</ambient> <!-- Ambient light color -->
+    <diffuse>0.6 0.6 0.6 1.0</diffuse> <!-- Diffuse reflection color -->
+    <specular>0.3 0.3 0.3 1.0</specular> <!-- Specular reflection color -->
+    <emissive>0.0 0.0 0.0 1.0</emissive> <!-- Emissive color -->
+    <transparency>0.0</transparency> <!-- Transparency (0.0 for opaque) -->
+  </material>
+
+
+  <material name="rubber_tyre">
+    <color rgba="0.0 0.0 0.0 1.000"/>
+    <lighting>1</lighting> <!-- Enable lighting effects -->
+    <ambient>0.1 0.1 0.1 1.0</ambient> <!-- Ambient light color -->
+    <diffuse>0.6 0.6 0.6 1.0</diffuse> <!-- Diffuse reflection color -->
+    <specular>0.3 0.3 0.3 1.0</specular> <!-- Specular reflection color -->
+    <emissive>0.0 0.0 0.0 1.0</emissive> <!-- Emissive color -->
+    <transparency>0.0</transparency> <!-- Transparency (0.0 for opaque) -->
+    <friction>
+      <ode>
+        <mu>0.8</mu> <!-- Friction coefficient -->
+        <mu2>0.8</mu2> <!-- Friction coefficient -->
+      </ode>
+    </friction>
+    <elasticity>
+      <ode>
+        <epsilon>0.8</epsilon> <!-- Coefficient of restitution (elasticity) -->
+        <kp>100000000.0</kp> <!-- Contact stiffness -->
+        <kd>10.0</kd> <!-- Contact damping -->
+      </ode>
+    </elasticity>
+  </material>
+
+
+</robot>

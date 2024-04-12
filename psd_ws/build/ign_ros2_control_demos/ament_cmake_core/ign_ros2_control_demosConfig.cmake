@@ -16,7 +16,7 @@ set(_ign_ros2_control_demos_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ign_ros2_control_demos_FIND_QUIETLY)
-  message(STATUS "Found ign_ros2_control_demos: 0.5.0 (${ign_ros2_control_demos_DIR})")
+  message(STATUS "Found ign_ros2_control_demos: 0.7.6 (${ign_ros2_control_demos_DIR})")
 endif()
 
 # warn when using a deprecated package

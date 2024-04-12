@@ -1,2 +1,1 @@
-
-controller_manager_msgs/ControllerState[] controller
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_cmake/srv/ListControllers_Response.msg

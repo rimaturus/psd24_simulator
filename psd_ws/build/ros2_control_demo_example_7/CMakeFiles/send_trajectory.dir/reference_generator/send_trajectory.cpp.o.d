@@ -1,5 +1,5 @@
 CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/kdl/chainfksolverpos_recursive.hpp \
  /usr/include/kdl/chainfksolver.hpp /usr/include/kdl/chain.hpp \

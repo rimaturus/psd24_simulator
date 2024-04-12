@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/control_msgs/control_msgs
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/control_msgs

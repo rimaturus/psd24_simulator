@@ -1,3 +1,1 @@
-source;share/transmission_interface/environment/ament_prefix_path.sh
-source;share/transmission_interface/environment/library_path.sh
-source;share/transmission_interface/environment/path.sh
+/home/psd/psd_ws/build/transmission_interface/ament_cmake_environment_hooks/local_setup.dsv

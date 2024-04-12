@@ -1,0 +1,192 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found controller_interface: 2.40.0 (/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found controller_manager_msgs: 2.40.0 (/home/psd/psd_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+-- Found realtime_tools: 2.5.0 (/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake)
+-- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/psd/psd_ws/build/controller_manager
+[  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 11%] Built target ament_cmake_python_symlink_controller_manager_setup
+[ 11%] Built target ament_cmake_python_symlink_controller_manager
+running install_scripts
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating controller_manager.egg-info
+writing controller_manager.egg-info/PKG-INFO
+writing dependency_links to controller_manager.egg-info/dependency_links.txt
+writing entry points to controller_manager.egg-info/entry_points.txt
+writing top-level names to controller_manager.egg-info/top_level.txt
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+running egg_info
+writing controller_manager.egg-info/PKG-INFO
+writing dependency_links to controller_manager.egg-info/dependency_links.txt
+writing entry points to controller_manager.egg-info/entry_points.txt
+writing top-level names to controller_manager.egg-info/top_level.txt
+reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+Installing hardware_spawner script to scripts
+Installing spawner script to scripts
+Installing unspawner script to scripts
+[ 11%] Built target ament_cmake_python_build_controller_manager_egg
+[ 11%] Built target ament_cmake_python_build_controller_manager_scripts
+[ 14%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 14%] Built target gmock_main
+[ 17%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 17%] Built target gmock
+[ 20%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[ 20%] Built target controller_manager
+[ 22%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[ 40%] Built target test_controller
+[ 42%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.cpp.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[ 57%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[ 57%] Built target test_controller_failed_init
+[ 60%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[ 60%] Built target test_controller_with_interfaces
+[ 62%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable ros2_control_node[0m
+[ 65%] Built target ros2_control_node
+[ 68%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[ 68%] Built target test_controller_manager_urdf_passing
+[ 71%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[ 71%] Built target test_chainable_controller
+[ 74%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[ 82%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[ 85%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[ 88%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[ 88%] Built target test_spawner_unspawner
+[ 88%] Built target test_release_interfaces
+[ 88%] Built target test_controller_manager_with_namespace.cpp
+[ 88%] Built target test_hardware_management_srvs
+[ 91%] [32m[1mLinking CXX executable test_controller_manager[0m
+[ 94%] [32m[1mLinking CXX executable test_load_controller[0m
+[ 94%] Built target test_controller_manager
+[ 94%] Built target test_load_controller
+[ 97%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[ 97%] Built target test_controllers_chaining_with_controller_manager
+[100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[100%] Built target test_controller_manager_srvs
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/libcontroller_manager.so
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/include/controller_manager/visibility_control.h
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/libtest_controller.so
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/libtest_chainable_controller.so
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/entry_points.txt
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/controller_manager//spawner
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/lib/controller_manager//unspawner
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/path.sh
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.bash
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.sh
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/package.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/package.xml
+Listing '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+Compiling '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py'...
+Compiling '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py'...
+Compiling '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py'...
+Compiling '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py'...
+Compiling '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py'...
+Compiling '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py'...

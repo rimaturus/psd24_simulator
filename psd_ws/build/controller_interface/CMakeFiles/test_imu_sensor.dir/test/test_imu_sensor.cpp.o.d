@@ -1,7 +1,7 @@
 CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_imu_sensor.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_imu_sensor.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_imu_sensor.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_imu_sensor.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -316,9 +316,9 @@ CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o: \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/semantic_components/imu_sensor.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/semantic_components/semantic_component_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/helpers.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/semantic_components/imu_sensor.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/semantic_components/semantic_component_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/helpers.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \

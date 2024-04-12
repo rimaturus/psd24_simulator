@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -344,7 +344,7 @@ admittance_controller_BINARY_DIR:STATIC=/home/psd/psd_ws/build/admittance_contro
 admittance_controller_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-admittance_controller_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/examples/ros2_controllers/admittance_controller
+admittance_controller_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/ros-controls/ros2_controllers/admittance_controller
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -425,7 +425,7 @@ console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
 control_msgs_DIR:PATH=/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake
 
 //The directory containing a CMake configuration file for control_toolbox.
-control_toolbox_DIR:PATH=/opt/ros/humble/share/control_toolbox/cmake
+control_toolbox_DIR:PATH=/home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake
 
 //The directory containing a CMake configuration file for controller_interface.
 controller_interface_DIR:PATH=/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake
@@ -506,10 +506,10 @@ joint_trajectory_controller_DIR:PATH=/home/psd/psd_ws/install/joint_trajectory_c
 kdl_parser_DIR:PATH=/opt/ros/humble/share/kdl_parser/cmake
 
 //The directory containing a CMake configuration file for kinematics_interface.
-kinematics_interface_DIR:PATH=/opt/ros/humble/share/kinematics_interface/cmake
+kinematics_interface_DIR:PATH=/home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake
 
 //The directory containing a CMake configuration file for kinematics_interface_kdl.
-kinematics_interface_kdl_DIR:PATH=/opt/ros/humble/share/kinematics_interface_kdl/cmake
+kinematics_interface_kdl_DIR:PATH=/home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
@@ -814,7 +814,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/examples/ros2_controllers/admittance_controller
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/ros-controls/ros2_controllers/admittance_controller
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -968,6 +968,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=bb1f7d862e7cc7765c27ce56f43851f0
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

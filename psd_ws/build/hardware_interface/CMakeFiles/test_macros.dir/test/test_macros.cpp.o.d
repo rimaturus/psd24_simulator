@@ -1,5 +1,5 @@
 CMakeFiles/test_macros.dir/test/test_macros.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_macros.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_macros.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -43,7 +43,7 @@ CMakeFiles/test_macros.dir/test/test_macros.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/macros.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/macros.hpp \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \

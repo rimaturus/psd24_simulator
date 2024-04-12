@@ -1,6 +1,1 @@
-# The ListControllers service returns a list of controller types that are known
-# to the controller manager plugin mechanism.
-
----
-string[] types
-string[] base_classes
+/home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager_msgs/srv/ListControllerTypes.srv

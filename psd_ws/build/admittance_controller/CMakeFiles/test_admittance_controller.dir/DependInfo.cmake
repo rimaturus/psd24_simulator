@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_controllers/admittance_controller/test/test_admittance_controller.cpp" "CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o" "gcc" "CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_controllers/admittance_controller/test/test_admittance_controller.cpp" "CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o" "gcc" "CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o.d"
   )
 
 # Targets to which this target links.

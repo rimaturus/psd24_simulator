@@ -1,7 +1,7 @@
 CMakeFiles/ros2_control_demo_example_8.dir/hardware/rrbot_transmissions_system_position_only.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_8/hardware/rrbot_transmissions_system_position_only.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_8/hardware/rrbot_transmissions_system_position_only.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_8/hardware/include/ros2_control_demo_example_8/rrbot_transmissions_system_position_only.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_8/hardware/include/ros2_control_demo_example_8/rrbot_transmissions_system_position_only.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -333,7 +333,7 @@ CMakeFiles/ros2_control_demo_example_8.dir/hardware/rrbot_transmissions_system_p
  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_8/hardware/include/ros2_control_demo_example_8/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_8/hardware/include/ros2_control_demo_example_8/visibility_control.h \
  /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/transmission.hpp \
  /usr/include/c++/11/cstddef \
  /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/handle.hpp \

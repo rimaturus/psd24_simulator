@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/gazebo_ros2_control_demos
@@ -70,18 +70,18 @@ include CMakeFiles/example_velocity.dir/progress.make
 include CMakeFiles/example_velocity.dir/flags.make
 
 CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o: CMakeFiles/example_velocity.dir/flags.make
-CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o: /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp
+CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o: /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp
 CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o: CMakeFiles/example_velocity.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/psd/psd_ws/build/gazebo_ros2_control_demos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o -MF CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o.d -o CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o -c /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o -MF CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o.d -o CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o -c /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp
 
 CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp > CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp > CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.i
 
 CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp -o CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_velocity.cpp -o CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.s
 
 # Object files for target example_velocity
 example_velocity_OBJECTS = \
@@ -167,6 +167,6 @@ CMakeFiles/example_velocity.dir/clean:
 .PHONY : CMakeFiles/example_velocity.dir/clean
 
 CMakeFiles/example_velocity.dir/depend:
-	cd /home/psd/psd_ws/build/gazebo_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control_demos /home/psd/psd_ws/build/gazebo_ros2_control_demos /home/psd/psd_ws/build/gazebo_ros2_control_demos /home/psd/psd_ws/build/gazebo_ros2_control_demos/CMakeFiles/example_velocity.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/gazebo_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control_demos /home/psd/psd_ws/build/gazebo_ros2_control_demos /home/psd/psd_ws/build/gazebo_ros2_control_demos /home/psd/psd_ws/build/gazebo_ros2_control_demos/CMakeFiles/example_velocity.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example_velocity.dir/depend
 

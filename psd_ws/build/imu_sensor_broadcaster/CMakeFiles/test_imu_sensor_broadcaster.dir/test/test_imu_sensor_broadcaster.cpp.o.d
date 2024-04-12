@@ -1,7 +1,7 @@
 CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -316,7 +316,7 @@ CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/visibility_control.h \
@@ -701,7 +701,7 @@ CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/visibility_control.h \
  /home/psd/psd_ws/build/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters/include/imu_sensor_broadcaster_parameters.hpp \
  /usr/include/fmt/core.h /usr/include/fmt/format.h \
  /usr/include/fmt/core.h /usr/include/fmt/ranges.h \
@@ -713,7 +713,7 @@ CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.
  /opt/ros/humble/include/rsl/rsl/static_vector.hpp \
  /opt/ros/humble/include/tcb_span/span.hpp \
  /opt/ros/humble/include/rsl/rsl/parameter_validators.hpp \
- /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h \
  /home/psd/psd_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp \
  /home/psd/psd_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp \
  /home/psd/psd_ws/install/controller_interface/include/controller_interface/helpers.hpp \

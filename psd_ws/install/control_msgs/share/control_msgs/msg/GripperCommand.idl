@@ -1,14 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from control_msgs/msg/GripperCommand.msg
-// generated code does not contain a copyright notice
-
-
-module control_msgs {
-  module msg {
-    struct GripperCommand {
-      double position;
-
-      double max_effort;
-    };
-  };
-};
+/home/psd/psd_ws/build/control_msgs/rosidl_adapter/control_msgs/msg/GripperCommand.idl

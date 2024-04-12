@@ -1,5 +1,5 @@
 CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/test/test_component_parser.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/test/test_component_parser.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h \
@@ -315,9 +315,9 @@ CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o: \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/component_parser.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/hardware_info.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/component_parser.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_info.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
  /home/psd/psd_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp \
  /home/psd/psd_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp

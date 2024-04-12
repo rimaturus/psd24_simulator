@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_imu_sensor.cpp" "CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o" "gcc" "CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_imu_sensor.cpp" "CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o" "gcc" "CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o.d"
   )
 
 # Targets to which this target links.

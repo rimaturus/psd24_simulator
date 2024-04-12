@@ -1,3 +1,1 @@
-# The ListControllers service returns a list of controller names/states/types of the
-# controllers that are loaded inside the controller_manager.
-
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_cmake/srv/ListControllers_Request.msg

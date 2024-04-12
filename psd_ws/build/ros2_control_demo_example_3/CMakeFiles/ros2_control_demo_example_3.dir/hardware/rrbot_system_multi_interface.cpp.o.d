@@ -1,7 +1,7 @@
 CMakeFiles/ros2_control_demo_example_3.dir/hardware/rrbot_system_multi_interface.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_3/hardware/rrbot_system_multi_interface.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_3/hardware/rrbot_system_multi_interface.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_3/hardware/include/ros2_control_demo_example_3/rrbot_system_multi_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_3/hardware/include/ros2_control_demo_example_3/rrbot_system_multi_interface.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -329,7 +329,7 @@ CMakeFiles/ros2_control_demo_example_3.dir/hardware/rrbot_system_multi_interface
  /usr/include/c++/11/bits/unordered_set.h \
  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_3/hardware/include/ros2_control_demo_example_3/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_3/hardware/include/ros2_control_demo_example_3/visibility_control.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

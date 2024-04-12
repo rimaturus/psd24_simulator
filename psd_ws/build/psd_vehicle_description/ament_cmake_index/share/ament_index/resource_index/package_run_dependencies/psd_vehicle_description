@@ -1,1 +1,1 @@
-xacro;ros_components_description
+joint_state_publisher_gui;hardware_interface;robot_state_publisher;rviz2;xacro

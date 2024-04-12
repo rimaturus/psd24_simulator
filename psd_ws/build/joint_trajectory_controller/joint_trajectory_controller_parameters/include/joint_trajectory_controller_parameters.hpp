@@ -179,8 +179,9 @@ template <typename T, size_t capacity>
 
       // declare any new dynamic parameters
       rclcpp::Parameter param;
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "p");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -192,8 +193,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.p = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "i");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -205,8 +208,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.i = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "d");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -218,8 +223,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.d = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "i_clamp");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -231,8 +238,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.i_clamp = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "ff_velocity_scale");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -244,8 +253,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.ff_velocity_scale = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "normalize_error");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -257,8 +268,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.normalize_error = param.as_bool();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "angle_wraparound");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -270,8 +283,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.angle_wraparound = param.as_bool();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.constraints.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.constraints.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "constraints", value, "trajectory");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -283,8 +298,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.trajectory = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.constraints.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.constraints.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "constraints", value, "goal");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -296,6 +313,7 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.goal = param.as_double();}
+
     }
 
     rcl_interfaces::msg::SetParametersResult update(const std::vector<rclcpp::Parameter> &parameters) {
@@ -410,69 +428,87 @@ template <typename T, size_t capacity>
 
       // update dynamic parameters
       for (const auto &param: parameters) {
-        for (const auto & value : updated_params.joints){
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "p");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].p = param.as_double();
+                updated_params.gains.joints_map[value_1].p = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "i");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].i = param.as_double();
+                updated_params.gains.joints_map[value_1].i = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "d");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].d = param.as_double();
+                updated_params.gains.joints_map[value_1].d = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "i_clamp");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].i_clamp = param.as_double();
+                updated_params.gains.joints_map[value_1].i_clamp = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "ff_velocity_scale");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].ff_velocity_scale = param.as_double();
+                updated_params.gains.joints_map[value_1].ff_velocity_scale = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "normalize_error");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].normalize_error = param.as_bool();
+                updated_params.gains.joints_map[value_1].normalize_error = param.as_bool();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "angle_wraparound");
             if (param.get_name() == param_name) {
-                updated_params.gains.joints_map[value].angle_wraparound = param.as_bool();
+                updated_params.gains.joints_map[value_1].angle_wraparound = param.as_bool();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "constraints", value, "trajectory");
             if (param.get_name() == param_name) {
-                updated_params.constraints.joints_map[value].trajectory = param.as_double();
+                updated_params.constraints.joints_map[value_1].trajectory = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
-        for (const auto & value : updated_params.joints){
+
+        for (const auto & value_1 : updated_params.joints) {
+        std::string value = fmt::format("{}", value_1);
             auto param_name = fmt::format("{}{}.{}.{}", prefix_, "constraints", value, "goal");
             if (param.get_name() == param_name) {
-                updated_params.constraints.joints_map[value].goal = param.as_double();
+                updated_params.constraints.joints_map[value_1].goal = param.as_double();
                 RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
             }
         }
+
       }
       updated_params.__stamp = clock_.now();
       update_interal_params(updated_params);
@@ -519,14 +555,7 @@ template <typename T, size_t capacity>
       }
       if (!parameters_interface_->has_parameter(prefix_ + "open_loop_control")) {
           rcl_interfaces::msg::ParameterDescriptor descriptor;
-          descriptor.description = "Use controller in open-loop control mode "
-          ""
-          " * The controller ignores the states provided by hardware interface but using last commands as states for starting the trajectory interpolation."
-          " * It deactivates the feedback control, see the gains structure. "
-          ""
-          " This is useful if hardware states are not following commands, i.e., an offset between those (typical for hydraulic manipulators). "
-          ""
-          " If this flag is set, the controller tries to read the values from the command interfaces on activation. If they have real numeric values, those will be used instead of state interfaces. Therefore it is important set command interfaces to NaN (i.e., std::numeric_limits<double>::quiet_NaN()) or state values when the hardware is started.";
+          descriptor.description = "Use controller in open-loop control mode \n    \n     * The controller ignores the states provided by hardware interface but using last commands as states for starting the trajectory interpolation.\n     * It deactivates the feedback control, see the gains structure. \n    \n     This is useful if hardware states are not following commands, i.e., an offset between those (typical for hydraulic manipulators). \n    \n     If this flag is set, the controller tries to read the values from the command interfaces on activation. If they have real numeric values, those will be used instead of state interfaces. Therefore it is important set command interfaces to NaN (i.e., std::numeric_limits<double>::quiet_NaN()) or state values when the hardware is started.\n    ";
           descriptor.read_only = true;
           auto parameter = to_parameter_value(updated_params.open_loop_control);
           parameters_interface_->declare_parameter(prefix_ + "open_loop_control", parameter, descriptor);
@@ -691,8 +720,9 @@ template <typename T, size_t capacity>
 
 
       // declare and set all dynamic parameters
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "p");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -704,8 +734,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.p = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "i");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -717,8 +749,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.i = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "d");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -730,8 +764,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.d = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "i_clamp");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -743,8 +779,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.i_clamp = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "ff_velocity_scale");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -756,8 +794,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.ff_velocity_scale = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "normalize_error");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -769,8 +809,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.normalize_error = param.as_bool();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.gains.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.gains.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "gains", value, "angle_wraparound");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -782,8 +824,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.angle_wraparound = param.as_bool();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.constraints.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.constraints.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "constraints", value, "trajectory");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -795,8 +839,10 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.trajectory = param.as_double();}
-      for (const auto & value : updated_params.joints){
-          auto& entry = updated_params.constraints.joints_map[value];
+
+      for (const auto & value_1 : updated_params.joints) {
+      auto& entry = updated_params.constraints.joints_map[value_1];
+          std::string value = fmt::format("{}", value_1);
           auto param_name = fmt::format("{}{}.{}.{}", prefix_, "constraints", value, "goal");
           if (!parameters_interface_->has_parameter(param_name)) {
               rcl_interfaces::msg::ParameterDescriptor descriptor;
@@ -808,6 +854,7 @@ template <typename T, size_t capacity>
           param = parameters_interface_->get_parameter(param_name);
           RCLCPP_DEBUG_STREAM(logger_, param.get_name() << ": " << param.get_type_name() << " = " << param.value_to_string());
           entry.goal = param.as_double();}
+
 
       updated_params.__stamp = clock_.now();
       update_interal_params(updated_params);

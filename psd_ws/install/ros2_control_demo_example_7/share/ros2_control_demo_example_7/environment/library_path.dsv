@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/psd/psd_ws/build/ros2_control_demo_example_7/ament_cmake_environment_hooks/library_path.dsv

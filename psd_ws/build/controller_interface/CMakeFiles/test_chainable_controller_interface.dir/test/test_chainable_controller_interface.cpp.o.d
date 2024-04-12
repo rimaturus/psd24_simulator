@@ -1,7 +1,7 @@
 CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_chainable_controller_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_chainable_controller_interface.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -322,9 +322,9 @@ CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controlle
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/chainable_controller_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/chainable_controller_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/visibility_control.h \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \

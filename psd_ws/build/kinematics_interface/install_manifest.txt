@@ -1,0 +1,3 @@
+/home/psd/psd_ws/install/kinematics_interface/lib/libkinematics_interface.so
+/home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+/home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake

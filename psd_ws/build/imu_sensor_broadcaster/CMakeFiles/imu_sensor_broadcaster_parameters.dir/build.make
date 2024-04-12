@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/imu_sensor_broadcaster
@@ -66,9 +66,9 @@ include CMakeFiles/imu_sensor_broadcaster_parameters.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/imu_sensor_broadcaster_parameters.dir/progress.make
 
-imu_sensor_broadcaster_parameters/include/imu_sensor_broadcaster_parameters.hpp: /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/imu_sensor_broadcaster/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters/include//imu_sensor_broadcaster_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml \`"
-	/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters/include//imu_sensor_broadcaster_parameters.hpp /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml
+imu_sensor_broadcaster_parameters/include/imu_sensor_broadcaster_parameters.hpp: /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psd/psd_ws/build/imu_sensor_broadcaster/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters/include//imu_sensor_broadcaster_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml \`"
+	/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters/include//imu_sensor_broadcaster_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml
 
 imu_sensor_broadcaster_parameters: imu_sensor_broadcaster_parameters/include/imu_sensor_broadcaster_parameters.hpp
 imu_sensor_broadcaster_parameters: CMakeFiles/imu_sensor_broadcaster_parameters.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/imu_sensor_broadcaster_parameters.dir/clean:
 .PHONY : CMakeFiles/imu_sensor_broadcaster_parameters.dir/clean
 
 CMakeFiles/imu_sensor_broadcaster_parameters.dir/depend:
-	cd /home/psd/psd_ws/build/imu_sensor_broadcaster && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster /home/psd/psd_ws/src/examples/ros2_controllers/imu_sensor_broadcaster /home/psd/psd_ws/build/imu_sensor_broadcaster /home/psd/psd_ws/build/imu_sensor_broadcaster /home/psd/psd_ws/build/imu_sensor_broadcaster/CMakeFiles/imu_sensor_broadcaster_parameters.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/imu_sensor_broadcaster && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster /home/psd/psd_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster /home/psd/psd_ws/build/imu_sensor_broadcaster /home/psd/psd_ws/build/imu_sensor_broadcaster /home/psd/psd_ws/build/imu_sensor_broadcaster/CMakeFiles/imu_sensor_broadcaster_parameters.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imu_sensor_broadcaster_parameters.dir/depend
 

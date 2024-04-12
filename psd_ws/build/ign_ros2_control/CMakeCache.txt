@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -571,7 +571,7 @@ ign_ros2_control_BINARY_DIR:STATIC=/home/psd/psd_ws/build/ign_ros2_control
 ign_ros2_control_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-ign_ros2_control_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control
+ign_ros2_control_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control
 
 //The directory containing a CMake configuration file for ignition-cmake2.
 ignition-cmake2_DIR:PATH=/usr/share/cmake/ignition-cmake2
@@ -1136,7 +1136,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/gazebosim/gz_ros2_control/ign_ros2_control
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/ros-controls/gz_ros2_control/ign_ros2_control
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -1573,6 +1573,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=2
 __pkg_config_arguments_AVCODEC:INTERNAL=libavcodec
 __pkg_config_arguments_AVDEVICE:INTERNAL=libavdevice >= 56.4.100
 __pkg_config_arguments_AVFORMAT:INTERNAL=libavformat

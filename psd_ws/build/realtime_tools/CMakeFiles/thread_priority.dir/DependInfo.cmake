@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/realtime_tools/src/thread_priority.cpp" "CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o" "gcc" "CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/realtime_tools/src/thread_priority.cpp" "CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o" "gcc" "CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o.d"
   )
 
 # Targets to which this target links.

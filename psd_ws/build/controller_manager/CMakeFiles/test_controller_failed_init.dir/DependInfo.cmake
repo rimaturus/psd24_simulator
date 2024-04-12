@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control/controller_manager/test/test_controller_failed_init/test_controller_failed_init.cpp" "CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o" "gcc" "CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager/test/test_controller_failed_init/test_controller_failed_init.cpp" "CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o" "gcc" "CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o.d"
   )
 
 # Targets to which this target links.

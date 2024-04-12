@@ -1,0 +1,125 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 4.4.0 (/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found realtime_tools: 2.5.0 (/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake)
+-- Found filters: 2.1.0 (/opt/ros/humble/share/filters/cmake)
+-- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/psd/psd_ws/build/control_toolbox
+[  3%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/sinusoid.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/sine_sweep.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/limited_proxy.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/pid_ros.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/dither.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/pid.cpp.o[0m
+[ 24%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/control_toolbox/low_pass_filter_parameters/include//low_pass_filter_parameters.hpp /home/psd/psd_ws/src/ros-controls/control_toolbox/src/control_filters/low_pass_filter_parameters.yaml `[0m
+[ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 37%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 37%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 41%] Built target low_pass_filter_parameters
+[ 44%] [32mBuilding CXX object CMakeFiles/low_pass_filter.dir/src/control_filters/low_pass_filter.cpp.o[0m
+[ 48%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 48%] Built target gtest_main
+[ 51%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 51%] Built target gmock_main
+[ 55%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 58%] Built target gmock
+[ 58%] Built target gtest
+[ 62%] [32m[1mLinking CXX shared library libcontrol_toolbox.so[0m
+[ 62%] Built target control_toolbox
+[ 72%] [32mBuilding CXX object CMakeFiles/pid_publisher_tests.dir/test/pid_publisher_tests.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/pid_tests.dir/test/pid_tests.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/pid_parameters_tests.dir/test/pid_parameters_tests.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library liblow_pass_filter.so[0m
+[ 75%] Built target low_pass_filter
+[ 82%] [32mBuilding CXX object CMakeFiles/test_load_low_pass_filter.dir/test/control_filters/test_load_low_pass_filter.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/test_low_pass_filter.dir/test/control_filters/test_low_pass_filter.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable pid_tests[0m
+[ 86%] Built target pid_tests
+[ 89%] [32m[1mLinking CXX executable pid_parameters_tests[0m
+[ 89%] Built target pid_parameters_tests
+[ 93%] [32m[1mLinking CXX executable test_low_pass_filter[0m
+[ 93%] Built target test_low_pass_filter
+[ 96%] [32m[1mLinking CXX executable pid_publisher_tests[0m
+[ 96%] Built target pid_publisher_tests
+[100%] [32m[1mLinking CXX executable test_load_low_pass_filter[0m
+[100%] Built target test_load_low_pass_filter
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/low_pass_filter_parameters/low_pass_filter_parameters.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox//control_filters.xml
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_filters/low_pass_filter.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/dither.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/filters.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/limited_proxy.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/pid.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/pid_ros.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/sine_sweep.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/sinusoid.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/include/control_toolbox/control_toolbox/visibility_control.hpp
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/environment/library_path.sh
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/environment/library_path.dsv
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/ament_index/resource_index/package_run_dependencies/control_toolbox
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/ament_index/resource_index/parent_prefix_path/control_toolbox
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.sh
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.dsv
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/environment/path.sh
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/environment/path.dsv
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/local_setup.bash
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/local_setup.sh
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/local_setup.zsh
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/package.dsv
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/ament_index/resource_index/packages/control_toolbox
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/ament_index/resource_index/filters__pluginlib__plugin/control_toolbox
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig.cmake
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig-version.cmake
+-- Symlinking: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/package.xml
+-- Installing: /home/psd/psd_ws/install/control_toolbox/lib/libcontrol_toolbox.so
+-- Set runtime path of "/home/psd/psd_ws/install/control_toolbox/lib/libcontrol_toolbox.so" to ""
+-- Installing: /home/psd/psd_ws/install/control_toolbox/lib/liblow_pass_filter.so
+-- Set runtime path of "/home/psd/psd_ws/install/control_toolbox/lib/liblow_pass_filter.so" to ""
+-- Installing: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport.cmake
+-- Installing: /home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport-noconfig.cmake

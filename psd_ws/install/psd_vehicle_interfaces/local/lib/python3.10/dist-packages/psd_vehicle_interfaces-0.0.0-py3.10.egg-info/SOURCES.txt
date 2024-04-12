@@ -1,8 +1,0 @@
-setup.py
-psd_vehicle_interfaces/__init__.py
-psd_vehicle_interfaces.egg-info/PKG-INFO
-psd_vehicle_interfaces.egg-info/SOURCES.txt
-psd_vehicle_interfaces.egg-info/dependency_links.txt
-psd_vehicle_interfaces.egg-info/top_level.txt
-psd_vehicle_interfaces/msg/__init__.py
-psd_vehicle_interfaces/msg/_obstacle_info.py

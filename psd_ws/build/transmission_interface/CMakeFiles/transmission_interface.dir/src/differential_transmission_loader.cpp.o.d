@@ -1,7 +1,7 @@
 CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/src/differential_transmission_loader.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/src/differential_transmission_loader.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,7 +117,7 @@ CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/transmission.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/transmission.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/stdexcept \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
@@ -154,12 +154,12 @@ CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/handle.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/transmission_loader.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/transmission_loader.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
@@ -618,6 +618,6 @@ CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/differential_transmission.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/accessor.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/transmission_interface/include/transmission_interface/exception.hpp
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/differential_transmission.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/accessor.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/exception.hpp

@@ -1,7 +1,7 @@
 CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/src/resource_manager.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/src/resource_manager.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -166,7 +166,7 @@ CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/hardware_component_info.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_component_info.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
  /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
  /opt/ros/humble/include/rcl/rcl/rcl.h \
@@ -258,19 +258,19 @@ CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o: \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/hardware_info.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/hardware_info.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/handle.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/macros.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/handle.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/macros.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/loaned_state_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/loaned_state_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
@@ -315,9 +315,9 @@ CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o: \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/actuator_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
@@ -329,12 +329,12 @@ CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o: \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
  /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h \
  /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/component_parser.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/sensor.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/sensor_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/system.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/component_parser.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/sensor.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/sensor_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/system.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
  /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \

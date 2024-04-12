@@ -1,7 +1,7 @@
 CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_force_torque_sensor.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_force_torque_sensor.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_force_torque_sensor.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_force_torque_sensor.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -316,7 +316,7 @@ CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o: \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h \
  /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/semantic_components/force_torque_sensor.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/semantic_components/force_torque_sensor.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
@@ -333,5 +333,5 @@ CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o: \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/visibility_control.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/semantic_components/semantic_component_interface.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/helpers.hpp
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/semantic_components/semantic_component_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/helpers.hpp

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_control/controller_manager
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/controller_manager
@@ -106,6 +106,6 @@ gtest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : gtest/CMakeFiles/gtest_main.dir/clean
 
 gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/psd/psd_ws/build/controller_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_control/controller_manager /opt/ros/humble/src/gtest_vendor /home/psd/psd_ws/build/controller_manager /home/psd/psd_ws/build/controller_manager/gtest /home/psd/psd_ws/build/controller_manager/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/controller_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager /opt/ros/humble/src/gtest_vendor /home/psd/psd_ws/build/controller_manager /home/psd/psd_ws/build/controller_manager/gtest /home/psd/psd_ws/build/controller_manager/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gtest_main.dir/depend
 

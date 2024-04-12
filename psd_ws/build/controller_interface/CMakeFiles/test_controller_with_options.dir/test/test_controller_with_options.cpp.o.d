@@ -1,7 +1,7 @@
 CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_controller_with_options.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_controller_with_options.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/test/test_controller_with_options.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/test/test_controller_with_options.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -153,12 +153,12 @@ CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cp
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/visibility_control.h \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /usr/include/c++/11/stdexcept \

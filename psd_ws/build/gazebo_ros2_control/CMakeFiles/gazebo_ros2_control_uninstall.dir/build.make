@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/gazebo_ros2_control
@@ -82,6 +82,6 @@ CMakeFiles/gazebo_ros2_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/gazebo_ros2_control_uninstall.dir/clean
 
 CMakeFiles/gazebo_ros2_control_uninstall.dir/depend:
-	cd /home/psd/psd_ws/build/gazebo_ros2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control /home/psd/psd_ws/src/examples/gazebo_ros2_control/gazebo_ros2_control /home/psd/psd_ws/build/gazebo_ros2_control /home/psd/psd_ws/build/gazebo_ros2_control /home/psd/psd_ws/build/gazebo_ros2_control/CMakeFiles/gazebo_ros2_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/gazebo_ros2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control /home/psd/psd_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control /home/psd/psd_ws/build/gazebo_ros2_control /home/psd/psd_ws/build/gazebo_ros2_control /home/psd/psd_ws/build/gazebo_ros2_control/CMakeFiles/gazebo_ros2_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gazebo_ros2_control_uninstall.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller/src/odometry.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/odometry.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,3 +1,1 @@
-source;share/gazebo_ros2_control/environment/ament_prefix_path.sh
-source;share/gazebo_ros2_control/environment/library_path.sh
-source;share/gazebo_ros2_control/environment/path.sh
+/home/psd/psd_ws/build/gazebo_ros2_control/ament_cmake_environment_hooks/local_setup.dsv

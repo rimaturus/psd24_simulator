@@ -1,0 +1,83 @@
+[0.177s] Invoking command in '/home/psd/psd_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/joint_limits
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.371s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.468s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.611s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.669s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.716s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.768s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.774s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.785s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.831s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.918s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.924s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.056s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.088s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.165s] -- Looking for pthread.h
+[1.234s] -- Looking for pthread.h - found
+[1.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.302s] -- Found Threads: TRUE  
+[1.432s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.468s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.471s] -- Found launch_testing_ament_cmake: 1.0.5 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.473s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.492s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.498s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.499s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.499s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.499s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.518s] -- Found PythonExtra: .so  
+[1.521s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.581s] -- Configuring done
+[1.589s] -- Generating done
+[1.591s] -- Build files have been written to: /home/psd/psd_ws/build/joint_limits
+[1.599s] Invoked command in '/home/psd/psd_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/joint_limits
+[1.600s] Invoking command in '/home/psd/psd_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/joint_limits -- -j20 -l20
+[1.643s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.643s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.178s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.217s] [ 50%] Built target gtest_main
+[4.388s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.586s] [ 66%] Built target gtest
+[4.715s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[10.957s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[11.473s] [100%] Built target joint_limits_rosparam_test
+[11.492s] Invoked command in '/home/psd/psd_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/joint_limits -- -j20 -l20
+[11.755s] Invoking command in '/home/psd/psd_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/joint_limits
+[11.771s] -- Install configuration: ""
+[11.771s] -- Execute custom install script
+[11.772s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/include/joint_limits/joint_limits.hpp
+[11.816s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[11.854s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[11.884s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[11.923s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[11.956s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[11.993s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[12.049s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[12.087s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[12.149s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[12.172s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[12.201s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[12.222s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[12.256s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[12.293s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/package.dsv
+[12.333s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[12.348s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.364s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.401s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[12.426s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[12.459s] -- Symlinking: /home/psd/psd_ws/install/joint_limits/share/joint_limits/package.xml
+[12.488s] Invoked command in '/home/psd/psd_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/joint_limits

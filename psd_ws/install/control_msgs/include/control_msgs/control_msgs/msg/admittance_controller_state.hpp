@@ -1,11 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef CONTROL_MSGS__MSG__ADMITTANCE_CONTROLLER_STATE_HPP_
-#define CONTROL_MSGS__MSG__ADMITTANCE_CONTROLLER_STATE_HPP_
-
-#include "control_msgs/msg/detail/admittance_controller_state__struct.hpp"
-#include "control_msgs/msg/detail/admittance_controller_state__builder.hpp"
-#include "control_msgs/msg/detail/admittance_controller_state__traits.hpp"
-
-#endif  // CONTROL_MSGS__MSG__ADMITTANCE_CONTROLLER_STATE_HPP_
+/home/psd/psd_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/admittance_controller_state.hpp

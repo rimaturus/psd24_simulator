@@ -1,3 +1,1 @@
-
-HardwareInterface[] command_interfaces
-HardwareInterface[] state_interfaces
+/home/psd/psd_ws/build/controller_manager_msgs/rosidl_cmake/srv/ListHardwareInterfaces_Response.msg

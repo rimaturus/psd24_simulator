@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_control_demos/example_7
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/ros2_control_demo_example_7
@@ -70,18 +70,18 @@ include CMakeFiles/send_trajectory.dir/progress.make
 include CMakeFiles/send_trajectory.dir/flags.make
 
 CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o: CMakeFiles/send_trajectory.dir/flags.make
-CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o: /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp
+CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o: /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp
 CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o: CMakeFiles/send_trajectory.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/psd/psd_ws/build/ros2_control_demo_example_7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o -MF CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o.d -o CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o -c /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o -MF CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o.d -o CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o -c /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp
 
 CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp > CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp > CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.i
 
 CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp -o CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/reference_generator/send_trajectory.cpp -o CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.s
 
 # Object files for target send_trajectory
 send_trajectory_OBJECTS = \
@@ -185,6 +185,6 @@ CMakeFiles/send_trajectory.dir/clean:
 .PHONY : CMakeFiles/send_trajectory.dir/clean
 
 CMakeFiles/send_trajectory.dir/depend:
-	cd /home/psd/psd_ws/build/ros2_control_demo_example_7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_control_demos/example_7 /home/psd/psd_ws/src/examples/ros2_control_demos/example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7/CMakeFiles/send_trajectory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/ros2_control_demo_example_7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7 /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7 /home/psd/psd_ws/build/ros2_control_demo_example_7/CMakeFiles/send_trajectory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/send_trajectory.dir/depend
 

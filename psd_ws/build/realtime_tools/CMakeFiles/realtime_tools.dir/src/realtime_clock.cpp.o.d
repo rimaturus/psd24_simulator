@@ -1,7 +1,7 @@
 CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o: \
- /home/psd/psd_ws/src/examples/realtime_tools/src/realtime_clock.cpp \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/src/realtime_clock.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/realtime_tools/include/realtime_tools/realtime_clock.h \
+ /home/psd/psd_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_clock.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

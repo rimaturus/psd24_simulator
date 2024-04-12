@@ -1,9 +1,1 @@
-builtin_interfaces/Time time
----
-bool success   # indicate successful run of triggered service
-string message # informational, e.g. for error messages
-
-string[] name
-float64[] position
-float64[] velocity
-float64[] acceleration
+/home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs/srv/QueryTrajectoryState.srv

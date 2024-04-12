@@ -1,6 +1,0 @@
-{
-  "package_name": "psd_vehicle_interfaces",
-  "non_idl_tuples": [
-    "/home/psd/psd_ws/src/psd_vehicle_interfaces:msg/ObstacleInfo.msg"
-  ]
-}

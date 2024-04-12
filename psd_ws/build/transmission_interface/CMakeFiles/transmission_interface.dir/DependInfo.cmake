@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/psd/psd_ws/src/examples/ros2_control/transmission_interface/src/differential_transmission_loader.cpp" "CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o" "gcc" "CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control/transmission_interface/src/four_bar_linkage_transmission_loader.cpp" "CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o" "gcc" "CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o.d"
-  "/home/psd/psd_ws/src/examples/ros2_control/transmission_interface/src/simple_transmission_loader.cpp" "CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o" "gcc" "CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/src/differential_transmission_loader.cpp" "CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o" "gcc" "CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/src/four_bar_linkage_transmission_loader.cpp" "CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o" "gcc" "CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o.d"
+  "/home/psd/psd_ws/src/ros-controls/ros2_control/transmission_interface/src/simple_transmission_loader.cpp" "CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o" "gcc" "CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/control_msgs/control_msgs
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/control_msgs
@@ -430,6 +430,6 @@ control_msgs__py/CMakeFiles/control_msgs__py.dir/clean:
 .PHONY : control_msgs__py/CMakeFiles/control_msgs__py.dir/clean
 
 control_msgs__py/CMakeFiles/control_msgs__py.dir/depend:
-	cd /home/psd/psd_ws/build/control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/control_msgs/control_msgs /home/psd/psd_ws/build/control_msgs/control_msgs__py /home/psd/psd_ws/build/control_msgs /home/psd/psd_ws/build/control_msgs/control_msgs__py /home/psd/psd_ws/build/control_msgs/control_msgs__py/CMakeFiles/control_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/control_msgs/control_msgs /home/psd/psd_ws/build/control_msgs/control_msgs__py /home/psd/psd_ws/build/control_msgs /home/psd/psd_ws/build/control_msgs/control_msgs__py /home/psd/psd_ws/build/control_msgs/control_msgs__py/CMakeFiles/control_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : control_msgs__py/CMakeFiles/control_msgs__py.dir/depend
 

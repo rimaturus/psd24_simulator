@@ -1,2 +1,1 @@
-source;share/joint_limits/environment/ament_prefix_path.sh
-source;share/joint_limits/environment/path.sh
+/home/psd/psd_ws/build/joint_limits/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,5 +1,1 @@
-# The ListControllers service returns a list of controller names/states/types of the
-# controllers that are loaded inside the controller_manager.
-
----
-controller_manager_msgs/ControllerState[] controller
+/home/psd/psd_ws/src/ros-controls/ros2_control/controller_manager_msgs/srv/ListControllers.srv

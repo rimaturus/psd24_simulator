@@ -1,7 +1,7 @@
 CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/src/controller_interface.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/src/controller_interface.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,8 +152,8 @@ CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp \
- /home/psd/psd_ws/src/examples/ros2_control/controller_interface/include/controller_interface/visibility_control.h \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface/include/controller_interface/visibility_control.h \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
  /home/psd/psd_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
  /usr/include/c++/11/stdexcept \

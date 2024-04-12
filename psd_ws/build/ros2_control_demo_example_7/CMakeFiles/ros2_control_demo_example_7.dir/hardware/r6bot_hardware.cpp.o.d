@@ -1,7 +1,7 @@
 CMakeFiles/ros2_control_demo_example_7.dir/hardware/r6bot_hardware.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/hardware/r6bot_hardware.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/hardware/r6bot_hardware.cpp \
  /usr/include/stdc-predef.h \
- /home/psd/psd_ws/src/examples/ros2_control_demos/example_7/hardware/include/ros2_control_demo_example_7/r6bot_hardware.hpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_7/hardware/include/ros2_control_demo_example_7/r6bot_hardware.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -290,7 +290,7 @@ _gtest_header_file:FILEPATH=/opt/ros/humble/src/gtest_vendor/include/gtest/gtest
 _gtest_src_file:FILEPATH=/opt/ros/humble/src/gtest_vendor/src/gtest.cc
 
 //Path to a file.
-_launch_test_FILE_NAME:FILEPATH=/home/psd/psd_ws/src/examples/ros2_control/joint_limits/test/joint_limits_rosparam.launch.py
+_launch_test_FILE_NAME:FILEPATH=/home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits/test/joint_limits_rosparam.launch.py
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -389,7 +389,7 @@ joint_limits_BINARY_DIR:STATIC=/home/psd/psd_ws/build/joint_limits
 joint_limits_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-joint_limits_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/examples/ros2_control/joint_limits
+joint_limits_SOURCE_DIR:STATIC=/home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits
 
 //The directory containing a CMake configuration file for launch_testing_ament_cmake.
 launch_testing_ament_cmake_DIR:PATH=/opt/ros/humble/share/launch_testing_ament_cmake/cmake
@@ -612,7 +612,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/examples/ros2_control/joint_limits
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/psd/psd_ws/src/ros-controls/ros2_control/joint_limits
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -757,6 +757,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

@@ -9,7 +9,7 @@
 /home/psd/psd_ws/build/control_msgs/CMakeFiles/control_msgs__rosidl_typesupport_c.dir
 /home/psd/psd_ws/build/control_msgs/CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir
 /home/psd/psd_ws/build/control_msgs/CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir
-/home/psd/psd_ws/build/control_msgs/CMakeFiles/ament_cmake_python_copy_control_msgs.dir
+/home/psd/psd_ws/build/control_msgs/CMakeFiles/ament_cmake_python_symlink_control_msgs.dir
 /home/psd/psd_ws/build/control_msgs/CMakeFiles/ament_cmake_python_build_control_msgs_egg.dir
 /home/psd/psd_ws/build/control_msgs/CMakeFiles/control_msgs__rosidl_generator_py.dir
 /home/psd/psd_ws/build/control_msgs/CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir

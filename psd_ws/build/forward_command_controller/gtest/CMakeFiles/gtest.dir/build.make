@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller
+CMAKE_SOURCE_DIR = /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/psd/psd_ws/build/forward_command_controller
@@ -106,6 +106,6 @@ gtest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/CMakeFiles/gtest.dir/clean
 
 gtest/CMakeFiles/gtest.dir/depend:
-	cd /home/psd/psd_ws/build/forward_command_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/examples/ros2_controllers/forward_command_controller /opt/ros/humble/src/gtest_vendor /home/psd/psd_ws/build/forward_command_controller /home/psd/psd_ws/build/forward_command_controller/gtest /home/psd/psd_ws/build/forward_command_controller/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/psd/psd_ws/build/forward_command_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/psd/psd_ws/src/ros-controls/ros2_controllers/forward_command_controller /opt/ros/humble/src/gtest_vendor /home/psd/psd_ws/build/forward_command_controller /home/psd/psd_ws/build/forward_command_controller/gtest /home/psd/psd_ws/build/forward_command_controller/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gtest.dir/depend
 

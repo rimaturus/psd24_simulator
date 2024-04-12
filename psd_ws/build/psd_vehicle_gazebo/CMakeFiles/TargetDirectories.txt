@@ -1,9 +1,0 @@
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/uninstall.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/psd_vehicle_gazebo_uninstall.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/test.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/edit_cache.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/rebuild_cache.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/list_install_components.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/install.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/install/local.dir
-/home/psd/psd_ws/build/psd_vehicle_gazebo/CMakeFiles/install/strip.dir

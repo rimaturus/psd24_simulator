@@ -1,2 +1,1 @@
-source;share/psd_vehicle_bringup/environment/ament_prefix_path.sh
-source;share/psd_vehicle_bringup/environment/path.sh
+/home/psd/psd_ws/build/psd_vehicle_bringup/ament_cmake_environment_hooks/local_setup.dsv

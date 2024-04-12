@@ -1,5 +1,5 @@
 CMakeFiles/test_components.dir/test/test_components/test_system.cpp.o: \
- /home/psd/psd_ws/src/examples/ros2_control/hardware_interface_testing/test/test_components/test_system.cpp \
+ /home/psd/psd_ws/src/ros-controls/ros2_control/hardware_interface_testing/test/test_components/test_system.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/array \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
