@@ -254,10 +254,10 @@ CMakeFiles/test_load_gripper_action_controllers.dir/clean:
 # Target rules for target CMakeFiles/test_gripper_controllers.dir
 
 # All Build rule for target.
-CMakeFiles/test_gripper_controllers.dir/all: gmock/CMakeFiles/gmock.dir/all
-CMakeFiles/test_gripper_controllers.dir/all: gmock/CMakeFiles/gmock_main.dir/all
 CMakeFiles/test_gripper_controllers.dir/all: CMakeFiles/gripper_action_controller_parameters.dir/all
 CMakeFiles/test_gripper_controllers.dir/all: CMakeFiles/gripper_action_controller.dir/all
+CMakeFiles/test_gripper_controllers.dir/all: gmock/CMakeFiles/gmock.dir/all
+CMakeFiles/test_gripper_controllers.dir/all: gmock/CMakeFiles/gmock_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_gripper_controllers.dir/build.make CMakeFiles/test_gripper_controllers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_gripper_controllers.dir/build.make CMakeFiles/test_gripper_controllers.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/psd/psd_ws/build/gripper_controllers/CMakeFiles --progress-num=13,14 "Built target test_gripper_controllers"

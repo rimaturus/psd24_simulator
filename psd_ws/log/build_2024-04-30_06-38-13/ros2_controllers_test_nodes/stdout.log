@@ -1,0 +1,36 @@
+running develop
+Removing /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+running egg_info
+writing ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+reading manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/psd/psd_ws/build/ros2_controllers_test_nodes/build
+creating /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib
+creating /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+copying ros2_controllers_test_nodes/__init__.py -> /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+running install
+running install_lib
+creating /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+copying /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+copying /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+copying /home/psd/psd_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+byte-compiling /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+running install_data
+copying resource/ros2_controllers_test_nodes -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+copying package.xml -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+running install_egg_info
+Copying ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.33.0-py3.10.egg-info
+running install_scripts
+Installing publisher_forward_position_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+Installing publisher_joint_trajectory_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+writing list of installed files to '/home/psd/psd_ws/build/ros2_controllers_test_nodes/install.log'

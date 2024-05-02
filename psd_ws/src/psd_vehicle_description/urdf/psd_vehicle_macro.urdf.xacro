@@ -32,7 +32,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/base_link.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/base_link.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="anodized_red"/>
       </visual>
@@ -53,7 +53,7 @@
       <visual>
         <origin xyz="0.230783 -0.306869 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/perno_FL_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/perno_FL_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="silver"/>
       </visual>
@@ -74,7 +74,7 @@
       <visual>
         <origin xyz="0.232596 -0.307715 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/tyre_FL_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/tyre_FL_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="rubber_tyre"/>
       </visual>
@@ -84,7 +84,7 @@
           <mesh filename="$(find psd_vehicle_description)/meshes/collision/tyre_FL_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
-    </link>
+    </link>z
 
     <link name="${prefix}perno_FR_1">
       <inertial>
@@ -95,7 +95,7 @@
       <visual>
         <origin xyz="-0.120217 -0.306869 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/perno_FR_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/perno_FR_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="silver"/>
       </visual>
@@ -116,7 +116,7 @@
       <visual>
         <origin xyz="-0.122029 -0.306024 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/tyre_FR_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/tyre_FR_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="rubber_tyre"/>
       </visual>
@@ -137,7 +137,7 @@
       <visual>
         <origin xyz="-0.119284 0.293131 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/tyre_RR_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/tyre_RR_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="rubber_tyre"/>
       </visual>
@@ -158,7 +158,7 @@
       <visual>
         <origin xyz="0.095283 0.293131 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/link_RL_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/link_RL_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="anodized_blue"/>
       </visual>
@@ -179,7 +179,7 @@
       <visual>
         <origin xyz="0.015283 0.293131 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/link_RR_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/link_RR_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="anodized_blue"/>
       </visual>
@@ -200,7 +200,7 @@
       <visual>
         <origin xyz="0.229851 0.293131 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/tyre_RL_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/tyre_RL_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="rubber_tyre"/>
       </visual>
@@ -221,7 +221,7 @@
       <visual>
         <origin xyz="0.095283 -0.306869 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/link_FL_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/link_FL_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="anodized_blue"/>
       </visual>
@@ -242,7 +242,7 @@
       <visual>
         <origin xyz="0.015283 -0.306869 -1.6e-05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://psd_vehicle_description/meshes/visual/link_FR_1.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/visual/link_FR_1.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="anodized_blue"/>
       </visual>

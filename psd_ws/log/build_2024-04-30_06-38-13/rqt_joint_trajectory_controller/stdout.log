@@ -1,0 +1,54 @@
+running develop
+Removing /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+running egg_info
+writing ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+writing entry points to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+writing requirements to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+writing top-level names to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+reading manifest file '../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build
+creating /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib
+creating /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/utils.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/__init__.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/double_editor.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/update_combo.py -> /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+running install
+running install_lib
+creating /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/utils.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/__init__.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/double_editor.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+copying /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/update_combo.py -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/utils.py to utils.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_limits_urdf.py to joint_limits_urdf.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/double_editor.py to double_editor.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_trajectory_controller.py to joint_trajectory_controller.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py to rqt_joint_trajectory_controller.cpython-310.pyc
+byte-compiling /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/update_combo.py to update_combo.cpython-310.pyc
+running install_data
+copying resource/rqt_joint_trajectory_controller -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+copying resource/scope.png -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/joint_trajectory_controller.ui -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/scope.svg -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/off.svg -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/on.svg -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/double_editor.ui -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying plugin.xml -> /home/psd/psd_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+running install_egg_info
+Copying ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.33.0-py3.10.egg-info
+running install_scripts
+Installing rqt_joint_trajectory_controller script to /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+writing list of installed files to '/home/psd/psd_ws/build/rqt_joint_trajectory_controller/install.log'

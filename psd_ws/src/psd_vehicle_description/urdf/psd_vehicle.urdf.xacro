@@ -17,7 +17,7 @@
   
   <!-- set prefix if multiple robots are used -->
   <xacro:psd_vehicle prefix="$(arg prefix)" parent="world" >
-    <origin xyz="0 0 0.19" rpy="0 0 0" />          <!-- position robot in the world -->
+    <origin xyz="0 0 0.095" rpy="0 0 0" />          <!-- position robot in the world -->
   </xacro:psd_vehicle>
 
   <xacro:psd_vehicle_ros2_control

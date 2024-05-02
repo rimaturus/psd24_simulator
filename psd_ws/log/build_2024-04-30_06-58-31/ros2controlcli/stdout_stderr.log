@@ -1,0 +1,18 @@
+running egg_info
+writing ../../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+reading manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/psd/psd_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.40.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/ros2controlcli/ros2controlcli.egg-info to /home/psd/psd_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.40.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/psd/psd_ws/build/ros2controlcli/install.log'

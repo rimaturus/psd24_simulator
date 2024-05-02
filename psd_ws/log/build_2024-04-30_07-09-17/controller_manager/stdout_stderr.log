@@ -1,0 +1,94 @@
+[  5%] Built target gmock_main
+[ 14%] Built target gmock
+[ 20%] Built target controller_manager
+[ 20%] Built target ament_cmake_python_symlink_controller_manager_setup
+[ 20%] Built target ament_cmake_python_symlink_controller_manager
+[ 31%] Built target test_controller_failed_init
+[ 31%] Built target ros2_control_node
+[ 37%] Built target test_controller
+[ 42%] Built target test_controller_manager_urdf_passing
+[ 48%] Built target test_chainable_controller
+[ 54%] Built target test_controller_with_interfaces
+[ 65%] Built target test_controller_manager_with_namespace.cpp
+[ 65%] Built target test_hardware_management_srvs
+[ 71%] Built target test_load_controller
+[ 82%] Built target test_spawner_unspawner
+[ 82%] Built target test_controller_manager
+[ 94%] Built target test_controllers_chaining_with_controller_manager
+[ 94%] Built target test_release_interfaces
+[100%] Built target test_controller_manager_srvs
+running egg_info
+writing controller_manager.egg-info/PKG-INFO
+writing dependency_links to controller_manager.egg-info/dependency_links.txt
+writing entry points to controller_manager.egg-info/entry_points.txt
+writing top-level names to controller_manager.egg-info/top_level.txt
+reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+running install_scripts
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+[100%] Built target ament_cmake_python_build_controller_manager_egg
+running egg_info
+writing controller_manager.egg-info/PKG-INFO
+writing dependency_links to controller_manager.egg-info/dependency_links.txt
+writing entry points to controller_manager.egg-info/entry_points.txt
+writing top-level names to controller_manager.egg-info/top_level.txt
+reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+Installing hardware_spawner script to scripts
+Installing spawner script to scripts
+Installing unspawner script to scripts
+[100%] Built target ament_cmake_python_build_controller_manager_scripts
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/libcontroller_manager.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/include/controller_manager/visibility_control.h
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/libtest_controller.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/libtest_chainable_controller.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/entry_points.txt
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.40.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/controller_manager//spawner
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/lib/controller_manager//unspawner
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.bash
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/controller_manager/share/controller_manager/package.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/controller_manager/share/controller_manager/package.xml
+Listing '/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
