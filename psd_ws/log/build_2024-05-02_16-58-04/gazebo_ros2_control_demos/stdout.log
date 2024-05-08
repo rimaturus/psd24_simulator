@@ -1,0 +1,85 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 4.4.0 (/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/psd/psd_ws/build/gazebo_ros2_control_demos
+[35m[1mConsolidate compiler generated dependencies of target example_position[0m
+[35m[1mConsolidate compiler generated dependencies of target example_diff_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target example_gripper[0m
+[35m[1mConsolidate compiler generated dependencies of target example_velocity[0m
+[35m[1mConsolidate compiler generated dependencies of target example_effort[0m
+[35m[1mConsolidate compiler generated dependencies of target example_tricycle_drive[0m
+[  8%] [32m[1mLinking CXX executable example_position[0m
+[ 25%] Built target example_diff_drive
+[ 58%] Built target example_effort
+[ 58%] Built target example_velocity
+[ 91%] Built target example_tricycle_drive
+[ 91%] Built target example_gripper
+[100%] Built target example_position
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml

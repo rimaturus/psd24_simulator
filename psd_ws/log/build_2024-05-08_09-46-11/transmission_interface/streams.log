@@ -1,0 +1,66 @@
+[0.012s] Invoking command in '/home/psd/psd_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/transmission_interface -- -j20 -l20
+[0.049s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.052s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.053s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.054s] [ 17%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[0.252s] [ 30%] Built target transmission_interface
+[0.817s] [ 34%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[0.839s] [ 34%] Built target gmock_main
+[2.424s] [ 39%] [32m[1mLinking CXX static library libgmock.a[0m
+[2.468s] [ 39%] Built target gmock
+[2.486s] [ 47%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[2.486s] [ 47%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[2.486s] [ 52%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[2.486s] [ 56%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[2.490s] [ 60%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[2.491s] [ 65%] [32m[1mLinking CXX executable test_utils[0m
+[2.492s] [ 69%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[2.821s] [ 73%] Built target test_four_bar_linkage_transmission
+[2.823s] [ 78%] Built target test_differential_transmission
+[2.838s] [ 82%] Built target test_simple_transmission
+[2.848s] [ 86%] Built target test_four_bar_linkage_transmission_loader
+[2.875s] [ 91%] Built target test_differential_transmission_loader
+[2.930s] [ 95%] Built target test_simple_transmission_loader
+[2.941s] [100%] Built target test_utils
+[2.949s] Invoked command in '/home/psd/psd_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/transmission_interface -- -j20 -l20
+[2.981s] Invoking command in '/home/psd/psd_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/transmission_interface
+[2.986s] -- Install configuration: ""
+[2.987s] -- Execute custom install script
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[2.987s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface//ros2_control_plugins.xml
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[2.988s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[2.989s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[2.989s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[2.989s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[2.989s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[2.989s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[2.989s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[2.990s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[2.990s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[2.990s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[2.990s] -- Symlinking: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[2.996s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[2.996s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[2.996s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.996s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.997s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.997s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[2.997s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[2.997s] -- Up-to-date symlink: /home/psd/psd_ws/install/transmission_interface/share/transmission_interface/package.xml
+[2.998s] -- Installing: /home/psd/psd_ws/install/transmission_interface/lib/libtransmission_interface.so
+[2.998s] -- Set runtime path of "/home/psd/psd_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[3.001s] Invoked command in '/home/psd/psd_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/transmission_interface

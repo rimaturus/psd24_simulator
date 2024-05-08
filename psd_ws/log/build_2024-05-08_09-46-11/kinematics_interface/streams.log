@@ -1,0 +1,31 @@
+[0.325s] Invoking command in '/home/psd/psd_ws/build/kinematics_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/kinematics_interface -- -j20 -l20
+[0.584s] [100%] Built target kinematics_interface
+[0.688s] Invoked command in '/home/psd/psd_ws/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/kinematics_interface -- -j20 -l20
+[1.045s] Invoking command in '/home/psd/psd_ws/build/kinematics_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/kinematics_interface
+[1.102s] -- Install configuration: ""
+[1.102s] -- Execute custom install script
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/include/kinematics_interface/kinematics_interface/visibility_control.h
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+[1.102s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+[1.103s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+[1.103s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+[1.103s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+[1.103s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+[1.103s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+[1.103s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+[1.103s] -- Symlinking: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/package.dsv
+[1.128s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+[1.128s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.129s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.130s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+[1.131s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+[1.132s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/package.xml
+[1.132s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface/lib/libkinematics_interface.so
+[1.134s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+[1.134s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake
+[1.144s] Invoked command in '/home/psd/psd_ws/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/kinematics_interface

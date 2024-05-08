@@ -1,0 +1,89 @@
+[0.011s] Invoking command in '/home/psd/psd_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/controller_interface
+[0.018s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.100s] -- Found hardware_interface: 2.40.0 (/home/psd/psd_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.120s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.128s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.564s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.570s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.586s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.591s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.728s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.729s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.730s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.730s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.915s] -- Configuring done
+[1.038s] -- Generating done
+[1.042s] -- Build files have been written to: /home/psd/psd_ws/build/controller_interface
+[1.050s] Invoked command in '/home/psd/psd_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/controller_interface
+[1.051s] Invoking command in '/home/psd/psd_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/controller_interface -- -j20 -l20
+[1.089s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[1.090s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[1.090s] [35m[1mConsolidate compiler generated dependencies of target controller_interface[0m
+[1.103s] [  4%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.105s] [  9%] [32m[1mLinking CXX static library libgmock.a[0m
+[1.113s] [ 14%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[1.113s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[1.133s] [ 23%] Built target gmock_main
+[1.168s] [ 33%] Built target gmock
+[1.178s] [35m[1mConsolidate compiler generated dependencies of target test_imu_sensor[0m
+[1.178s] [35m[1mConsolidate compiler generated dependencies of target test_force_torque_sensor[0m
+[1.178s] [35m[1mConsolidate compiler generated dependencies of target test_semantic_component_interface[0m
+[1.193s] [ 42%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[1.193s] [ 42%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[1.194s] [ 47%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[1.650s] [ 52%] Built target test_imu_sensor
+[1.672s] [ 57%] Built target test_semantic_component_interface
+[1.682s] [ 61%] Built target test_force_torque_sensor
+[3.429s] [ 66%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[3.523s] [ 71%] Built target controller_interface
+[3.531s] [35m[1mConsolidate compiler generated dependencies of target test_controller_interface[0m
+[3.531s] [35m[1mConsolidate compiler generated dependencies of target test_chainable_controller_interface[0m
+[3.531s] [35m[1mConsolidate compiler generated dependencies of target test_controller_with_options[0m
+[3.543s] [ 80%] [32m[1mLinking CXX executable test_controller_interface[0m
+[3.544s] [ 80%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[3.545s] [ 85%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[3.730s] [ 90%] Built target test_chainable_controller_interface
+[3.731s] [ 95%] Built target test_controller_with_options
+[3.745s] [100%] Built target test_controller_interface
+[3.753s] Invoked command in '/home/psd/psd_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/controller_interface -- -j20 -l20
+[3.787s] Invoking command in '/home/psd/psd_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/controller_interface
+[3.791s] -- Install configuration: ""
+[3.792s] -- Execute custom install script
+[3.792s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp
+[3.792s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/controller_interface/helpers.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/semantic_components/range_sensor.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/lib/libcontroller_interface.so
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[3.793s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[3.794s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[3.794s] -- Symlinking: /home/psd/psd_ws/install/controller_interface/share/controller_interface/package.dsv
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[3.800s] -- Up-to-date symlink: /home/psd/psd_ws/install/controller_interface/share/controller_interface/package.xml
+[3.802s] Invoked command in '/home/psd/psd_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/controller_interface

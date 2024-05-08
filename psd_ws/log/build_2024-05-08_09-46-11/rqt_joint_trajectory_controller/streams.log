@@ -1,0 +1,19 @@
+[0.515s] Invoking command in '/home/psd/psd_ws/build/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build --no-deps symlink_data
+[0.670s] running develop
+[0.670s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.670s]   warnings.warn(
+[0.745s] running egg_info
+[0.745s] writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[0.745s] writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[0.746s] writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[0.746s] writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+[0.746s] writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+[0.747s] reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.748s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.749s] running build_ext
+[0.749s] Creating /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[0.750s] Installing rqt_joint_trajectory_controller script to /home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[0.750s] 
+[0.750s] Installed /home/psd/psd_ws/build/rqt_joint_trajectory_controller
+[0.750s] running symlink_data
+[0.774s] Invoked command in '/home/psd/psd_ws/build/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/psd/psd_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/rqt_joint_trajectory_controller/build --no-deps symlink_data

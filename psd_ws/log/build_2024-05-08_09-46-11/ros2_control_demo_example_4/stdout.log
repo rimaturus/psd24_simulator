@@ -1,0 +1,39 @@
+[ 50%] [32m[1mLinking CXX shared library libros2_control_demo_example_4.so[0m
+[100%] Built target ros2_control_demo_example_4
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4//ros2_control_demo_example_4.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/include/ros2_control_demo_example_4/ros2_control_demo_example_4/rrbot_system_with_sensor.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/include/ros2_control_demo_example_4/ros2_control_demo_example_4/visibility_control.h
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/urdf/rrbot_system_with_sensor.urdf.xacro
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/rviz/rrbot.rviz
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch/rrbot_system_with_sensor.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/launch/test_forward_position_controller.launch.py
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/config/rrbot_forward_position_publisher.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/config/rrbot_with_sensor_controllers.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/library_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/library_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_4
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_4
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/environment/path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.bash
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.zsh
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/packages/ros2_control_demo_example_4
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_4
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ros2_control_demo_example_4Config.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/ros2_control_demo_example_4Config-version.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.xml
+-- Installing: /home/psd/psd_ws/install/ros2_control_demo_example_4/lib/libros2_control_demo_example_4.so
+-- Set runtime path of "/home/psd/psd_ws/install/ros2_control_demo_example_4/lib/libros2_control_demo_example_4.so" to ""
+-- Up-to-date: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/export_ros2_control_demo_example_4Export.cmake
+-- Up-to-date: /home/psd/psd_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/cmake/export_ros2_control_demo_example_4Export-noconfig.cmake

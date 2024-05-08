@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+Installing publisher_forward_position_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+Installing publisher_joint_trajectory_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+
+Installed /home/psd/psd_ws/build/ros2_controllers_test_nodes
+running symlink_data

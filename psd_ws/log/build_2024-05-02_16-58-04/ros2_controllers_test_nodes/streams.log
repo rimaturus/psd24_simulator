@@ -1,0 +1,22 @@
+[0.441s] Invoking command in '/home/psd/psd_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/psd/psd_ws/build/ros2_controllers_test_nodes/prefix_override:/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data --force
+[0.580s] running develop
+[0.581s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.581s]   warnings.warn(
+[0.656s] running egg_info
+[0.657s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[0.657s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[0.657s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[0.657s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[0.658s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.658s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.659s] running build_ext
+[0.659s] Creating /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[0.660s] Installing publisher_forward_position_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.660s] Installing publisher_joint_trajectory_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.660s] 
+[0.660s] Installed /home/psd/psd_ws/build/ros2_controllers_test_nodes
+[0.660s] running symlink_data
+[0.660s] symbolically linking /home/psd/psd_ws/build/ros2_controllers_test_nodes/resource/ros2_controllers_test_nodes -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[0.660s] symbolically linking /home/psd/psd_ws/build/ros2_controllers_test_nodes/package.xml -> /home/psd/psd_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[0.679s] Invoked command in '/home/psd/psd_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/psd/psd_ws/build/ros2_controllers_test_nodes/prefix_override:/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data --force

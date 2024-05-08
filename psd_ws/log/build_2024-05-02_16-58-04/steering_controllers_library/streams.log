@@ -1,0 +1,99 @@
+[0.160s] Invoking command in '/home/psd/psd_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/steering_controllers_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/steering_controllers_library
+[0.176s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.296s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.309s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.309s] -- BACKWARD_HAS_UNWIND=1
+[0.309s] -- BACKWARD_HAS_BACKTRACE=0
+[0.309s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.309s] -- BACKWARD_HAS_DW=1
+[0.309s] -- BACKWARD_HAS_BFD=0
+[0.309s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.310s] -- Found control_msgs: 4.4.0 (/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake)
+[0.330s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.339s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found controller_interface: 2.40.0 (/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake)
+[0.968s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.969s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.991s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.997s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.011s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.017s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.192s] -- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.192s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.202s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.262s] -- Found realtime_tools: 2.5.0 (/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake)
+[1.290s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.310s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.318s] -- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.457s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.462s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.464s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.607s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[1.854s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.854s] -- Found controller_manager: 2.40.0 (/home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake)
+[2.127s] -- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.129s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.133s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.133s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.342s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.342s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.342s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.426s] -- Configuring done
+[2.520s] -- Generating done
+[2.523s] -- Build files have been written to: /home/psd/psd_ws/build/steering_controllers_library
+[2.539s] Invoked command in '/home/psd/psd_ws/build/steering_controllers_library' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/steering_controllers_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/steering_controllers_library
+[2.539s] Invoking command in '/home/psd/psd_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/steering_controllers_library -- -j20 -l20
+[2.657s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[2.677s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[2.689s] [  7%] Built target steering_controllers_library_parameters
+[2.710s] [ 15%] [32m[1mLinking CXX static library libgmock.a[0m
+[2.745s] [ 23%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.766s] [35m[1mConsolidate compiler generated dependencies of target steering_controllers_library[0m
+[2.861s] [ 30%] [32mBuilding CXX object CMakeFiles/steering_controllers_library.dir/src/steering_odometry.cpp.o[0m
+[2.874s] [ 46%] Built target gmock
+[2.916s] [ 53%] Built target gmock_main
+[4.969s] [ 61%] [32m[1mLinking CXX shared library libsteering_controllers_library.so[0m
+[6.277s] [ 69%] Built target steering_controllers_library
+[6.288s] [35m[1mConsolidate compiler generated dependencies of target test_steering_odometry[0m
+[6.290s] [35m[1mConsolidate compiler generated dependencies of target test_steering_controllers_library[0m
+[6.312s] [ 76%] [32m[1mLinking CXX executable test_steering_odometry[0m
+[6.319s] [ 84%] [32m[1mLinking CXX executable test_steering_controllers_library[0m
+[7.430s] [ 92%] Built target test_steering_controllers_library
+[7.513s] [100%] Built target test_steering_odometry
+[7.525s] Invoked command in '/home/psd/psd_ws/build/steering_controllers_library' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/steering_controllers_library -- -j20 -l20
+[7.558s] Invoking command in '/home/psd/psd_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/steering_controllers_library
+[7.566s] -- Install configuration: ""
+[7.567s] -- Execute custom install script
+[7.567s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/include/steering_controllers_library_parameters/steering_controllers_library_parameters.hpp
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_controllers_library.hpp
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_odometry.hpp
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/visibility_control.h
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.sh
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.dsv
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/ament_index/resource_index/package_run_dependencies/steering_controllers_library
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/ament_index/resource_index/parent_prefix_path/steering_controllers_library
+[7.568s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.sh
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.dsv
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.sh
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.dsv
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.bash
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.sh
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.zsh
+[7.569s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.dsv
+[7.569s] -- Symlinking: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/package.dsv
+[7.579s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/ament_index/resource_index/packages/steering_controllers_library
+[7.579s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_targets-extras.cmake
+[7.579s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.579s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig.cmake
+[7.579s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig-version.cmake
+[7.580s] -- Up-to-date symlink: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/package.xml
+[7.580s] -- Installing: /home/psd/psd_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so
+[7.592s] -- Set runtime path of "/home/psd/psd_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so" to ""
+[7.592s] -- Up-to-date: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport.cmake
+[7.592s] -- Up-to-date: /home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport-noconfig.cmake
+[7.595s] Invoked command in '/home/psd/psd_ws/build/steering_controllers_library' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/steering_controllers_library

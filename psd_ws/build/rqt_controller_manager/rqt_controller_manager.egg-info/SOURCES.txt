@@ -2,13 +2,6 @@ package.xml
 plugin.xml
 setup.cfg
 setup.py
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/PKG-INFO
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/dependency_links.txt
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/entry_points.txt
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/requires.txt
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/top_level.txt
-../../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/zip-safe
 resource/cm_icon.png
 resource/controller_info.ui
 resource/controller_manager.ui
@@ -20,3 +13,10 @@ rqt_controller_manager/__init__.py
 rqt_controller_manager/controller_manager.py
 rqt_controller_manager/main.py
 rqt_controller_manager/update_combo.py
+rqt_controller_manager.egg-info/PKG-INFO
+rqt_controller_manager.egg-info/SOURCES.txt
+rqt_controller_manager.egg-info/dependency_links.txt
+rqt_controller_manager.egg-info/entry_points.txt
+rqt_controller_manager.egg-info/requires.txt
+rqt_controller_manager.egg-info/top_level.txt
+rqt_controller_manager.egg-info/zip-safe

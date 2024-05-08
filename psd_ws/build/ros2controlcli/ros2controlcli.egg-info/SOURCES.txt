@@ -1,15 +1,14 @@
-README.rst
 package.xml
 setup.py
-../../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
-../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt
-../../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
-../../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
-../../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
-../../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
-../../../../build/ros2controlcli/ros2controlcli.egg-info/zip-safe
 resource/ros2controlcli
 ros2controlcli/__init__.py
+ros2controlcli.egg-info/PKG-INFO
+ros2controlcli.egg-info/SOURCES.txt
+ros2controlcli.egg-info/dependency_links.txt
+ros2controlcli.egg-info/entry_points.txt
+ros2controlcli.egg-info/requires.txt
+ros2controlcli.egg-info/top_level.txt
+ros2controlcli.egg-info/zip-safe
 ros2controlcli/api/__init__.py
 ros2controlcli/command/__init__.py
 ros2controlcli/command/control.py
@@ -24,4 +23,3 @@ ros2controlcli/verb/set_controller_state.py
 ros2controlcli/verb/switch_controllers.py
 ros2controlcli/verb/unload_controller.py
 ros2controlcli/verb/view_controller_chains.py
-test/test_view_controller_chains.py

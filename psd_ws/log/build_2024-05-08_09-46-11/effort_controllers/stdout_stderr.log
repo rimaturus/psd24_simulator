@@ -1,0 +1,42 @@
+[  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 18%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 45%] Built target effort_controllers
+[ 54%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 54%] Built target gmock_main
+[ 63%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 63%] Built target gmock
+[ 72%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[ 81%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[ 90%] Built target test_joint_group_effort_controller
+[100%] Built target test_load_joint_group_effort_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers//effort_controllers_plugins.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/include/effort_controllers/effort_controllers/joint_group_effort_controller.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/include/effort_controllers/effort_controllers/visibility_control.h
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.bash
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.zsh
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/package.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/package.xml
+-- Installing: /home/psd/psd_ws/install/effort_controllers/lib/libeffort_controllers.so
+-- Set runtime path of "/home/psd/psd_ws/install/effort_controllers/lib/libeffort_controllers.so" to ""
+-- Up-to-date: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+-- Up-to-date: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake

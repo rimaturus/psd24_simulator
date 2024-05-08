@@ -1,0 +1,31 @@
+[0.201s] Invoking command in '/home/psd/psd_ws/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/kinematics_interface -- -j20 -l20
+[0.271s] [100%] Built target kinematics_interface
+[0.290s] Invoked command in '/home/psd/psd_ws/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/kinematics_interface -- -j20 -l20
+[0.330s] Invoking command in '/home/psd/psd_ws/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/kinematics_interface
+[0.340s] -- Install configuration: ""
+[0.340s] -- Execute custom install script
+[0.341s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+[0.341s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/include/kinematics_interface/kinematics_interface/visibility_control.h
+[0.341s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+[0.341s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+[0.341s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+[0.342s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+[0.343s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+[0.343s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+[0.343s] -- Symlinking: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/package.dsv
+[0.353s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+[0.353s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.353s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.354s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+[0.354s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+[0.354s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/package.xml
+[0.354s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface/lib/libkinematics_interface.so
+[0.354s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+[0.354s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake
+[0.356s] Invoked command in '/home/psd/psd_ws/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psd/psd_ws/install/rqt_joint_trajectory_controller:/home/psd/psd_ws/install/rqt_controller_manager:/home/psd/psd_ws/install/ros2controlcli:/home/psd/psd_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/kinematics_interface

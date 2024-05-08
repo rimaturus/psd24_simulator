@@ -1,0 +1,22 @@
+[ 50%] [32m[1mLinking CXX executable test_position[0m
+[100%] Built target test_position
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf/test_cart_position.xacro.urdf
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config/cart_controller_position.yaml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml
