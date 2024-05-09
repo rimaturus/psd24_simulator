@@ -1,0 +1,20 @@
+[0.419s] Invoking command in '/home/psd/psd_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/psd/psd_ws/build/ros2_controllers_test_nodes/prefix_override:/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[0.578s] running develop
+[0.578s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.578s]   warnings.warn(
+[0.655s] running egg_info
+[0.655s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[0.655s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[0.655s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[0.655s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[0.656s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.656s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.657s] running build_ext
+[0.657s] Creating /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[0.658s] Installing publisher_forward_position_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.658s] Installing publisher_joint_trajectory_controller script to /home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.658s] 
+[0.658s] Installed /home/psd/psd_ws/build/ros2_controllers_test_nodes
+[0.658s] running symlink_data
+[0.679s] Invoked command in '/home/psd/psd_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/psd/psd_ws/build/ros2_controllers_test_nodes/prefix_override:/home/psd/psd_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data

@@ -1,0 +1,84 @@
+[0.009s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_description': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/psd_vehicle_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/psd_vehicle_description
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.449s] -- Configuring done
+[0.452s] -- Generating done
+[0.453s] -- Build files have been written to: /home/psd/psd_ws/build/psd_vehicle_description
+[0.456s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_description' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/psd_vehicle_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/psd_vehicle_description
+[0.457s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_description': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_description -- -j20 -l20
+[0.481s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_description' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/psd_vehicle_description -- -j20 -l20
+[0.494s] Invoking command in '/home/psd/psd_ws/build/psd_vehicle_description': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_description
+[0.499s] -- Install configuration: ""
+[0.499s] -- Execute custom install script
+[0.500s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz/psd_vehicle.rviz
+[0.506s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/view_psd_vehicle.launch.py
+[0.513s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/base_link.stl
+[0.519s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FL_1.stl
+[0.525s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FR_1.stl
+[0.530s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RL_1.stl
+[0.536s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RR_1.stl
+[0.541s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FL_1.stl
+[0.547s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FR_1.stl
+[0.554s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FL_1.stl
+[0.559s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FR_1.stl
+[0.565s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RL_1.stl
+[0.571s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RR_1.stl
+[0.577s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_bot.dae
+[0.583s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_mid.dae
+[0.589s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_top.dae
+[0.595s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.dae
+[0.602s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.stl
+[0.608s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FL_1.stl
+[0.614s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FR_1.stl
+[0.620s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RL_1.stl
+[0.626s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RR_1.stl
+[0.632s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fl_1.dae
+[0.638s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fr_1.dae
+[0.644s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rl_1.dae
+[0.649s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rr_1.dae
+[0.655s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FL_1.stl
+[0.661s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FR_1.stl
+[0.667s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fl_1.dae
+[0.673s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fr_1.dae
+[0.678s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FL_1.stl
+[0.684s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FR_1.stl
+[0.690s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RL_1.stl
+[0.696s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RR_1.stl
+[0.702s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fl_1.dae
+[0.708s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fr_1.dae
+[0.713s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rl_1.dae
+[0.719s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rr_1.dae
+[0.725s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components/camera_mount.urdf.xacro
+[0.730s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/materials.xacro
+[0.736s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro
+[0.741s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.ros2_control.xacro
+[0.747s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.urdf.xacro
+[0.753s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description
+[0.759s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description
+[0.765s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh
+[0.771s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.dsv
+[0.778s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.sh
+[0.784s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.dsv
+[0.790s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.bash
+[0.796s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.sh
+[0.802s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.zsh
+[0.808s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.dsv
+[0.814s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv
+[0.821s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/packages/psd_vehicle_description
+[0.828s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig.cmake
+[0.834s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig-version.cmake
+[0.841s] -- Symlinking: /home/psd/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.xml
+[0.851s] Invoked command in '/home/psd/psd_ws/build/psd_vehicle_description' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/psd_vehicle_description

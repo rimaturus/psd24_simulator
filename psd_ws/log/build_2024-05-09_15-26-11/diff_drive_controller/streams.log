@@ -1,0 +1,117 @@
+[0.168s] Invoking command in '/home/psd/psd_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/diff_drive_controller
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.223s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.606s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.615s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.623s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.623s] -- BACKWARD_HAS_UNWIND=1
+[0.623s] -- BACKWARD_HAS_BACKTRACE=0
+[0.623s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.623s] -- BACKWARD_HAS_DW=1
+[0.623s] -- BACKWARD_HAS_BFD=0
+[0.624s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.625s] -- Found controller_interface: 2.40.0 (/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake)
+[0.680s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.362s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.366s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.417s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.464s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.466s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.477s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.489s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.497s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.508s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.523s] -- Looking for C++ include pthread.h
+[1.615s] -- Looking for C++ include pthread.h - found
+[1.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.714s] -- Found Threads: TRUE  
+[1.964s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.967s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.999s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.106s] -- Found realtime_tools: 2.5.0 (/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.162s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[2.175s] -- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.516s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.517s] -- Found controller_manager: 2.40.0 (/home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake)
+[2.820s] -- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.825s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.867s] -- The C compiler identification is GNU 11.4.0
+[2.874s] -- Detecting C compiler ABI info
+[2.949s] -- Detecting C compiler ABI info - done
+[2.954s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.954s] -- Detecting C compile features
+[2.955s] -- Detecting C compile features - done
+[2.960s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.960s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.703s] -- Configuring done
+[3.845s] -- Generating done
+[3.850s] -- Build files have been written to: /home/psd/psd_ws/build/diff_drive_controller
+[3.872s] Invoked command in '/home/psd/psd_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/diff_drive_controller
+[3.878s] Invoking command in '/home/psd/psd_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/diff_drive_controller -- -j20 -l20
+[4.143s] [ 21%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml `[0m
+[4.144s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.144s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.144s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[6.292s] [ 28%] Built target diff_drive_controller_parameters
+[6.422s] [ 35%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[6.459s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[6.459s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[7.745s] [ 57%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.902s] [ 57%] Built target gmock_main
+[11.383s] [ 64%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.498s] [ 64%] Built target gmock
+[11.593s] [ 71%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[18.750s] [ 78%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[20.411s] [ 78%] Built target test_load_diff_drive_controller
+[27.044s] [ 85%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[28.418s] [ 85%] Built target diff_drive_controller
+[28.459s] [ 92%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[37.546s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[39.655s] [100%] Built target test_diff_drive_controller
+[39.696s] Invoked command in '/home/psd/psd_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/diff_drive_controller -- -j20 -l20
+[40.373s] Invoking command in '/home/psd/psd_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/diff_drive_controller
+[41.252s] -- Install configuration: ""
+[41.252s] -- Execute custom install script
+[41.252s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/include/diff_drive_controller_parameters/diff_drive_controller_parameters.hpp
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller//diff_drive_plugin.xml
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/diff_drive_controller.hpp
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/odometry.hpp
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/speed_limiter.hpp
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/visibility_control.h
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[41.253s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[41.254s] -- Symlinking: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[41.254s] -- Installing: /home/psd/psd_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[41.254s] -- Set runtime path of "/home/psd/psd_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+[41.254s] -- Installing: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
+[41.255s] -- Installing: /home/psd/psd_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-noconfig.cmake
+[41.308s] Invoked command in '/home/psd/psd_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/diff_drive_controller

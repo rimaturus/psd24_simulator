@@ -163,7 +163,7 @@ template <typename T, size_t capacity>
       }
 
       updated_params.__stamp = clock_.now();
-      update_interal_params(updated_params);
+      update_internal_params(updated_params);
       return rsl::to_parameter_result_msg({});
     }
 
@@ -215,11 +215,11 @@ template <typename T, size_t capacity>
 
 
       updated_params.__stamp = clock_.now();
-      update_interal_params(updated_params);
+      update_internal_params(updated_params);
     }
 
     private:
-      void update_interal_params(Params updated_params) {
+      void update_internal_params(Params updated_params) {
         std::lock_guard<std::mutex> lock(mutex_);
         params_ = updated_params;
       }

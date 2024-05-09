@@ -1,0 +1,121 @@
+[0.171s] Invoking command in '/home/psd/psd_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_toolbox/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/joint_trajectory_controller
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.574s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.584s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.591s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.591s] -- BACKWARD_HAS_UNWIND=1
+[0.591s] -- BACKWARD_HAS_BACKTRACE=0
+[0.591s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.592s] -- BACKWARD_HAS_DW=1
+[0.592s] -- BACKWARD_HAS_BFD=0
+[0.592s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.608s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.613s] -- Found control_msgs: 4.4.0 (/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake)
+[0.663s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.670s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.680s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.407s] -- Found control_toolbox: 3.2.0 (/home/psd/psd_ws/install/control_toolbox/share/control_toolbox/cmake)
+[1.504s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.508s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.618s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.645s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.714s] -- Looking for C++ include pthread.h
+[1.822s] -- Looking for C++ include pthread.h - found
+[1.823s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.917s] -- Found Threads: TRUE  
+[2.174s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.214s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.323s] -- Found controller_interface: 2.40.0 (/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake)
+[3.071s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.072s] -- Found controller_manager: 2.40.0 (/home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake)
+[3.536s] -- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.542s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.628s] -- The C compiler identification is GNU 11.4.0
+[3.638s] -- Detecting C compiler ABI info
+[3.846s] -- Detecting C compiler ABI info - done
+[3.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.857s] -- Detecting C compile features
+[3.858s] -- Detecting C compile features - done
+[3.870s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.871s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.354s] -- Configuring done
+[4.592s] -- Generating done
+[4.604s] -- Build files have been written to: /home/psd/psd_ws/build/joint_trajectory_controller
+[4.620s] Invoked command in '/home/psd/psd_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_toolbox/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/joint_trajectory_controller
+[4.629s] Invoking command in '/home/psd/psd_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_toolbox/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/joint_trajectory_controller -- -j20 -l20
+[4.916s] [  5%] [34m[1mRunning `/usr/bin/cmake -E copy /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp`[0m
+[4.945s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.958s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.959s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.990s] [ 27%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`[0m
+[8.093s] [ 27%] Built target joint_trajectory_controller_parameters
+[8.238s] [ 33%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[8.242s] [ 38%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[8.269s] [ 44%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.463s] [ 44%] Built target gmock_main
+[13.133s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.277s] [ 50%] Built target gmock
+[28.803s] [ 55%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[29.986s] [ 55%] Built target joint_trajectory_controller
+[30.015s] [ 61%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[30.015s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[30.016s] [ 72%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[30.016s] [ 77%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[36.045s] [ 83%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[36.432s] [ 88%] [32m[1mLinking CXX executable test_trajectory[0m
+[37.371s] [ 88%] Built target test_trajectory
+[37.759s] [ 88%] Built target test_load_joint_trajectory_controller
+[48.239s] [ 94%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[49.757s] [ 94%] Built target test_trajectory_actions
+[51.485s] [100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[53.657s] [100%] Built target test_trajectory_controller
+[53.679s] Invoked command in '/home/psd/psd_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_toolbox/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/joint_trajectory_controller -- -j20 -l20
+[53.736s] Invoking command in '/home/psd/psd_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_toolbox/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/joint_trajectory_controller
+[53.746s] -- Install configuration: ""
+[53.746s] -- Execute custom install script
+[53.747s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+[53.760s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+[53.771s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[53.783s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[53.794s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[53.805s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[53.814s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[53.822s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[53.830s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[53.839s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[53.847s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[53.856s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[53.864s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[53.874s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[53.882s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[53.891s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[53.899s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[53.908s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[53.920s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[53.931s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[53.942s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[53.954s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[53.965s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[53.976s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[53.987s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[53.998s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.009s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[54.019s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[54.030s] -- Symlinking: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[54.041s] -- Installing: /home/psd/psd_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[54.056s] -- Set runtime path of "/home/psd/psd_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[54.056s] -- Installing: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[54.056s] -- Installing: /home/psd/psd_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[54.059s] Invoked command in '/home/psd/psd_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/control_toolbox:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/control_toolbox/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/joint_trajectory_controller

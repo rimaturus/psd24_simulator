@@ -1,0 +1,105 @@
+[0.063s] Invoking command in '/home/psd/psd_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/forward_command_controller/lib:/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/effort_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/effort_controllers
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.174s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.607s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.706s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.781s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.792s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.800s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.800s] -- BACKWARD_HAS_UNWIND=1
+[0.800s] -- BACKWARD_HAS_BACKTRACE=0
+[0.800s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.800s] -- BACKWARD_HAS_DW=1
+[0.800s] -- BACKWARD_HAS_BFD=0
+[0.801s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.802s] -- Found forward_command_controller: 2.33.0 (/home/psd/psd_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.899s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.910s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.928s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.195s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.202s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.277s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.365s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.370s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.397s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.417s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.430s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.471s] -- Looking for C++ include pthread.h
+[2.670s] -- Looking for C++ include pthread.h - found
+[2.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.873s] -- Found Threads: TRUE  
+[3.520s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.873s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.874s] -- Found controller_manager: 2.40.0 (/home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake)
+[4.312s] -- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.319s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.384s] -- The C compiler identification is GNU 11.4.0
+[4.395s] -- Detecting C compiler ABI info
+[4.616s] -- Detecting C compiler ABI info - done
+[4.629s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.629s] -- Detecting C compile features
+[4.630s] -- Detecting C compile features - done
+[4.642s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.644s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.398s] -- Configuring done
+[5.506s] -- Generating done
+[5.510s] -- Build files have been written to: /home/psd/psd_ws/build/effort_controllers
+[5.534s] Invoked command in '/home/psd/psd_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/forward_command_controller/lib:/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/effort_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/effort_controllers
+[5.535s] Invoking command in '/home/psd/psd_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/forward_command_controller/lib:/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/effort_controllers -- -j20 -l20
+[7.370s] [  9%] [32mBuilding CXX object CMakeFiles/effort_controllers.dir/src/joint_group_effort_controller.cpp.o[0m
+[7.370s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[7.370s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[7.379s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[8.131s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.280s] [ 45%] Built target gmock_main
+[11.818s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.896s] [ 54%] Built target gmock
+[12.375s] [ 63%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[12.768s] [ 63%] Built target effort_controllers
+[12.799s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_effort_controller.dir/test/test_load_joint_group_effort_controller.cpp.o[0m
+[12.799s] [ 81%] [32mBuilding CXX object CMakeFiles/test_joint_group_effort_controller.dir/test/test_joint_group_effort_controller.cpp.o[0m
+[19.083s] [ 90%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[21.472s] [ 90%] Built target test_load_joint_group_effort_controller
+[22.105s] [100%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[22.923s] [100%] Built target test_joint_group_effort_controller
+[22.950s] Invoked command in '/home/psd/psd_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/forward_command_controller/lib:/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/effort_controllers -- -j20 -l20
+[22.990s] Invoking command in '/home/psd/psd_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/forward_command_controller/lib:/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/effort_controllers
+[23.001s] -- Install configuration: ""
+[23.002s] -- Execute custom install script
+[23.002s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers//effort_controllers_plugins.xml
+[23.018s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/include/effort_controllers/effort_controllers/joint_group_effort_controller.hpp
+[23.029s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/include/effort_controllers/effort_controllers/visibility_control.h
+[23.042s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+[23.053s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+[23.067s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+[23.079s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+[23.092s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+[23.104s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+[23.116s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/path.sh
+[23.126s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/environment/path.dsv
+[23.139s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.bash
+[23.152s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.sh
+[23.165s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.zsh
+[23.177s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/local_setup.dsv
+[23.190s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/package.dsv
+[23.203s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+[23.216s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+[23.228s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[23.241s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.255s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+[23.267s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+[23.280s] -- Symlinking: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/package.xml
+[23.293s] -- Installing: /home/psd/psd_ws/install/effort_controllers/lib/libeffort_controllers.so
+[23.296s] -- Set runtime path of "/home/psd/psd_ws/install/effort_controllers/lib/libeffort_controllers.so" to ""
+[23.296s] -- Installing: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+[23.296s] -- Installing: /home/psd/psd_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake
+[23.300s] Invoked command in '/home/psd/psd_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/forward_command_controller:/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/forward_command_controller/lib:/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/effort_controllers

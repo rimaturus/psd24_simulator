@@ -1,0 +1,112 @@
+[0.038s] Invoking command in '/home/psd/psd_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/joint_state_broadcaster
+[0.191s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting CXX compiler ABI info
+[0.192s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.192s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.351s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.409s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.420s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.427s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.427s] -- BACKWARD_HAS_UNWIND=1
+[0.427s] -- BACKWARD_HAS_BACKTRACE=0
+[0.428s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.428s] -- BACKWARD_HAS_DW=1
+[0.428s] -- BACKWARD_HAS_BFD=0
+[0.428s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.432s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.482s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.507s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found control_msgs: 4.4.0 (/home/psd/psd_ws/install/control_msgs/share/control_msgs/cmake)
+[1.071s] -- Found controller_interface: 2.40.0 (/home/psd/psd_ws/install/controller_interface/share/controller_interface/cmake)
+[1.190s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.193s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.243s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.290s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.293s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.303s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.311s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.318s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.338s] -- Looking for C++ include pthread.h
+[1.432s] -- Looking for C++ include pthread.h - found
+[1.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.541s] -- Found Threads: TRUE  
+[1.773s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.777s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.810s] -- Found realtime_tools: 2.5.0 (/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake)
+[1.947s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.948s] -- Found controller_manager: 2.40.0 (/home/psd/psd_ws/install/controller_manager/share/controller_manager/cmake)
+[2.234s] -- Found ros2_control_test_assets: 2.40.0 (/home/psd/psd_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.238s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.283s] -- The C compiler identification is GNU 11.4.0
+[2.290s] -- Detecting C compiler ABI info
+[2.364s] -- Detecting C compiler ABI info - done
+[2.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.373s] -- Detecting C compile features
+[2.373s] -- Detecting C compile features - done
+[2.379s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.380s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.883s] -- Configuring done
+[2.949s] -- Generating done
+[2.952s] -- Build files have been written to: /home/psd/psd_ws/build/joint_state_broadcaster
+[2.964s] Invoked command in '/home/psd/psd_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/joint_state_broadcaster
+[2.967s] Invoking command in '/home/psd/psd_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/joint_state_broadcaster -- -j20 -l20
+[3.010s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/psd/psd_ws/build/joint_state_broadcaster/joint_state_broadcaster_parameters/include//joint_state_broadcaster_parameters.hpp /home/psd/psd_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster_parameters.yaml `[0m
+[3.016s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.016s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.016s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.248s] [ 33%] Built target joint_state_broadcaster_parameters
+[3.272s] [ 41%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[4.555s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.748s] [ 50%] Built target gmock_main
+[10.928s] [ 58%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.109s] [ 58%] Built target gmock
+[13.068s] [ 66%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[13.517s] [ 66%] Built target joint_state_broadcaster
+[13.546s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[13.546s] [ 83%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[21.280s] [ 91%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[22.997s] [ 91%] Built target test_load_joint_state_broadcaster
+[30.683s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[31.840s] [100%] Built target test_joint_state_broadcaster
+[31.853s] Invoked command in '/home/psd/psd_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/psd/psd_ws/build/joint_state_broadcaster -- -j20 -l20
+[31.889s] Invoking command in '/home/psd/psd_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/joint_state_broadcaster
+[31.897s] -- Install configuration: ""
+[31.897s] -- Execute custom install script
+[31.898s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/include/joint_state_broadcaster_parameters/joint_state_broadcaster_parameters.hpp
+[31.910s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster//joint_state_plugin.xml
+[31.921s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/joint_state_broadcaster.hpp
+[31.931s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/visibility_control.h
+[31.942s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[31.952s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[31.962s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[31.972s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[31.982s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[31.993s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[32.003s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[32.013s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[32.023s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[32.033s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[32.043s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[32.054s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[32.064s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[32.075s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[32.086s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[32.096s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[32.106s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.116s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[32.126s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[32.135s] -- Symlinking: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[32.146s] -- Installing: /home/psd/psd_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[32.150s] -- Set runtime path of "/home/psd/psd_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+[32.150s] -- Installing: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+[32.150s] -- Installing: /home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake
+[32.153s] Invoked command in '/home/psd/psd_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager:/home/psd/psd_ws/install/hardware_interface_testing:/home/psd/psd_ws/install/controller_interface:/home/psd/psd_ws/install/hardware_interface:/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/realtime_tools:/home/psd/psd_ws/install/controller_manager_msgs:/home/psd/psd_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager/lib:/home/psd/psd_ws/install/hardware_interface_testing/lib:/home/psd/psd_ws/install/controller_interface/lib:/home/psd/psd_ws/install/hardware_interface/lib:/home/psd/psd_ws/install/realtime_tools/lib:/home/psd/psd_ws/install/controller_manager_msgs/lib:/home/psd/psd_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/psd/psd_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/psd/psd_ws/build/joint_state_broadcaster

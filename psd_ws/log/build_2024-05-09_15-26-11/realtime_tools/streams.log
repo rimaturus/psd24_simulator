@@ -1,0 +1,110 @@
+[0.019s] Invoking command in '/home/psd/psd_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/realtime_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/realtime_tools
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting CXX compiler ABI info
+[0.167s] -- Detecting CXX compiler ABI info - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.172s] -- Detecting CXX compile features
+[0.173s] -- Detecting CXX compile features - done
+[0.178s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.377s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.437s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.443s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.559s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.563s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.657s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.683s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.738s] -- Looking for C++ include pthread.h
+[0.802s] -- Looking for C++ include pthread.h - found
+[0.802s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.856s] -- Found Threads: TRUE  
+[0.974s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.040s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.041s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[1.093s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.120s] -- The C compiler identification is GNU 11.4.0
+[1.124s] -- Detecting C compiler ABI info
+[1.165s] -- Detecting C compiler ABI info - done
+[1.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.170s] -- Detecting C compile features
+[1.170s] -- Detecting C compile features - done
+[1.174s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.174s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.224s] -- Configuring done
+[1.247s] -- Generating done
+[1.248s] -- Build files have been written to: /home/psd/psd_ws/build/realtime_tools
+[1.255s] Invoked command in '/home/psd/psd_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/psd/psd_ws/src/ros-controls/realtime_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/psd/psd_ws/install/realtime_tools
+[1.255s] Invoking command in '/home/psd/psd_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/realtime_tools -- -j20 -l20
+[1.286s] [  4%] [32mBuilding CXX object CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o[0m
+[1.287s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.287s] [ 14%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[1.289s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.290s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.621s] [ 28%] [32m[1mLinking CXX shared library libthread_priority.so[0m
+[1.719s] [ 28%] Built target thread_priority
+[1.986s] [ 33%] [32m[1mLinking CXX shared library librealtime_tools.so[0m
+[2.046s] [ 38%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.060s] [ 38%] Built target realtime_tools
+[2.073s] [ 38%] Built target gmock_main
+[3.841s] [ 42%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.936s] [ 42%] Built target gmock
+[4.020s] [ 47%] [32mBuilding CXX object CMakeFiles/realtime_box_tests.dir/test/realtime_box_tests.cpp.o[0m
+[4.028s] [ 52%] [32mBuilding CXX object CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o[0m
+[4.038s] [ 57%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests_non_polling.dir/test/realtime_publisher_tests_non_polling.cpp.o[0m
+[4.046s] [ 61%] [32mBuilding CXX object CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o[0m
+[4.048s] [ 66%] [32mBuilding CXX object CMakeFiles/realtime_server_goal_handle_tests.dir/test/realtime_server_goal_handle_tests.cpp.o[0m
+[4.054s] [ 71%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests.dir/test/realtime_publisher_tests.cpp.o[0m
+[5.942s] [ 76%] [32m[1mLinking CXX executable realtime_buffer_tests[0m
+[6.026s] [ 80%] [32m[1mLinking CXX executable realtime_box_tests[0m
+[6.177s] [ 80%] Built target realtime_buffer_tests
+[6.216s] [ 80%] Built target realtime_box_tests
+[6.455s] [ 85%] [32m[1mLinking CXX executable realtime_clock_tests[0m
+[6.697s] [ 85%] Built target realtime_clock_tests
+[9.794s] [ 90%] [32m[1mLinking CXX executable realtime_server_goal_handle_tests[0m
+[10.282s] [ 90%] Built target realtime_server_goal_handle_tests
+[12.245s] [ 95%] [32m[1mLinking CXX executable realtime_publisher_tests[0m
+[12.482s] [100%] [32m[1mLinking CXX executable realtime_publisher_tests_non_polling[0m
+[12.555s] [100%] Built target realtime_publisher_tests
+[12.805s] [100%] Built target realtime_publisher_tests_non_polling
+[12.813s] Invoked command in '/home/psd/psd_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/realtime_tools -- -j20 -l20
+[12.841s] Invoking command in '/home/psd/psd_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/realtime_tools
+[12.846s] -- Install configuration: ""
+[12.846s] -- Execute custom install script
+[12.847s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[12.853s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[12.858s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[12.865s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[12.871s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[12.876s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[12.883s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[12.888s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[12.893s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[12.899s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[12.904s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[12.910s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[12.915s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[12.920s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[12.926s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[12.931s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[12.937s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[12.942s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[12.948s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[12.954s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[12.959s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[12.965s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.970s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[12.976s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[12.981s] -- Symlinking: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/package.xml
+[12.987s] -- Installing: /home/psd/psd_ws/install/realtime_tools/lib/librealtime_tools.so
+[12.988s] -- Set runtime path of "/home/psd/psd_ws/install/realtime_tools/lib/librealtime_tools.so" to ""
+[12.988s] -- Installing: /home/psd/psd_ws/install/realtime_tools/lib/libthread_priority.so
+[12.988s] -- Set runtime path of "/home/psd/psd_ws/install/realtime_tools/lib/libthread_priority.so" to ""
+[12.988s] -- Installing: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[12.988s] -- Installing: /home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake
+[12.990s] Invoked command in '/home/psd/psd_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/realtime_tools

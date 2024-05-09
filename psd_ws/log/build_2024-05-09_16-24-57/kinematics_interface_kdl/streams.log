@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/psd/psd_ws/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/psd/psd_ws/build/kinematics_interface_kdl -- -j20 -l20
+[0.046s] [ 22%] Built target gmock_main
+[0.046s] [ 55%] Built target gmock
+[0.046s] [ 77%] Built target kinematics_interface_kdl
+[0.066s] [100%] Built target test_kinematics_interface_kdl
+[0.073s] Invoked command in '/home/psd/psd_ws/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/psd/psd_ws/build/kinematics_interface_kdl -- -j20 -l20
+[0.091s] Invoking command in '/home/psd/psd_ws/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/psd/psd_ws/build/kinematics_interface_kdl
+[0.096s] -- Install configuration: ""
+[0.096s] -- Execute custom install script
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl//kinematics_interface_kdl.xml
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/include/kinematics_interface_kdl/kinematics_interface_kdl/kinematics_interface_kdl.hpp
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.sh
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.dsv
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/ament_index/resource_index/package_run_dependencies/kinematics_interface_kdl
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/ament_index/resource_index/parent_prefix_path/kinematics_interface_kdl
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.sh
+[0.097s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.sh
+[0.098s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.dsv
+[0.098s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.bash
+[0.098s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.sh
+[0.098s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.zsh
+[0.098s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.dsv
+[0.098s] -- Symlinking: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.dsv
+[0.104s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/ament_index/resource_index/packages/kinematics_interface_kdl
+[0.104s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/ament_index/resource_index/kinematics_interface__pluginlib__plugin/kinematics_interface_kdl
+[0.104s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_targets-extras.cmake
+[0.104s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.104s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig.cmake
+[0.104s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig-version.cmake
+[0.105s] -- Up-to-date symlink: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.xml
+[0.105s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so
+[0.105s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport.cmake
+[0.105s] -- Up-to-date: /home/psd/psd_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport-noconfig.cmake
+[0.109s] Invoked command in '/home/psd/psd_ws/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/ros2_control_test_assets:/home/psd/psd_ws/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/psd/psd_ws/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/psd/psd_ws/build/kinematics_interface_kdl

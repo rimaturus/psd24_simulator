@@ -1,1 +1,0 @@
-/home/psd/psd_ws/src/psd_vehicle_bringup/launch/ignition_sim.launch.py

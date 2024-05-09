@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target gazebo_ros2_control[0m
+[35m[1mConsolidate compiler generated dependencies of target gazebo_hardware_plugins[0m
+[ 50%] Built target gazebo_ros2_control
+[100%] Built target gazebo_hardware_plugins
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+-- Symlinking: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+-- Up-to-date symlink: /home/psd/psd_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml

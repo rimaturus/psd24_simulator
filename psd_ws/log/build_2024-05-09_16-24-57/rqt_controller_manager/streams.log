@@ -1,0 +1,19 @@
+[0.363s] Invoking command in '/home/psd/psd_ws/build/rqt_controller_manager': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/build/rqt_controller_manager/prefix_override:/home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/rqt_controller_manager/build --no-deps symlink_data
+[0.526s] running develop
+[0.527s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.527s]   warnings.warn(
+[0.602s] running egg_info
+[0.602s] writing rqt_controller_manager.egg-info/PKG-INFO
+[0.602s] writing dependency_links to rqt_controller_manager.egg-info/dependency_links.txt
+[0.602s] writing entry points to rqt_controller_manager.egg-info/entry_points.txt
+[0.602s] writing requirements to rqt_controller_manager.egg-info/requires.txt
+[0.602s] writing top-level names to rqt_controller_manager.egg-info/top_level.txt
+[0.604s] reading manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+[0.605s] running build_ext
+[0.606s] Creating /home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt-controller-manager.egg-link (link to .)
+[0.606s] Installing rqt_controller_manager script to /home/psd/psd_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+[0.606s] 
+[0.606s] Installed /home/psd/psd_ws/build/rqt_controller_manager
+[0.606s] running symlink_data
+[0.623s] Invoked command in '/home/psd/psd_ws/build/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psd/psd_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/psd/psd_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psd/psd_ws/build/rqt_controller_manager/prefix_override:/home/psd/psd_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/psd/psd_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psd/psd_ws/build/rqt_controller_manager/build --no-deps symlink_data

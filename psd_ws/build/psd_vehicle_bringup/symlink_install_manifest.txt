@@ -6,7 +6,7 @@
 /home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/OLD_psd_vehicle.launch.py
 /home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/OLD_psd_vehicle_ignition.launch.py
 /home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/OLD_rsp.launch.py
-/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/ignition_sim.launch.py
+/home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/gz_sim.launch.py
 /home/psd/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/joystick.launch.py
 /home/psd/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_bringup
 /home/psd/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_bringup
