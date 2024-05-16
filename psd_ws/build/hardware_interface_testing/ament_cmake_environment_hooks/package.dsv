@@ -1,4 +1,0 @@
-source;share/hardware_interface_testing/local_setup.bash
-source;share/hardware_interface_testing/local_setup.dsv
-source;share/hardware_interface_testing/local_setup.sh
-source;share/hardware_interface_testing/local_setup.zsh

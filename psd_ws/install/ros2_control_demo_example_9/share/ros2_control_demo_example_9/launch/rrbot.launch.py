@@ -1,1 +1,0 @@
-/home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_9/bringup/launch/rrbot.launch.py

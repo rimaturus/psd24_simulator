@@ -1,4 +1,0 @@
-/home/psd/psd_ws/install/realtime_tools/lib/librealtime_tools.so
-/home/psd/psd_ws/install/realtime_tools/lib/libthread_priority.so
-/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
-/home/psd/psd_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake

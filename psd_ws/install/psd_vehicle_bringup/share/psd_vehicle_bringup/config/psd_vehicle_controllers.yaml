@@ -1,1 +1,90 @@
-/home/psd/psd_ws/src/psd_vehicle_bringup/config/psd_vehicle_controllers.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # forward_position_controller:
+    #   type: forward_command_controller/ForwardCommandController
+
+    # bicycle_steering_controller:
+    #   type: bicycle_steering_controller/BicycleSteeringController
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    # ackermann_steering_controller:
+    #   type: ackermann_steering_controller/AckermannSteeringController
+
+
+# forward_position_controller:
+#   ros__parameters:
+#     joints:
+#       - steering_fr
+#       - steering_fl
+#     interface_name: position
+
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - drive_rr
+      - drive_rl
+      - drive_fr
+      - drive_fl
+
+    command_interfaces:
+      - effort
+
+    state_interfaces:
+      - position
+      - velocity
+
+    state_publish_rate: 50.0 # Defaults to 50
+    action_monitor_rate: 20.0 # Defaults to 20
+
+    allow_partial_joints_goal: false # Defaults to false
+    constraints:
+      stopped_velocity_tolerance: 0.01 # Defaults to 0.01
+      goal_time: 0.0 # Defaults to 0.0 (start immediately)
+
+# bicycle_steering_controller:
+#   ros__parameters:
+#     wheelbase: 0.6
+#     front_wheel_radius: 0.19
+#     rear_wheel_radius: 0.19
+#     front_steering: true
+#     reference_timeout: 2.0
+#     rear_wheels_names: ['drive_rl', 'drive_rr']
+#     front_wheels_names: ['steering_fl', 'steering_fr']
+#     open_loop: false
+#     velocity_rolling_window_size: 10
+#     base_frame_id: base_link
+#     odom_frame_id: odom
+#     enable_odom_tf: true
+#     twist_covariance_diagonal: [0.0, 7.0, 14.0, 21.0, 28.0, 35.0]
+#     pose_covariance_diagonal: [0.0, 7.0, 14.0, 21.0, 28.0, 35.0]
+#     position_feedback: false
+#     use_stamped_vel: true
+
+# ackermann_steering_controller:
+#   ros__parameters:
+#     wheelbase: 0.6
+#     front_wheel_radius: 0.19
+#     rear_wheel_radius: 0.19
+#     front_steering: true
+#     reference_timeout: 2.0
+#     front_wheel_track: 0.176
+#     rear_wheel_track: 0.175
+#     rear_wheels_names: ['drive_rl', 'drive_rr']
+#     front_wheels_names: ['steering_fl', 'steering_fr']
+#     open_loop: false
+#     velocity_rolling_window_size: 10
+#     base_frame_id: base_link
+#     odom_frame_id: odom
+#     enable_odom_tf: true
+#     twist_covariance_diagonal: [0.0, 7.0, 14.0, 21.0, 28.0, 35.0]
+#     pose_covariance_diagonal: [0.0, 7.0, 14.0, 21.0, 28.0, 35.0]
+#     position_feedback: false
+#     use_stamped_vel: true

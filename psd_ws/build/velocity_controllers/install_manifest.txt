@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/velocity_controllers/lib/libvelocity_controllers.so
-/home/psd/psd_ws/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport.cmake
-/home/psd/psd_ws/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport-noconfig.cmake

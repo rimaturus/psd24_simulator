@@ -1,4 +1,0 @@
-source;share/gripper_controllers/local_setup.bash
-source;share/gripper_controllers/local_setup.dsv
-source;share/gripper_controllers/local_setup.sh
-source;share/gripper_controllers/local_setup.zsh

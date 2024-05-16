@@ -1,4 +1,0 @@
-source;share/joint_trajectory_controller/local_setup.bash
-source;share/joint_trajectory_controller/local_setup.dsv
-source;share/joint_trajectory_controller/local_setup.sh
-source;share/joint_trajectory_controller/local_setup.zsh

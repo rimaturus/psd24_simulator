@@ -1,1 +1,24 @@
-/home/psd/psd_ws/src/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="psd_vehicle">
+
+  <!-- Use this if parameters are set from the launch file, otherwise delete -->
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="simulation_controllers" default="" />
+
+  <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.urdf.xacro"/>
+  <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.ros2_control.xacro"/>
+
+  <!-- Load robot's macro with parameters -->
+  <link name="leo" />
+  
+  <!-- set prefix if multiple robots are used -->
+  <xacro:psd_vehicle prefix="$(arg prefix)" parent="leo" >
+    <origin xyz="0 0 0.095" rpy="0 0 0" />          <!-- position robot in the world -->
+  </xacro:psd_vehicle>
+
+  <xacro:psd_vehicle_ros2_control
+    name="psd_vehicle"
+    prefix="$(arg prefix)"
+  />
+
+</robot>

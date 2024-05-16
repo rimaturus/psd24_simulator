@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so
-/home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport.cmake
-/home/psd/psd_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport-noconfig.cmake

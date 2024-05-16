@@ -1,4 +1,0 @@
-source;share/kinematics_interface_kdl/local_setup.bash
-source;share/kinematics_interface_kdl/local_setup.dsv
-source;share/kinematics_interface_kdl/local_setup.sh
-source;share/kinematics_interface_kdl/local_setup.zsh

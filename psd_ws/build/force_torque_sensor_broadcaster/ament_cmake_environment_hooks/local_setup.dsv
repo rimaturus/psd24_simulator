@@ -1,3 +1,0 @@
-source;share/force_torque_sensor_broadcaster/environment/ament_prefix_path.sh
-source;share/force_torque_sensor_broadcaster/environment/library_path.sh
-source;share/force_torque_sensor_broadcaster/environment/path.sh

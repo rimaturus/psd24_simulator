@@ -1,1 +1,0 @@
-/home/psd/psd_ws/build/controller_manager_msgs/rosidl_generator_py/controller_manager_msgs/msg/_hardware_component_state_s.c

@@ -16,7 +16,7 @@ set(_gz_ros2_control_tests_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT gz_ros2_control_tests_FIND_QUIETLY)
-  message(STATUS "Found gz_ros2_control_tests: 0.7.6 (${gz_ros2_control_tests_DIR})")
+  message(STATUS "Found gz_ros2_control_tests: 1.3.0 (${gz_ros2_control_tests_DIR})")
 endif()
 
 # warn when using a deprecated package
@@ -27,7 +27,7 @@ if(NOT "" STREQUAL "")
     set(_msg "${_msg} ()")
   endif()
   # optionally quiet the deprecation message
-  if(NOT ${gz_ros2_control_tests_DEPRECATED_QUIET})
+  if(NOT gz_ros2_control_tests_DEPRECATED_QUIET)
     message(DEPRECATION "${_msg}")
   endif()
 endif()

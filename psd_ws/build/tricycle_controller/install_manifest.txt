@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/tricycle_controller/lib/libtricycle_controller.so
-/home/psd/psd_ws/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport.cmake
-/home/psd/psd_ws/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport-noconfig.cmake

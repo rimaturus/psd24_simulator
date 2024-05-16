@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
-/home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
-/home/psd/psd_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake

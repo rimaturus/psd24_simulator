@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so
-/home/psd/psd_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export.cmake
-/home/psd/psd_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export-noconfig.cmake

@@ -1,4 +1,0 @@
-Invoking command in '/home/psd/psd_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/realtime_tools -- -j20 -l20
-Invoked command in '/home/psd/psd_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psd/psd_ws/build/realtime_tools -- -j20 -l20
-Invoking command in '/home/psd/psd_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/realtime_tools
-Invoked command in '/home/psd/psd_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psd/psd_ws/build/realtime_tools

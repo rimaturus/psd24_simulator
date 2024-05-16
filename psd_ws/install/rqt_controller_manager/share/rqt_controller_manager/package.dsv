@@ -1,9 +1,0 @@
-source;share/rqt_controller_manager/hook/pythonpath.ps1
-source;share/rqt_controller_manager/hook/pythonpath.dsv
-source;share/rqt_controller_manager/hook/pythonpath.sh
-source;share/rqt_controller_manager/hook/ament_prefix_path.ps1
-source;share/rqt_controller_manager/hook/ament_prefix_path.dsv
-source;share/rqt_controller_manager/hook/ament_prefix_path.sh
-source;../../build/rqt_controller_manager/share/rqt_controller_manager/hook/pythonpath_develop.ps1
-source;../../build/rqt_controller_manager/share/rqt_controller_manager/hook/pythonpath_develop.dsv
-source;../../build/rqt_controller_manager/share/rqt_controller_manager/hook/pythonpath_develop.sh

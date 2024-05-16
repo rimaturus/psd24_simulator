@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so
-/home/psd/psd_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport.cmake
-/home/psd/psd_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport-noconfig.cmake

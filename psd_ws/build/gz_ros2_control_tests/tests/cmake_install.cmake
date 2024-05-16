@@ -1,8 +1,8 @@
-# Install script for directory: /home/psd/psd_ws/src/ros-controls/gz_ros2_control/gz_ros2_control_tests/tests
+# Install script for directory: /home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_tests/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/psd/psd_ws/install/gz_ros2_control_tests")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/psd_ws/install/gz_ros2_control_tests")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

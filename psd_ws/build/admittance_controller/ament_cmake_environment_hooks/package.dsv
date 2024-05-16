@@ -1,4 +1,0 @@
-source;share/admittance_controller/local_setup.bash
-source;share/admittance_controller/local_setup.dsv
-source;share/admittance_controller/local_setup.sh
-source;share/admittance_controller/local_setup.zsh

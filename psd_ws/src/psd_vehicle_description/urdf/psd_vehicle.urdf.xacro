@@ -9,10 +9,10 @@
   <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.ros2_control.xacro"/>
 
   <!-- Load robot's macro with parameters -->
-  <link name="world" />
+  <link name="leo" />
   
   <!-- set prefix if multiple robots are used -->
-  <xacro:psd_vehicle prefix="$(arg prefix)" parent="world" >
+  <xacro:psd_vehicle prefix="$(arg prefix)" parent="leo" >
     <origin xyz="0 0 0.095" rpy="0 0 0" />          <!-- position robot in the world -->
   </xacro:psd_vehicle>
 

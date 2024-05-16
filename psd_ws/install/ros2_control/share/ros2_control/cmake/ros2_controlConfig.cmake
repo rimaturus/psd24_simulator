@@ -1,1 +1,0 @@
-/home/psd/psd_ws/build/ros2_control/ament_cmake_core/ros2_controlConfig.cmake

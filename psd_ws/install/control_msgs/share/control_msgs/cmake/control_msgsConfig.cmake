@@ -1,1 +1,0 @@
-/home/psd/psd_ws/build/control_msgs/ament_cmake_core/control_msgsConfig.cmake

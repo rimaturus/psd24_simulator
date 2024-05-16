@@ -1,1 +1,1 @@
-/home/psd/psd_ws/build/psd_vehicle_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description
+joint_state_publisher_gui;hardware_interface;robot_state_publisher;rviz2;xacro

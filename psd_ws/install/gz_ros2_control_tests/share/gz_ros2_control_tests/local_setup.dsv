@@ -1,1 +1,2 @@
-/home/psd/psd_ws/build/gz_ros2_control_tests/ament_cmake_environment_hooks/local_setup.dsv
+source;share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+source;share/gz_ros2_control_tests/environment/path.sh

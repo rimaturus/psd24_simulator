@@ -1,1 +1,0 @@
-/home/psd/psd_ws/build/kinematics_interface/ament_cmake_core/kinematics_interfaceConfig-version.cmake

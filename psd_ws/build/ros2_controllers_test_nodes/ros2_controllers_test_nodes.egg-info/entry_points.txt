@@ -1,4 +1,0 @@
-[console_scripts]
-publisher_forward_position_controller = ros2_controllers_test_nodes.publisher_forward_position_controller:main
-publisher_joint_trajectory_controller = ros2_controllers_test_nodes.publisher_joint_trajectory_controller:main
-

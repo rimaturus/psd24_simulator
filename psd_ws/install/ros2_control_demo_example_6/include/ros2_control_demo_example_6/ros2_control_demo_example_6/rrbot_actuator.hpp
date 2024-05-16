@@ -1,1 +1,0 @@
-/home/psd/psd_ws/src/ros-controls/ros2_control_demos/example_6/hardware/include/ros2_control_demo_example_6/rrbot_actuator.hpp

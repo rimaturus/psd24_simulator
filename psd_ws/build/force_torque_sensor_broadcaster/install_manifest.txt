@@ -1,3 +1,0 @@
-/home/psd/psd_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so
-/home/psd/psd_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport.cmake
-/home/psd/psd_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport-noconfig.cmake

@@ -107,7 +107,7 @@ def generate_launch_description():
         default_value="False",
         description="Whether to include camera mount to the robot URDF",
     )
-    # --------------------- end ----------------------- 
+    # # --------------------- end ----------------------- 
 
     # ===============================================
     # Initialize Arguments
@@ -122,8 +122,9 @@ def generate_launch_description():
 
 
     robot_controllers = PathJoinSubstitution(
-        [FindPackageShare(runtime_config_package), "config", controllers_file]
+        [FindPackageShare(runtime_config_package), "config", "psd_vehicle_controllers.yaml"]
     )
+
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare(description_package), "rviz", "psd_vehicle.rviz"]
     )
@@ -145,13 +146,34 @@ def generate_launch_description():
             " ",
         ]
     )
+
+    robot_description = {"robot_description": robot_description_content}
     
     robot_state_pub_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         output="both",
-        parameters=[{"robot_description": robot_description_content}],
+        parameters=[robot_description],
     )
+
+    control_node = Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        output="both",
+        parameters=[robot_description, robot_controllers],
+    )
+
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "joint_state_broadcaster",
+            "--controller-manager",
+            "/controller_manager",
+        ],
+    )
+
+
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -186,7 +208,7 @@ def generate_launch_description():
             "-allow_renaming",
             "true",
             "-topic", 
-            "robot_description"
+            "robot_description",
             "-x",
             "0.0",
             "-y",
@@ -235,58 +257,6 @@ def generate_launch_description():
         output="screen",
     )
 
-
-
-    joint_state_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-    )
-
-    # robot_controllers = [robot_controller]
-    # robot_controller_spawners = []
-    # for controller in robot_controllers:
-    #     robot_controller_spawners += [
-    #         Node(
-    #             package="controller_manager",
-    #             executable="spawner",
-    #             arguments=[controller, "-c", "/controller_manager"],
-    #         )
-    #     ]
-
-    # # Delay loading and activation of `joint_state_broadcaster` after start of ros2_control_node
-    # delay_joint_state_broadcaster_spawner_after_gazebo_spawn_robot = RegisterEventHandler(
-    #     event_handler=OnProcessExit(
-    #         target_action=gazebo_spawn_robot,
-    #         on_exit=[joint_state_broadcaster_spawner],
-    #     )
-    # )
-
-    # # Delay rviz start after Joint State Broadcaster to avoid unnecessary warning output.
-    # delay_rviz_after_joint_state_broadcaster_spawner = RegisterEventHandler(
-    #     event_handler=OnProcessExit(
-    #         target_action=joint_state_broadcaster_spawner,
-    #         on_exit=[rviz_node],
-    #     )
-    # )
-
-    # # Delay loading and activation of robot_controller after `joint_state_broadcaster`
-    # delay_robot_controller_spawners_after_joint_state_broadcaster_spawner = []
-    # for controller in robot_controller_spawners:
-    #     delay_robot_controller_spawners_after_joint_state_broadcaster_spawner += [
-    #         RegisterEventHandler(
-    #             event_handler=OnProcessExit(
-    #                 target_action=joint_state_broadcaster_spawner,
-    #                 on_exit=[
-    #                     TimerAction(
-    #                         period=3.0,
-    #                         actions=[controller],
-    #                     ),
-    #                 ],
-    #             )
-    #         )
-    #     ]
-
     return LaunchDescription(
         declared_arguments
         + [
@@ -294,11 +264,12 @@ def generate_launch_description():
             gz_spawn_robot,
             ign_bridge,
             robot_state_pub_node,
-            #delay_rviz_after_joint_state_broadcaster_spawner,
-            #delay_joint_state_broadcaster_spawner_after_gazebo_spawn_robot,
-            declare_lidar_model_arg,
-            declare_camera_model_arg,
-            declare_include_camera_mount_arg,
+            joint_state_broadcaster_spawner,
+            # rviz_node,
+            control_node,
+            # declare_lidar_model_arg,
+            # declare_camera_model_arg,
+            # declare_include_camera_mount_arg,
             # Sets use_sim_time for all nodes started below (doesn't work for nodes started from ignition gazebo)
             SetParameter(name="use_sim_time", value=True),
         ]

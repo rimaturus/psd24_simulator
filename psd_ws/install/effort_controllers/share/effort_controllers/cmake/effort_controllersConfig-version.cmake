@@ -1,1 +1,0 @@
-/home/psd/psd_ws/build/effort_controllers/ament_cmake_core/effort_controllersConfig-version.cmake
