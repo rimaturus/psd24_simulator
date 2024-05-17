@@ -9,7 +9,7 @@ controller_manager:
       type: effort_controllers/JointGroupEffortController
 
     position_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
+      type: forward_command_controller/ForwardCommandController
 
 
 
@@ -27,9 +27,5 @@ position_controller:
     joints:
       - steering_fl
       - steering_fr
-    command_interfaces:
-      - position
-    state_interfaces:
-      - position
-      - velocity
+    interface_name: position
 
