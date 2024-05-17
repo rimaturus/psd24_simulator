@@ -5,11 +5,11 @@
   <xacro:include filename="$(find psd_vehicle_description)/urdf/materials.xacro" />
   
   <!-- start vehicle description -->
-  <xacro:macro name="psd_vehicle" params="prefix parent *origin">
+  <xacro:macro name="psd_vehicle" params="parent *origin">
     <!-- LINKS -->
 
     <!-- Chassis START-->  
-    <link name="${prefix}chassis">
+    <link name="chassis">
       <inertial>
         <origin xyz="-0.055282024534886974 0.006459558608433099 1.621642854614675e-05" rpy="0 0 0"/>
         <mass value="7.077984465449566"/>
@@ -30,13 +30,13 @@
       </collision>
     </link>
 
-    <joint name="${prefix}world_joint" type="fixed">
+    <joint name="world_joint" type="fixed">
       <xacro:insert_block name="origin" />
       <parent link="${parent}" />
-      <child link="${prefix}chassis" />
+      <child link="chassis" />
     </joint>
 
-    <link name="${prefix}perno_FL_1">
+    <link name="perno_FL_1">
       <inertial>
         <origin xyz="-0.000906687358749575 0.00042296243032097225 2.1642838935455414e-07" rpy="0 0 0"/>
         <mass value="0.00011097676048806171"/>
@@ -57,7 +57,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}tyre_FL_1">
+    <link name="tyre_FL_1">
       <inertial>
         <origin xyz="-0.03851807609484373 0.017960856816041648 2.1642854673904234e-07" rpy="0 0 0"/>
         <mass value="0.1944554118066591"/>
@@ -78,7 +78,7 @@
       </collision>
     </link>z
 
-    <link name="${prefix}perno_FR_1">
+    <link name="perno_FR_1">
       <inertial>
         <origin xyz="0.000905928215323884 -0.0004222740931605351 2.1642839664261197e-07" rpy="0 0 0"/>
         <mass value="0.0001109767604880609"/>
@@ -99,7 +99,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}tyre_FR_1">
+    <link name="tyre_FR_1">
       <inertial>
         <origin xyz="0.03851831695141855 -0.017961168478880185 2.1642854608751476e-07" rpy="0 0 0"/>
         <mass value="0.19445541180665865"/>
@@ -120,7 +120,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}tyre_RR_1">
+    <link name="tyre_RR_1">
       <inertial>
         <origin xyz="0.04250016447333546 3.441685788030391e-07 2.16428546438244e-07" rpy="0 0 0"/>
         <mass value="0.19445541180665948"/>
@@ -141,7 +141,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}link_RL_1">
+    <link name="link_RL_1">
       <inertial>
         <origin xyz="-0.047944553368047954 3.441685789140614e-07 2.1642854618965338e-07" rpy="0 0 0"/>
         <mass value="0.09195911794645473"/>
@@ -162,7 +162,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}link_RR_1">
+    <link name="link_RR_1">
       <inertial>
         <origin xyz="0.04794379422462264 3.441685790250837e-07 2.1642854618632285e-07" rpy="0 0 0"/>
         <mass value="0.09195911794645475"/>
@@ -183,7 +183,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}tyre_RL_1">
+    <link name="tyre_RL_1">
       <inertial>
         <origin xyz="-0.04249992361676111 3.4416857908059484e-07 2.1642854653184114e-07" rpy="0 0 0"/>
         <mass value="0.19445541180665912"/>
@@ -204,7 +204,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}link_FL_1">
+    <link name="link_FL_1">
       <inertial>
         <origin xyz="-0.04795315128569644 3.441685794691729e-07 2.1642854620519813e-07" rpy="0 0 0"/>
         <mass value="0.09196821373647668"/>
@@ -225,7 +225,7 @@
       </collision>
     </link>
 
-    <link name="${prefix}link_FR_1">
+    <link name="link_FR_1">
       <inertial>
         <origin xyz="0.04795239214227047 3.441685796912175e-07 2.164285462018676e-07" rpy="0 0 0"/>
         <mass value="0.09196821373647673"/>
@@ -247,77 +247,73 @@
     </link>
 
     <!-- JOINTS -->
-    <joint name="${prefix}steering_fl" type="revolute">
+    <joint name="steering_fl" type="revolute">
       <origin xyz="-0.1355 0.0 0.0" rpy="0 0 0"/>
-      <parent link="${prefix}link_FL_1"/>
-      <child link="${prefix}perno_FL_1"/>
+      <parent link="link_FL_1"/>
+      <child link="perno_FL_1"/>
       <axis xyz="0.0 -0.0 1.0"/>
       <limit upper="0.523599" lower="-0.523599" effort="100" velocity="100"/>
-      <mimic joint="${prefix}steering_fr" multiplier="1.0" offset="0.0"/>
     </joint>
 
-    <joint name="${prefix}drive_fl" type="continuous">
+    <joint name="drive_fl" type="continuous">
       <origin xyz="-0.001813 0.000846 0.0" rpy="0 0 0"/>
-      <parent link="${prefix}perno_FL_1"/>
-      <child link="${prefix}tyre_FL_1"/>
+      <parent link="perno_FL_1"/>
+      <child link="tyre_FL_1"/>
       <axis xyz="-0.906308 0.422618 0.0"/>
-      <mimic joint="${prefix}drive_rl" multiplier="1.0" offset="0.0"/>
     </joint>
 
-    <joint name="${prefix}steering_fr" type="revolute">
+    <joint name="steering_fr" type="revolute">
       <origin xyz="0.1355 0.0 0.0" rpy="0 0 0"/>
-      <parent link="${prefix}link_FR_1"/>
-      <child link="${prefix}perno_FR_1"/>
+      <parent link="link_FR_1"/>
+      <child link="perno_FR_1"/>
       <axis xyz="0.0 -0.0 1.0"/>
       <limit upper="0.523599" lower="-0.523599" effort="100" velocity="100"/>
     </joint>
 
-    <joint name="${prefix}drive_fr" type="continuous">
+    <joint name="drive_fr" type="continuous">
       <origin xyz="0.001812 -0.000845 0.0" rpy="0 0 0"/>
-      <parent link="${prefix}perno_FR_1"/>
-      <child link="${prefix}tyre_FR_1"/>
+      <parent link="perno_FR_1"/>
+      <child link="tyre_FR_1"/>
       <axis xyz="0.906308 -0.422618 -0.0"/>
-      <mimic joint="${prefix}drive_rr" multiplier="1.0" offset="0.0"/>
     </joint>
 
-    <joint name="${prefix}drive_rr" type="continuous">
+    <joint name="drive_rr" type="continuous">
       <origin xyz="0.134567 0.0 0.0" rpy="0 0 0"/>
-      <parent link="${prefix}link_RR_1"/>
-      <child link="${prefix}tyre_RR_1"/>
+      <parent link="link_RR_1"/>
+      <child link="tyre_RR_1"/>
       <axis xyz="1.0 0.0 -0.0"/>
     </joint>
 
-    <joint name="${prefix}suspension_rl" type="fixed">
+    <joint name="suspension_rl" type="fixed">
       <origin xyz="-0.095283 -0.293131 1.6e-05" rpy="0 0 0"/>
-      <parent link="${prefix}chassis"/>
-      <child link="${prefix}link_RL_1"/>
+      <parent link="chassis"/>
+      <child link="link_RL_1"/>
     </joint>
 
-    <joint name="${prefix}suspension_rr" type="fixed">
+    <joint name="suspension_rr" type="fixed">
       <origin xyz="-0.015283 -0.293131 1.6e-05" rpy="0 0 0"/>
-      <parent link="${prefix}chassis"/>
-      <child link="${prefix}link_RR_1"/>
+      <parent link="chassis"/>
+      <child link="link_RR_1"/>
     </joint>
 
-    <joint name="${prefix}drive_rl" type="continuous">
+    <joint name="drive_rl" type="continuous">
       <origin xyz="-0.134568 0.0 0.0" rpy="0 0 0"/>
-      <parent link="${prefix}link_RL_1"/>
-      <child link="${prefix}tyre_RL_1"/>
+      <parent link="link_RL_1"/>
+      <child link="tyre_RL_1"/>
       <axis xyz="-1.0 -0.0 0.0"/>
     </joint>
 
-    <joint name="${prefix}suspension_fl" type="fixed">
+    <joint name="suspension_fl" type="fixed">
       <origin xyz="-0.095283 0.306869 1.6e-05" rpy="0 0 0"/>
-      <parent link="${prefix}chassis"/>
-      <child link="${prefix}link_FL_1"/>
+      <parent link="chassis"/>
+      <child link="link_FL_1"/>
     </joint>
 
-    <joint name="${prefix}suspension_fr" type="fixed">
+    <joint name="suspension_fr" type="fixed">
       <origin xyz="-0.015283 0.306869 1.6e-05" rpy="0 0 0"/>
-      <parent link="${prefix}chassis"/>
-      <child link="${prefix}link_FR_1"/>
+      <parent link="chassis"/>
+      <child link="link_FR_1"/>
     </joint>
-
 
   </xacro:macro>
 </robot>

@@ -1,78 +1,90 @@
 <?xml version='1.0'?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
   <xacro:macro name="psd_vehicle_ros2_control" params="
-                name 
-                prefix 
-                use_mock_hardware:=^|false 
-                mock_sensor_commands:=^|false
-                sim_gazebo:=^|false"
+                name"
                 >
 
-    <ros2_control name="${name}" type="system">
+    <!-- control -->
+    <xacro:property name="PI" value="3.14159265359" />
+
+    <xacro:property name="max_torque" value="100" />
+    <xacro:property name="max_steering_angle" value="${20 * PI / 180}" />
+
+    <ros2_control name="GazeboSimSystem" type="system">
       <hardware>
-        <xacro:if value="${use_mock_hardware}">
-          <plugin>mock_components/GenericSystem</plugin>
-          <param name="mock_sensor_commands">${mock_sensor_commands}</param>
-        </xacro:if>
-        <xacro:if value="${sim_gazebo}">
-          <plugin>ign_ros2_control/IgnitionSystem</plugin>
-        </xacro:if>
+        <plugin>gz_ros2_control/GazeboSimSystem</plugin>
       </hardware>
 
-      <joint name="${prefix}steering_fl">
-        <command_interface name="position"/>
-        <state_interface name="position"/>
+      <!-- steering control -->
+      <joint name="steering_fr">
+        <command_interface name="position">
+          <param name="min">"${-max_steering_angle}"</param>
+          <param name="max">"${max_steering_angle}"</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
       </joint>
 
-      <joint name="${prefix}steering_fr">
-        <command_interface name="position"/>
-        <state_interface name="position"/>
+      <joint name="steering_fl">
+        <command_interface name="position">
+          <param name="min">"${-max_steering_angle}"</param>
+          <param name="max">"${max_steering_angle}"</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
       </joint>
 
-      <joint name="${prefix}drive_rl">
-        <command_interface name="effort"/>
-        <state_interface name="position"/>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="${prefix}drive_rr">
-        <command_interface name="effort"/>
-        <state_interface name="position"/>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="${prefix}drive_fl">
-        <command_interface name="effort"/>
-        <state_interface name="position"/>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="${prefix}drive_fr">
-        <command_interface name="effort"/>
+      <!-- driving control -->
+      <joint name="drive_rl">
+        <command_interface name="effort">
+          <param name="min">"${-max_torque}"</param>
+          <param name="max">"${max_torque}"</param>
+        </command_interface>
         <state_interface name="position"/>
         <state_interface name="velocity"/>
+        <state_interface name="effort"/>
       </joint>
 
-      <sensor name="tcp_fts_sensor1">
-        <state_interface name="fx"/>
-        <state_interface name="fy"/>
-        <state_interface name="fz"/>
-        <state_interface name="tx"/>
-        <state_interface name="ty"/>
-        <state_interface name="tz"/>
-        <param name="frame_id">tyre_RL_1</param>
-      </sensor>
+      <joint name="drive_rr">
+        <command_interface name="effort">
+          <param name="min">"${-max_torque}"</param>
+          <param name="max">"${max_torque}"</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+      </joint>
 
-      <sensor name="tcp_fts_sensor2">
-        <state_interface name="fx"/>
-        <state_interface name="fy"/>
-        <state_interface name="fz"/>
-        <state_interface name="tx"/>
-        <state_interface name="ty"/>
-        <state_interface name="tz"/>
-        <param name="frame_id">tyre_RR_1</param>
-      </sensor>
+      <joint name="drive_fl">
+        <command_interface name="effort">
+          <param name="min">"${-max_torque}"</param>
+          <param name="max">"${max_torque}"</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+      </joint>
 
-    </ros2_control>        
+      <joint name="drive_fr">
+        <command_interface name="effort">
+          <param name="min">"${-max_torque}"</param>
+          <param name="max">"${max_torque}"</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+      </joint>
+
+    </ros2_control>
+
+    <gazebo>
+      <!-- Joint state publisher -->
+      <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+        <parameters>$(find psd_vehicle_bringup)/config/psd_vehicle_controllers.yaml</parameters>
+      </plugin>
+    </gazebo>
+    
   </xacro:macro>
 </robot>

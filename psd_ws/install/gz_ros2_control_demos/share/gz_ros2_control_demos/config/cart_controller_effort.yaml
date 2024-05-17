@@ -1,14 +1,1 @@
-controller_manager:
-  ros__parameters:
-    update_rate: 1000  # Hz
-
-    effort_controller:
-      type: effort_controllers/JointGroupEffortController
-
-    joint_state_broadcaster:
-      type: joint_state_broadcaster/JointStateBroadcaster
-
-effort_controller:
-  ros__parameters:
-    joints:
-      - slider_to_cart
+/home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_demos/config/cart_controller_effort.yaml

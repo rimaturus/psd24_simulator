@@ -1,3 +1,1 @@
-source;share/gz_ros2_control/environment/ament_prefix_path.sh
-source;share/gz_ros2_control/environment/library_path.sh
-source;share/gz_ros2_control/environment/path.sh
+/home/ubuntu/psd_ws/build/gz_ros2_control/ament_cmake_environment_hooks/local_setup.dsv
