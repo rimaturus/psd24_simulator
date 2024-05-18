@@ -9,7 +9,10 @@
 
     <xacro:property name="PI" value="3.14159265359" />
     <xacro:property name="rot90" value="${90 * PI / 180}" />
+    <xacro:property name="rot180" value="${180 * PI / 180}" />
     <xacro:property name="max_steering_angle" value="${20 * PI / 180}" />
+
+    <xacro:property name="wheel_radius" value="0.19" />
     <!-- LINKS -->
 
     <!-- Chassis START-->  
@@ -29,7 +32,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="$(find psd_vehicle_description)/stl/chassis.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="$(find psd_vehicle_description)/meshes/stl/chassis.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
     </link>
@@ -129,19 +132,20 @@
       <inertial>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <mass value="2.80"/>
-        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="1e-06" ixz="-0.0"/>
+        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="0.0" ixz="-0.0"/>
       </inertial>
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material name="rubber_tyre"/>
+        <material name="anodized_blue"/>
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
+          <!-- <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/> -->
+          <cylinder radius="${wheel_radius}" length="0.08"/>
         </geometry>
       </collision>
     </link>
@@ -150,24 +154,25 @@
       <inertial>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <mass value="2.80"/>
-        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="1e-06" ixz="-0.0"/>
+        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="0.0" ixz="-0.0"/>
       </inertial>
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material name="rubber_tyre"/>
+        <material name="anodized_blue"/>
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
+          <!-- <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/> -->
+          <cylinder radius="${wheel_radius}" length="0.08"/>
         </geometry>
       </collision>
     </link>
 
-    <link name="tyre_FL">
+    <!-- <link name="tyre_FL">
       <inertial>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <mass value="4.40"/>
@@ -207,7 +212,7 @@
           <mesh filename="$(find psd_vehicle_description)/meshes/stl/tyre.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
-    </link>
+    </link> -->
 
     <!-- REAR -->
     <link name="link_RL">
@@ -256,19 +261,20 @@
       <inertial>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <mass value="2.80"/>
-        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="1e-06" ixz="-0.0"/>
+        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="0.0" ixz="-0.0"/>
       </inertial>
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material name="rubber_tyre"/>
+        <material name="anodized_blue"/>
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
+          <!-- <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/> -->
+          <cylinder radius="${wheel_radius}" length="0.08"/>
         </geometry>
       </collision>
     </link>
@@ -277,24 +283,25 @@
       <inertial>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <mass value="2.80"/>
-        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="1e-06" ixz="-0.0"/>
+        <inertia ixx="0.007152" iyy="0.005137" izz="0.005138" ixy="0.0" iyz="0.0" ixz="-0.0"/>
       </inertial>
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material name="rubber_tyre"/>
+        <material name="anodized_blue"/>
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/>
+          <!-- <mesh filename="$(find psd_vehicle_description)/meshes/stl/wheel.stl" scale="0.001 0.001 0.001"/> -->
+          <cylinder radius="${wheel_radius}" length="0.08"/>
         </geometry>
       </collision>
     </link>
 
-    <link name="tyre_RL">
+    <!-- <link name="tyre_RL">
       <inertial>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <mass value="4.40"/>
@@ -334,12 +341,12 @@
           <mesh filename="$(find psd_vehicle_description)/meshes/stl/tyre.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
-    </link>
+    </link> -->
 
     <!-- JOINTS -->
     <!-- SUSPENSION -->
     <joint name="suspension_FL" type="fixed">
-      <origin xyz="-0.04 0.3 0.0" rpy="0 0 0"/>
+      <origin xyz="-0.04 0.3 0.0" rpy="0 0 ${rot180}"/>
       <parent link="chassis"/>
       <child link="link_FL"/>
     </joint>
@@ -351,7 +358,7 @@
     </joint>
 
     <joint name="suspension_RL" type="fixed">
-      <origin xyz="-0.04 -0.3 0.0" rpy="0 0 0"/>
+      <origin xyz="-0.04 -0.3 0.0" rpy="0 0 ${rot180}"/>
       <parent link="chassis"/>
       <child link="link_RL"/>
     </joint>
@@ -364,16 +371,16 @@
 
     <!-- STEERING -->
     <joint name="steering_FL" type="revolute">
-      <origin xyz="-0.175 0.3 0.0" rpy="0 ${rot90} 0"/>
-      <parent link="suspension_FL"/>
+      <origin xyz="0.135 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <parent link="link_FL"/>
       <child link="steering_hinge_FL"/>
       <axis xyz="0.0 0.0 1.0"/>
       <limit upper="${max_steering_angle}" lower="${-max_steering_angle}" effort="100" velocity="10"/>
     </joint>
 
     <joint name="steering_FR" type="revolute">
-      <origin xyz="0.175 0.3 0.0" rpy="0 ${rot90} 0"/>
-      <parent link="suspension_FR"/>
+      <origin xyz="0.135 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <parent link="link_FR"/>
       <child link="steering_hinge_FR"/>
       <axis xyz="0.0 0.0 1.0"/>
       <limit upper="${max_steering_angle}" lower="${-max_steering_angle}" effort="100" velocity="10"/>
@@ -381,57 +388,61 @@
 
     <!-- DRIVE -->
     <joint name="drive_FL" type="continuous">
-      <origin xyz="-0.001813 0.000846 0.0" rpy="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
       <parent link="steering_hinge_FL"/>
       <child link="wheel_FL"/>
-      <axis xyz="1.0 0.0 0.0"/>
+      <axis xyz="0.0 0.0 1.0"/>
+      <dynamics damping="0.2" />
     </joint>
 
     <joint name="drive_FR" type="continuous">
-      <origin xyz="-0.001813 0.000846 0.0" rpy="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
       <parent link="steering_hinge_FR"/>
       <child link="wheel_FR"/>
-      <axis xyz="1.0 0.0 0.0"/>
+      <axis xyz="0.0 0.0 1.0"/>
+      <dynamics damping="0.2" />
     </joint>
 
     <joint name="drive_RL" type="continuous">
-      <origin xyz="-0.001813 0.000846 0.0" rpy="0 0 0"/>
-      <parent link="steering_hinge_RL"/>
+      <origin xyz="0.125 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <parent link="link_RL"/>
       <child link="wheel_RL"/>
-      <axis xyz="1.0 0.0 0.0"/>
+      <axis xyz="0.0 0.0 1.0"/>
+      <dynamics damping="0.2" />
     </joint>
 
     <joint name="drive_RR" type="continuous">
-      <origin xyz="-0.001813 0.000846 0.0" rpy="0 0 0"/>
-      <parent link="steering_hinge_RR"/>
+      <origin xyz="0.125 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <parent link="link_RR"/>
       <child link="wheel_RR"/>
-      <axis xyz="1.0 0.0 0.0"/>
+      <axis xyz="0.0 0.0 1.0"/>
+      <dynamics damping="0.2" />
     </joint>
 
     <!-- TYRES -->
-    <joint name="tyre_attach_FL" type="fixed">
-      <origin xyz="0.0 0.0 0.0" rpy="0 ${rot90} 0"/>
+    <!-- <joint name="tyre_attach_FL" type="fixed">
+      <origin xyz="10.0 0.0 0.0" rpy="0 0 0"/>
       <parent link="wheel_FL"/>
       <child link="tyre_FL"/>
     </joint>
 
     <joint name="tyre_attach_FR" type="fixed">
-      <origin xyz="0.0 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <origin xyz="10.0 0.0 0.0" rpy="0 ${rot90} 0"/>
       <parent link="wheel_FR"/>
       <child link="tyre_FR"/>
     </joint>
 
     <joint name="tyre_attach_RL" type="fixed">
-      <origin xyz="0.0 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <origin xyz="10.0 0.0 0.0" rpy="0 ${rot90} 0"/>
       <parent link="wheel_RL"/>
       <child link="tyre_RL"/>
     </joint>
 
     <joint name="tyre_attach_RR" type="fixed">
-      <origin xyz="0.0 0.0 0.0" rpy="0 ${rot90} 0"/>
+      <origin xyz="10.0 0.0 0.0" rpy="0 ${rot90} 0"/>
       <parent link="wheel_RR"/>
       <child link="tyre_RR"/>
-    </joint>
+    </joint> -->
 
   </xacro:macro>
 </robot>

@@ -17,15 +17,15 @@ controller_manager:
 effort_controller:
   ros__parameters:
     joints:
-      - drive_fr
-      - drive_fl
-      - drive_rr
-      - drive_rl
+      - drive_FR
+      - drive_FL
+      - drive_RR
+      - drive_RL
 
 position_controller:
   ros__parameters:
     joints:
-      - steering_fl
-      - steering_fr
+      - steering_FL
+      - steering_FL
     interface_name: position
 

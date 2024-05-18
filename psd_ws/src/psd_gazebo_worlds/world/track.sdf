@@ -176,7 +176,8 @@
     <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
-    <physics type='ode'>
+    <physics type="dart">
+      <solver type="pgs"/>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
       <real_time_update_rate>1000</real_time_update_rate>
@@ -193,7 +194,7 @@
           </geometry>
           <surface>
             <friction>
-              <ode/>
+              <dart/>
             </friction>
             <bounce/>
             <contact/>
@@ -247,7 +248,7 @@
         <visual name='cone_0_visual'>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
+              <uri>/homeatu/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>

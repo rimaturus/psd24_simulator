@@ -1,4 +1,0 @@
-Invoking command in '/home/ubuntu/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_vehicle_description -- -j20 -l20
-Invoked command in '/home/ubuntu/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_vehicle_description -- -j20 -l20
-Invoking command in '/home/ubuntu/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_vehicle_description
-Invoked command in '/home/ubuntu/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_vehicle_description
