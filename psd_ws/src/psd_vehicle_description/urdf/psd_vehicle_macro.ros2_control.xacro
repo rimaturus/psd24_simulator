@@ -16,7 +16,7 @@
       </hardware>
 
       <!-- steering control -->
-      <joint name="steering_FR">
+      <joint name="steering_fr">
         <command_interface name="position">
           <param name="min">"${-max_steering_angle}"</param>
           <param name="max">"${max_steering_angle}"</param>
@@ -26,7 +26,7 @@
         </state_interface>
       </joint>
 
-      <joint name="steering_FL">
+      <joint name="steering_fl">
         <command_interface name="position">
           <param name="min">"${-max_steering_angle}"</param>
           <param name="max">"${max_steering_angle}"</param>
@@ -37,7 +37,7 @@
       </joint>
 
       <!-- driving control -->
-      <joint name="drive_RL">
+      <joint name="drive_rl">
         <command_interface name="effort">
           <param name="min">"${-max_torque}"</param>
           <param name="max">"${max_torque}"</param>
@@ -47,7 +47,7 @@
         <state_interface name="effort"/>
       </joint>
 
-      <joint name="drive_RR">
+      <joint name="drive_rr">
         <command_interface name="effort">
           <param name="min">"${-max_torque}"</param>
           <param name="max">"${max_torque}"</param>
@@ -57,7 +57,7 @@
         <state_interface name="effort"/>
       </joint>
 
-      <joint name="drive_FL">
+      <joint name="drive_fl">
         <command_interface name="effort">
           <param name="min">"${-max_torque}"</param>
           <param name="max">"${max_torque}"</param>
@@ -67,7 +67,7 @@
         <state_interface name="effort"/>
       </joint>
 
-      <joint name="drive_FR">
+      <joint name="drive_fr">
         <command_interface name="effort">
           <param name="min">"${-max_torque}"</param>
           <param name="max">"${max_torque}"</param>

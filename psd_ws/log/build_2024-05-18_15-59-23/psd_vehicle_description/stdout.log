@@ -1,0 +1,93 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/psd_ws/build/psd_vehicle_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz/psd_vehicle.rviz
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/view_psd_vehicle.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/base_link.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_bot.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_mid.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_top.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/chassis.mtl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/chassis.obj
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/steering_hinge.mtl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/steering_hinge.obj
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/suspension.mtl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/suspension.obj
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/tyre.mtl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/tyre.obj
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/wheel.mtl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/wheel.obj
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/chassis.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/steering_hinge.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/suspension.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/tyre.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/wheel.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fl_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fr_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rl_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rr_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fl_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fr_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RL_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RR_1.stl
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fl_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fr_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rl_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rr_1.dae
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components/camera_mount.urdf.xacro
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/materials.xacro
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.ros2_control.xacro
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.urdf.xacro
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.sh
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.bash
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.sh
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.zsh
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/packages/psd_vehicle_description
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig.cmake
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig-version.cmake
+-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.xml
