@@ -1,0 +1,94 @@
+[0.011s] Invoking command in '/home/ubuntu/psd_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/ros_components_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/ros_components_description
+[0.047s] -- The C compiler identification is GNU 13.2.0
+[0.084s] -- The CXX compiler identification is GNU 13.2.0
+[0.095s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.417s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.501s] -- Found ament_cmake_pytest: 2.5.0 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[0.838s] -- Configuring done (0.8s)
+[0.839s] -- Generating done (0.0s)
+[0.840s] -- Build files have been written to: /home/ubuntu/psd_ws/build/ros_components_description
+[0.843s] Invoked command in '/home/ubuntu/psd_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/ros_components_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/ros_components_description
+[0.844s] Invoking command in '/home/ubuntu/psd_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/ros_components_description -- -j20 -l20
+[0.870s] Invoked command in '/home/ubuntu/psd_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/ros_components_description -- -j20 -l20
+[0.885s] Invoking command in '/home/ubuntu/psd_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/ros_components_description
+[0.891s] -- Install configuration: ""
+[0.892s] -- Execute custom install script
+[0.892s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae
+[0.897s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae
+[0.903s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os01.dae
+[0.910s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_a2m8.dae
+[0.916s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_ax.dae
+[0.923s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s1.dae
+[0.929s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s2.dae
+[0.935s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s3.dae
+[0.942s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/velodyne_puck.dae
+[0.948s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed.stl
+[0.953s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed2.stl
+[0.960s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed2i.stl
+[0.966s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedm.stl
+[0.973s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedx.stl
+[0.979s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedxm.stl
+[0.985s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/components.urdf.xacro
+[0.991s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro
+[0.996s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/kinova.urdf.xacro
+[1.002s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro
+[1.008s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ouster.urdf.xacro
+[1.014s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/robotiq.urdf.xacro
+[1.019s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a2.urdf.xacro
+[1.026s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a3.urdf.xacro
+[1.032s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s1.urdf.xacro
+[1.038s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s2.urdf.xacro
+[1.045s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s3.urdf.xacro
+[1.052s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/stereolabs_zed.urdf.xacro
+[1.058s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ur.urdf.xacro
+[1.064s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/velodyne_puck.urdf.xacro
+[1.071s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_components.launch.py
+[1.077s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_kinova_6dof.launch.py
+[1.084s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_kinova_7dof.launch.py
+[1.090s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_orbbec_astra.launch.py
+[1.097s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_ouster_os.launch.py
+[1.102s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_robotiq.launch.py
+[1.109s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_slamtec_rplidar.launch.py
+[1.116s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_stereolabs_zed.launch.py
+[1.123s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_ur.launch.py
+[1.131s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_velodyne.launch.py
+[1.137s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_kinova_remappings.yaml
+[1.145s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_orbbec_astra_remappings.yaml
+[1.151s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_ouster_os_remappings.yaml
+[1.157s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_slamtec_rplidar_remappings.yaml
+[1.164s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_stereolabs_zed_remappings.yaml
+[1.169s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_velodyne_remappings.yaml
+[1.175s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/kinova_6dof_controllers.yaml
+[1.181s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/kinova_7dof_controllers.yaml
+[1.188s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/robotiq_controllers.yaml
+[1.194s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/ur_controllers.yaml
+[1.200s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/test/component.urdf.xacro
+[1.207s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/test/test_components_xacro.py
+[1.214s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/ros_components_description.sh
+[1.220s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ament_index/resource_index/package_run_dependencies/ros_components_description
+[1.227s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ament_index/resource_index/parent_prefix_path/ros_components_description
+[1.234s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.sh
+[1.239s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.dsv
+[1.246s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/path.sh
+[1.251s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/path.dsv
+[1.257s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.bash
+[1.263s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.sh
+[1.268s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.zsh
+[1.274s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.dsv
+[1.280s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/package.dsv
+[1.285s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ament_index/resource_index/packages/ros_components_description
+[1.291s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig.cmake
+[1.298s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig-version.cmake
+[1.304s] -- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/package.xml
+[1.312s] Invoked command in '/home/ubuntu/psd_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/ros_components_description

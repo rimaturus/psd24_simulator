@@ -315,5 +315,26 @@
       <child link="link_FR_1"/>
     </joint>
 
+
+    <!-- SENSORS -->
+    <!-- lidar -->
+    <xacro:include filename="$(find ros_components_description)/urdf/slamtec_rplidar_s1.urdf.xacro" ns="lidar" />
+
+    <!-- evaluate the macro and place the sensor on robot -->
+    <xacro:lidar.slamtec_rplidar_s1
+      parent_link="chassis"
+      xyz="0.0 0.0 0.1"
+      rpy="0.0 0.0 0.0" />
+
+    <!-- stereocamera -->
+    <!-- <xacro:include filename="$(find ros_components_description)/urdf/stereolabs_zed.urdf.xacro" ns="zed2" /> -->
+    
+    <!-- evaluate the macro and place the sensor on robot -->
+    <!-- <xacro:zed2.stereolabs_zed
+      parent_link="chassis"
+      xyz="0.0 0.0 0.5"
+      rpy="0.0 0.0 0.0" /> -->
+
+
   </xacro:macro>
 </robot>

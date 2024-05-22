@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 5.1.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.2 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found ament_cmake_gtest: 2.5.0 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/psd_ws/build/gz_ros2_control_demos
+[ 33%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable example_diff_drive[0m
+[ 66%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[ 75%] [32m[1mLinking CXX executable example_gripper[0m
+[ 83%] [32m[1mLinking CXX executable example_effort[0m
+[ 83%] Built target example_diff_drive
+[ 83%] Built target example_tricycle_drive
+[ 83%] Built target example_gripper
+[ 83%] Built target example_effort
+[ 91%] [32m[1mLinking CXX executable example_position[0m
+[ 91%] Built target example_position
+[100%] [32m[1mLinking CXX executable example_velocity[0m
+[100%] Built target example_velocity
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
