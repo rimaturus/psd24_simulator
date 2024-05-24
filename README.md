@@ -1,3 +1,16 @@
+# PSD Simulator  <br>
+## by Rimaturus (Edoardo Caciorgna)
+
+![View of the vehicle in the sim](/doc/sim_image.png)
+
+This project aims to develop a high-fidelity digital twin of a 4WD vehicle, where each wheel's torque is individually controlled and steering is achieved through a hinge-based system. This innovative approach eliminates reliance on standard plugins, allowing the vehicle's movement and trajectory to be determined solely by its interaction with the terrain.
+
+To demonstrate the capabilities of this digital twin, we've created a simple test track environment, marked by cones, where the vehicle's performance can be evaluated under various conditions.
+
+## Vehicle system:
+![Vehicle urdf graph](/doc/vehicle_graph.png)
+
+
 ## How to download [IMPORTANT]:
 Since it use a submodules that contain the models of the camera and lidar, clone this repo using `git clone --recurse-submodules <this-repo-url>`
 
