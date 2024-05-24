@@ -2,7 +2,6 @@
 /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.stl
 /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.config
 /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.sdf
-/home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//random.sdf
 /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track.sdf
 /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track_creator.py
 /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/psd_gazebo_worlds

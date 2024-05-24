@@ -281,7 +281,7 @@
       <origin xyz="0.134567 0.0 0.0" rpy="0 0 0"/>
       <parent link="link_RR_1"/>
       <child link="tyre_RR_1"/>
-      <axis xyz="1.0 0.0 -0.0"/>
+      <axis xyz="-1.0 0.0 -0.0"/>
     </joint>
 
     <joint name="suspension_rl" type="fixed">
@@ -327,13 +327,13 @@
       rpy="0.0 0.0 0.0" />
 
     <!-- stereocamera -->
-    <!-- <xacro:include filename="$(find ros_components_description)/urdf/stereolabs_zed.urdf.xacro" ns="zed2" /> -->
+    <xacro:include filename="$(find ros_components_description)/urdf/intel_realsense_d435.urdf.xacro" ns="camera" />
     
     <!-- evaluate the macro and place the sensor on robot -->
-    <!-- <xacro:zed2.stereolabs_zed
+    <xacro:camera.intel_realsense_d435
       parent_link="chassis"
-      xyz="0.0 0.0 0.5"
-      rpy="0.0 0.0 0.0" /> -->
+      xyz="0.0 0.0 0.2"
+      rpy="0.0 0.0 ${3.1415/2}" />
 
 
   </xacro:macro>

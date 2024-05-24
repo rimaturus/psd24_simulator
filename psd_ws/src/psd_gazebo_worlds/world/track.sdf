@@ -137,6 +137,8 @@
 
       <plugin filename="VisualizeLidar" name="Visualize Lidar">
       </plugin>
+      <plugin filename="ImageDisplay" name="Image Display">
+      </plugin>
 
       <!-- Inspector -->
       <plugin filename="ComponentInspector" name="Component inspector">
@@ -240,7 +242,7 @@
         <collision name='cone_0_collision'>
           <geometry>
             <mesh>
-              <uri>model://home/ubuntu/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
+              <uri>/home/ubuntu/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -248,7 +250,7 @@
         <visual name='cone_0_visual'>
           <geometry>
             <mesh>
-              <uri>/homeatu/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
+              <uri>/home/ubuntu/psd_ws/src/psd_gazebo_worlds/world/models/cone/meshes/cone.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>

@@ -1,0 +1,99 @@
+[0.012s] Invoking command in '/home/ubuntu/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/psd_vehicle_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_vehicle_description
+[0.061s] -- The C compiler identification is GNU 13.2.0
+[0.108s] -- The CXX compiler identification is GNU 13.2.0
+[0.120s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.450s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.695s] -- Configuring done (0.7s)
+[0.698s] -- Generating done (0.0s)
+[0.699s] -- Build files have been written to: /home/ubuntu/psd_ws/build/psd_vehicle_description
+[0.704s] Invoked command in '/home/ubuntu/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/psd_vehicle_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_vehicle_description
+[0.705s] Invoking command in '/home/ubuntu/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_vehicle_description -- -j20 -l20
+[0.738s] Invoked command in '/home/ubuntu/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_vehicle_description -- -j20 -l20
+[0.764s] Invoking command in '/home/ubuntu/psd_ws/build/psd_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_vehicle_description
+[0.771s] -- Install configuration: ""
+[0.771s] -- Execute custom install script
+[0.771s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz/psd_vehicle.rviz
+[0.780s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/view_psd_vehicle.launch.py
+[0.788s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/base_link.stl
+[0.796s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FL_1.stl
+[0.803s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FR_1.stl
+[0.811s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RL_1.stl
+[0.819s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RR_1.stl
+[0.826s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FL_1.stl
+[0.834s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FR_1.stl
+[0.842s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FL_1.stl
+[0.850s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FR_1.stl
+[0.858s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RL_1.stl
+[0.866s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RR_1.stl
+[0.873s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_bot.dae
+[0.881s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_mid.dae
+[0.889s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_top.dae
+[0.897s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/chassis.mtl
+[0.905s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/chassis.obj
+[0.913s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/steering_hinge.mtl
+[0.921s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/steering_hinge.obj
+[0.929s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/suspension.mtl
+[0.936s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/suspension.obj
+[0.944s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/tyre.mtl
+[0.951s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/tyre.obj
+[0.958s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/wheel.mtl
+[0.965s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/wheel.obj
+[0.974s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/chassis.stl
+[0.981s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/steering_hinge.stl
+[0.989s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/suspension.stl
+[0.996s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/tyre.stl
+[1.005s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/wheel.stl
+[1.013s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.dae
+[1.020s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.stl
+[1.028s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FL_1.stl
+[1.036s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FR_1.stl
+[1.043s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RL_1.stl
+[1.050s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RR_1.stl
+[1.057s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fl_1.dae
+[1.064s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fr_1.dae
+[1.074s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rl_1.dae
+[1.081s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rr_1.dae
+[1.091s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FL_1.stl
+[1.098s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FR_1.stl
+[1.106s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fl_1.dae
+[1.114s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fr_1.dae
+[1.122s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FL_1.stl
+[1.131s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FR_1.stl
+[1.139s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RL_1.stl
+[1.147s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RR_1.stl
+[1.155s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fl_1.dae
+[1.163s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fr_1.dae
+[1.172s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rl_1.dae
+[1.180s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rr_1.dae
+[1.189s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components/camera_mount.urdf.xacro
+[1.198s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/materials.xacro
+[1.206s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro
+[1.214s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.ros2_control.xacro
+[1.222s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.urdf.xacro
+[1.229s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description
+[1.238s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description
+[1.245s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh
+[1.255s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.dsv
+[1.263s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.sh
+[1.270s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.dsv
+[1.278s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.bash
+[1.285s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.sh
+[1.292s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.zsh
+[1.300s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.dsv
+[1.307s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv
+[1.315s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/packages/psd_vehicle_description
+[1.322s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig.cmake
+[1.330s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig-version.cmake
+[1.338s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.xml
+[1.348s] Invoked command in '/home/ubuntu/psd_ws/build/psd_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_vehicle_description

@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/ubuntu/psd_ws/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/gz_ros2_control_demos:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/gz_ros2_control_demos -- -j20 -l20
+[0.050s] [ 16%] Built target example_gripper
+[0.050s] [ 33%] Built target example_position
+[0.051s] [ 50%] Built target example_velocity
+[0.052s] [ 66%] Built target example_effort
+[0.057s] [ 83%] Built target example_tricycle_drive
+[0.057s] [100%] Built target example_diff_drive
+[0.066s] Invoked command in '/home/ubuntu/psd_ws/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/gz_ros2_control_demos:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/gz_ros2_control_demos -- -j20 -l20
+[0.102s] Invoking command in '/home/ubuntu/psd_ws/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/gz_ros2_control_demos:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/gz_ros2_control_demos
+[0.107s] -- Install configuration: ""
+[0.107s] -- Execute custom install script
+[0.108s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[0.108s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[0.108s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[0.108s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[0.108s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+[0.109s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+[0.110s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[0.111s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[0.112s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[0.117s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[0.118s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[0.118s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[0.118s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[0.122s] Invoked command in '/home/ubuntu/psd_ws/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/gz_ros2_control_demos:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/gz_ros2_control_demos

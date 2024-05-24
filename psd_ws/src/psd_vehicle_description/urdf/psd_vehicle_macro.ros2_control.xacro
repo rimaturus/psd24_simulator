@@ -8,7 +8,7 @@
     <xacro:property name="PI" value="3.14159265359" />
 
     <xacro:property name="max_torque" value="100" />
-    <xacro:property name="max_steering_angle" value="${20 * PI / 180}" />
+    <xacro:property name="max_steering_angle" value="${30 * PI / 180}" />
 
     <ros2_control name="GazeboSimSystem" type="system">
       <hardware>

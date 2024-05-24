@@ -166,8 +166,8 @@ def generate_launch_description():
         ]
     )
 
-    #world_file = FindPackageShare('psd_gazebo_worlds') + "world/" + "track.sdf"
     world_file = "/home/ubuntu/psd_ws/src/psd_gazebo_worlds/world/track.sdf"
+    # world_file = "empty.sdf"
 
     # Bridge
     gz_bridge = Node(
@@ -182,23 +182,23 @@ def generate_launch_description():
             # + "@sensor_msgs/msg/PointCloud2"
             # + "[gz.msgs.PointCloudPacked",
 
-            # "/camera/color/camera_info"
-            # + "@sensor_msgs/msg/CameraInfo"
-            # + "[gz.msgs.CameraInfo",
+            "/camera/color/camera_info"
+            + "@sensor_msgs/msg/CameraInfo"
+            + "[gz.msgs.CameraInfo",
 
-            # "/camera/color/image_raw"
-            # + "@sensor_msgs/msg/Image"
-            # + "[gz.msgs.Image",
+            "/camera/color/image_raw"
+            + "@sensor_msgs/msg/Image"
+            + "[gz.msgs.Image",
 
-            # "/camera/camera_info"
-            # + "@sensor_msgs/msg/CameraInfo"
-            # + "[gz.msgs.CameraInfo",
+            "/camera/camera_info"
+            + "@sensor_msgs/msg/CameraInfo"
+            + "[gz.msgs.CameraInfo",
 
-            # "/camera/depth" + "@sensor_msgs/msg/Image" + "[gz.msgs.Image",
+            "/camera/depth" + "@sensor_msgs/msg/Image" + "[gz.msgs.Image",
 
-            # "/camera/depth/points"
-            # + "@sensor_msgs/msg/PointCloud2"
-            # + "[gz.msgs.PointCloudPacked",
+            "/camera/depth/points"
+            + "@sensor_msgs/msg/PointCloud2"
+            + "[gz.msgs.PointCloudPacked",
         ],
 
         remappings=[
@@ -222,7 +222,7 @@ def generate_launch_description():
                 [PathJoinSubstitution([FindPackageShare('ros_gz_sim'),
                                        'launch',
                                        'gz_sim.launch.py'])]),
-            launch_arguments=[('gz_args', [f' -r {world_file}'])]),
+            launch_arguments=[('gz_args', [f'{world_file}'])]),
 
         RegisterEventHandler(
             event_handler=OnProcessExit(

@@ -1,0 +1,57 @@
+[0.009s] Invoking command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/psd_gazebo_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_gazebo_worlds
+[0.050s] -- The C compiler identification is GNU 13.2.0
+[0.092s] -- The CXX compiler identification is GNU 13.2.0
+[0.105s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.445s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.623s] -- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.704s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.921s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.928s] -- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.025s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.040s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.247s] -- Configuring done (1.2s)
+[1.250s] -- Generating done (0.0s)
+[1.251s] -- Build files have been written to: /home/ubuntu/psd_ws/build/psd_gazebo_worlds
+[1.257s] Invoked command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/psd_gazebo_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_gazebo_worlds
+[1.258s] Invoking command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+[1.291s] Invoked command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+[1.310s] Invoking command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_gazebo_worlds
+[1.316s] -- Install configuration: ""
+[1.317s] -- Execute custom install script
+[1.317s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.dae
+[1.325s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.stl
+[1.333s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.config
+[1.341s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.sdf
+[1.350s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track.sdf
+[1.357s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track_creator.py
+[1.365s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/psd_gazebo_worlds
+[1.374s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/psd_gazebo_worlds
+[1.381s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/ament_prefix_path.sh
+[1.388s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/ament_prefix_path.dsv
+[1.396s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/path.sh
+[1.404s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/path.dsv
+[1.412s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.bash
+[1.420s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.sh
+[1.429s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.zsh
+[1.436s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.dsv
+[1.445s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.dsv
+[1.453s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/packages/psd_gazebo_worlds
+[1.461s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/cmake/psd_gazebo_worldsConfig.cmake
+[1.468s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/cmake/psd_gazebo_worldsConfig-version.cmake
+[1.476s] -- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.xml
+[1.486s] Invoked command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_gazebo_worlds
