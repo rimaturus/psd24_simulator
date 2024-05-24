@@ -1,5 +1,5 @@
 # PSD Simulator  <br>
-## by Rimaturus (Edoardo Caciorgna)
+## ROS2 Jazzy Jalisco + Ubuntu 24.04 Noble
 
 ![View of the vehicle in the sim](/doc/sim_image.png)
 
