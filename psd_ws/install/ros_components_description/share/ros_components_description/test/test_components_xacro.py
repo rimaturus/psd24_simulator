@@ -1,1 +1,0 @@
-/home/ubuntu/psd_ws/src/ros_components_description/test/test_components_xacro.py

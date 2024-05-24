@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/custom_teleop_keyboard" "TARGETS" "custom_teleop_keyboard" "DESTINATION" "lib/custom_teleop_keyboard")

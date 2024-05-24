@@ -1,1 +1,0 @@
-/home/ubuntu/psd_ws/build/psd_gazebo_worlds/ament_cmake_core/psd_gazebo_worldsConfig-version.cmake

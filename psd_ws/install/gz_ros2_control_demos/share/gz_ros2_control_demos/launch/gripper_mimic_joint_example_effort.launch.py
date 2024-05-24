@@ -1,1 +1,0 @@
-/home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_demos/launch/gripper_mimic_joint_example_effort.launch.py
