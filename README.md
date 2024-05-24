@@ -5,7 +5,7 @@
 
 This project aims to develop a high-fidelity digital twin of a 4WD vehicle, where each wheel's torque is individually controlled and steering is achieved through a hinge-based system. This innovative approach eliminates reliance on standard plugins, allowing the vehicle's movement and trajectory to be determined solely by its interaction with the terrain.
 
-To demonstrate the capabilities of this digital twin, we've created a simple test track environment, marked by cones, where the vehicle's performance can be evaluated under various conditions.
+To demonstrate the capabilities of this digital twin, I've created a simple test track environment, marked by cones, where the vehicle's performance can be evaluated under various conditions.
 
 ## Vehicle system:
 ![Vehicle urdf graph](/doc/vehicle_graph.png)
