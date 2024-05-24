@@ -1,0 +1,4 @@
+source;share/gz_ros2_control/local_setup.bash
+source;share/gz_ros2_control/local_setup.dsv
+source;share/gz_ros2_control/local_setup.sh
+source;share/gz_ros2_control/local_setup.zsh

@@ -1,0 +1,1096 @@
+[0.000000] (-) TimerEvent: {}
+[0.000077] (custom_teleop_keyboard) JobQueued: {'identifier': 'custom_teleop_keyboard', 'dependencies': OrderedDict()}
+[0.000098] (gz_ros2_control) JobQueued: {'identifier': 'gz_ros2_control', 'dependencies': OrderedDict()}
+[0.000111] (psd_gazebo_worlds) JobQueued: {'identifier': 'psd_gazebo_worlds', 'dependencies': OrderedDict()}
+[0.000120] (psd_vehicle_description) JobQueued: {'identifier': 'psd_vehicle_description', 'dependencies': OrderedDict()}
+[0.000127] (ros_components_description) JobQueued: {'identifier': 'ros_components_description', 'dependencies': OrderedDict()}
+[0.000134] (gz_ros2_control_demos) JobQueued: {'identifier': 'gz_ros2_control_demos', 'dependencies': OrderedDict({'gz_ros2_control': '/home/ubuntu/psd_ws/install/gz_ros2_control'})}
+[0.000143] (gz_ros2_control_tests) JobQueued: {'identifier': 'gz_ros2_control_tests', 'dependencies': OrderedDict({'gz_ros2_control': '/home/ubuntu/psd_ws/install/gz_ros2_control'})}
+[0.000150] (psd_vehicle_bringup) JobQueued: {'identifier': 'psd_vehicle_bringup', 'dependencies': OrderedDict({'psd_vehicle_description': '/home/ubuntu/psd_ws/install/psd_vehicle_description'})}
+[0.000517] (gz_ros2_control) JobStarted: {'identifier': 'gz_ros2_control'}
+[0.006706] (psd_vehicle_description) JobStarted: {'identifier': 'psd_vehicle_description'}
+[0.008770] (custom_teleop_keyboard) JobStarted: {'identifier': 'custom_teleop_keyboard'}
+[0.010816] (psd_gazebo_worlds) JobStarted: {'identifier': 'psd_gazebo_worlds'}
+[0.012692] (ros_components_description) JobStarted: {'identifier': 'ros_components_description'}
+[0.015694] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'cmake'}
+[0.015805] (gz_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/gz_ros2_control'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.017396] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'cmake'}
+[0.017553] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/psd_vehicle_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_vehicle_description'], 'cwd': '/home/ubuntu/psd_ws/build/psd_vehicle_description', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_vehicle_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.018021] (custom_teleop_keyboard) JobProgress: {'identifier': 'custom_teleop_keyboard', 'progress': 'cmake'}
+[0.018156] (custom_teleop_keyboard) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/custom_teleop_keyboard', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/custom_teleop_keyboard'], 'cwd': '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.018599] (psd_gazebo_worlds) JobProgress: {'identifier': 'psd_gazebo_worlds', 'progress': 'cmake'}
+[0.018739] (psd_gazebo_worlds) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/psd_gazebo_worlds', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_gazebo_worlds'], 'cwd': '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.020484] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'cmake'}
+[0.020643] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/ros_components_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/ros_components_description'], 'cwd': '/home/ubuntu/psd_ws/build/ros_components_description', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/ros_components_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100018] (-) TimerEvent: {}
+[0.124243] (gz_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.124562] (psd_vehicle_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.124752] (custom_teleop_keyboard) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.124905] (psd_gazebo_worlds) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.126446] (ros_components_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.200118] (-) TimerEvent: {}
+[0.201849] (gz_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.201998] (ros_components_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.202120] (psd_gazebo_worlds) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.202525] (psd_vehicle_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.202642] (custom_teleop_keyboard) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.215344] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.215484] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.215566] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.215644] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.215720] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.280760] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281179] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281464] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281625] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281899] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.286210] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.286546] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287194] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.287314] (psd_vehicle_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.287517] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287625] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.288967] (ros_components_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.289067] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.289185] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.290903] (gz_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.291062] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.291257] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.291453] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.291574] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.291931] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.293371] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.294149] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.294791] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.297744] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298642] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300178] (-) TimerEvent: {}
+[0.357949] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.358206] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.358314] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.360522] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.361503] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.364096] (psd_vehicle_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.364209] (ros_components_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.364447] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.364561] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.364646] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.364722] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.364796] (psd_vehicle_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.364868] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.364972] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.367120] (gz_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.367311] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.367544] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.371545] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.371761] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.372023] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.380458] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.380580] (ros_components_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.380685] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.380761] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.380836] (psd_vehicle_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400365] (-) TimerEvent: {}
+[0.500714] (-) TimerEvent: {}
+[0.505253] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.505501] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.505638] (psd_vehicle_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.505746] (gz_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.505830] (ros_components_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.561968] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.562502] (psd_vehicle_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.562625] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.562722] (gz_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.563106] (ros_components_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600833] (-) TimerEvent: {}
+[0.645226] (ros_components_description) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 2.5.0 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)\n'}
+[0.645380] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[0.645874] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.646022] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.652544] (gz_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 4.11.0 (/opt/ros/jazzy/share/controller_manager/cmake)\n'}
+[0.701062] (-) TimerEvent: {}
+[0.701576] (psd_vehicle_description) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.703560] (psd_vehicle_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.704081] (psd_vehicle_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/psd_vehicle_description\n'}
+[0.707567] (psd_vehicle_description) CommandEnded: {'returncode': 0}
+[0.708079] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'build'}
+[0.708105] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/psd_vehicle_description', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/psd_vehicle_description', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_vehicle_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.717767] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.717918] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.734351] (psd_vehicle_description) CommandEnded: {'returncode': 0}
+[0.734882] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.740877] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.740975] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.748534] (psd_vehicle_description) JobProgress: {'identifier': 'psd_vehicle_description', 'progress': 'install'}
+[0.754356] (psd_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/psd_vehicle_description'], 'cwd': '/home/ubuntu/psd_ws/build/psd_vehicle_description', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_vehicle_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.755142] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.759518] (psd_vehicle_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.759646] (psd_vehicle_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.760223] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/rviz/psd_vehicle.rviz\n'}
+[0.766475] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/view_psd_vehicle.launch.py\n'}
+[0.768468] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.768607] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.773557] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/base_link.stl\n'}
+[0.775971] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779309] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FL_1.stl\n'}
+[0.785025] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_FR_1.stl\n'}
+[0.791013] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RL_1.stl\n'}
+[0.795956] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.796054] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.796384] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/link_RR_1.stl\n'}
+[0.800649] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801156] (-) TimerEvent: {}
+[0.802420] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FL_1.stl\n'}
+[0.808194] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/perno_FR_1.stl\n'}
+[0.814071] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FL_1.stl\n'}
+[0.820219] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_FR_1.stl\n'}
+[0.825858] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RL_1.stl\n'}
+[0.831609] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/collision/tyre_RR_1.stl\n'}
+[0.836888] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_bot.dae\n'}
+[0.842193] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_mid.dae\n'}
+[0.847842] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/components/camera_mount_top.dae\n'}
+[0.853503] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/chassis.mtl\n'}
+[0.858878] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/chassis.obj\n'}
+[0.864185] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/steering_hinge.mtl\n'}
+[0.869576] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/steering_hinge.obj\n'}
+[0.874832] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/suspension.mtl\n'}
+[0.880532] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/suspension.obj\n'}
+[0.886058] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/tyre.mtl\n'}
+[0.891699] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/tyre.obj\n'}
+[0.897387] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/wheel.mtl\n'}
+[0.899602] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.899722] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.901334] (-) TimerEvent: {}
+[0.903658] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/obj+mtl/wheel.obj\n'}
+[0.906944] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.907058] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.909619] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/chassis.stl\n'}
+[0.915797] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/steering_hinge.stl\n'}
+[0.922513] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/suspension.stl\n'}
+[0.928127] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/tyre.stl\n'}
+[0.934117] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/stl/wheel.stl\n'}
+[0.940247] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.dae\n'}
+[0.945998] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/base_link.stl\n'}
+[0.951834] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FL_1.stl\n'}
+[0.957464] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_FR_1.stl\n'}
+[0.963199] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RL_1.stl\n'}
+[0.968980] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_RR_1.stl\n'}
+[0.974796] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fl_1.dae\n'}
+[0.980854] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_fr_1.dae\n'}
+[0.986980] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rl_1.dae\n'}
+[0.991399] (ros_components_description) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.992582] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/link_rr_1.dae\n'}
+[0.994352] (ros_components_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.995090] (ros_components_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/ros_components_description\n'}
+[0.996421] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.996718] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.998087] (ros_components_description) CommandEnded: {'returncode': 0}
+[0.998289] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'build'}
+[0.998303] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/ros_components_description', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/ros_components_description', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/ros_components_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.998826] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FL_1.stl\n'}
+[1.001551] (-) TimerEvent: {}
+[1.004440] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_FR_1.stl\n'}
+[1.009956] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fl_1.dae\n'}
+[1.010482] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.011307] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.015610] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/perno_fr_1.dae\n'}
+[1.021333] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FL_1.stl\n'}
+[1.023448] (ros_components_description) CommandEnded: {'returncode': 0}
+[1.025864] (psd_gazebo_worlds) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.026856] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_FR_1.stl\n'}
+[1.027070] (custom_teleop_keyboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.032709] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RL_1.stl\n'}
+[1.037977] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'install'}
+[1.038022] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/ros_components_description'], 'cwd': '/home/ubuntu/psd_ws/build/ros_components_description', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/ros_components_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.038619] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_RR_1.stl\n'}
+[1.043181] (ros_components_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.043385] (ros_components_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.043807] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae\n'}
+[1.044901] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fl_1.dae\n'}
+[1.049267] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.049583] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae\n'}
+[1.050562] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_fr_1.dae\n'}
+[1.055796] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os01.dae\n'}
+[1.055908] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rl_1.dae\n'}
+[1.061469] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/meshes/visual/tyre_rr_1.dae\n'}
+[1.061627] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_a2m8.dae\n'}
+[1.067273] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_ax.dae\n'}
+[1.067750] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/components/camera_mount.urdf.xacro\n'}
+[1.072582] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s1.dae\n'}
+[1.073545] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/materials.xacro\n'}
+[1.077882] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s2.dae\n'}
+[1.078833] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle.urdf.xacro\n'}
+[1.083279] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s3.dae\n'}
+[1.084714] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.ros2_control.xacro\n'}
+[1.089655] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/velodyne_puck.dae\n'}
+[1.089908] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/urdf/psd_vehicle_macro.urdf.xacro\n'}
+[1.095534] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed.stl\n'}
+[1.095913] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_description\n'}
+[1.101212] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed2.stl\n'}
+[1.101628] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_description\n'}
+[1.101723] (-) TimerEvent: {}
+[1.107468] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zed2i.stl\n'}
+[1.107906] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.sh\n'}
+[1.108049] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.113600] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedm.stl\n'}
+[1.113784] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/ament_prefix_path.dsv\n'}
+[1.113877] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.118010] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.119812] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedx.stl\n'}
+[1.120138] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.sh\n'}
+[1.125837] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/zedxm.stl\n'}
+[1.126099] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/environment/path.dsv\n'}
+[1.132458] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.bash\n'}
+[1.132857] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/components.urdf.xacro\n'}
+[1.133726] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.138594] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro\n'}
+[1.138745] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.sh\n'}
+[1.144685] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/kinova.urdf.xacro\n'}
+[1.144949] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.zsh\n'}
+[1.145293] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.151156] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/local_setup.dsv\n'}
+[1.151384] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro\n'}
+[1.157249] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ouster.urdf.xacro\n'}
+[1.157407] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.dsv\n'}
+[1.163325] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/robotiq.urdf.xacro\n'}
+[1.163483] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/ament_index/resource_index/packages/psd_vehicle_description\n'}
+[1.169889] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a2.urdf.xacro\n'}
+[1.170052] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig.cmake\n'}
+[1.176043] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a3.urdf.xacro\n'}
+[1.176700] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.176984] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/cmake/psd_vehicle_descriptionConfig-version.cmake\n'}
+[1.179670] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.180588] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/psd_gazebo_worlds\n'}
+[1.182699] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s1.urdf.xacro\n'}
+[1.183738] (psd_vehicle_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_description/share/psd_vehicle_description/package.xml\n'}
+[1.184515] (gz_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.186275] (psd_gazebo_worlds) CommandEnded: {'returncode': 0}
+[1.186505] (psd_gazebo_worlds) JobProgress: {'identifier': 'psd_gazebo_worlds', 'progress': 'build'}
+[1.186831] (psd_gazebo_worlds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.187457] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.188710] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s2.urdf.xacro\n'}
+[1.190400] (psd_vehicle_description) CommandEnded: {'returncode': 0}
+[1.194693] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s3.urdf.xacro\n'}
+[1.199695] (gz_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.200308] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/stereolabs_zed.urdf.xacro\n'}
+[1.201750] (-) TimerEvent: {}
+[1.202351] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.206065] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ur.urdf.xacro\n'}
+[1.209433] (gz_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.212470] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/velodyne_puck.urdf.xacro\n'}
+[1.213134] (psd_gazebo_worlds) CommandEnded: {'returncode': 0}
+[1.216608] (gz_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.218635] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_components.launch.py\n'}
+[1.223489] (psd_vehicle_description) JobEnded: {'identifier': 'psd_vehicle_description', 'rc': 0}
+[1.223747] (psd_vehicle_bringup) JobStarted: {'identifier': 'psd_vehicle_bringup'}
+[1.224248] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_kinova_6dof.launch.py\n'}
+[1.226991] (psd_gazebo_worlds) JobProgress: {'identifier': 'psd_gazebo_worlds', 'progress': 'install'}
+[1.227259] (psd_gazebo_worlds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/psd_gazebo_worlds'], 'cwd': '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_gazebo_worlds', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.228430] (psd_vehicle_bringup) JobProgress: {'identifier': 'psd_vehicle_bringup', 'progress': 'cmake'}
+[1.228493] (psd_vehicle_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/psd_vehicle_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_vehicle_bringup'], 'cwd': '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/psd_vehicle_description:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/psd_vehicle_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.230157] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_kinova_7dof.launch.py\n'}
+[1.232702] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.232884] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.234547] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.dae\n'}
+[1.235641] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_orbbec_astra.launch.py\n'}
+[1.240599] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/meshes/cone.stl\n'}
+[1.241253] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_ouster_os.launch.py\n'}
+[1.242049] (custom_teleop_keyboard) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.242158] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.242236] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.243140] (custom_teleop_keyboard) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.244208] (custom_teleop_keyboard) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.244312] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.244851] (custom_teleop_keyboard) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.246167] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.config\n'}
+[1.246282] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.246985] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_robotiq.launch.py\n'}
+[1.252540] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//models/cone/model.sdf\n'}
+[1.252737] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_slamtec_rplidar.launch.py\n'}
+[1.253577] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.254613] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/custom_teleop_keyboard\n'}
+[1.258745] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_stereolabs_zed.launch.py\n'}
+[1.258996] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track.sdf\n'}
+[1.259855] (custom_teleop_keyboard) CommandEnded: {'returncode': 0}
+[1.260184] (custom_teleop_keyboard) JobProgress: {'identifier': 'custom_teleop_keyboard', 'progress': 'build'}
+[1.260508] (custom_teleop_keyboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.264761] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_ur.launch.py\n'}
+[1.264913] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/worlds//track_creator.py\n'}
+[1.265879] (psd_vehicle_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[1.270746] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_velodyne.launch.py\n'}
+[1.270998] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/psd_gazebo_worlds\n'}
+[1.276840] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/psd_gazebo_worlds\n'}
+[1.277078] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_kinova_remappings.yaml\n'}
+[1.282715] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_orbbec_astra_remappings.yaml\n'}
+[1.283044] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/ament_prefix_path.sh\n'}
+[1.288921] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/ament_prefix_path.dsv\n'}
+[1.289086] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_ouster_os_remappings.yaml\n'}
+[1.294356] (custom_teleop_keyboard) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_teleop_keyboard.dir/src/custom_teleop_keyboard.cpp.o\x1b[0m\n'}
+[1.294834] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_slamtec_rplidar_remappings.yaml\n'}
+[1.294958] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/path.sh\n'}
+[1.300842] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/environment/path.dsv\n'}
+[1.301009] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_stereolabs_zed_remappings.yaml\n'}
+[1.301816] (-) TimerEvent: {}
+[1.303319] (psd_vehicle_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[1.306808] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_velodyne_remappings.yaml\n'}
+[1.307159] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.bash\n'}
+[1.312411] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/kinova_6dof_controllers.yaml\n'}
+[1.312688] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.sh\n'}
+[1.314701] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.318571] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/kinova_7dof_controllers.yaml\n'}
+[1.320128] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.zsh\n'}
+[1.324229] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/robotiq_controllers.yaml\n'}
+[1.325588] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/local_setup.dsv\n'}
+[1.330236] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/ur_controllers.yaml\n'}
+[1.331660] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.dsv\n'}
+[1.336963] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/test/component.urdf.xacro\n'}
+[1.337316] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/ament_index/resource_index/packages/psd_gazebo_worlds\n'}
+[1.343171] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/test/test_components_xacro.py\n'}
+[1.343296] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/cmake/psd_gazebo_worldsConfig.cmake\n'}
+[1.349491] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/cmake/psd_gazebo_worldsConfig-version.cmake\n'}
+[1.349774] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/ros_components_description.sh\n'}
+[1.355008] (psd_gazebo_worlds) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_gazebo_worlds/share/psd_gazebo_worlds/package.xml\n'}
+[1.355184] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ament_index/resource_index/package_run_dependencies/ros_components_description\n'}
+[1.361031] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ament_index/resource_index/parent_prefix_path/ros_components_description\n'}
+[1.362266] (psd_gazebo_worlds) CommandEnded: {'returncode': 0}
+[1.366526] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.sh\n'}
+[1.372498] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.dsv\n'}
+[1.372894] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.378070] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/path.sh\n'}
+[1.379456] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.379746] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.379860] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.383873] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/environment/path.dsv\n'}
+[1.385771] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.386188] (psd_gazebo_worlds) JobEnded: {'identifier': 'psd_gazebo_worlds', 'rc': 0}
+[1.389524] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.bash\n'}
+[1.395095] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.sh\n'}
+[1.400960] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.zsh\n'}
+[1.401885] (-) TimerEvent: {}
+[1.406666] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/local_setup.dsv\n'}
+[1.412179] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/package.dsv\n'}
+[1.418099] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ament_index/resource_index/packages/ros_components_description\n'}
+[1.423837] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig.cmake\n'}
+[1.429861] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig-version.cmake\n'}
+[1.435315] (ros_components_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/package.xml\n'}
+[1.441624] (ros_components_description) CommandEnded: {'returncode': 0}
+[1.451267] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.458325] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.458622] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.458866] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.463079] (ros_components_description) JobEnded: {'identifier': 'ros_components_description', 'rc': 0}
+[1.464553] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.501973] (-) TimerEvent: {}
+[1.505392] (gz_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 9.0.0 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)\n'}
+[1.505526] (gz_ros2_control) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[1.510381] (gz_ros2_control) StdoutLine: {'line': b'-- Found gz_sim_vendor: 0.0.3 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)\n'}
+[1.567597] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.602059] (-) TimerEvent: {}
+[1.616216] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.617546] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.3.0\n'}
+[1.628256] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[1.631072] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.1.1\n'}
+[1.631229] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[1.634771] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.644080] (gz_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[1.667621] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[1.667791] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.672004] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.672167] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.673763] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.673965] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.674087] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.677583] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[1.677669] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[1.682163] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.682263] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.682455] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.683298] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[1.686679] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[1.686761] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[1.687207] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[1.690118] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[1.690299] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[1.693580] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.2.0\n'}
+[1.693735] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.702167] (-) TimerEvent: {}
+[1.722590] (gz_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") \n'}
+[1.735499] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.736943] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[1.738535] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.738958] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/psd_vehicle_bringup\n'}
+[1.741736] (psd_vehicle_bringup) CommandEnded: {'returncode': 0}
+[1.742115] (psd_vehicle_bringup) JobProgress: {'identifier': 'psd_vehicle_bringup', 'progress': 'build'}
+[1.742475] (psd_vehicle_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/psd_vehicle_description:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/psd_vehicle_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.745362] (gz_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[1.765373] (gz_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.765577] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.766997] (psd_vehicle_bringup) CommandEnded: {'returncode': 0}
+[1.769363] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.1.2\n'}
+[1.769499] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[1.781481] (psd_vehicle_bringup) JobProgress: {'identifier': 'psd_vehicle_bringup', 'progress': 'install'}
+[1.781768] (psd_vehicle_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/psd_vehicle_bringup'], 'cwd': '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/psd_vehicle_description:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/psd_vehicle_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/psd_vehicle_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.786850] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.787097] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.787266] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.787381] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[1.787461] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/config/psd_vehicle_controllers.yaml\n'}
+[1.793148] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/gz_sim.launch.py\n'}
+[1.798510] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_bringup\n'}
+[1.802281] (-) TimerEvent: {}
+[1.803947] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_bringup\n'}
+[1.809433] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/ament_prefix_path.sh\n'}
+[1.814843] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/ament_prefix_path.dsv\n'}
+[1.820428] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/path.sh\n'}
+[1.826012] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/path.dsv\n'}
+[1.831897] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.bash\n'}
+[1.837621] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.sh\n'}
+[1.843233] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.zsh\n'}
+[1.849128] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.dsv\n'}
+[1.854778] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.dsv\n'}
+[1.860361] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/packages/psd_vehicle_bringup\n'}
+[1.866023] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/cmake/psd_vehicle_bringupConfig.cmake\n'}
+[1.871877] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/cmake/psd_vehicle_bringupConfig-version.cmake\n'}
+[1.877578] (psd_vehicle_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.xml\n'}
+[1.882558] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[1.884828] (psd_vehicle_bringup) CommandEnded: {'returncode': 0}
+[1.887065] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.2.0\n'}
+[1.887226] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[1.887443] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[1.889616] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.2.0\n'}
+[1.889729] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[1.890753] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.1.2\n'}
+[1.895346] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[1.895650] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.895742] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.896319] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.897161] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.898203] (gz_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.902485] (-) TimerEvent: {}
+[1.902956] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.906415] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.5.1\n'}
+[1.906745] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.907470] (psd_vehicle_bringup) JobEnded: {'identifier': 'psd_vehicle_bringup', 'rc': 0}
+[1.910155] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.920221] (gz_ros2_control) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[1.941504] (gz_ros2_control) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.944698] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.954192] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[1.982543] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.985749] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.995159] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[2.002663] (-) TimerEvent: {}
+[2.018522] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[2.021862] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.031367] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[2.054086] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[2.057313] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.066637] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[2.087189] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[2.087977] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.091458] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.5.1\n'}
+[2.091537] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[2.091737] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.092417] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.095747] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.5.1\n'}
+[2.095979] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[2.096029] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.102843] (-) TimerEvent: {}
+[2.103737] (gz_ros2_control) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.3.0") \n'}
+[2.104163] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[2.107440] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.5.1\n'}
+[2.107516] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[2.108082] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[2.111322] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.5.1\n'}
+[2.111398] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[2.115066] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.0.3\n'}
+[2.115141] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[2.172493] (gz_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  \n'}
+[2.183793] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.193279] (gz_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.203057] (-) TimerEvent: {}
+[2.213356] (gz_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.228759] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[2.238940] (gz_ros2_control) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[2.259387] (gz_ros2_control) StdoutLine: {'line': b'-- Found YAML: TRUE  \n'}
+[2.262637] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.272181] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.292848] (gz_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.293089] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.293203] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.293291] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.293531] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.293717] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.293943] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.298854] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[2.302385] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.5.1\n'}
+[2.302464] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[2.303148] (-) TimerEvent: {}
+[2.303333] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.303581] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.1.2\n'}
+[2.307696] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.1.1\n'}
+[2.307776] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[2.328391] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.328535] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.328692] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.328895] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.329239] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.2.0\n'}
+[2.333106] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.1.1\n'}
+[2.333193] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[2.333250] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.333312] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[2.333531] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.333779] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[2.337396] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.4.0\n'}
+[2.337484] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[2.347773] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.347869] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.347932] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.348079] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.348155] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.353393] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.353471] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.353514] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[2.356722] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.5.1\n'}
+[2.356797] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[2.356974] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.357310] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.358440] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.358516] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[2.358655] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.358732] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[2.361955] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[2.362158] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.362927] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.372275] (gz_ros2_control) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[2.373525] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.1.2\n'}
+[2.402535] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.2.0\n'}
+[2.402685] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[2.402770] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.403010] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.403177] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.403214] (-) TimerEvent: {}
+[2.403464] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.404700] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[2.407262] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.2.0\n'}
+[2.407347] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[2.407451] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.408004] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[2.410486] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.2.0\n'}
+[2.410522] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[2.410683] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.411117] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[2.413530] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.2.0\n'}
+[2.413581] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[2.413738] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.1.1\n'}
+[2.418145] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.418201] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.435412] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.435658] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.436182] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.2.0\n'}
+[2.436260] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.1.1\n'}
+[2.436483] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.1.2\n'}
+[2.436768] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.1.1\n'}
+[2.437601] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[2.440780] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.0.1\n'}
+[2.440862] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[2.441290] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[2.443752] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.0.1\n'}
+[2.443827] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[2.444321] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[2.446347] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.0.1\n'}
+[2.446424] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[2.446972] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[2.449019] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.0.1\n'}
+[2.449094] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[2.449525] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[2.451874] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.0.1\n'}
+[2.451950] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[2.452453] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[2.454709] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.0.1\n'}
+[2.454785] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[2.455288] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[2.457502] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.0.1\n'}
+[2.457577] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[2.458003] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[2.460296] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.0.1\n'}
+[2.460373] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[2.460910] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[2.463166] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.0.1\n'}
+[2.463243] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[2.463383] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.463457] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.480492] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.480642] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.5.1\n'}
+[2.480811] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.2.0\n'}
+[2.481035] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.1.1\n'}
+[2.481232] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.1.2\n'}
+[2.481416] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.1.1\n'}
+[2.481508] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.484168] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.0.1\n'}
+[2.484244] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[2.485430] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.485503] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[2.487968] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.0.1\n'}
+[2.488044] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[2.488191] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.488926] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[2.491129] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.0.1\n'}
+[2.491232] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[2.491382] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.491947] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[2.494030] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.0.1\n'}
+[2.494131] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[2.494382] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.495083] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[2.497158] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.0.1\n'}
+[2.497235] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[2.497601] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[2.499926] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.0.1\n'}
+[2.500005] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[2.500657] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[2.502895] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.0.1\n'}
+[2.502997] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[2.503133] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.503272] (-) TimerEvent: {}
+[2.503744] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[2.506165] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.0.1\n'}
+[2.506242] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[2.506395] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.507060] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[2.509108] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.0.1\n'}
+[2.509183] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[2.509252] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.0.1\n'}
+[2.509897] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[2.512434] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.0.1\n'}
+[2.512513] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[2.513289] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.1.1\n'}
+[2.513359] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[2.513628] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[2.533305] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[2.540290] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.603468] (-) TimerEvent: {}
+[2.651208] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.652604] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.652682] (gz_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control/include\n'}
+[2.652720] (gz_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.653800] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.653881] (gz_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.655086] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.656134] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.656211] (gz_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.656790] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.659160] (gz_ros2_control) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.690576] (gz_ros2_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.692213] (gz_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/gz_ros2_control\n'}
+[2.701579] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[2.702504] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'build'}
+[2.702550] (gz_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/gz_ros2_control', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.703632] (-) TimerEvent: {}
+[2.740048] (gz_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[2.740220] (gz_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o\x1b[0m\n'}
+[2.803856] (-) TimerEvent: {}
+[2.904092] (-) TimerEvent: {}
+[3.004450] (-) TimerEvent: {}
+[3.104817] (-) TimerEvent: {}
+[3.205201] (-) TimerEvent: {}
+[3.305565] (-) TimerEvent: {}
+[3.405946] (-) TimerEvent: {}
+[3.506180] (-) TimerEvent: {}
+[3.606414] (-) TimerEvent: {}
+[3.706776] (-) TimerEvent: {}
+[3.807006] (-) TimerEvent: {}
+[3.907360] (-) TimerEvent: {}
+[4.007720] (-) TimerEvent: {}
+[4.082326] (custom_teleop_keyboard) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable custom_teleop_keyboard\x1b[0m\n'}
+[4.107941] (-) TimerEvent: {}
+[4.200225] (custom_teleop_keyboard) StdoutLine: {'line': b'[100%] Built target custom_teleop_keyboard\n'}
+[4.207611] (custom_teleop_keyboard) CommandEnded: {'returncode': 0}
+[4.208106] (-) TimerEvent: {}
+[4.222883] (custom_teleop_keyboard) JobProgress: {'identifier': 'custom_teleop_keyboard', 'progress': 'install'}
+[4.222931] (custom_teleop_keyboard) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/custom_teleop_keyboard'], 'cwd': '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/custom_teleop_keyboard', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.228279] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.228510] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.228688] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/lib/custom_teleop_keyboard/custom_teleop_keyboard\n'}
+[4.234782] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/ament_index/resource_index/package_run_dependencies/custom_teleop_keyboard\n'}
+[4.240614] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/ament_index/resource_index/parent_prefix_path/custom_teleop_keyboard\n'}
+[4.246136] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/ament_prefix_path.sh\n'}
+[4.252054] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/ament_prefix_path.dsv\n'}
+[4.257768] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/path.sh\n'}
+[4.263539] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/path.dsv\n'}
+[4.269295] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.bash\n'}
+[4.274847] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.sh\n'}
+[4.280272] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.zsh\n'}
+[4.285901] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.dsv\n'}
+[4.291374] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/package.dsv\n'}
+[4.296781] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/ament_index/resource_index/packages/custom_teleop_keyboard\n'}
+[4.302440] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/cmake/custom_teleop_keyboardConfig.cmake\n'}
+[4.307854] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/cmake/custom_teleop_keyboardConfig-version.cmake\n'}
+[4.308172] (-) TimerEvent: {}
+[4.313411] (custom_teleop_keyboard) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/package.xml\n'}
+[4.320137] (custom_teleop_keyboard) CommandEnded: {'returncode': 0}
+[4.343208] (custom_teleop_keyboard) JobEnded: {'identifier': 'custom_teleop_keyboard', 'rc': 0}
+[4.408403] (-) TimerEvent: {}
+[4.508758] (-) TimerEvent: {}
+[4.609108] (-) TimerEvent: {}
+[4.709465] (-) TimerEvent: {}
+[4.809830] (-) TimerEvent: {}
+[4.910058] (-) TimerEvent: {}
+[5.010416] (-) TimerEvent: {}
+[5.110787] (-) TimerEvent: {}
+[5.211152] (-) TimerEvent: {}
+[5.311507] (-) TimerEvent: {}
+[5.411866] (-) TimerEvent: {}
+[5.512218] (-) TimerEvent: {}
+[5.612587] (-) TimerEvent: {}
+[5.712943] (-) TimerEvent: {}
+[5.813213] (-) TimerEvent: {}
+[5.913571] (-) TimerEvent: {}
+[6.013942] (-) TimerEvent: {}
+[6.114303] (-) TimerEvent: {}
+[6.214662] (-) TimerEvent: {}
+[6.315016] (-) TimerEvent: {}
+[6.415369] (-) TimerEvent: {}
+[6.515734] (-) TimerEvent: {}
+[6.616092] (-) TimerEvent: {}
+[6.716450] (-) TimerEvent: {}
+[6.816836] (-) TimerEvent: {}
+[6.917205] (-) TimerEvent: {}
+[7.017555] (-) TimerEvent: {}
+[7.117924] (-) TimerEvent: {}
+[7.218299] (-) TimerEvent: {}
+[7.318658] (-) TimerEvent: {}
+[7.419000] (-) TimerEvent: {}
+[7.519344] (-) TimerEvent: {}
+[7.619727] (-) TimerEvent: {}
+[7.720080] (-) TimerEvent: {}
+[7.820435] (-) TimerEvent: {}
+[7.920757] (-) TimerEvent: {}
+[8.020980] (-) TimerEvent: {}
+[8.121335] (-) TimerEvent: {}
+[8.221700] (-) TimerEvent: {}
+[8.230319] (gz_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgz_hardware_plugins.so\x1b[0m\n'}
+[8.321919] (-) TimerEvent: {}
+[8.422227] (-) TimerEvent: {}
+[8.503599] (gz_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gz_hardware_plugins\n'}
+[8.522352] (-) TimerEvent: {}
+[8.622612] (-) TimerEvent: {}
+[8.722836] (-) TimerEvent: {}
+[8.823128] (-) TimerEvent: {}
+[8.923418] (-) TimerEvent: {}
+[9.023703] (-) TimerEvent: {}
+[9.123998] (-) TimerEvent: {}
+[9.224282] (-) TimerEvent: {}
+[9.324564] (-) TimerEvent: {}
+[9.424850] (-) TimerEvent: {}
+[9.525141] (-) TimerEvent: {}
+[9.625431] (-) TimerEvent: {}
+[9.725732] (-) TimerEvent: {}
+[9.826013] (-) TimerEvent: {}
+[9.926299] (-) TimerEvent: {}
+[10.026593] (-) TimerEvent: {}
+[10.124344] (gz_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgz_ros2_control-system.so\x1b[0m\n'}
+[10.126769] (-) TimerEvent: {}
+[10.226940] (-) TimerEvent: {}
+[10.327298] (-) TimerEvent: {}
+[10.413017] (gz_ros2_control) StdoutLine: {'line': b'[100%] Built target gz_ros2_control-system\n'}
+[10.420270] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[10.427519] (-) TimerEvent: {}
+[10.438045] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'install'}
+[10.438551] (gz_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/gz_ros2_control'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.443184] (gz_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.443290] (gz_ros2_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.443562] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so\n'}
+[10.449373] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control_plugin.hpp\n'}
+[10.455013] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/include/gz_ros2_control/gz_system.hpp\n'}
+[10.459821] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp\n'}
+[10.465048] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh\n'}
+[10.470281] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv\n'}
+[10.475427] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so\n'}
+[10.481695] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control//gz_hardware_plugins.xml\n'}
+[10.488874] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control\n'}
+[10.494464] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control\n'}
+[10.500652] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh\n'}
+[10.505834] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv\n'}
+[10.510459] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh\n'}
+[10.515490] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv\n'}
+[10.520138] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash\n'}
+[10.524808] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh\n'}
+[10.527664] (-) TimerEvent: {}
+[10.529762] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh\n'}
+[10.534509] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv\n'}
+[10.539198] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv\n'}
+[10.544248] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control\n'}
+[10.549174] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control\n'}
+[10.553928] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.560415] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.566490] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake\n'}
+[10.571696] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake\n'}
+[10.576739] (gz_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control/share/gz_ros2_control/package.xml\n'}
+[10.582619] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[10.619030] (gz_ros2_control) JobEnded: {'identifier': 'gz_ros2_control', 'rc': 0}
+[10.619326] (gz_ros2_control_demos) JobStarted: {'identifier': 'gz_ros2_control_demos'}
+[10.622014] (gz_ros2_control_tests) JobStarted: {'identifier': 'gz_ros2_control_tests'}
+[10.624823] (gz_ros2_control_demos) JobProgress: {'identifier': 'gz_ros2_control_demos', 'progress': 'cmake'}
+[10.624849] (gz_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_demos', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/gz_ros2_control_demos'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.626858] (gz_ros2_control_tests) JobProgress: {'identifier': 'gz_ros2_control_tests', 'progress': 'cmake'}
+[10.627023] (gz_ros2_control_tests) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_tests', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/gz_ros2_control_tests'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.627722] (-) TimerEvent: {}
+[10.659368] (gz_ros2_control_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[10.660715] (gz_ros2_control_tests) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[10.693070] (gz_ros2_control_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[10.693252] (gz_ros2_control_tests) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[10.702534] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.702733] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.727826] (-) TimerEvent: {}
+[10.755456] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.755886] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.760360] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.760594] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.760798] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.764225] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.764463] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.764552] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.766623] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.770031] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.825483] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.827137] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.827920] (-) TimerEvent: {}
+[10.831186] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.831339] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.831509] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.832385] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.832539] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.832759] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.836799] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[10.837571] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[10.928154] (-) TimerEvent: {}
+[10.933518] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.933676] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.978041] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.978270] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[11.028324] (-) TimerEvent: {}
+[11.042506] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 5.1.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[11.042610] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[11.096621] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[11.113765] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[11.128511] (-) TimerEvent: {}
+[11.132988] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.152840] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.155029] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found control_msgs: 5.1.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[11.209624] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[11.227093] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[11.228724] (-) TimerEvent: {}
+[11.246097] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.266675] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.299213] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[11.328907] (-) TimerEvent: {}
+[11.351282] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[11.356160] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.413965] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[11.422517] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[11.429076] (-) TimerEvent: {}
+[11.433755] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[11.447001] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.464098] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[11.468849] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.510788] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.2 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[11.528749] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.0 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[11.529137] (-) TimerEvent: {}
+[11.533078] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[11.541151] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[11.553171] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[11.567619] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.627361] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.629317] (-) TimerEvent: {}
+[11.632310] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.2 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[11.637840] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.637942] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.637986] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.639439] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.639523] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.640188] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.640292] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[11.641011] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.641585] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.642964] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.643049] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.643769] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.644925] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[11.649243] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 3.4.2 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)\n'}
+[11.653862] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[11.661903] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[11.663183] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/gz_ros2_control_demos\n'}
+[11.669193] (gz_ros2_control_demos) CommandEnded: {'returncode': 0}
+[11.669379] (gz_ros2_control_demos) JobProgress: {'identifier': 'gz_ros2_control_demos', 'progress': 'build'}
+[11.669392] (gz_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.703378] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o\x1b[0m\n'}
+[11.703534] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o\x1b[0m\n'}
+[11.703609] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o\x1b[0m\n'}
+[11.703699] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[11.703882] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o\x1b[0m\n'}
+[11.709800] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o\x1b[0m\n'}
+[11.729414] (-) TimerEvent: {}
+[11.750938] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[11.755657] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.757396] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.757524] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.757596] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.758946] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.759044] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.759788] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.759877] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[11.760645] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.761412] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.762713] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.762805] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.763428] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.764962] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[11.776467] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[11.777794] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/psd_ws/build/gz_ros2_control_tests\n'}
+[11.784581] (gz_ros2_control_tests) CommandEnded: {'returncode': 0}
+[11.785023] (gz_ros2_control_tests) JobProgress: {'identifier': 'gz_ros2_control_tests', 'progress': 'build'}
+[11.785388] (gz_ros2_control_tests) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.829511] (-) TimerEvent: {}
+[11.837540] (gz_ros2_control_tests) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_position.dir/src/test_position.cpp.o\x1b[0m\n'}
+[11.929638] (-) TimerEvent: {}
+[12.029956] (-) TimerEvent: {}
+[12.130253] (-) TimerEvent: {}
+[12.230547] (-) TimerEvent: {}
+[12.330842] (-) TimerEvent: {}
+[12.431139] (-) TimerEvent: {}
+[12.531438] (-) TimerEvent: {}
+[12.631734] (-) TimerEvent: {}
+[12.731990] (-) TimerEvent: {}
+[12.832292] (-) TimerEvent: {}
+[12.932594] (-) TimerEvent: {}
+[13.032891] (-) TimerEvent: {}
+[13.133189] (-) TimerEvent: {}
+[13.233490] (-) TimerEvent: {}
+[13.333800] (-) TimerEvent: {}
+[13.434055] (-) TimerEvent: {}
+[13.534324] (-) TimerEvent: {}
+[13.634615] (-) TimerEvent: {}
+[13.734918] (-) TimerEvent: {}
+[13.835213] (-) TimerEvent: {}
+[13.935509] (-) TimerEvent: {}
+[14.035806] (-) TimerEvent: {}
+[14.136066] (-) TimerEvent: {}
+[14.236434] (-) TimerEvent: {}
+[14.336807] (-) TimerEvent: {}
+[14.437177] (-) TimerEvent: {}
+[14.537543] (-) TimerEvent: {}
+[14.637850] (-) TimerEvent: {}
+[14.738124] (-) TimerEvent: {}
+[14.795387] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[14.796284] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable example_tricycle_drive\x1b[0m\n'}
+[14.803423] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[14.838229] (-) TimerEvent: {}
+[14.851072] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[14.916891] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] Built target example_tricycle_drive\n'}
+[14.919177] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] Built target example_diff_drive\n'}
+[14.938355] (-) TimerEvent: {}
+[14.946546] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] Built target example_effort\n'}
+[14.962084] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] Built target example_gripper\n'}
+[15.000241] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[15.038486] (-) TimerEvent: {}
+[15.095970] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] Built target example_velocity\n'}
+[15.138579] (-) TimerEvent: {}
+[15.238821] (-) TimerEvent: {}
+[15.339096] (-) TimerEvent: {}
+[15.393085] (gz_ros2_control_tests) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_position\x1b[0m\n'}
+[15.439238] (-) TimerEvent: {}
+[15.515269] (gz_ros2_control_tests) StdoutLine: {'line': b'[100%] Built target test_position\n'}
+[15.525054] (gz_ros2_control_tests) CommandEnded: {'returncode': 0}
+[15.539381] (-) TimerEvent: {}
+[15.541783] (gz_ros2_control_tests) JobProgress: {'identifier': 'gz_ros2_control_tests', 'progress': 'install'}
+[15.541814] (gz_ros2_control_tests) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/gz_ros2_control_tests'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control_tests', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.546818] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.547006] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.547292] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position\n'}
+[15.553125] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf/test_cart_position.xacro.urdf\n'}
+[15.558542] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config/cart_controller_position.yaml\n'}
+[15.563837] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests\n'}
+[15.569101] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests\n'}
+[15.574412] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh\n'}
+[15.579772] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv\n'}
+[15.585366] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh\n'}
+[15.590588] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv\n'}
+[15.596088] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash\n'}
+[15.601347] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh\n'}
+[15.606433] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh\n'}
+[15.611665] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv\n'}
+[15.619404] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv\n'}
+[15.625223] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests\n'}
+[15.632099] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake\n'}
+[15.638049] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake\n'}
+[15.639498] (-) TimerEvent: {}
+[15.643635] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml\n'}
+[15.650600] (gz_ros2_control_tests) CommandEnded: {'returncode': 0}
+[15.673429] (gz_ros2_control_tests) JobEnded: {'identifier': 'gz_ros2_control_tests', 'rc': 0}
+[15.739691] (-) TimerEvent: {}
+[15.839996] (-) TimerEvent: {}
+[15.940306] (-) TimerEvent: {}
+[16.040633] (-) TimerEvent: {}
+[16.059359] (gz_ros2_control_demos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[16.140802] (-) TimerEvent: {}
+[16.175135] (gz_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_position\n'}
+[16.185519] (gz_ros2_control_demos) CommandEnded: {'returncode': 0}
+[16.210961] (gz_ros2_control_demos) JobProgress: {'identifier': 'gz_ros2_control_demos', 'progress': 'install'}
+[16.211301] (gz_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/psd_ws/build/gz_ros2_control_demos'], 'cwd': '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'edo-ThinkPad-P1-Gen-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/psd_ws/build/gz_ros2_control_demos', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/psd_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.218671] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.218874] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.219217] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[16.226277] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[16.232019] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[16.237200] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py\n'}
+[16.240976] (-) TimerEvent: {}
+[16.242410] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py\n'}
+[16.247233] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml\n'}
+[16.252402] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py\n'}
+[16.257231] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml\n'}
+[16.261986] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py\n'}
+[16.267078] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py\n'}
+[16.272065] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py\n'}
+[16.277074] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml\n'}
+[16.282107] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml\n'}
+[16.287205] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml\n'}
+[16.292210] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller_velocity.yaml\n'}
+[16.297095] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml\n'}
+[16.302107] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml\n'}
+[16.307178] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml\n'}
+[16.312648] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[16.317488] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[16.322496] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[16.327391] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[16.332253] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf\n'}
+[16.337164] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf\n'}
+[16.341151] (-) TimerEvent: {}
+[16.342014] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf\n'}
+[16.347022] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf\n'}
+[16.351967] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf\n'}
+[16.357084] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position\n'}
+[16.362119] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity\n'}
+[16.366931] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort\n'}
+[16.371715] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive\n'}
+[16.376668] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive\n'}
+[16.381802] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper\n'}
+[16.386483] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos\n'}
+[16.391472] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos\n'}
+[16.396492] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[16.401691] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[16.406622] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh\n'}
+[16.411905] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv\n'}
+[16.416765] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash\n'}
+[16.421775] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh\n'}
+[16.426893] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh\n'}
+[16.432067] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv\n'}
+[16.436921] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv\n'}
+[16.441329] (-) TimerEvent: {}
+[16.442124] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos\n'}
+[16.447016] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake\n'}
+[16.451885] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake\n'}
+[16.456718] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml\n'}
+[16.462655] (gz_ros2_control_demos) CommandEnded: {'returncode': 0}
+[16.512982] (gz_ros2_control_demos) JobEnded: {'identifier': 'gz_ros2_control_demos', 'rc': 0}
+[16.513678] (-) EventReactorShutdown: {}

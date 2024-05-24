@@ -176,7 +176,7 @@ def generate_launch_description():
         parameters=[{"config_file": gz_bridge_config_path}],
         arguments=[
             "/clock" + "@rosgraph_msgs/msg/Clock" + "[gz.msgs.Clock",
-            # "/scan" + "@sensor_msgs/msg/LaserScan" + "[gz.msgs.LaserScan",
+            "/scan" + "@sensor_msgs/msg/LaserScan" + "[gz.msgs.LaserScan",
 
             # "/velodyne_points/points"
             # + "@sensor_msgs/msg/PointCloud2"

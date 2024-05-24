@@ -136,7 +136,7 @@
           <geometry>
             <mesh filename="$(find psd_vehicle_description)/meshes/stl/tyre.stl" scale="0.001 0.001 0.001"/>
           </geometry>
-          <material name="silver"/>
+          <material name="rubber_tyre"/>
         </visual>
         <collision>
           <origin xyz="0.0 0.0 0.0" rpy="0 ${rot90} 0"/>
@@ -267,7 +267,7 @@
     <xacro:camera.intel_realsense_d435
       parent_link="chassis"
       xyz="0.0 0.0 0.2"
-      rpy="0.0 0.0 ${3.1415/2}" />
+      rpy="0.0 0.0 ${rot90}" />
 
 
   </xacro:macro>
