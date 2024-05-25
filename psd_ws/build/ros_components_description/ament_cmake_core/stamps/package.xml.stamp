@@ -21,7 +21,6 @@
   <depend>urdf</depend>
   <depend>xacro</depend>
   <depend>ur_description</depend>
-  <depend>kortex_description</depend>
   <depend>robotiq_description</depend>
 
   <depend condition="($HUSARION_ROS_BUILD_TYPE == simulation)">ros_gz_sim</depend>

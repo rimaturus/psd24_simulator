@@ -242,7 +242,7 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Name of the computer/site where compile is being run
-SITE:STRING=edo-ThinkPad-P1-Gen-5
+SITE:STRING=edo-Thinkpad
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake

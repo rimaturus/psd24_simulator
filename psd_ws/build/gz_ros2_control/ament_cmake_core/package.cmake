@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "gz_ros2_control")
-set(gz_ros2_control_VERSION "1.3.0")
+set(gz_ros2_control_VERSION "1.2.3")
 set(gz_ros2_control_MAINTAINER "Alejandro Hernández <alejandro@openrobotics.com>, Bence Magyar <bence.magyar.robotics@gmail.com>")
 set(gz_ros2_control_BUILD_DEPENDS "ament_index_cpp" "gz_sim_vendor" "gz_plugin_vendor" "pluginlib" "rclcpp" "yaml_cpp_vendor" "rclcpp_lifecycle" "hardware_interface" "controller_manager")
 set(gz_ros2_control_BUILDTOOL_DEPENDS "ament_cmake")

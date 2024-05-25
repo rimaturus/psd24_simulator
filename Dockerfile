@@ -1,11 +1,9 @@
-FROM osrf/ros:jazzy-desktop
+FROM osrf/ros:jazzy-desktop-full
 
 ARG USERNAME=ubuntu
 # ARG USER_UID=1001
 # ARG USER_GID=$USER_UID
 ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt-get update && apt-get install -y --no-install-recommends
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     nano \
@@ -39,6 +37,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     evtest \
     jstest-gtk \
     python3-serial \
+    wget \
+    curl \
+    zip \ 
+    unzip \ 
+    tar \
+    ros-jazzy-ros-gz \
     && rm -rf /var/lib/apt/lists/*
 
 RUN usermod -aG dialout ${USERNAME}

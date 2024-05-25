@@ -1,1 +1,1 @@
-robot_state_publisher;urdf;xacro;ur_description;kortex_description;robotiq_description;ament_index_python;ament_cmake_pytest;python3-yaml
+robot_state_publisher;urdf;xacro;ur_description;robotiq_description;ament_index_python;ament_cmake_pytest;python3-yaml

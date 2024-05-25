@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "gz_ros2_control_demos")
-set(gz_ros2_control_demos_VERSION "1.3.0")
+set(gz_ros2_control_demos_VERSION "1.2.3")
 set(gz_ros2_control_demos_MAINTAINER "Alejandro Hernandez <ahcorde@osrfoundation.org>")
 set(gz_ros2_control_demos_BUILD_DEPENDS "control_msgs" "geometry_msgs" "rclcpp" "rclcpp_action" "std_msgs")
 set(gz_ros2_control_demos_BUILDTOOL_DEPENDS "ament_cmake")

@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/ubuntu/psd_ws/src/psd_gazebo_worlds/launch": No such file or
-  directory.
-
-[0m

@@ -16,7 +16,7 @@ set(_gz_ros2_control_demos_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT gz_ros2_control_demos_FIND_QUIETLY)
-  message(STATUS "Found gz_ros2_control_demos: 1.3.0 (${gz_ros2_control_demos_DIR})")
+  message(STATUS "Found gz_ros2_control_demos: 1.2.3 (${gz_ros2_control_demos_DIR})")
 endif()
 
 # warn when using a deprecated package

@@ -269,7 +269,7 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Name of the computer/site where compile is being run
-SITE:STRING=edo-ThinkPad-P1-Gen-5
+SITE:STRING=edo-Thinkpad
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2

@@ -1,0 +1,23 @@
+[0.016s] Invoking command in '/home/ubuntu/psd_ws/build/custom_teleop_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/custom_teleop_keyboard -- -j20 -l20
+[0.059s] [100%] Built target custom_teleop_keyboard
+[0.070s] Invoked command in '/home/ubuntu/psd_ws/build/custom_teleop_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/custom_teleop_keyboard -- -j20 -l20
+[0.104s] Invoking command in '/home/ubuntu/psd_ws/build/custom_teleop_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/custom_teleop_keyboard
+[0.112s] -- Install configuration: ""
+[0.112s] -- Execute custom install script
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/lib/custom_teleop_keyboard/custom_teleop_keyboard
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/ament_index/resource_index/package_run_dependencies/custom_teleop_keyboard
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/ament_index/resource_index/parent_prefix_path/custom_teleop_keyboard
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/ament_prefix_path.sh
+[0.112s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/ament_prefix_path.dsv
+[0.113s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/path.sh
+[0.113s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/environment/path.dsv
+[0.113s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.bash
+[0.113s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.sh
+[0.113s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.zsh
+[0.114s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/local_setup.dsv
+[0.114s] -- Symlinking: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/package.dsv
+[0.120s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/ament_index/resource_index/packages/custom_teleop_keyboard
+[0.120s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/cmake/custom_teleop_keyboardConfig.cmake
+[0.120s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/cmake/custom_teleop_keyboardConfig-version.cmake
+[0.120s] -- Up-to-date symlink: /home/ubuntu/psd_ws/install/custom_teleop_keyboard/share/custom_teleop_keyboard/package.xml
+[0.128s] Invoked command in '/home/ubuntu/psd_ws/build/custom_teleop_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/custom_teleop_keyboard
