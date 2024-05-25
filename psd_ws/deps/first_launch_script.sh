@@ -20,7 +20,7 @@ update_and_upgrade() {
 update_rosdep() {
     echo -e "${GREEN}Updating rosdep and installing dependencies for ROS...${NC}"
     rosdep update --rosdistro $ROS_DISTRO
-    rosdep install -i --from-path ../src --rosdistro $ROS_DISTRO -y
+    rosdep install -i --from-path /home/ubuntu/psd_ws/src --rosdistro $ROS_DISTRO -y
 }
 
 # Function to build libzmq from source
@@ -91,6 +91,10 @@ remove_kortex_dependency_from_ros_components() {
     echo -e "${GREEN}Removing kortex_description dependency from package.xml...${NC}"
     sed -i '/<depend>kortex_description<\/depend>/d' /home/ubuntu/psd_ws/src/ros_components_description/package.xml
 }
+
+# Temporary folder just for starting
+cd /home/ubuntu/psd_ws/deps/not_mapped_dir
+touch .gitignore
 
 # Main Script
 update_and_upgrade  # Perform system updates and upgrades
