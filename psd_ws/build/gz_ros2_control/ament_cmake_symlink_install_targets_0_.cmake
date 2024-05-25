@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/psd_ws/build/gz_ros2_control/libgz_hardware_plugins.so" "TARGETS" "gz_hardware_plugins" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ament_lint_auto", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ament_lint_auto"
+  with any of the following names:
+
+    ament_lint_autoConfig.cmake
+    ament_lint_auto-config.cmake
+
+  Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+  set "ament_lint_auto_DIR" to a directory containing one of the above files.
+  If "ament_lint_auto" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

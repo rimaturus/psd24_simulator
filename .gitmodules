@@ -1,0 +1,6 @@
+[submodule "psd_ws/src/ros_components_description"]
+	path = psd_ws/src/ros_components_description
+	url = https://github.com/husarion/ros_components_description
+[submodule "psd_ws/src/gz_ros2_control"]
+	path = psd_ws/src/gz_ros2_control
+	url = https://github.com/ros-controls/gz_ros2_control.git

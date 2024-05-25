@@ -1,0 +1,17 @@
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/config/psd_vehicle_controllers.yaml
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/gz_sim.launch.py
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/package_run_dependencies/psd_vehicle_bringup
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/parent_prefix_path/psd_vehicle_bringup
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/ament_prefix_path.sh
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/ament_prefix_path.dsv
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/path.sh
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/environment/path.dsv
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.bash
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.sh
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.zsh
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/local_setup.dsv
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.dsv
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/ament_index/resource_index/packages/psd_vehicle_bringup
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/cmake/psd_vehicle_bringupConfig.cmake
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/cmake/psd_vehicle_bringupConfig-version.cmake
+/home/ubuntu/psd_ws/install/psd_vehicle_bringup/share/psd_vehicle_bringup/package.xml

@@ -1,0 +1,76 @@
+[0.007s] Invoking command in '/home/ubuntu/psd_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/gz_ros2_control_tests
+[0.042s] -- The C compiler identification is GNU 13.2.0
+[0.076s] -- The CXX compiler identification is GNU 13.2.0
+[0.086s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.216s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.216s] -- Detecting CXX compile features
+[0.216s] -- Detecting CXX compile features - done
+[0.219s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.324s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.411s] -- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.495s] -- Found control_msgs: 5.1.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.533s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.750s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.753s] -- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.827s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.913s] -- Found rclcpp_action: 28.1.2 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.928s] -- Found launch_testing_ament_cmake: 3.4.2 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[0.930s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.018s] -- Found PythonExtra: /usr/bin/python3  
+[1.022s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.022s] -- Configured cppcheck include dirs: 
+[1.023s] -- Configured cppcheck exclude dirs and/or files: 
+[1.023s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.023s] -- Configured cpplint exclude dirs and/or files: 
+[1.024s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.024s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.025s] -- Added test 'lint_cmake' to check CMake code style
+[1.025s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.026s] -- Added test 'uncrustify' to check C / C++ code style
+[1.026s] -- Configured uncrustify additional arguments: 
+[1.027s] -- Added test 'xmllint' to check XML markup files
+[1.029s] -- Configuring done (1.0s)
+[1.040s] -- Generating done (0.0s)
+[1.040s] -- Build files have been written to: /home/ubuntu/psd_ws/build/gz_ros2_control_tests
+[1.047s] Invoked command in '/home/ubuntu/psd_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/gz_ros2_control/gz_ros2_control_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/gz_ros2_control_tests
+[1.047s] Invoking command in '/home/ubuntu/psd_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/gz_ros2_control_tests -- -j20 -l20
+[1.078s] [ 50%] [32mBuilding CXX object CMakeFiles/test_position.dir/src/test_position.cpp.o[0m
+[4.400s] [100%] [32m[1mLinking CXX executable test_position[0m
+[4.521s] [100%] Built target test_position
+[4.531s] Invoked command in '/home/ubuntu/psd_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/gz_ros2_control_tests -- -j20 -l20
+[4.548s] Invoking command in '/home/ubuntu/psd_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/gz_ros2_control_tests
+[4.553s] -- Install configuration: ""
+[4.553s] -- Execute custom install script
+[4.553s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position
+[4.559s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf/test_cart_position.xacro.urdf
+[4.565s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config/cart_controller_position.yaml
+[4.570s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+[4.575s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+[4.580s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+[4.585s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+[4.590s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+[4.595s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+[4.601s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+[4.606s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+[4.610s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+[4.615s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+[4.620s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+[4.624s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+[4.629s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+[4.633s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+[4.638s] -- Symlinking: /home/ubuntu/psd_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml
+[4.644s] Invoked command in '/home/ubuntu/psd_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/psd_ws/install/gz_ros2_control:/home/ubuntu/psd_ws/install/ros_components_description:/home/ubuntu/psd_ws/install/psd_vehicle_bringup:/home/ubuntu/psd_ws/install/psd_vehicle_description:/home/ubuntu/psd_ws/install/psd_gazebo_worlds:/home/ubuntu/psd_ws/install/gz_ros2_control_tests:/home/ubuntu/psd_ws/install/custom_teleop_keyboard:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/gz_ros2_control_tests

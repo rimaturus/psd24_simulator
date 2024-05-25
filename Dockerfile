@@ -5,8 +5,6 @@ ARG USERNAME=ubuntu
 # ARG USER_GID=$USER_UID
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y --no-install-recommends
-
 RUN apt-get update && apt-get install -y --no-install-recommends \
     nano \
     bash-completion \

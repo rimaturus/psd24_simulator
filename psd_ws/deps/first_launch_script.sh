@@ -58,10 +58,17 @@ build_cppzmq() {
 
     mkdir build
     cd build
-    cmake ..
+
+    cmake .. -DCPPZMQ_BUILD_TESTS=OFF  # Error on: #include <catch2/catch.hpp>
     sudo make -j4 install
     cd ../..
 }
+
+# replace_catch_include() {
+#     echo -e "${GREEN}Replacing Catch2 include in test files...${NC}"
+#     find /home/ubuntu/psd_ws/deps/cppzmq-4.9.0/tests/ -type f -exec sed -i 's/#include <catch2\/catch.hpp>/#include <catch2\/catch_all.hpp>/g' {} \;
+# }
+
 
 # Function to build cppzmq using vcpkg
 build_cppzmq_vcpkg() {
@@ -79,12 +86,24 @@ build_cppzmq_vcpkg() {
     cd ..
 }
 
+# build_catch2(){
+#     git clone https://github.com/catchorg/Catch2.git
+#     cd Catch2
+#     cmake -Bbuild -H. -DCATCH_BUILD_TESTING=OFF
+#     sudo cmake --build build/ --target install
+#     cd ..
+# }
+
 # Main Script
 update_and_upgrade  # Perform system updates and upgrades
 sudo apt-get install wget -y
 sudo apt-get install curl zip unzip tar -y
+sudo apt install ros-rolling-ros-gz
+
+# build_catch2
 
 build_libzmq
+build_cppzmq
 build_cppzmq_vcpkg
 
 update_rosdep       # Update rosdep and install ROS dependencies
