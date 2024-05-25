@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/psd_gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_gazebo_worlds
+Invoked command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/psd_ws/src/psd_gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/ubuntu/psd_ws/install/psd_gazebo_worlds
+Invoking command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+Invoked command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/psd_gazebo_worlds -- -j20 -l20
+Invoking command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_gazebo_worlds
+Invoked command in '/home/ubuntu/psd_ws/build/psd_gazebo_worlds' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/psd_ws/build/psd_gazebo_worlds

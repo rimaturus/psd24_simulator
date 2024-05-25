@@ -1,0 +1,15 @@
+[01;34mpsd_gazebo_worlds/[0m
+├── CMakeLists.txt
+├── package.xml
+└── [01;34mworld[0m
+    ├── [01;34mmodels[0m
+    │   └── [01;34mcone[0m
+    │       ├── [01;34mmeshes[0m
+    │       │   ├── cone.dae
+    │       │   └── cone.stl
+    │       ├── model.config
+    │       └── model.sdf
+    ├── track.sdf
+    └── track_creator.py
+
+4 directories, 8 files
