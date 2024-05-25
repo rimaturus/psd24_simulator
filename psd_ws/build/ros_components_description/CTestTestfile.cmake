@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/ubuntu/psd_ws/src/ros_components_description
-# Build directory: /home/ubuntu/psd_ws/build/ros_components_description
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(test_components_xacro "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ubuntu/psd_ws/build/ros_components_description/test_results/ros_components_description/test_components_xacro.xunit.xml" "--package-name" "ros_components_description" "--output-file" "/home/ubuntu/psd_ws/build/ros_components_description/ament_cmake_pytest/test_components_xacro.txt" "--append-env" "PYTHONPATH=/home/ubuntu/psd_ws/build/ros_components_description" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/ubuntu/psd_ws/src/ros_components_description/test/test_components_xacro.py" "-o" "cache_dir=/home/ubuntu/psd_ws/build/ros_components_description/ament_cmake_pytest/test_components_xacro/.cache" "--junit-xml=/home/ubuntu/psd_ws/build/ros_components_description/test_results/ros_components_description/test_components_xacro.xunit.xml" "--junit-prefix=ros_components_description")
-set_tests_properties(test_components_xacro PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/home/ubuntu/psd_ws/src/ros_components_description" _BACKTRACE_TRIPLES "/opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/jazzy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake;177;ament_add_test;/home/ubuntu/psd_ws/src/ros_components_description/CMakeLists.txt;18;ament_add_pytest_test;/home/ubuntu/psd_ws/src/ros_components_description/CMakeLists.txt;0;")

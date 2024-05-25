@@ -1,9 +1,0 @@
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/uninstall.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/psd_vehicle_bringup_uninstall.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/test.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/edit_cache.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/list_install_components.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/install.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/install/local.dir
-/home/ubuntu/psd_ws/build/psd_vehicle_bringup/CMakeFiles/install/strip.dir

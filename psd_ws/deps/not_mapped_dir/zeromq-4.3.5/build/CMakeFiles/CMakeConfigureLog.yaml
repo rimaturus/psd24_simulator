@@ -1,0 +1,2221 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.15.153.1-microsoft-standard-WSL2+ - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e385d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e385d.dir/build.make CMakeFiles/cmTC_e385d.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN'
+        Building C object CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e385d.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e385d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgMgvS6.s
+        GNU C17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 35e51c4ef55ea8f6b448d85f0fac5984
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e385d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o /tmp/ccgMgvS6.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e385d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e385d.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o -o cmTC_e385d 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e385d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e385d.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxb3T5Y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e385d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e385d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e385d.'
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e385d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e385d.dir/build.make CMakeFiles/cmTC_e385d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApeoLN']
+        ignore line: [Building C object CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e385d.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e385d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgMgvS6.s]
+        ignore line: [GNU C17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 35e51c4ef55ea8f6b448d85f0fac5984]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e385d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o /tmp/ccgMgvS6.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e385d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e385d.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o -o cmTC_e385d ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e385d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e385d.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxb3T5Y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e385d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccxb3T5Y.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e385d] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_e385d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_968e6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_968e6.dir/build.make CMakeFiles/cmTC_968e6.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH'
+        Building CXX object CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_968e6.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_968e6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRKf6QY.s
+        GNU C++17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4e0f319cd9945d8f5a9eeeeec1481ba5
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_968e6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRKf6QY.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_968e6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_968e6.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_968e6 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_968e6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_968e6.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFuvMjy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_968e6 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_968e6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_968e6.'
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_968e6/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_968e6.dir/build.make CMakeFiles/cmTC_968e6.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-mL5SJH']
+        ignore line: [Building CXX object CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_968e6.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_968e6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRKf6QY.s]
+        ignore line: [GNU C++17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4e0f319cd9945d8f5a9eeeeec1481ba5]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_968e6.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRKf6QY.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_968e6]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_968e6.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_968e6 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_968e6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_968e6.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFuvMjy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_968e6 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccFuvMjy.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_968e6] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_968e6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-iHa5Tv"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-iHa5Tv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-iHa5Tv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4025e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4025e.dir/build.make CMakeFiles/cmTC_4025e.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-iHa5Tv'
+        Building C object CMakeFiles/cmTC_4025e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4025e.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-iHa5Tv/src.c
+        Linking C executable cmTC_4025e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4025e.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_4025e.dir/src.c.o -o cmTC_4025e 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-iHa5Tv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:117 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_CXX11"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YSx73z"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YSx73z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YSx73z'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e55c3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e55c3.dir/build.make CMakeFiles/cmTC_e55c3.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YSx73z'
+        Building CXX object CMakeFiles/cmTC_e55c3.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_CXX11  -std=c++11 -o CMakeFiles/cmTC_e55c3.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YSx73z/src.cxx
+        Linking CXX executable cmTC_e55c3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e55c3.dir/link.txt --verbose=1
+        /usr/bin/c++ -rdynamic CMakeFiles/cmTC_e55c3.dir/src.cxx.o -o cmTC_e55c3 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YSx73z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:123 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_C11"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-JnXJwv"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-JnXJwv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_C11"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-JnXJwv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b7e9d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b7e9d.dir/build.make CMakeFiles/cmTC_b7e9d.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-JnXJwv'
+        Building C object CMakeFiles/cmTC_b7e9d.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_C11  -std=c11 -o CMakeFiles/cmTC_b7e9d.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-JnXJwv/src.c
+        Linking C executable cmTC_b7e9d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7e9d.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b7e9d.dir/src.c.o -o cmTC_b7e9d 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-JnXJwv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:132 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test CXX_HAS_TAUT_WARNING"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-2CoFkn"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-2CoFkn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "CXX_HAS_TAUT_WARNING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-2CoFkn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ec34a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ec34a.dir/build.make CMakeFiles/cmTC_ec34a.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-2CoFkn'
+        Building CXX object CMakeFiles/cmTC_ec34a.dir/src.cxx.o
+        /usr/bin/c++ -DCXX_HAS_TAUT_WARNING  -std=c++11    -Wno-tautological-constant-compare -o CMakeFiles/cmTC_ec34a.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-2CoFkn/src.cxx
+        Linking CXX executable cmTC_ec34a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec34a.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11  -rdynamic CMakeFiles/cmTC_ec34a.dir/src.cxx.o -o cmTC_ec34a 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-2CoFkn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:136 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_HAS_TAUT_WARNING"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-4aJCRl"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-4aJCRl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "CC_HAS_TAUT_WARNING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-4aJCRl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_688a2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_688a2.dir/build.make CMakeFiles/cmTC_688a2.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-4aJCRl'
+        Building C object CMakeFiles/cmTC_688a2.dir/src.c.o
+        /usr/bin/cc -DCC_HAS_TAUT_WARNING  -std=c11    -Wno-tautological-constant-compare -o CMakeFiles/cmTC_688a2.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-4aJCRl/src.c
+        Linking C executable cmTC_688a2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_688a2.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11  -rdynamic CMakeFiles/cmTC_688a2.dir/src.c.o -o cmTC_688a2 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-4aJCRl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:255 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strlcpy"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WGYo4F"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WGYo4F"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WGYo4F'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d23fd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d23fd.dir/build.make CMakeFiles/cmTC_d23fd.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WGYo4F'
+        Building CXX object CMakeFiles/cmTC_d23fd.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d23fd.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WGYo4F/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d23fd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d23fd.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d23fd.dir/CheckSymbolExists.cxx.o -o cmTC_d23fd 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WGYo4F'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:383 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for kqueue"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_KQUEUE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2eb04/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2eb04.dir/build.make CMakeFiles/cmTC_2eb04.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H'
+        Building CXX object CMakeFiles/cmTC_2eb04.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_2eb04.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H/CheckSymbolExists.cxx
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H/CheckSymbolExists.cxx:2:10: fatal error: sys/event.h: No such file or directory
+            2 | #include <sys/event.h>
+              |          ^~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_2eb04.dir/build.make:78: CMakeFiles/cmTC_2eb04.dir/CheckSymbolExists.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-EzT74H'
+        gmake: *** [Makefile:127: cmTC_2eb04/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:390 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for epoll_create"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lSa65y"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lSa65y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_EPOLL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lSa65y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dbd14/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dbd14.dir/build.make CMakeFiles/cmTC_dbd14.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lSa65y'
+        Building CXX object CMakeFiles/cmTC_dbd14.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_dbd14.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lSa65y/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_dbd14
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbd14.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_dbd14.dir/CheckSymbolExists.cxx.o -o cmTC_dbd14 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lSa65y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:393 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for epoll_create1"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jQ25uL"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jQ25uL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_EPOLL_CLOEXEC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jQ25uL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eca80/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_eca80.dir/build.make CMakeFiles/cmTC_eca80.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jQ25uL'
+        Building CXX object CMakeFiles/cmTC_eca80.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_eca80.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jQ25uL/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_eca80
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eca80.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_eca80.dir/CheckSymbolExists.cxx.o -o cmTC_eca80 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jQ25uL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:466 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for pselect"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-7CDcEh"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-7CDcEh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_PSELECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-7CDcEh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3d49/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d3d49.dir/build.make CMakeFiles/cmTC_d3d49.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-7CDcEh'
+        Building CXX object CMakeFiles/cmTC_d3d49.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d3d49.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-7CDcEh/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d3d49
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3d49.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d3d49.dir/CheckSymbolExists.cxx.o -o cmTC_d3d49 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-7CDcEh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:485 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lydTtW"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lydTtW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lydTtW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5aca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d5aca.dir/build.make CMakeFiles/cmTC_d5aca.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lydTtW'
+        Building CXX object CMakeFiles/cmTC_d5aca.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d5aca.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lydTtW/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d5aca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5aca.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d5aca.dir/CheckSymbolExists.cxx.o -o cmTC_d5aca 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-lydTtW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:489 (check_include_files)"
+    checks:
+      - "Looking for include file windows.h"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_WINDOWS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2ba05/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2ba05.dir/build.make CMakeFiles/cmTC_2ba05.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf'
+        Building C object CMakeFiles/cmTC_2ba05.dir/ZMQ_HAVE_WINDOWS.c.o
+        /usr/bin/cc   -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_2ba05.dir/ZMQ_HAVE_WINDOWS.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf/ZMQ_HAVE_WINDOWS.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf/ZMQ_HAVE_WINDOWS.c:2:10: fatal error: windows.h: No such file or directory
+            2 | #include <windows.h>
+              |          ^~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_2ba05.dir/build.make:78: CMakeFiles/cmTC_2ba05.dir/ZMQ_HAVE_WINDOWS.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-xYwuPf'
+        gmake: *** [Makefile:127: cmTC_2ba05/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:505 (check_include_files)"
+    checks:
+      - "Looking for include file condition_variable"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-HDOTDs"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-HDOTDs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_STL_CONDITION_VARIABLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-HDOTDs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bdeb5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bdeb5.dir/build.make CMakeFiles/cmTC_bdeb5.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-HDOTDs'
+        Building CXX object CMakeFiles/cmTC_bdeb5.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_bdeb5.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-HDOTDs/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp
+        Linking CXX executable cmTC_bdeb5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdeb5.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_bdeb5.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o -o cmTC_bdeb5 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-HDOTDs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:542 (check_include_files)"
+    checks:
+      - "Looking for include file ifaddrs.h"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vzw0qR"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vzw0qR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_IFADDRS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vzw0qR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c5a6a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c5a6a.dir/build.make CMakeFiles/cmTC_c5a6a.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vzw0qR'
+        Building C object CMakeFiles/cmTC_c5a6a.dir/ZMQ_HAVE_IFADDRS.c.o
+        /usr/bin/cc   -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_c5a6a.dir/ZMQ_HAVE_IFADDRS.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vzw0qR/ZMQ_HAVE_IFADDRS.c
+        Linking C executable cmTC_c5a6a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5a6a.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_c5a6a.dir/ZMQ_HAVE_IFADDRS.c.o -o cmTC_c5a6a 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vzw0qR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:543 (check_include_files)"
+    checks:
+      - "Looking for include file sys/uio.h"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WUOyev"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WUOyev"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_UIO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WUOyev'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9363b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9363b.dir/build.make CMakeFiles/cmTC_9363b.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WUOyev'
+        Building C object CMakeFiles/cmTC_9363b.dir/ZMQ_HAVE_UIO.c.o
+        /usr/bin/cc   -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_9363b.dir/ZMQ_HAVE_UIO.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WUOyev/ZMQ_HAVE_UIO.c
+        Linking C executable cmTC_9363b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9363b.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_9363b.dir/ZMQ_HAVE_UIO.c.o -o cmTC_9363b 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-WUOyev'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:544 (check_include_files)"
+    checks:
+      - "Looking for include file sys/eventfd.h"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ZA6cEm"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ZA6cEm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_EVENTFD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ZA6cEm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_26c56/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_26c56.dir/build.make CMakeFiles/cmTC_26c56.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ZA6cEm'
+        Building C object CMakeFiles/cmTC_26c56.dir/ZMQ_HAVE_EVENTFD.c.o
+        /usr/bin/cc   -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_26c56.dir/ZMQ_HAVE_EVENTFD.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ZA6cEm/ZMQ_HAVE_EVENTFD.c
+        Linking C executable cmTC_26c56
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26c56.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_26c56.dir/ZMQ_HAVE_EVENTFD.c.o -o cmTC_26c56 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ZA6cEm'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:21 (check_c_source_runs)"
+      - "CMakeLists.txt:546 (zmq_check_efd_cloexec)"
+    checks:
+      - "Performing Test ZMQ_HAVE_EVENTFD_CLOEXEC"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-aTqmyF"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-aTqmyF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_EVENTFD_CLOEXEC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-aTqmyF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f8975/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f8975.dir/build.make CMakeFiles/cmTC_f8975.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-aTqmyF'
+        Building C object CMakeFiles/cmTC_f8975.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_EVENTFD_CLOEXEC  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_f8975.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-aTqmyF/src.c
+        Linking C executable cmTC_f8975
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8975.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_f8975.dir/src.c.o -o cmTC_f8975 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-aTqmyF'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_EVENTFD_CLOEXEC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:566 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for if_nametoindex"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-cWhiZi"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-cWhiZi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_IF_NAMETOINDEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-cWhiZi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d784b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d784b.dir/build.make CMakeFiles/cmTC_d784b.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-cWhiZi'
+        Building CXX object CMakeFiles/cmTC_d784b.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d784b.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-cWhiZi/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d784b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d784b.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d784b.dir/CheckSymbolExists.cxx.o -o cmTC_d784b 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-cWhiZi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:567 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for SO_PEERCRED"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RMCUD5"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RMCUD5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_PEERCRED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RMCUD5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5f24/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5f24.dir/build.make CMakeFiles/cmTC_a5f24.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RMCUD5'
+        Building CXX object CMakeFiles/cmTC_a5f24.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_a5f24.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RMCUD5/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_a5f24
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5f24.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_a5f24.dir/CheckSymbolExists.cxx.o -o cmTC_a5f24 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RMCUD5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:568 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for LOCAL_PEERCRED"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_LOCAL_PEERCRED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d621c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d621c.dir/build.make CMakeFiles/cmTC_d621c.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB'
+        Building CXX object CMakeFiles/cmTC_d621c.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d621c.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB/CheckSymbolExists.cxx
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB/CheckSymbolExists.cxx:8:19: error: ‘LOCAL_PEERCRED’ was not declared in this scope; did you mean ‘SO_PEERCRED’?
+            8 |   return ((int*)(&LOCAL_PEERCRED))[argc];
+              |                   ^~~~~~~~~~~~~~
+              |                   SO_PEERCRED
+        At global scope:
+        cc1plus: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_d621c.dir/build.make:78: CMakeFiles/cmTC_d621c.dir/CheckSymbolExists.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-8S3bLB'
+        gmake: *** [Makefile:127: cmTC_d621c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:569 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for SO_BUSY_POLL"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YBTxuF"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YBTxuF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_BUSY_POLL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YBTxuF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8abdb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8abdb.dir/build.make CMakeFiles/cmTC_8abdb.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YBTxuF'
+        Building CXX object CMakeFiles/cmTC_8abdb.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_8abdb.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YBTxuF/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_8abdb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8abdb.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_8abdb.dir/CheckSymbolExists.cxx.o -o cmTC_8abdb 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-YBTxuF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:597 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ebNRLB"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ebNRLB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ebNRLB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0dd7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a0dd7.dir/build.make CMakeFiles/cmTC_a0dd7.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ebNRLB'
+        Building CXX object CMakeFiles/cmTC_a0dd7.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_a0dd7.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ebNRLB/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_a0dd7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0dd7.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_a0dd7.dir/CheckSymbolExists.cxx.o -o cmTC_a0dd7  -lrt 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ebNRLB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:600 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for fork"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-36WLOD"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-36WLOD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FORK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-36WLOD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16dfc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_16dfc.dir/build.make CMakeFiles/cmTC_16dfc.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-36WLOD'
+        Building CXX object CMakeFiles/cmTC_16dfc.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_16dfc.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-36WLOD/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_16dfc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16dfc.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_16dfc.dir/CheckSymbolExists.cxx.o -o cmTC_16dfc 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-36WLOD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:601 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for gethrtime"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_GETHRTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_59cfc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_59cfc.dir/build.make CMakeFiles/cmTC_59cfc.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv'
+        Building CXX object CMakeFiles/cmTC_59cfc.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_59cfc.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv/CheckSymbolExists.cxx
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv/CheckSymbolExists.cxx:8:19: error: ‘gethrtime’ was not declared in this scope; did you mean ‘getitimer’?
+            8 |   return ((int*)(&gethrtime))[argc];
+              |                   ^~~~~~~~~
+              |                   getitimer
+        At global scope:
+        cc1plus: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_59cfc.dir/build.make:78: CMakeFiles/cmTC_59cfc.dir/CheckSymbolExists.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B5Q9kv'
+        gmake: *** [Makefile:127: cmTC_59cfc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:602 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for mkdtemp"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-kUqatB"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-kUqatB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_MKDTEMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-kUqatB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56106/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_56106.dir/build.make CMakeFiles/cmTC_56106.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-kUqatB'
+        Building CXX object CMakeFiles/cmTC_56106.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_56106.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-kUqatB/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_56106
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56106.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_56106.dir/CheckSymbolExists.cxx.o -o cmTC_56106 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-kUqatB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:603 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for accept4"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-hs9iV5"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-hs9iV5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_ACCEPT4"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-hs9iV5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d6fcc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d6fcc.dir/build.make CMakeFiles/cmTC_d6fcc.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-hs9iV5'
+        Building CXX object CMakeFiles/cmTC_d6fcc.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d6fcc.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-hs9iV5/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d6fcc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6fcc.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d6fcc.dir/CheckSymbolExists.cxx.o -o cmTC_d6fcc 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-hs9iV5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:604 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strnlen"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KB8c0Y"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KB8c0Y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_STRNLEN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KB8c0Y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0869a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0869a.dir/build.make CMakeFiles/cmTC_0869a.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KB8c0Y'
+        Building CXX object CMakeFiles/cmTC_0869a.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0869a.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KB8c0Y/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_0869a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0869a.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0869a.dir/CheckSymbolExists.cxx.o -o cmTC_0869a 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KB8c0Y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:615 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:659 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wall"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-UnKGQ7"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-UnKGQ7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-UnKGQ7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3ef6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a3ef6.dir/build.make CMakeFiles/cmTC_a3ef6.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-UnKGQ7'
+        Building CXX object CMakeFiles/cmTC_a3ef6.dir/src.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wall -Wall -o CMakeFiles/cmTC_a3ef6.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-UnKGQ7/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_a3ef6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3ef6.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_a3ef6.dir/src.cxx.o -o cmTC_a3ef6 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-UnKGQ7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:615 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:663 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wextra"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CdZWpB"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CdZWpB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CdZWpB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ec0ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ec0ca.dir/build.make CMakeFiles/cmTC_ec0ca.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CdZWpB'
+        Building CXX object CMakeFiles/cmTC_ec0ca.dir/src.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wextra -Wextra -o CMakeFiles/cmTC_ec0ca.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CdZWpB/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_ec0ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec0ca.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_ec0ca.dir/src.cxx.o -o cmTC_ec0ca 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CdZWpB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:615 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:671 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wno-long-long"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jnOJP9"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jnOJP9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wno-long-long"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jnOJP9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5e0c4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5e0c4.dir/build.make CMakeFiles/cmTC_5e0c4.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jnOJP9'
+        Building CXX object CMakeFiles/cmTC_5e0c4.dir/src.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wno-long-long -Wno-long-long -o CMakeFiles/cmTC_5e0c4.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jnOJP9/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_5e0c4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e0c4.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_5e0c4.dir/src.cxx.o -o cmTC_5e0c4 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-jnOJP9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:615 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:672 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wno-uninitialized"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-sQ015e"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-sQ015e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wno-uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-sQ015e'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d69c2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d69c2.dir/build.make CMakeFiles/cmTC_d69c2.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-sQ015e'
+        Building CXX object CMakeFiles/cmTC_d69c2.dir/src.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wno-uninitialized -Wno-uninitialized -o CMakeFiles/cmTC_d69c2.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-sQ015e/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_d69c2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d69c2.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d69c2.dir/src.cxx.o -o cmTC_d69c2 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-sQ015e'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:615 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:675 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-pedantic"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PDKjkn"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PDKjkn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PDKjkn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_438fe/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_438fe.dir/build.make CMakeFiles/cmTC_438fe.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PDKjkn'
+        Building CXX object CMakeFiles/cmTC_438fe.dir/src.cxx.o
+        /usr/bin/c++   -std=c++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-pedantic -pedantic -o CMakeFiles/cmTC_438fe.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PDKjkn/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_438fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_438fe.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_438fe.dir/src.cxx.o -o cmTC_438fe 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PDKjkn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:300 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:729 (zmq_check_noexcept)"
+    checks:
+      - "Performing Test ZMQ_HAVE_NOEXCEPT"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wLEMKP"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wLEMKP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_NOEXCEPT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wLEMKP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e2e3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3e2e3.dir/build.make CMakeFiles/cmTC_3e2e3.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wLEMKP'
+        Building CXX object CMakeFiles/cmTC_3e2e3.dir/src.cxx.o
+        /usr/bin/c++ -DZMQ_HAVE_NOEXCEPT  -std=c++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_3e2e3.dir/src.cxx.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wLEMKP/src.cxx
+        Linking CXX executable cmTC_3e2e3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e2e3.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_3e2e3.dir/src.cxx.o -o cmTC_3e2e3 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wLEMKP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:215 (check_c_source_compiles)"
+      - "CMakeLists.txt:735 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SETNAME_1"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_1"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3c7ac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3c7ac.dir/build.make CMakeFiles/cmTC_3c7ac.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb'
+        Building C object CMakeFiles/cmTC_3c7ac.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_1  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_3c7ac.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb/src.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb/src.c: In function ‘main’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb/src.c:6:25: error: passing argument 1 of ‘pthread_setname_np’ makes integer from pointer without a cast [-Werror=int-conversion]
+            6 |     pthread_setname_np ("foo");
+              |                         ^~~~~
+              |                         |
+              |                         char *
+        In file included from /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb/src.c:2:
+        /usr/include/pthread.h:463:42: note: expected ‘pthread_t’ {aka ‘long unsigned int’} but argument is of type ‘char *’
+          463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+              |                                ~~~~~~~~~~^~~~~~~~~~~~~~~
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb/src.c:6:5: error: too few arguments to function ‘pthread_setname_np’
+            6 |     pthread_setname_np ("foo");
+              |     ^~~~~~~~~~~~~~~~~~
+        /usr/include/pthread.h:463:12: note: declared here
+          463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+              |            ^~~~~~~~~~~~~~~~~~
+        At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        cc1: all warnings being treated as errors
+        gmake[1]: *** [CMakeFiles/cmTC_3c7ac.dir/build.make:78: CMakeFiles/cmTC_3c7ac.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-v2paUb'
+        gmake: *** [Makefile:127: cmTC_3c7ac/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:226 (check_c_source_compiles)"
+      - "CMakeLists.txt:735 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SETNAME_2"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-U9Lq4f"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-U9Lq4f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-U9Lq4f'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91338/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_91338.dir/build.make CMakeFiles/cmTC_91338.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-U9Lq4f'
+        Building C object CMakeFiles/cmTC_91338.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_2  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_91338.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-U9Lq4f/src.c
+        Linking C executable cmTC_91338
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91338.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -rdynamic CMakeFiles/cmTC_91338.dir/src.c.o -o cmTC_91338 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-U9Lq4f'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:237 (check_c_source_compiles)"
+      - "CMakeLists.txt:735 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SETNAME_3"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_3"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ec121/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ec121.dir/build.make CMakeFiles/cmTC_ec121.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g'
+        Building C object CMakeFiles/cmTC_ec121.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_3  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_ec121.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g/src.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g/src.c: In function ‘main’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g/src.c:6:5: error: too many arguments to function ‘pthread_setname_np’
+            6 |     pthread_setname_np (pthread_self(), "foo", (void *)0);
+              |     ^~~~~~~~~~~~~~~~~~
+        In file included from /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g/src.c:2:
+        /usr/include/pthread.h:463:12: note: declared here
+          463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+              |            ^~~~~~~~~~~~~~~~~~
+        At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_ec121.dir/build.make:78: CMakeFiles/cmTC_ec121.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-gVdC2g'
+        gmake: *** [Makefile:127: cmTC_ec121/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:248 (check_c_source_compiles)"
+      - "CMakeLists.txt:735 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SET_NAME"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SET_NAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_48588/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_48588.dir/build.make CMakeFiles/cmTC_48588.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO'
+        Building C object CMakeFiles/cmTC_48588.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SET_NAME  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_48588.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO/src.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO/src.c: In function ‘main’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO/src.c:6:5: error: implicit declaration of function ‘pthread_set_name_np’; did you mean ‘pthread_setname_np’? [-Werror=implicit-function-declaration]
+            6 |     pthread_set_name_np (pthread_self(), "foo");
+              |     ^~~~~~~~~~~~~~~~~~~
+              |     pthread_setname_np
+        At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        cc1: all warnings being treated as errors
+        gmake[1]: *** [CMakeFiles/cmTC_48588.dir/build.make:78: CMakeFiles/cmTC_48588.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-p760UO'
+        gmake: *** [Makefile:127: cmTC_48588/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:266 (check_c_source_compiles)"
+      - "CMakeLists.txt:736 (zmq_check_pthread_setaffinity)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SET_AFFINITY"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TuFDIl"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TuFDIl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SET_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TuFDIl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_58a24/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_58a24.dir/build.make CMakeFiles/cmTC_58a24.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TuFDIl'
+        Building C object CMakeFiles/cmTC_58a24.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SET_AFFINITY  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_58a24.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TuFDIl/src.c
+        Linking C executable cmTC_58a24
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58a24.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -rdynamic CMakeFiles/cmTC_58a24.dir/src.c.o -o cmTC_58a24 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TuFDIl'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:5 (check_c_source_runs)"
+      - "CMakeLists.txt:739 (zmq_check_sock_cloexec)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SOCK_CLOEXEC"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-QxuAC2"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-QxuAC2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SOCK_CLOEXEC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-QxuAC2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d014c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d014c.dir/build.make CMakeFiles/cmTC_d014c.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-QxuAC2'
+        Building C object CMakeFiles/cmTC_d014c.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SOCK_CLOEXEC  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d014c.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-QxuAC2/src.c
+        Linking C executable cmTC_d014c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d014c.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d014c.dir/src.c.o -o cmTC_d014c 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-QxuAC2'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SOCK_CLOEXEC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:36 (check_c_source_runs)"
+      - "CMakeLists.txt:740 (zmq_check_o_cloexec)"
+    checks:
+      - "Performing Test ZMQ_HAVE_O_CLOEXEC"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_O_CLOEXEC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9174a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9174a.dir/build.make CMakeFiles/cmTC_9174a.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK'
+        Building C object CMakeFiles/cmTC_9174a.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_O_CLOEXEC  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_9174a.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK/src.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK/src.c: In function ‘main’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK/src.c:8:32: error: ‘O_CLOEXEC’ undeclared (first use in this function); did you mean ‘FD_CLOEXEC’?
+            8 |     int s = open ("/dev/null", O_CLOEXEC | O_RDONLY);
+              |                                ^~~~~~~~~
+              |                                FD_CLOEXEC
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK/src.c:8:32: note: each undeclared identifier is reported only once for each function it appears in
+        At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_9174a.dir/build.make:78: CMakeFiles/cmTC_9174a.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-5aLYxK'
+        gmake: *** [Makefile:127: cmTC_9174a/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_O_CLOEXEC_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:53 (check_c_source_runs)"
+      - "CMakeLists.txt:741 (zmq_check_so_bindtodevice)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SO_BINDTODEVICE"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-O8NZnj"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-O8NZnj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_BINDTODEVICE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-O8NZnj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf06f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf06f.dir/build.make CMakeFiles/cmTC_bf06f.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-O8NZnj'
+        Building C object CMakeFiles/cmTC_bf06f.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SO_BINDTODEVICE  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_bf06f.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-O8NZnj/src.c
+        Linking C executable cmTC_bf06f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf06f.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_bf06f.dir/src.c.o -o cmTC_bf06f 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-O8NZnj'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SO_BINDTODEVICE_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:74 (check_c_source_runs)"
+      - "CMakeLists.txt:742 (zmq_check_so_keepalive)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SO_KEEPALIVE"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ka1mN9"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ka1mN9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_KEEPALIVE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ka1mN9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b7608/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b7608.dir/build.make CMakeFiles/cmTC_b7608.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ka1mN9'
+        Building C object CMakeFiles/cmTC_b7608.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SO_KEEPALIVE  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_b7608.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ka1mN9/src.c
+        Linking C executable cmTC_b7608
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7608.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_b7608.dir/src.c.o -o cmTC_b7608 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ka1mN9'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SO_KEEPALIVE_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:318 (check_c_source_runs)"
+      - "CMakeLists.txt:743 (zmq_check_so_priority)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SO_PRIORITY"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_PRIORITY_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_54955/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_54955.dir/build.make CMakeFiles/cmTC_54955.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni'
+        Building C object CMakeFiles/cmTC_54955.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SO_PRIORITY  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_54955.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni/src.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni/src.c: In function ‘main’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni/src.c:10:43: error: ‘SO_PRIORITY’ undeclared (first use in this function)
+           10 |         ((rc = setsockopt (s, SOL_SOCKET, SO_PRIORITY, (char*) &opt, sizeof (int))) == -1)
+              |                                           ^~~~~~~~~~~
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni/src.c:10:43: note: each undeclared identifier is reported only once for each function it appears in
+        At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_54955.dir/build.make:78: CMakeFiles/cmTC_54955.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Yr55Ni'
+        gmake: *** [Makefile:127: cmTC_54955/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_SO_PRIORITY_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:93 (check_c_source_runs)"
+      - "CMakeLists.txt:744 (zmq_check_tcp_keepcnt)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPCNT"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CZtQvt"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CZtQvt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPCNT_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CZtQvt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f9453/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f9453.dir/build.make CMakeFiles/cmTC_f9453.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CZtQvt'
+        Building C object CMakeFiles/cmTC_f9453.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPCNT  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_f9453.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CZtQvt/src.c
+        Linking C executable cmTC_f9453
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9453.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_f9453.dir/src.c.o -o cmTC_f9453 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-CZtQvt'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPCNT_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:115 (check_c_source_runs)"
+      - "CMakeLists.txt:745 (zmq_check_tcp_keepidle)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPIDLE"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B78hAs"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B78hAs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPIDLE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B78hAs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_53eb9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_53eb9.dir/build.make CMakeFiles/cmTC_53eb9.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B78hAs'
+        Building C object CMakeFiles/cmTC_53eb9.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPIDLE  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_53eb9.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B78hAs/src.c
+        Linking C executable cmTC_53eb9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53eb9.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_53eb9.dir/src.c.o -o cmTC_53eb9 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-B78hAs'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPIDLE_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:138 (check_c_source_runs)"
+      - "CMakeLists.txt:746 (zmq_check_tcp_keepintvl)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPINTVL"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-AFm83T"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-AFm83T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPINTVL_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-AFm83T'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6cfe/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e6cfe.dir/build.make CMakeFiles/cmTC_e6cfe.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-AFm83T'
+        Building C object CMakeFiles/cmTC_e6cfe.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPINTVL  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_e6cfe.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-AFm83T/src.c
+        Linking C executable cmTC_e6cfe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6cfe.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_e6cfe.dir/src.c.o -o cmTC_e6cfe 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-AFm83T'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPINTVL_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:162 (check_c_source_runs)"
+      - "CMakeLists.txt:747 (zmq_check_tcp_keepalive)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPALIVE"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPALIVE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09aa4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_09aa4.dir/build.make CMakeFiles/cmTC_09aa4.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I'
+        Building C object CMakeFiles/cmTC_09aa4.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPALIVE  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_09aa4.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I/src.c
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I/src.c: In function ‘main’:
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I/src.c:13:42: error: ‘TCP_KEEPALIVE’ undeclared (first use in this function); did you mean ‘SO_KEEPALIVE’?
+           13 |        ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+              |                                          ^~~~~~~~~~~~~
+              |                                          SO_KEEPALIVE
+        /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I/src.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+        At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_09aa4.dir/build.make:78: CMakeFiles/cmTC_09aa4.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pOCY5I'
+        gmake: *** [Makefile:127: cmTC_09aa4/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPALIVE_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:185 (check_c_source_runs)"
+      - "CMakeLists.txt:748 (zmq_check_tcp_tipc)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TIPC"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RhlBtv"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RhlBtv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TIPC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RhlBtv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6865/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b6865.dir/build.make CMakeFiles/cmTC_b6865.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RhlBtv'
+        Building C object CMakeFiles/cmTC_b6865.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TIPC  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_b6865.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RhlBtv/src.c
+        Linking C executable cmTC_b6865
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6865.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_b6865.dir/src.c.o -o cmTC_b6865 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RhlBtv'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TIPC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:284 (check_c_source_runs)"
+      - "CMakeLists.txt:749 (zmq_check_getrandom)"
+    checks:
+      - "Performing Test ZMQ_HAVE_GETRANDOM"
+    directories:
+      source: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApMvb9"
+      binary: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApMvb9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5;/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_GETRANDOM_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApMvb9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a02c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4a02c.dir/build.make CMakeFiles/cmTC_4a02c.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApMvb9'
+        Building C object CMakeFiles/cmTC_4a02c.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_GETRANDOM  -std=c11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_4a02c.dir/src.c.o -c /home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApMvb9/src.c
+        Linking C executable cmTC_4a02c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a02c.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_4a02c.dir/src.c.o -o cmTC_4a02c 
+        gmake[1]: Leaving directory '/home/ubuntu/psd_ws/deps/not_mapped_dir/zeromq-4.3.5/build/CMakeFiles/CMakeScratch/TryCompile-ApMvb9'
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_GETRANDOM_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+...

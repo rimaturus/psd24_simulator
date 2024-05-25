@@ -1,1 +1,0 @@
-/home/ubuntu/psd_ws/build/gz_ros2_control/ament_cmake_core/gz_ros2_controlConfig-version.cmake

@@ -92,8 +92,20 @@ remove_kortex_dependency_from_ros_components() {
     sed -i '/<depend>kortex_description<\/depend>/d' /home/ubuntu/psd_ws/src/ros_components_description/package.xml
 }
 
-# Temporary folder just for starting
-cd /home/ubuntu/psd_ws/deps/not_mapped_dir
+# Set directory path
+directory="/home/ubuntu/psd_ws/deps/not_mapped_dir"
+
+# Check if directory exists
+if [ ! -d "$directory" ]; then
+  # If directory doesn't exist, create it (with parent directories if needed)
+  echo "Creating directory: $directory" 
+  mkdir -p "$directory"
+else
+  # If directory exists, do nothing or print a message
+  echo "Directory already exists: $directory" 
+fi
+
+cd $directory
 touch .gitignore
 
 # Main Script
@@ -105,5 +117,13 @@ build_cppzmq_vcpkg
 
 remove_kortex_dependency_from_ros_components # Temporary fix due to an error in the library
 update_rosdep       # Update rosdep and install ROS dependencies
+
+cd /home/ubuntu/psd_ws
+
+echo -e "${GREEN}Building ROS packages...${NC}"
+colcon build --symlink-install
+source install/setup.bash
+
+git rm --cached psd_ws/deps/not_mapped_dir/vcpkg -f
 
 echo -e "${GREEN}Build process completed.${NC}"
