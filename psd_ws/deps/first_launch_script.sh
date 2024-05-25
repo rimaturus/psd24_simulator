@@ -106,7 +106,6 @@ else
 fi
 
 cd $directory
-touch .gitignore
 
 # Main Script
 update_and_upgrade  # Perform system updates and upgrades
