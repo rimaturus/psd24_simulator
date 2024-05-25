@@ -1,6 +1,6 @@
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae
-/home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os1_32.dae
+/home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os01.dae
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_a2m8.dae
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_ax.dae
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s1.dae
@@ -17,7 +17,7 @@
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/kinova.urdf.xacro
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro
-/home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ouster_os1_32.urdf.xacro
+/home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/ouster.urdf.xacro
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/robotiq.urdf.xacro
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a2.urdf.xacro
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a3.urdf.xacro
@@ -34,12 +34,14 @@
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_ouster_os.launch.py
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_robotiq.launch.py
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_slamtec_rplidar.launch.py
+/home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_stereolabs_zed.launch.py
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_ur.launch.py
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/launch/gz_velodyne.launch.py
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_kinova_remappings.yaml
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_orbbec_astra_remappings.yaml
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_ouster_os_remappings.yaml
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_slamtec_rplidar_remappings.yaml
+/home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_stereolabs_zed_remappings.yaml
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/gz_velodyne_remappings.yaml
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/kinova_6dof_controllers.yaml
 /home/ubuntu/psd_ws/install/ros_components_description/share/ros_components_description/config/kinova_7dof_controllers.yaml

@@ -1,1 +1,0 @@
-Invoking command in '/home/ubuntu/psd_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/gz_ros2_control -- -j20 -l20

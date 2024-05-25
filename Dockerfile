@@ -37,6 +37,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     evtest \
     jstest-gtk \
     python3-serial \
+    wget \
+    curl \
+    zip \ 
+    unzip \ 
+    tar \
+    ros-jazzy-ros-gz \
     && rm -rf /var/lib/apt/lists/*
 
 RUN usermod -aG dialout ${USERNAME}

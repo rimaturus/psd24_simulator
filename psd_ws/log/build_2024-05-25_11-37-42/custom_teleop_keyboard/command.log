@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/psd_ws/build/custom_teleop_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/custom_teleop_keyboard -- -j20 -l20
-Invoked command in '/home/ubuntu/psd_ws/build/custom_teleop_keyboard' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/psd_ws/build/custom_teleop_keyboard -- -j20 -l20

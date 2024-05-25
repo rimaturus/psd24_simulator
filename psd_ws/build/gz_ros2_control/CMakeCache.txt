@@ -521,7 +521,7 @@ ament_cpplint_BIN:FILEPATH=/opt/ros/jazzy/bin/ament_cpplint
 ament_index_cpp_DIR:PATH=/opt/ros/jazzy/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for ament_lint_auto.
-ament_lint_auto_DIR:PATH=ament_lint_auto_DIR-NOTFOUND
+ament_lint_auto_DIR:PATH=/opt/ros/jazzy/share/ament_lint_auto/cmake
 
 //Path to a program.
 ament_lint_cmake_BIN:FILEPATH=/opt/ros/jazzy/bin/ament_lint_cmake
@@ -1711,7 +1711,7 @@ _Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 //Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=2
 __pkg_config_arguments_AVCODEC:INTERNAL=libavcodec
 __pkg_config_arguments_AVDEVICE:INTERNAL=libavdevice >= 56.4.100
 __pkg_config_arguments_AVFORMAT:INTERNAL=libavformat

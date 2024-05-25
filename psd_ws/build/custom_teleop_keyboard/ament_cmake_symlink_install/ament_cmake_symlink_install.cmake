@@ -312,3 +312,45 @@ message(STATUS "Execute custom install script")
 
 # install("TARGETS" "custom_teleop_keyboard" "DESTINATION" "lib/custom_teleop_keyboard")
 include("/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_teleop_keyboard" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_teleop_keyboard" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/custom_teleop_keyboard" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/custom_teleop_keyboard" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/custom_teleop_keyboard/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/custom_teleop_keyboard/environment")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/custom_teleop_keyboard/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/custom_teleop_keyboard/environment")
+
+# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/custom_teleop_keyboard/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/custom_teleop_keyboard/environment")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/custom_teleop_keyboard/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/custom_teleop_keyboard/environment")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/custom_teleop_keyboard")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/custom_teleop_keyboard")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/custom_teleop_keyboard")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/custom_teleop_keyboard")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/custom_teleop_keyboard")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/custom_teleop_keyboard")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/custom_teleop_keyboard")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/custom_teleop_keyboard")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/custom_teleop_keyboard")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/custom_teleop_keyboard")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_index/share/ament_index/resource_index/packages/custom_teleop_keyboard" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_index/share/ament_index/resource_index/packages/custom_teleop_keyboard" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_core/custom_teleop_keyboardConfig.cmake" "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_core/custom_teleop_keyboardConfig-version.cmake" "DESTINATION" "share/custom_teleop_keyboard/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_core/custom_teleop_keyboardConfig.cmake" "/home/ubuntu/psd_ws/build/custom_teleop_keyboard/ament_cmake_core/custom_teleop_keyboardConfig-version.cmake" "DESTINATION" "share/custom_teleop_keyboard/cmake")
+
+# install(FILES "/home/ubuntu/psd_ws/src/custom_teleop_keyboard/package.xml" "DESTINATION" "share/custom_teleop_keyboard")
+ament_cmake_symlink_install_files("/home/ubuntu/psd_ws/src/custom_teleop_keyboard" FILES "/home/ubuntu/psd_ws/src/custom_teleop_keyboard/package.xml" "DESTINATION" "share/custom_teleop_keyboard")
