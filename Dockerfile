@@ -1,4 +1,4 @@
-FROM osrf/ros:jazzy-desktop
+FROM osrf/ros:jazzy-desktop-full
 
 ARG USERNAME=ubuntu
 # ARG USER_UID=1001
