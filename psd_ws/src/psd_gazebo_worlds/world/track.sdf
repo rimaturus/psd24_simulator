@@ -87,6 +87,13 @@
           <property key="state" type="string">floating</property>
           <property key="showTitleBar" type="bool">false</property>
         </ignition-gui>
+        <target>psd_vehicle</target> 
+          <offset>
+            <x>0.0</x> 
+            <y>0.0</y> 
+            <z>0.5</z>  
+          </offset>
+        <inherit_yaw>true</inherit_yaw>
       </plugin>
       <!-- World control -->
       <plugin filename="WorldControl" name="World control">

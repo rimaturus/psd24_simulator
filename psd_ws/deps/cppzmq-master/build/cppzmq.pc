@@ -1,0 +1,9 @@
+prefix="/usr/local"
+includedir="/usr/local/include"
+
+Name: cppzmq
+Description: C++ binding for libzmq
+URL: https://github.com/zeromq/cppzmq
+Version: 4.10.0
+Requires: libzmq
+Cflags: -I"${includedir}" 
