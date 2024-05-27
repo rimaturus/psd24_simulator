@@ -151,7 +151,7 @@ private:
     {
         rclcpp::Rate loop_rate(100); // 100 Hz update rate
         while (rclcpp::ok())
-        {   
+        {  
             int top_button_Y = readButtonState(3);
             if(top_button_Y && !prev_state_Y){   //debouncing
                 max_torque += step_torque;
@@ -160,7 +160,7 @@ private:
 
             int bottom_button_A = readButtonState(0);
             if(bottom_button_A && !prev_state_A){   //debouncing
-                max_torque += step_torque;
+                max_torque -= step_torque;
             }
             prev_state_A = bottom_button_A;
 
@@ -178,12 +178,23 @@ private:
 
             publishDrive({torque, torque, torque, torque});
             publishSteer({-steering_angle, -steering_angle});
+            
 
-            loop_rate.sleep();
             std::cout << "\033[2J\033[H";
+            std::cout << "Custom_teleop_gamepad by rimaturus" << std::endl << std::endl << std::flush;
+
+            std::cout << "How to use:\t" << std::flush;
+            std::cout << "Right stick for steering" << std::endl << std::flush;
+            std::cout << "\t\"w\" or \"s\" to go forward or backward" << std::endl << std::flush;
+            std::cout << "\t\"a\" or \"d\" to steer left or right" << std::endl << std::endl << std::flush;
+
+            std::cout << "Steer: [-30°, +30°]\n" << std::endl << std::endl << std::flush;
+            
             std::cout << "Actual Torque:\t" << torque << std::endl << std::flush;
             std::cout << "Actual Max Torque:\t" << max_torque << std::flush;
             std::cout << "\nActual Steering_angle:\t" << steering_angle << std::flush;
+
+            loop_rate.sleep();
         }
     }
 };
