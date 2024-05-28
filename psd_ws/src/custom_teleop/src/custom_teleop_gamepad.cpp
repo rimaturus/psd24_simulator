@@ -184,9 +184,12 @@ private:
             std::cout << "Custom_teleop_gamepad by rimaturus" << std::endl << std::endl << std::flush;
 
             std::cout << "How to use:\t" << std::flush;
+            std::cout << "Top button (Y) to increase max torque" << std::endl << std::flush;
+            std::cout << "Bottom button (A) to decrease max torque" << std::endl << std::flush;
             std::cout << "Right stick for steering" << std::endl << std::flush;
-            std::cout << "\t\"w\" or \"s\" to go forward or backward" << std::endl << std::flush;
-            std::cout << "\t\"a\" or \"d\" to steer left or right" << std::endl << std::endl << std::flush;
+            std::cout << "Use trigger R2 to apply positive toque to all wheels (linear map with analog trigger from 0 to max torque)" << std::endl << std::flush;
+            std::cout << "Use trigger L2 to apply negative toque to all wheels (linear map with analog trigger from 0 to -max torque)" << std::endl << std::flush;
+            std::cout << "The torque sent to wheels is the difference between the two" << std::endl << std::endl << std::flush;
 
             std::cout << "Steer: [-30°, +30°]\n" << std::endl << std::endl << std::flush;
             
