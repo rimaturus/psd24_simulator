@@ -119,6 +119,7 @@ update_rosdep       # Update rosdep and install ROS dependencies
 
 cd /home/ubuntu/psd_ws
 sudo apt install ros-jazzy-controller-manager
+sudo apt install tmuxinator
 
 echo -e "${GREEN}Building ROS packages...${NC}"
 colcon build --symlink-install
