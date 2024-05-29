@@ -1,0 +1,13 @@
+name: psd_simulator
+root: ./
+startup_window: psd_sim_with_teleop
+pre_window: |
+  source ~/.bashrc;
+  source /home/ubuntu/psd_ws/install/setup.bash
+windows:
+  - psd_sim_with_teleop:     #tmux list-windows
+      panes:
+        - ros2 launch psd_vehicle_bringup gz_sim.launch.py
+        - ros2 run rviz2 rviz2 -d /home/ubuntu/psd_ws/startup/rviz/psd_vehicle.rviz
+        - ros2 run custom_teleop custom_teleop_gamepad
+        # - bash -c "while true; do ros2 run nav2_map_server map_saver_cli --free 0.15 --fmt png -f /home/ubuntu/psd_ws/core/maps/map; sleep 5; done"
