@@ -20,7 +20,7 @@ update_and_upgrade() {
 update_rosdep() {
     echo -e "${GREEN}Updating rosdep and installing dependencies for ROS...${NC}"
     rosdep update --rosdistro $ROS_DISTRO
-    rosdep install -i --from-path /home/ubuntu/psd_ws/src --rosdistro $ROS_DISTRO -y
+    rosdep install -i --from-path /home/ubuntu/psd_ws/src --rosdistro $ROS_DISTRO -y --skip-keys SDL2
 }
 
 # Function to build libzmq from source
@@ -118,7 +118,6 @@ remove_kortex_dependency_from_ros_components # Temporary fix due to an error in 
 update_rosdep       # Update rosdep and install ROS dependencies
 
 cd /home/ubuntu/psd_ws
-sudo apt install ros-jazzy-controller-manager
 sudo apt install tmuxinator
 
 echo -e "${GREEN}Building ROS packages...${NC}"

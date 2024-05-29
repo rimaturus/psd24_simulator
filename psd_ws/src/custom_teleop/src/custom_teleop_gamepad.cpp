@@ -149,7 +149,7 @@ private:
 
     void run()
     {
-        rclcpp::Rate loop_rate(100); // 100 Hz update rate
+        rclcpp::Rate loop_rate(1000);
         while (rclcpp::ok())
         {  
             int top_button_Y = readButtonState(3);
