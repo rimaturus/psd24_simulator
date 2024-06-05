@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000107] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000362] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.005579] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.005967] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.006406] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/humble/psd_stack_ws/build/sllidar_ros2', '--', '-j20', '-l20'], 'cwd': '/home/humble/psd_stack_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/humble/psd_stack_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031276] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_client\x1b[0m\n'}
+[0.033508] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_node\x1b[0m\n'}
+[0.042952] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.053162] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.059556] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.091683] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.096204] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/humble/psd_stack_ws/build/sllidar_ros2'], 'cwd': '/home/humble/psd_stack_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'edo-ThinkPad-P1-Gen-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/humble/psd_stack_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099890] (-) TimerEvent: {}
+[0.100673] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.100768] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[0.100819] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.100855] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.100896] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.100929] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.100977] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.101009] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.101040] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.101086] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.101118] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.101149] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.101180] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.101211] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.101241] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.101272] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.101302] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.101332] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.101379] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.101412] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.101460] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.101490] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.101519] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.101564] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.101593] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.101638] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.101668] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[0.101715] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.101755] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.101783] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.101811] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.101842] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.101873] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.101903] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.101931] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.101970] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.102009] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.102044] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.102093] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.102143] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.102172] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.102198] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.102226] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.102253] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.102279] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.102305] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.102331] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/humble/psd_stack_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.103121] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.144654] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.145122] (-) EventReactorShutdown: {}
