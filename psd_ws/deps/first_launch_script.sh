@@ -118,7 +118,7 @@ remove_kortex_dependency_from_ros_components # Temporary fix due to an error in 
 update_rosdep       # Update rosdep and install ROS dependencies
 
 cd /home/ubuntu/psd_ws
-sudo apt install tmuxinator
+sudo apt install tmuxinator -y
 
 echo -e "${GREEN}Building ROS packages...${NC}"
 colcon build --symlink-install
