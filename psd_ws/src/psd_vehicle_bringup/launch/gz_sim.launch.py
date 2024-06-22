@@ -170,6 +170,7 @@ def generate_launch_description():
     # world_file = "empty.sdf"
 
     # Bridge
+    # https://github.com/gazebosim/ros_gz/blob/ros2/ros_gz_bridge/README.md
     gz_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -202,7 +203,9 @@ def generate_launch_description():
 
             "/world/track/model/psd_vehicle/link/home/sensor/imu_sample/imu"
             + "@sensor_msgs/msg/Imu"
-            + "[gz.msgs.IMU"
+            + "[gz.msgs.IMU",
+
+            
         ],
 
         remappings=[
