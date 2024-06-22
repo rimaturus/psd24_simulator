@@ -48,8 +48,8 @@
     </friction>
     <elasticity>
       <ode>
-        <epsilon>0.8</epsilon> <!-- Coefficient of restitution (elasticity) -->
-        <kp>100000000.0</kp> <!-- Contact stiffness -->
+        <epsilon>0.01</epsilon> <!-- Coefficient of restitution (elasticity) -->
+        <kp>1000000.0</kp> <!-- Contact stiffness -->
         <kd>10.0</kd> <!-- Contact damping -->
       </ode>
     </elasticity>

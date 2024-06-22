@@ -19,6 +19,7 @@
         <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
         <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
         <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+        <plugin name="gz::sim::systems::Imu" filename="gz-sim-imu-system"/>
         
         <gui fullscreen='0'>
             <!-- 3D scene -->

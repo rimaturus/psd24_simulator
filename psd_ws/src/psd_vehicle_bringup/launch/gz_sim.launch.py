@@ -199,12 +199,17 @@ def generate_launch_description():
             "/camera/depth/points"
             + "@sensor_msgs/msg/PointCloud2"
             + "[gz.msgs.PointCloudPacked",
+
+            "/world/track/model/psd_vehicle/link/home/sensor/imu_sample/imu"
+            + "@sensor_msgs/msg/Imu"
+            + "[gz.msgs.IMU"
         ],
 
         remappings=[
             ("/velodyne_points/points", "/velodyne_points"),
             ("/camera/camera_info", "/camera/depth/camera_info"),
             ("/camera/depth", "/camera/depth/image_raw"),
+            ("/world/track/model/psd_vehicle/link/home/sensor/imu_sample/imu", "/imu")
         ],
 
         output='screen'

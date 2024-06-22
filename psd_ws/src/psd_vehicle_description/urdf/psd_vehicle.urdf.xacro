@@ -16,4 +16,6 @@
     name="psd_vehicle"
   />
 
+  <xacro:include filename="$(find psd_vehicle_description)/urdf/imu.xacro"/>
+
 </robot>
