@@ -4,12 +4,15 @@
   <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.urdf.xacro"/>
   <xacro:include filename="$(find psd_vehicle_description)/urdf/psd_vehicle_macro.ros2_control.xacro"/>
 
+  <xacro:property name="PI" value="3.14159265359" />
+  <xacro:property name="rot90" value="${90 * PI / 180}" />
+
   <!-- Load robot's macro with parameters -->
   <link name="home" />
   
   <!-- set prefix if multiple robots are used -->
   <xacro:psd_vehicle parent="home" >
-    <origin xyz="0 0 0.095" rpy="0 0 0" />          <!-- position robot in the world -->
+    <origin xyz="0 0 0.095" rpy="0 0 -${rot90}" />          <!-- position robot in the world -->
   </xacro:psd_vehicle>
 
   <xacro:psd_vehicle_ros2_control

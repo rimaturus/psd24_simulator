@@ -205,7 +205,7 @@ def generate_launch_description():
             + "@sensor_msgs/msg/Imu"
             + "[gz.msgs.IMU",
 
-            
+
         ],
 
         remappings=[
@@ -217,6 +217,16 @@ def generate_launch_description():
 
         output='screen'
     )
+
+    bringup_pkg = get_package_share_directory("psd_vehicle_bringup")
+
+    robot_localization_node = Node(
+       package='robot_localization',
+       executable='ekf_node',
+       name='ekf_filter_node',
+       output='screen',
+       parameters=[os.path.join(bringup_pkg, 'config/ekf.yaml'), {'use_sim_time': True}]
+    )   
 
     return LaunchDescription([
         declare_device_namespace,
@@ -248,6 +258,7 @@ def generate_launch_description():
 
         node_robot_state_publisher,
         gz_spawn_entity,
+        #robot_localization_node,
 
         # Launch Arguments
         DeclareLaunchArgument(
